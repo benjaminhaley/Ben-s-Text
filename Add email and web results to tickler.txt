@@ -1,0 +1,10 @@
+Add email and web results to tickler
+	would be great for improving the usefulness of the itch for my personal organization and for getting user_actions (see http://localhost/Archives/Measures_Of_Success.txt)
+
+
+Currently this is dependent on developing an api comptiable with a google desktop crawler.  (see http://localhost/Archives/Google_Desktop_Itch)
+
+
+
+
+

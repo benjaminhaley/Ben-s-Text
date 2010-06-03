@@ -1,0 +1,19 @@
+2008_hnRNP_Sources
+	To update the hnRNP paper so it can be published
+	Status: Complete
+
+
+
+
+Archive:
+The following titles seemed like they might have some promise, review their contents and find any that need to be integrated into the paper.
+
+Increased expression of genes in a radioresistant cell strain: modulation of hnRNP E2, Hsp90 and (10.1504/IJLR.2007.017640)
+	*CANNOT FIND*	
+	RAP-PCR and Gene expression array on Chinese hamster lung fibroblast cell line V79.  
+	Following &#947;-irradiation, expressions of SSBP2, Hsp90 and hnRNP E2 increased steadily in V79 cells. 
+	HnRNP K and hnRNP A2 genes decreased at first and then increased, 
+	HnRNP C1 gene expression remained unaffected.
+	
+identification and characterisation of FUS/TLS as a new target of ATM.
+	DSB-induced FUS phosphorylation in vivo at Ser42 requires ATM and not DNA–PK.

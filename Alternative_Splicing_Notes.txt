@@ -1,0 +1,36 @@
+Alternative_Splicing_Notes
+	Exploring the rates and types of operations performed on pre-mRNA transcripts
+
+Summary: (from http://www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=ce2 and http://en.wikipedia.org/wiki/Splicing)
+
+	RNA splicing
+		!!alternative splicing 	
+			!!skip		may skip exons or groups of exons by a mysterious mechanism http://www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=ce2.section.148
+			!!shuffle	shuffle exon cassetes, 
+			!!shift		may shift the 5'/3' splice sites of a cassette http://en.wikipedia.org/wiki/Alternative_splicing
+			!!retain		may retain introns, 
+			!!more		more complex alternatives have been proposed http://www.ploscompbiol.org/article/info:doi%2F10.1371%2Fjournal.pcbi.1000147
+		!!Major (99%)		the splicosome (5 snRNP complex) cuts GU(RAG)  (5') to AG (3') for 99% of splices (http://en.wikipedia.org/wiki/Splicing)
+		!!Minor (1%)		similar to major but composed of slightly different snRNPs which cut at differnt splice sequences (http://en.wikipedia.org/wiki/Splicing)
+		!!trans-splicing 		attatchment of a 22bp small RNA to 5' end primed by cis (UUUUCAGA/G) and done if there is no upstream 5' splice slite
+						http://www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=ce2.section.158
+		!!trans in C elegans	57% of mRNA precursers in C. elegans are trans-spliced to SL1, 15% are trans-spliced to SL2 and the remainder are not transpliced 
+						http://www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=ce2.section.175
+		!!polyadenylation		almost perfectly conserved sequence in vertebrates, 3' AAUAAA, occurs between 10 and 35 nucleotides upstream of the cleavage site
+						http://www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=ce2.section.177
+
+	Glossary
+		!!!outron			a region at the 5' end to be trans-spliced
+		!!!!adduce			to cite for an argument
+		!!!!polyadenylation		addition of a 3' poly AAA tail on mRNA
+		!!!!monocistronic mRNA 	Translates to only one protien
+		!!!!polycistronic mRNA	Translated to multiple proteins
+		!!!Trypanosomes 		a parasite without introns where all splicing is trans-splicing http://www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=ce2.section.158
+		!!!!lariat			A folded string running through its own loop - like a lasso
+		!!!!moiety			a part of a molecule, about half
+		!!!!operon			a polycistronic pre mRNA
+		!!!!transesterifications	exchanging the alcohol group of an ester with a different alcohol group
+		!!!!Ester			an acid where an OH group has been replaced with an O-alkyl group
+		!!!!alky			univalent group of carbon and hydrogen
+		!!!!univalent		having only one valence or forming only one bond.
+		!!!!Myeloproliferative	replication of bone marrow cells related to leukimia

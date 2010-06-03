@@ -1,0 +1,14 @@
+Animal_Database_Queries
+	For unique queries and creating the dog tissue archive
+
+To use Microsoft access SQL to create a datatable from a query.  First see if it can be done on the website, if not select the relevant tables from their descriptions or contents.  Choose the Queries option on the sidebar of microsoft access and select from an old query or 'create query in design view' (queries have "!" icons).  Then add the relevant tables connect them by dragging a column in one table to another and use the excell sheet below to add columns to a new table, when adding the columns to the new table you can introduce logical instructions using SQL code to add/modify values from the columns that are in the above tables.
+
+For example if we wanted a list of diseases for each mouse.  The animal_id is a unique id for each mouse and the macrocodes denotes diseases.  Macfind has the macrocodes for animals along with a numID and Indif that can be used to make the animal_id.  XLATE_MacroCode has a description for each of the MacroCodes.  Choose 'queries' on the sidebar of microsoft access.  Select 'create query in design view' from the list of options and add Macfind and XLATE.  Drag macrocode to macrocode between the two tables to associate them.  In the first feild cell enter animal_id:[Macfind].[NumID]&"."&[Macfind].[indiv] to create the animal_id and then double click on the 'Description' column in the XLATE_MacroCode table to add it to the next column feild.  Select the veiw button on the top left of the control bar to see your awesome table.
+
+Challenge: Make a copy of these datatables so that I have access to them. - Done
+
+Challenge: how many microscopic abnormalities per mouse?  
+
+Challenge: Find all mice with lung tumors, not bone tumors
+
+(Read the MySQL help documentation and go to the SQL veiw to actually see the code.)

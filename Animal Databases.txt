@@ -1,0 +1,23 @@
+Animal Databases:
+	Accessing and Using the Animal Tissue Databases for statistics, queries and web development
+
+
+Datasets
+	Orignial Janus dataset 		C:\JANUS.  
+	Dave's Mouse database 		C:\JANUS\MouseDB\ActiveMouseDB.
+	Terms and Idosyncracies		(see http://localhost/Archives/Animal_Database_Description.txt)
+	Queries				(see http://localhost/Archives/Animal_Database_Queries.txt)
+	Dog Tissue Archives		(see http://localhost/Archives/Dog_Tissue_Archives.txt)
+
+
+Access to MySQL:
+	open MySQL		ctrl+alt+del to start task manager and kill WAMP....EXE. restart WampServer acceess MySQL console (p = 'janusrocks')
+	export from access	select the table of interest, export it as a Text File into 'www'.  Use a unique delimiter and do not delimit text.
+	create table		open your database (see below), create table (see below)
+	load file		use this statement:
+					LOAD DATA LOCAL INFILE 'C:/www/[filename]'
+					INTO TABLE [table_name]
+					FIELDS TERMINATED BY '[?]'
+					LINES TERMINATED BY '\n'
+					(field1, field2, field3);
+	

@@ -1,0 +1,36 @@
+Animal_Database_Description
+	to reference common terms and note some relavent database points.  
+	Further reference might come from Dave or the study summaries at http://janus.northwestern.edu/janus2/reports/studies.pdf or in the Janus files
+
+Database Key:
+	animal_id**	String used as an indicator Dave made to x-ref MySQL and Access (equal to "[numID].[Indiv]")
+	numID 		cages ID, corresponds to many Indiv's
+	tissue_id	Mike's data from pictures only avaliable in MySQL
+	Indiv		individual ID	
+	MicroCode*	microscopic abnormalities (key avaliable)
+	MacroCode	Macroscopic disease code (Xlate_MacroCode is key for these terms)
+	tmt		treatment (key is in irradiation protocol displays this or the webpage for janus>Janus Experiment Booklet pg 48-...)
+	autopsy #	On 'cards' Mike took pics of (when combined with expt makes a unique_id)
+	expt		(JM-2, JM-3, JM-13 lookup in the webpage for janus>Janus Experiment Booklet)
+	Lth		lethality code (N-nonlethal, C-contributing, L-Lethal (or cause of death))
+	Fractions	# of times a treatment was performed
+	Reps		frequency of treatment
+	Strain		all mouse are strain 8 B6CF mice except JM-10
+	Radn		(C, N, G: Control, Neutron, Gamma)
+	dose_rate	centigray/min
+	Topo		where it was on the body (no key!)
+	Morph		kind of abnormality (no key!)
+	Hist		histology (no key!)
+	ExitCode	the way it left the study (key in XLAtes)
+
+*Microcodes are not statically representative because they biased thier sampling
+
+**Some tables contain mouse level data others contain cage level (genrl has both).  Between numID and Indiv we have a unique identifier for each animal.  Dave has consolidated these into one term animal_id which is equal to "[numID].[div]".
+
+JM-10 is european jungle mouse... not normal strain 8.
+
+Topo and Morph are not being used to generate statistics we don't quite know what they mean and they are not in as common a usage as macro and micro.  Dave thinks that the topo and the morph are uniquly represented by the microcodes (see Xlate Microcode)
+
+The MySQL mouse_table is money.
+
+The MySQL databases are being changed by Beau and any other (like those online) who are adding pictures of slides to the website.  If we send people slides we should ask the users to upload pictures of thier slides and give them a registering code.  To add users to the website access for slide upload go to the MYsql portal choose the user table email is username password is password.
