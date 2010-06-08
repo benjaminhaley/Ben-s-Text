@@ -1,0 +1,15 @@
+php_error_log_check.txt
+	going php_error.log and trying to correct the issues 
+	
+11:07 PM 4/21/2010
+
+I begin to suspect that someone is playing fishy games with my server - 
+
+1. I saw a request to the wololab page that included a php script which was supposed to echo "the roof is on fire"
+2. PHP.ini had three lines that seek to load the imap module "extension=php_imap.dll"
+
+I realized that as I've been deleting old links like basia.html and fun.html that I have been breaking other's links.  When they try to go back they get empty pages when I should be delivering redirects. 
+
+Most importantly, I learned that dave's go= structure allowed users access to any html file on the system and drew in a lot of attackers.  I still have much more log to go over, but I feel as if it is a valuable exercise indeed.
+
+Also I learned some new ways of dealing with the data on SCITE which allowed me to enter a new line w/o too much trouble and via search and replace I can eliminate many of the redundant cases.  It may not quite be grep, but its pretty good :)

@@ -1,0 +1,14 @@
+programs_installed.txt
+	A list of programs that I installed on my new laptop for future reference.
+
+wamp
+chrome
+firefox
+	firebug
+subversion
+google desktop
+avg
+open office
+emacs
+scite
+

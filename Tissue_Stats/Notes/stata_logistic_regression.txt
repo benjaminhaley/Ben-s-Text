@@ -1,0 +1,87 @@
+stata_logistic_regression
+	to learn logistic regression from stata to apply to the tissue data
+
+should compare to stata_regression when done
+
+
+Preanlysis:
+	encode 0/1			dependent variable non-events are 0's, stata will assume all coded events are 1's (1)
+	check n size			> 100 sample size
+					> 10 observations per predictor (Long, 1997, pages 53-54) (1)
+	clump low counts		categories that have very low counts when divided by the dependent outcome should be lumped somehow
+	recode variables		for interactions, and non-linear variables
+	check model assumptions		1. The true conditional probabilities are a logistic function of the independent variables. (not fatal)
+    					2. No important variables are omitted.
+    					3. No extraneous variables are included.
+					4. The independent variables are measured without error.
+    					5. The observations are independent.
+    					6. The independent variables are not linear combinations of each other. (confirmed automatically)
+	check for outliers		use the tools below to check for extreme outliers
+
+	codebook [var]			- shows ranges, numbers missing, and values (good to check)
+	summarize [var], detail		- shows the percentiles (good for continuous or lots of data)
+	tabulate [var]			- good for small or discrete data
+	historgram [var]		- density v value
+	graph box [var]			- show density v value and standard error
+	stem [var]			- a stem and leaf plot
+	scatter [dep var] [ind var], mlabel[label]	- will help to identify extreme outliers
+	recode [var] [val]=[val]	- just recodes a variable so that value equals a new value
+	generate [new] = [var]*[var]	- makes an interaction variable to be included in the analysis
+	
+
+
+Analysis:
+	logit [dep var] [indep vars]	- runs a simple logistic regression  (1)
+						log likelyhood: odds of the occurance by chance (meaningless alone)
+						Prob > chi2: significance of overall model
+						_cons = log(odds) when variables == 0 
+						coef.: a one unit change in this indep var will have a coef change in the log odds
+						"or" option will display results as odds ratios
+	logistic [dep var] [indep vars] - like logit, but displays the odds ratios (1)
+						odds ratio: change in odds ratio of dep var with a one unit change in the indep var
+	logit [vars] if e(sample)	- a logit that only includes samples that were used in the subsample (?) (1)
+	xi : logit [var] i.[var]	- automatically inculdes the dummy variable breakdown in the regression 
+						use char [var]"[omit]" [val] to affect which value xi will drop
+	xi : logit [var] i[var]*i.[var]	- this will show the regression with an interaction between the multiplied variables
+					test for interaction between variables by noting if the slope of best fit lines changes when one of the 
+					interacting variables is fixed.
+
+	
+
+Post Analysis:
+	est store [new name]		- stores the results of a regression under a new variable name (1)
+	predict [new var]		- sets the [new var] as the outcome of the logistic regression (1)
+	table [vars], contents(min [var] max [var])	- will show the min max table for a variable
+	twoway scatter [vars]		- composes a scatter plot between two variables (1)
+	fitstat				- runs a slew of 'goodness of fit' measures, for which there is not a general consensus (1)
+	listcoef, help			- a few statistics on the goodness of fit of a logistic regression model (1)
+	prtab [var]			- table of perdicted probabilities given certain assumptions (1)
+	lrtest				- compares a stored regression to the last one to see if the additions to the model are significant (1)
+						*this assumes that the regressions were run on exactly the same data (use " if e(sample)") (1)
+	adjust, by [vars] exp		- will display the odds given each variable
+	test [values]			- can test whether the values of variables in the model are significant (lrtest is probably better)
+	table [vars], contents(mean var)- will produce a mean value table for the vars, useful for determining if thier is interaction between vars
+	linktest			- if _hatsq is significant we have overlooked interactions in the variables (tests second assumption)
+						*linktest will fail if _hatsq is highly correlated to _hat
+	boxtid logit [vars]		- will determine the best power that a variable might be raised to, to explain its impact.
+	collin [vars]			- used to detect colinearity between variables (assumption 6)
+						if VIF is above 5 or 10 and tollerance is below .05 or .1 we should be worried
+						after finding multicolliniearity, we might assuage its affects by centering
+ 
+	predict [new], rstand		- produces a [new] variable containing the pearson prediction (eliminating bad data)
+	predict [new], dev		- produces a [new] variable containing the deviance residual (eliminating bad data)
+	predict [new], hat		- produces a [new] variable containing the Pregibon Leverage (eliminating bad data)
+
+	Predict [new], dx2		- produces a [new] variable containing the difference of chi squared (finding goodness of fit affectors)
+	predict [new], dd		- produces a [new] variable containing the difference of deviances (finding goodness of fit affectors)
+
+	ldfbeta [vars - opt]		- produces variables of the form DFbeta([var]) which are the regressions run without any particular obs
+							(tests observations effects on coefficients)
+	predict [new],  dbeta		- produces a [new] var estimating the effect of an obs on the parameters (obs on coefficients)
+						Plotting the preceeding seven against id or probablity will identify outliers for closer inspection						
+
+
+
+*much ado about proper analysis, but the right analysis of a logit model is to randomly generate examples of the model and see how wide/tight the model fits them...
+
+

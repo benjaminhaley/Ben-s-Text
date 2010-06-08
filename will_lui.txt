@@ -1,0 +1,63 @@
+will_lui.txt
+	Helping him work on the tissue archives through his rotation
+
+to do:
+    improve scripts
+        make the data take in a 2x2 array of cell queries and return a csv object (so that we can add more rows to it)
+        
+        
+    add to data
+        proctor
+        count
+
+    write to angela
+        which morphologies would have been consistently observed (not likely to change between worker)
+        which morphologies are causes which are effects?
+        which morphologies are treatable ( predicting treatable morphologies is interesting )
+        
+    check data
+        why are some of the observations at 0 days?
+        do all the observations correspond to a day of surgery, bloodwork, or death?
+        were autopsies consistently performed throughout and between experiments
+        
+    each table in csv
+    schedule a meeting with angela (categorize the top 30 pathologies - https://mail.google.com/mail/?shva=1#inbox/126527c46832c387)
+    add cod info for dogs
+    create a csv file for individual dogs (note this in the data section of the website)
+    column for cancer information (this is a good endpoint)
+    how frequent were examinations?
+    contact the prof https://mail.google.com/mail/?shva=1#search/rademaker/12521b5ff442111a
+    Sell our stats as hypothesis generating
+    check out our analysis with mary_kwansky.txt (get her more involved generally)
+
+02/16/10
+    I just ment with Will and Mary and we had a very productive talk.  She approved our method of exploratory hunting through decision tree analysis and was very happy to meet the two of us, because she doesn't have too much on her plate (like Rademaker did) and she is happy to work with technically competent people who can run R.
+
+02/10/10
+    I set up the queries to produce counts of pathologies and clinical by study.  As it turns out the function I have produced is pretty robust for creating any arbitrary table given the row and column headers.  This is quite useful and will make it really easy to produce any future tables that will requets.  See my email to him https://mail.google.com/mail/?ui=2&shva=1#sent.
+
+02/09/10
+    I developed the remainder of the CSV convesion files which are located in both the update_data.php file and the csv.php file.  I should eventually migrate some of the functions from the former to the latter, but for the time being, I have the data I want being processed.  I will update the look of the website to reflect these changes and then pass them along to will for analysis.  I put a note in the analysis that all dogs are listed in order.  I sent the work along to will.
+
+02/03/10
+    I worked through building a class that would help with csv file generation.  It can now add rows or columns.  
+
+1/25/10
+    I finally had a chance to meet with Will and Tanja.  We talked through the random forest analysis technique and came up with a plan to play at first with just the top pathologies and clinical observations.  This seems right good by me.  I am pretty sure that we are going to need a topology-morphology breakdown soon, but I will save that work for a little bit :).
+
+1/18/10
+	I finally got around to writing the pathologies csv file for Will.  Hopefully this will give him enough to get cranking on.  The script that generates this file is exceedingly slow.  Hopefully I will find a good solution to that problem in the future (obviously pulling cells instead of rows with each query is dumb!).  I think I can make the current query into a more generic function and call this kind of cross query for a bunch of potential columns that will might want to look at by dog number (like pathology and location cross dog)
+
+1/13/10    
+    Send a summary email to Will https://mail.google.com/mail/?shva=1#drafts/1262b25905ebdcf3
+    I just finished up a rather simple csv file (http://janus.northwestern.edu/dog_tissues/data/test.csv) which lists each of the dog numbers, vs the pathological categories.  In the interior cells I have a space separated list of all of the pathologies which fall under that category for the dog.  If you'd like to combine this data with the radiation treatment data (http://janus.northwestern.edu/dog_tissues/data/demographics_and_dosage.csv) you can do that easily because they have the same dog numbers in the same order (just paste them side by side).
+    I did not go further into this process, because I feel that the current format is a bit akward and might be hard to handle.  But maybe R will prove me wrong and then I will add the clinical data to this format.  Otherwise, we can sit down and discuss some better data options.
+    Also moved the csv generating file off of the csv presenting file so that I wouldn't have wait for it to update the SQL queries each time that I did a search.
+
+PM 1/6/2010
+	I just gave will a brief tour through the database and went with him to lunch.  I showed him the major datatables, some background information and passed along the grey book and qiong's paper synopsis.  I'll be excited to hear his feedback.
+    
+    
+1/7/2010
+    For better or for worse, I spent most of my efforts today currating data for use by Will (and the internet at large).  I spent the morning going over the dog tissue database with him and determinig the type of files that he might be able to use.  I spent some of the afternoon producing the appropriate sql, but hit a snag when I realized that some of the data seemed off (death results where happening before death).  I had to do a serious database scan to figure out why the numbers were acting funny and came to realize that it all originated at a time when I had made a bunch of clearly erroneous age values into zeros instead of nulls.  Of course, I won't be doing that again, but it leads into a bigger issue of how do you keep your database in check?  What kind of sanity checks do you need to be running to make sure that things aren't going fubar on you.  This is an element of design that I am only scratching the surface of and I am totally unfamiliar with the tools available to automate the process.
+    After cleaning up these past mistakes (and probably introducing a few new small ones) I spent the rest of the evening composing the appropriate SQL queries and then putting them into the website under the data tab.  Its really not too bad a work for a nights job, but I can think of some ways to improve it.  For one, I might just put all of the tables onto the website in csv form.  I might also offer some sort of flat super table that allows users to get a billion columns with everything organized by dog-number.  I believe that this kind of flatness option will suit those who do not want to do any processing while the other tables will support the remaining needs.  Good to know.

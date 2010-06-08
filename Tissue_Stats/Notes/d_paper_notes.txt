@@ -1,0 +1,23 @@
+Study Info
+	grdina 91, 92 are good sources
+    	pathologies were reported blind, and independently verified
+    	Mouse DB categorizes lethal, non-lethal, and contributing to death
+	Grdina says we need to use 200 animals
+	Set at least 1 result/experimental group
+
+Variable Types (linear, quadratic, categorical, etc.)
+    	Dave almost always finds categorical assignment to be best
+    	I might inform radiation curve with the dose response curve
+        	wikipedia suggests this is sigmodial when plotted against the log(concentration) http://en.wikipedia.org/wiki/Dose-response_relationship
+    	I might inform age curve with cancer v age curves online
+		new cases seem to strike in an exponetial curve with age (though we are interested in the integral of this curve) http://info.cancerresearchuk.org/cancerstats/incidence/age/
+
+
+Stats Methods
+	Apply the Akaike or Basian tests to optimize the number of parameters in you model
+	Use the lincom command to produce the odds ratios given a regression model
+	test the possion distribution on counts
+	ordinal regressions (see http://www.norusis.com/pdf/ASPC_v13.pdf)
+	we maybe able to apply the lethal/non-lethal etc. distinctions to make dave's toxicity count into a toxicity sum
+
+	

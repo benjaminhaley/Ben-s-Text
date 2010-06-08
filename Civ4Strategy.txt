@@ -1,0 +1,39 @@
+Civilization traits:
+
+	Aggressive 	10% bonus to gunpowder/melee units
+	Creative 	+2 culture per city
+	Expansive	+3 health/city
+	Financial	+1 commerce on  tiles that make 2 commerce	
+	Industrios	50% faster wonder production
+	Organized	50% reduction in civic upkeep
+	Philosophical	100% more great people
+	Spiritual	No Anarchy for civic upheaval
+
+
+cities cost alot in upkeep
+Chop down forests to get production
+AutoImprove Bad... cottages good (pottery)
+Slavery can be used to eleminate unhappy citizens
+Military - copper, iron, horses
+Wonders - stone, marble
+Eco/happy - gold, silver
+Build a worker fast to rush production by chopping down forests (bronze working)
+Bronze working first, then improvement techs for near resources, the alphabet rush
+Cottages on grasslands with rivers
+Axemen best early unit
+Steal workers!
+Raze captured cities (unless they have a wonder - or religious sig)
+moving warriors onto bare hills reveals more ground
+warriors are almost as good a scouts
+barbarians emerge from the fog of war (units stationed near your city can stop them from appearing)
+fresh water provides +2 health for cities next to it
+city on a plane hill gets +1 production
+forests are good for health, floodplanes and jungles are bad
+After a city is a certain size, specialists can turn its excess food production into gpp
+Promotions heal damage!
+Seige units lower the defensive bonuses of a city
+two or more people can be used to make a golden age
+great artists can produce a great work in a captured city and take their culture by storm
+Great generals can increase the xp of every unit in a citys
+adding the healing promotion allows you to conduct campaigns faster
+

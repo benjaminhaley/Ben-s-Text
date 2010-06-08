@@ -1,0 +1,4 @@
+JavaScript_Uses:
+	to tell me how JavaScript is used in the wild so I know where it might be useful to my developments
+
+	Javascript is primarily used for client side development, though server-side JavaScript is also avaliable.  Javascript is typically embeded in html using the <script> and </script> tags, though older browsers require different tags.  It's internet media type (see http://localhost/Archives/Internet_Media_Type.txt) is application/javascript more commonly text/javascript is used.  Javascript typically utalizes HTML forms accessed through DOM to interact with users (see http://localhost/Archives/Document_Object_Model.txt).  JavaScript may also employ dialog boxes, status bars and consoles.  JavaScript enables an event handler through element nodes which handles functions like mouse over popups and such.

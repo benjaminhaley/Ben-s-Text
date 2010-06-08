@@ -1,0 +1,31 @@
+JavaScript_Special_Operators
+
+Q. gotit = (getit == true) ? "good":"you should"
+	*it depends on the value of getit
+
+Q. a = [ ['a', 'b', 'c'], ['d','e','f'], ['g','h','i'] ];
+   for (var i=1, j=1; i <= 3; i++, j++) document.writeln("a["+i+"]["+j+"]= " + a[i][j])
+	
+	a[1][1]= a a[2][2]= e a[3][3]= i
+	*the "," opperator allows the for loop to update i and j simultaneously
+	
+   delete a[1], delete a[2][1]; a
+	[ ['a', 'b', 'c'], undefined, ['g', undefined,'i'] ]
+
+   delete a; a
+	ReferenceError
+
+Q. a = [ 'nice', ['very', 'nice'] ]; 0 in a; 'nice' in a, 3 in a, length in a
+				     true	false	  false    true
+
+Q a instanceof Array
+	true - this can be used to catch exceptions and use alternate code on them
+
+Q. create your own object type
+	MyObject = new MyTypeofObject ( param1 [,param2] ... [,paramN] )
+
+Q. how would one refer to the current object (the object of html the script is in)
+	using this so that a function is defined and then called using function(this)
+	
+
+OK, I've just gotten to an example that would require that I have a better understanding of the DOM and forms before I go on... let me see if that it typical...

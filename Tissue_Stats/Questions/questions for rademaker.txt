@@ -1,0 +1,15 @@
+Questions Rademaker:
+	Intercorrelations between independent variables?
+
+
+	Goodness of Fit for the model (lrtest)?
+
+
+
+	What kind of transformations are fair (x^? + ?)?
+
+
+
+	What kind of pseudo R^2 values are appropriate
+	
+	

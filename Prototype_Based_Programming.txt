@@ -1,0 +1,4 @@
+Prototype_Based_Programming
+	Prototype-based programming (like Java Script) avoids classes for behavior reuse or inheritance.
+	It relies instead on the cloning of existing objects which serve as prototypes for the object that seeks to reuse the behavior.
+	This allows programmers to think of the behavior of their example needs and later focus on classifying these objects into archetypal objects. 

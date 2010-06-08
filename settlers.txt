@@ -1,0 +1,44 @@
+settlers.txt
+	a project with chris to build an online version of settlers
+
+
+To Do:
+	update database 
+		Changes to the database, which amounts to renaming some fields. Check
+		out tables_info (a text file) and look at the open_trades table.
+
+		seller -> offered_by
+		buyer -> offered_to
+		s_* -> o_*
+		b_* -> w_*
+	install lamp and dojo on ubuntu http://howto.wired.com/wiki/Compile_Software_from_Source_Code
+	see if I can get it running
+	chris wants me to start with objectifying the main.js and ajax.js)
+    
+Beta Testers
+    Anna's freind Matt
+
+
+SVN
+	url: http://macrander.no-ip.org/svn/repos/settlers/trunk
+	username: ben
+	password: biznatch
+
+File Names:
+	what is data?  
+    A: Data is functions that access the database
+        
+	is settlers_transfer real?
+	incrementor must do more than increment, maybe turn incrementer
+	Resource Menu - I hope this has to do with resouce cards
+	tables_info - what tables what info
+	B v b why?  I don't like.
+	what elements
+	what util?
+
+    
+    
+Things I don't like:
+    The password/user info is mixed with the player info (number of cards etc).  I think these should belong to sepperate tables.  Users persist over many games.  Players persist over only a single game.
+    The Board v board naming convention which is not windows compatiable
+    the posted vabiables (signout, username, etc.) don't have default values

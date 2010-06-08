@@ -1,0 +1,29 @@
+Coach_Mom_Email_Form
+	format and logic needed to present workout statistics and prompt yesterdays workout data submission
+
+
+email 	
+
+"Mom,
+
+	In the last 30 days you have:
+		1. Gone to they gym 	5 times
+		2. Walked for 1/2 hour 	10 times
+		3. kayaked, snorkled, and fished
+
+	Please REPLY with what you did yesterday
+	(full instructions below)
+		1. Did you go to the Gym? (y/n)
+		2. Did you Walk for 1/2 hour? (y/n)
+		3. Did you do Anything else? (free response)
+
+
+
+
+	Telling us what you did yesterday is as simple as replying and listing your activities.  If you walked for 35 minutes, sky dived, and danced but did not go to the gym, you might reply with the following.
+
+1. n
+2. y
+3. danced, sky dived
+
+	If your answers make sense to the computer it will add them to your activity spreadsheet (http://spreadsheets.google.com/pub?key=pEz7atA3dWLprSu27PoJdbA).  If they do not make sense or are not recieved we will send you back an error and give you a chance to resubmit your answers.

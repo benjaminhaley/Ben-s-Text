@@ -1,0 +1,124 @@
+signaling.txt
+	The feild of biological communication is difficult to interface, where it has been studied it is often referred to as signaling, which concerns itself with the methods of communication more than the information encoding and network design.  Notes from this feild are presented below.
+
+
+Synopsis:
+	Cell signaling is broken into Juxtacrine, endocrine, paracrine, and DNA/RNA forms of communication.  Endocrine signaling involves hormones, diffusion, and neurotransmitters.  Neurotransmitters are interesting for my study and are 90% glutamate receptors and 9% Gaba receptors (clearly the top two targets).  DNA/RNA signaling is capable of super long distances and astounding amounts of information transfer.  A study of viral communication channels might be a natural tie in.  A fringe area of cell communication is in biophotons which one should keep there ear to the ground for.
+	The juxtracrine signaling pathways consist of receptors, ion channels, and electrical conductance.  In neurology elitrocorticography is the process of wiring the brain to interface it to human electronics, and perhaps the closest thing to my interests.  Receptors bind peptides, hormones, and drugs and fall into classes of G-coupled, Tyrosine Kinase, Guanylyl cyclase, and ionotorpic.  The immune system has its own special set of receptors which include pattern recognition receptors, which identify pathogens (endocytic PRRs) or other cells (toll-like receptors).  This is an intriguing class of molecules because of its range of binding.
+	Of course, the feild is also interested in signaling pathways which proceed through to the genome.  These start at sonic the hedgehog which binds to patch-1, MAPK/ERG which binds to Growth Factors, TGF-beta which binds Type-1 receptors, JAK-STAT which binds cytokines/growth factors, and most importantly integrins which bind other cells and can pass materials as large as viruses.  Lipid Signaling differs from other forms in that the protiens are membrane bound and generally required to x-fer information across the nucleus (the exceptions being ion channels, integrins, etc.)
+
+
+
+
+Elaborations, notes and citations:
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cell Signaling
+	Juxtacrine		gap junctions, plasmodesmata, and notch (see juxtracrine.txt)
+
+	Endocrine (via blood)
+	Paracrine (like neurons)
+		growth factors, clotting factors, Somatostatin, histamine, testosterone, 
+	DNA/RNA
+
+
+
+Endocrine Signaling:
+	This I will ignore for now, because it is inherently slower and more general than juxtacrine signalling, so there may be a place for this as you start dealing with larger bodies of cells, but at a small level this is not where we want to begin... then again we can get these levels from the blood, so it will be very useful as we look for clinical applicability.
+
+
+Neurotransmitters:
+	Held in presynaptic vessicles, released upon electric stimulation and at baseline levels.  There are 10 small molecule neurotransmitters and a growing list of 50 small peptides along side NO and CO gasses.  90% of neurotransmitter is glutamate and 90% of the remainder is GABA, though psychotropic drugs often affect the rarer species.  ?how to measure, other cells?
+
+DNA/RNA
+	Nanopore 		company promising pore based single molecule sequencing.
+	Viral Diversity		5000 genotypes in 1000 L of water and 1 Million in a kg of sediment http://tinyurl.com/ldoqwa
+	virus transfers         photosynthetic, metabolic, and immunity genes http://tinyurl.com/ldoqwa
+	Rate of Gene transfer   Unknown but very high, perhaps 10^24 per year http://tinyurl.com/ldoqwa
+	General Transduction 	GTA molecules which contain small amounts of DNA 4kb, and unlike phage only carry host DNA!
+	Gene transfer		Ehv virus carries sphingolipid syntheis genes in I. huxley http://tinyurl.com/nwofxw
+	
+
+
+Biophotons
+	This fringe feild suggests that cells might communicate through light.  The following article provides some review http://tinyurl.com/nsmdqe.
+
+
+
+People
+	Paul Edwards		Cellucidate co-founder who believes signaling is the medicine for computational cells
+	Walter Fontana		Cellucidate co-founder who believes signaling is the medicine for computational cells
+	Dereck Stein		Proponent of Nanopore molecular seqeuncing
+
+
+
+
+Elitricorticography - sticking electrodes into the brain
+
+Aluminum oxide nanopores may provide single channel sequencing says Rashid Bashar of UofI fame as published in  Advanced Materials 2009.
+
+
+
+metabolomics - a good feild to start in
+chuck says digital signal processing will soon take over patch clamp leading to better/faster/ more machine learning machines
+
+
+Receptors
+	A protein that binds ligands which maybe peptides, hormones, drugs or toxins that function as promoters or antagonists.  Receptor mechanisms are typically explored through x-ray crystalography.  These receptors may be on the cell surface such as Metabotropic which cause a signal cascade and  Ionotropic receptors which open ion channels.  Peripheral membrane proteins are rare compared to transmembrane receptors.  The major families of transmembrane proteins include G-coupled proteins (or 7TM proteins), Receptor Tyrosine Kinases, Guanylyl cyclase receptors, and Ionotropic receptors which allow the passing of ions directly.  The full set of membrane receptors noted at (http://www.receptome.org) and through the pharmocology group at iuphar (http://www.iuphar-db.org/index.jsp).  The immune system has a special class of receptors which deserves its own special attention.  The MeSH search term for receptors is "cell + surface + receptors".
+
+Immune Receptors
+	A distinct class of cell receptors used by the immune system (what % of body?). Pattern recognition receptors (PRRs) are receptors of the inate immune system which recognize pattern associated molecular pattersns (PAMPs) that may be carbohydrates (like lipopolysaccharide (LPS) or mannose), nucleic acids, peptides, and others.  PRRs fall into two general categories, Signaling PRRs, like Toll like Receptors (TLRs), and Endocytic PRRs which bind to foreign bodies and promote engulfment and destruction.  Toll-Like Receptors (TLR's), discovered in the 1990's, mediate cytokine production and attract immune cells following exposure to bacteria/funally specific molecules like dsRNA and unmenthelated DNA stretches.  Other Immune receptors include Killer Receptors (KARs and KIRs) used by killer cells to recognize host cells, Fc Receptors which use antobodies to stimulate phagocytosis, complement receports that use complementary proteins to identify microbes and immune complexes, B cell receptors which promote differentiation and proliferation, and T-cell receptors which activate the killers.  
+
+
+Various Signalling Pathways
+	A term seeded in the late 1970's grown up through the 80's and 90's, signal transduction pathways, describe reaction chains that proceed from ligand binding on the membrane to internal cell changes.  These pathways have periods ranging from minutes (as is the case with ion channel mediation) to days (as can happen with gene expression). Sonic the hedgehog is the most important member of the hedgehog group of proteins which acts in development (and cancer) to create signal graidients which binds to 7m membrane protein, patch-1 (PTCH-1) and releases the inhibition on Smoothened (SMO) resulting in a signalling cascade that reaches the nucleus.  The MAPK/ERK pathway is initiated by growth factors (GFs) and uses G-protiein uncoupling to affect cellular gene production.  The TGF-Beta signaling cascade binds ligands from the TGF-beta ligand super family to Type I receptor which phosphorylates type II that then phosphorylates regulated R-SMADs which complex with coSMADs that work together as transcription factors in the nucleus.  The JAK-STAT pathway is induced by cytokines and growth factors which causes the Janus Kinase (JAK) to activate the Signal Transducers and Activators of Transcription (STATs) which accumulate in the nucleus and activate transcription patways.  The cAMP pathway responds to G-protein releases by activiting adenyl cyclase which catylizes the conversion of ATP to cyclic AMP (cAMP) which modulates some ion channels and activates PKA resulting in transcript regulations.  Integrins found across animals bind other cells, the extracellular matrix, and even viruses and are unique in their ability to both respond to and transduce signals.
+
+Lipid Siganaling
+	Lipid Signaling is differnt from other forms in that lipids can freely pass through membranes and do not dissolve in solution, as such lipid signalling molecules are generally bound to carrier proteins and synthesized near the site of thier action.  Sphingolipids have been implicated in a variety of signalling roles with poorly understood pathways.  Lipids also play a role in G-coupled signal transduction pathways.  Phosphatydilinosol biphosphate (PlP2) promotes the production of secondary messengers in its G-coupled transduction pathways.  A number of lipids are known to bind g-coupled receptors including Lysophosphatidic (LPA), Sphingosine-1-phosphate (S1P) which is upregulated during inflammation and deadly after K/O or 5 fold over expression, Platlet Activating Factor (PAF), endocannabanoids, Prostaglandins, and Retonic Acid derivatives that function in the visual system.
+
+
+Biosemiotics
+	Semiotics is the study of sign systems in human culture while biosemiotics is the extension of this effort into the biological world.  The rhetoric of this feils is exactly the type of thing that I am trying to study, but I fear these people may be a bit fringe.
+
+
+Signaling Molecule Research Tools
+	A number of utilities have been composed to help researchers mine the current knowledge of signaling molecules. Nature's pathway interaction database (http://pid.nci.nih.gov/) supplies a review article from senior scientists on receptors binding molecules, transcription factors, and other signaling molecules including information on their binding partners, discovery, and known states.  
+
+
+Systems Biology
+	Wholesale RNAi K/O's pertubations 
+	The institute for Systems Biology is a 170 member group in Seattle focused integrating across disciplines to develop statistical models for the effects of large scale perturbances on gene regulatory networks.
+
+
+WTEC's assesment of SYstems Biology in the US as of 2005 (good background) http://www.wtec.org/sysbio/report/SystemsBiology.pdf
+
+
+
+
+
+
+Online courses:
+	Microfluidic flow, sorting, and optical detection (no lectures or solutions) http://tinyurl.com/ppwqz6
+	Feilds, forces, and flows in biological systems (no lectures or solutions)  http://tinyurl.com/ple45v
+	Electrical flow and potential in cells (no lectures or solutions) http://tinyurl.com/qm6c4u
+		Which molecules are transported across membranes, and what are the mechanisms of transport?
+
+
+print a copy of this http://en.wikipedia.org/wiki/File:Signal_transduction_pathways.png
+Check Protein Importance by K/O deadlyness and expression rate
+run through the signaling news and technology assesments
+
+http://en.wikipedia.org/wiki/Technology_assessment
+http://en.wikipedia.org/wiki/ETC_Group
+http://www.europarl.europa.eu/stoa/default_en.htm

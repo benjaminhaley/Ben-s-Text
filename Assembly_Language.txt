@@ -1,0 +1,2 @@
+Assembly_Language
+	to understand binary arithmetic, memory allocation, stack processing, character set encoding, interrupt processing and compiler design.

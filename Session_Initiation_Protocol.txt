@@ -1,0 +1,2 @@
+Session_Initiation_Protocol
+	aka SIP used to set up and tear down communication sessions such as video conferencing, streaming multimedia, IM, presence information and games.

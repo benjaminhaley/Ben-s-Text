@@ -1,0 +1,10 @@
+Log_File_Reviews
+(see http://localhost/Archives/Archives_Weekly_Review.txt)
+(see http://localhost/Archives/Kaizen_Weekly_Review.txt)
+(see http://localhost/Archives/Wrong_With_Me_Monthly_Review.txt)
+(see http://localhost/Archives/Workout_Monthly_Review.txt)
+(see http://localhost/Archives/End_of_Week_Reflection.txt)
+
+Should be done weekly, monthly and yearly... not necessarily at each itch.
+
+For Kaizen, Workout, Church

@@ -1,0 +1,6 @@
+The_Beast_Permissions
+	login and access info for 'the beast'
+
+To find/set permissions: Login as Admin (username/passwords in wallet). Right click on a folder and choose 'sharing and security'> security tab.
+
+Current permissions: As of 13/Aug/2008 15:41, Admin's (username/passwords in wallet) have complete access while Lab Members (no password) have access to C:\Documents and Settings\Lab Member\Desktop and  C:\Documents and Settings\Lab Member\[usernames] documents (which looks like "my documents" to them).

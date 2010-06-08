@@ -1,0 +1,7 @@
+XUL
+	To understand a type of elemet supported by DOM (see http://localhost/Archives/DOM_elements.txt)
+	to understand Javascript to implement a Google Desktop API to itch email and web history (see http://localhost/Archives/Google_Desktop_API.txt)
+
+	XML User Interface Lanugage (XUL) is Mozilla's XML based language for cross platform applications that can run on or off the internet
+
+This is probably worth learning more about in the future as it seems that it would apply to mobile and other media development.  But for the time being I am going to let this one sit.

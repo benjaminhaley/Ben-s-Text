@@ -1,0 +1,9 @@
+I want to start studying keyboard shortcuts, I never want to have to use a mouse if I don't have to.
+
+try mozillas shortcut page for one http://www.mozilla.org/docs/end-user/moz_shortcuts.html
+
+Windows keyboard shortcuts for another http://support.microsoft.com/kb/126449
+
+IDLE 		(quiz 12/14)	 (see http://localhost/Archives/IDLE_Help.txt)
+Firefox		(quiz 1)		(see http://support.mozilla.com/en-US/kb/Keyboard+shortcuts)
+Windows		(quiz 1)		(see http://support.microsoft.com/kb/126449)

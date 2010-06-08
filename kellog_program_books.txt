@@ -1,0 +1,64 @@
+kellog_program_books.txt
+	Notes on the books required and recommended by cool courses at the Kellog Program at Northwestern
+
+
+Kellog Program Books
+
+intro		Negotiation Theory and Research
+intro		Introduction to Financial Accounting  w/solution manual
+intro 		Supply Chain management: Strategy, Planning and Operation
+intro		Practical Management Science - bought
+intro		Guide to Managerial Communication
+intro		Marketing Management
+
+advanced	Graphics and Visual Communication for Managers
+advanced	The Entrepreneurs Guide to Business Law
+advanced	Managerial Statistics: A Case-Based Approach  
+advanced	Integrity Selling For The 21st Century: How to Sell The Way People Want To Buy
+
+maybe		Making the Team: A Guide for Managers
+maybe		Statistics for Business and Economics
+maybe		The Changing Dynamics of Urban America 
+maybe		The Rise of the Creative Class
+maybe		Urban Economics and Real Estate Markets
+maybe		Spreadsheet Modeling and Applications
+maybe		Technology Ventures
+maybe		Innovative Management: A Conversation with Gary Hamel and Lowell Bryan
+
+cool		"Why Should My Conscience Bother Me?"
+cool		Why Ordinary People Torture Enemy Prisoners
+
+
+
+
+maybe		Authentic Leadership
+maybe		Good To Great
+maybe		The Mind and Heart of the Negotiator
+maybe		A Framework for Marketing Management
+
+advanced	Economics of Strategy
+
+cool		A Note on Franchising: Gompers, Paul A. HBS 9-297-108
+maybe		Quasi-Franchisees, Chains That Look Like Franchises, But Aren’t: Intl. Society of Franchising
+maybe		The Body Shop (case study) Ivey School of Business
+maybe		Wall Street Journal, Sept. 18, 2008: franchise classified ads
+intro		Microeconomics Besanko, David and Braeutigam, Ron
+Strategic management in the media: theory to practice
+Global Competitive Strategy
+Principles of Corporate Finance
+Excel Modeling in Corporate Finance
+Excel Modeling in Investments
+Heard on The Street: Quantitative
+Principles of Corporate Finance 	
+The Wall Street Journal Guide to Understanding Money and Investing
+Measuring and Managing the Value of Companies
+Principles of Corporate Finance
+The Entrepreneur’s Guide to Finance and Business: Wealth Creation Techniques for Growing a Business
+Investments Bodie, Kane and Marcus
+Derivatives Markets Robert Mcdonald
+International Financial Management  Eun and Resnick
+
+
+Case One: Supreme Court, Appellate Division, First Department, New York.
+Jeffrey M. STAMBOVSKY, Plaintiff-Appellant, v. Helen V. ACKLEY and Ellis Realty, Defendants-Respondents. July 18, 1991.
+Case Two:  United States District Court,M.D. Georgia,Valdosta Division.  OFFICEMAX, INC. Plaintiff, v. L. SAPP, d/b/a G.S. Properties, Defendant. No. 7:99-cv-27 (WDO). Feb. 13, 2001.

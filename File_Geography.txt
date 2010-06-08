@@ -1,0 +1,2 @@
+Among other things, 'nearness' in a file sense is most immediately approximated by file structures... next by linking structures.
+

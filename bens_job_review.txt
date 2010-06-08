@@ -1,0 +1,34 @@
+bens_job_review.txt
+
+related docs:
+    http://janus.northwestern.edu/ben/time_sheet.php
+    http://janus.northwestern.edu/ben/time_sheet_categories.php
+
+To Do:
+    work on databasing_ben.txt
+	Record how much time various processes in the review take
+	Look for a previous review - I don't think there will be one
+	Make a list of resources to look at
+	Look at those resources
+	Simplify and archive the time sheet data.
+	Project how much time will be available over the next 3 months
+	Project which projects will be pressing over the next 3 months and how much time can be spent on known projects
+	Prioritize the projects
+	Schedule their completion
+	Save this template and schedule future reviews using google calendar
+	acess my previous failures
+
+Report Template
+    Report start date 
+    Report end date
+    Hours worked
+    Hours by category of work
+    Milestones
+    Problems
+    Future Plans
+
+12/22/2009
+    took a bit too long to parse out all of my personal data (5 hours) but I feel that the order that is has been put in is good, it will work for future sorting, and it will have applicability to my other time sheets.  So in the end, its all gravy baby.  It also shows me how big of a problem building this kind of review software can be.
+    
+12/23/2009
+    I finished off the task of parsing the time sheet data and dividing it into categories.  I still need to do a little more work on splitting those categories into actual project pages (like janus_wsdl.txt) and things that should more accurately be called categories like computer_administration.  This brings up some interesting issues of whether I should use a graph or not.  But for the fruits of my labor, I now have a preliminary breakdown of where my time went.  The highlights are written in the post above.

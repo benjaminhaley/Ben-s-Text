@@ -1,0 +1,45 @@
+delicious_key.txt
+	A reference on how I am using delicious
+
+
+Updated	2:25 PM 9/22/2009
+
+Focus
+	Be sure to provide a good synopsis
+	Place items in todo if you know they will require action (like project integration)
+	Follow the naming schema below
+
+
+Tags
+	Type of Resource:	*these can be pluralized
+		tool
+		source		#, registry
+		vocab
+		technique
+		enterprise
+		amusement
+		person
+		community
+		
+
+	Category of Resource:
+		bio		protein, genetics, systems
+		cs		search, dataSharing, caching
+		econ		
+		psych		conscience
+		business	startup
+		english		style
+		physics		e&m
+
+	Availibility
+		open		open source material
+		closed		requires payment to access
+
+	Action
+		todo		Feeds to RSS
+		reveiwed	means I've sifted through it
+
+	project bindings 	Can be used to mark a project that I should associate this resource with
+		communication_biology.txt
+		computation_bioloty.txt
+

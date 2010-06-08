@@ -1,0 +1,33 @@
+
+Remote Login
+	The VNC client allows you to work on a remote machine as if you were on its desktop.
+
+
+
+Instructions
+	1. Start the vncviewer ( vncviewer.exe )
+	2. Enter the IP address for a machine with a vnc server installed
+	3. Enter the password
+	
+
+
+
+
+Remote Machines
+
+	1. Janus	*IP - 165.124.50.30
+			password - [administrator password]
+
+
+
+
+
+*Troubleshooting
+
+	Our IP addresses are subject to change, if you cannot connect to this IP, try the following instructions to look up our IP
+
+	1. Press start then run
+	2. type cmd and press enter to open the command prompt
+	3. type "ping janus.northwestern.edu"
+
+	The IP address will be returned provided that the wololab websites are accesiable

@@ -1,0 +1,6 @@
+Untie new or modified estimates from itchiness in the scratch
+	So that I can change the itchiness equation without breaking functionality
+	So I can make the program more useful, esp. prohibit immediate itches *
+		*(see http://localhost/Archives/scratch%20till%20it%20bleeds.txt)
+
+The new/modified denotation in the scratch is not actually based on itchiness, rather on the core if accessed and modified are the same or if modified is more recent than accessed.  By tying it to the itchiness I inhibit myself from modifying the itch function.

@@ -1,0 +1,17 @@
+Find the least mean squared solution to the following observations
+
+1, 1, 1, 1, 
+1, 1, 1, 1, 
+1, 1, 1, 100
+
+2 -> 10  + 9604 = 9614
+3 -> 40  + 9409 = 9449
+4 -> 90  + 9216 = 9306
+5 -> 160 + 9025 = 9185
+6 -> 250 + 8836 = 9086
+7 -> 360 + 8649 = 
+8 -> 490 + 8464 = 
+9 -> 640 + 8281 = 
+
+
+*but this is lunacy, clearly the correct projection of this situation is 1, with the occasional extreme outlier, simplifying to a ols is nuts

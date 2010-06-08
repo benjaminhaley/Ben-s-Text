@@ -1,0 +1,37 @@
+rad_onc_meeting.txt
+	Going to the radiation oncology low dose meeting:
+
+
+hotel reservation info https://mail.google.com/mail/?shva=1#inbox/12772f6c00e7e588
+abstract: low_dose_abstract.pdf
+poster: low_dose_poster_ben_2010.ppt
+
+
+04/14/2010 - 3 days
+    I just got back from the conference head swirling with funness.  Once again I am reminded of how great conferences are as a social experience because you spend so much time focused on people and the science they perform.  After wondering why it was so hard to engage beau in conversation, I realized how much it helped to really listen and respond to what he said.  That sounds easy, but in reality I spend a great deal of my time thinking about what I am going to say next rather than responding to the new info the person I am talking to has just given to me.
+    I spent a great deal of the lectures reading a book that I had brought, its a great idea, listen to the first 5 minutes of a talk and if its not grabbing you then you can leave.  A laptop is almost better for that in some ways because it looks as if you might be taking notes on it or some other important matter and your head is mostly up.
+    The most interesting talks I saw were on CARS microsocopy, SNPs and epidemilogy, Gayle's talk, and the gene inversion talk.  
+        CARS is cools because it is a non-invasive techinique that measures raman light scattering and adds a second laser to one of the emision wavelengths which amplifies the signals at the second wavelengths.  Its major shortcomming is sensitivity, so it can only detect kinda bulky congelead structures and at not too fine a resolution, however it is a non-invasive way of determining fats, from proteins, from sugars, and so on so it would be rather useful.  It is called a non-linear optical technique because the peak structures do not stay the same as you amplify your input power, but I did not have enough time with Tyler Weeks to figure out why that is.  Also Tyler is a Mormon and lived in Cicero on his mission.  Cool!
+        Alice Sigurdson gave a great talk on SNPs and epidemiology.  The essential message was that SNPs might account for about 3% of the heredity (and therefore identifiability) of major diseases.  This number means that it will have limited clinical applications, but gives a good sign as to where the feild is headed.  Her honesty was much appreciated, especially after reading 'Surely you're joking mr. feynmen'
+        Gayle's talk was absolutely great to get me totally amped about the tissue archive and about the research project she is coordinating with Dave Grdina and Jin ?.  They are seeking to study the effects of irradiation on mitochondrial expression and function (makes doug spitz super happy).  Her points about the archive were great, 40,000 mice, no one will do that again, lifetime studies (they are rare), full epidimilogy (we can give you lung tumors), completely searchable, tissues preserved, etc.  I am going to ask her for her slide so I can put some of the bullet points on the website.
+        The gene inversion talk was given by Michael Cornforth and he was just talking about how hard it is to measure small inversions even though the smaller they are the more frequent they are.  I would like to know how they are measuring them at all.  Deletions are easier to measure and they do so through Comparative Genomic Hybridization arrays, which essentially hybridizes extracted DNA to a chip containing the cannonical genome for the species.  The net result is that you can detect variances in copy number.
+        Mary Hellen Barcellos-Hoff presented a great model of breast cancer that developed full 3-d structures capable of producing milk when plated on media with the apporpriate hormones.
+    I had a great time toodling through the city with Beau and Amit, we went all around the capital taking silly pictures and then over to Ben's Chilli, a famous chilli joint that only allows Obama and Bill Cosby to eat free.
+    I met a few more people along the way, ran into Dave Ngyen again, and then met his buddies Ignacio and Ge.  I also ran back into Trent though he appeared too smart to stay for the whole conference this time.
+    Some of the most interesting portions were the discussion break outs especially the one led by Spitz and Tony.  They put on a great and funny show talking about the adaptive response and trying to determine if it were clinically relevant.
+    I had a nice talk with Tony Brooks and Bill Morgan, both interested in getting these archives out again.  The big trick as they say, is to show them that their are kids still intersted in their work.  I think that is super exciting and we will be all over it.
+    My poster was not very popular.  I think only one person stopped by.  I think that by presenting it as automated data sharing I was ignoring the needs of my customers who would much rather know that Janus now had experiment descriptions rather than the techniques we used to put them on the website.
+    The pain in the ass of the trip was trying to work out the billing for the hotel.  Beau and I didn't understand that we were supposed to get our own room after Tanja had put down her card and so we arrived with too little money to handle the issue.  Paul was little help and we were mostly stuck, but Gayle bailed us and so it worked out for us, we just hope that Paul will approve giving us the money back.
+    Of course I learned a number of things along the way:   
+        imprinted genes - are those only expressed by the mother or fater due to epigenetic changes like histone modifications and methylation.  In insects this process can be very prominent whereas in mammals only about 1% of genes are imprinted.
+        the Boniferri correction is a way of correcting for the detection of multiple hypothoses by dividing the probablity required (like 0.05) by the number of hypothoses tested to determine the criteria for acceptance.
+        Polyphen is a tool to predict the affect of a single aa substitution on a protein structure/function.  This is useful for gaguing the impace of SNPs
+        SIFT or scale invariant feature transform is a method to identify important elements in an image so that vector comparisons can be used to determine if two objects are the same.
+        BioSig - a software library to faciliate biological signal processing like electrocardiograms.  Would be useful for brain-machine interfaces
+
+
+03/23/10
+	It has arrived - https://mail.google.com/mail/?hl=en&shva=1#inbox/127770a2cf7f9cd7
+
+03/18/10
+	Mike's not comming to the radiaiton oncology meeting because of probation.  Makes me sad.

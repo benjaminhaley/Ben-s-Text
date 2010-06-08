@@ -1,0 +1,16 @@
+jarah_request.txt
+	Jarah is looking to track mammary development
+
+
+Emails:
+	https://mail.google.com/mail/?shva=1#inbox/127e4788cbbdb51c
+
+Jarah would like:
+            JM-13 mice (because of their very low doses)
+            100 days age at first irradiation
+            mammary tissues without cancer
+            Different age at deaths (sacrifices preferred) ( 500, 900, and 1000 days )
+            5 mice per treatment group
+
+PM 5/6/2010
+	I think it might be difficult to help her.  But I have learned some important things.  It is very nice to be able to do a specific tissue search for the organs of interest and even more to search for more than one at a time.  It is quite important for us to list our standard tissues right up front and list what kind of tissues are in the collection.  Also it might be wise to exclude those animals w/o autopsy reports by default because we cannot find their tissues.

@@ -1,0 +1,13 @@
+Dictionary:
+
+Session 		A communication period and variable between two computers typically with a state
+Jennerization		Inoculation through exposure to an attenuated virus.  
+			Edward Jenner proved the folk myth that cowpox exposure prevented small pox infection by testing on the 8 year old son of his gardener.
+
+el camino		"the road" in spanish
+regime			in science a class of conidtions like "the femtosecond regime"
+Fessler			the 20906th most popular surname in the United States
+Bonita			Spanish for Beautiful or the street that Robert lives on
+
+Umwelt 			Q tells me this means the environment of a being
+aSyntactic Sugar 	Peter Landin's term for additions to a computer languages syntax that do not affect its functionality, but make it sweeter to use.

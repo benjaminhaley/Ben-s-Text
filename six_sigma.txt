@@ -1,0 +1,9 @@
+six_sigma.txt
+	My notes on the six sigma program that Graham recommended to me
+
+Six Sigma Notes
+Measurable outcomes.
+Reducing the variation in processess. (if your mean is within 6 std devs of the spec, then bad outcomes will be nearly impossilbe... usually quantified as 3.4 defective parts/ million)
+Achieving sustained quality improvement requires commitment from the entire organization, particularly from top-level management.
+A clear commitment to making decisions on the basis of verifiable data, rather than assumptions and guesswork.[1]
+Define, Measure, Analyze, Improve, Control

@@ -1,0 +1,11 @@
+Notes on Organizing the Wololab data project
+
+1. Choose file organization that differentiates data, scripts, and results.  Organize results in a chronological fashion.  Take notes after each experiment.  Keep an overall document which keeps the current status of the project and which notes from the day are relavent. (http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1000424)
+
+
+
+2. From the start organize the project as a series of hypothesis, materials and methods.  Conclude hypothesis before changing them.  Determine the structure of the code that you will need.  Find libraries to help in its production.  Use a language well suited to your problem.  Garner advice from key players (t, g, e, and d) before begining to be sure the plan fits their ideals.  Implement version control for the code you construct (dropbox should be good here).  Record which version of a software or data was used to get results.  Use bug tracking tools like Jira and Bugzilla.  Find data standards if available.  Develop a wiki for project management if working with larger groups.  
+(http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.0020087)
+
+
+3. Read this document commisioned by the Python foundation and authored by Greg Wilson.  It describes the basic software development tools that scientists should be using in more depth than the above http://software-carpentry.org/

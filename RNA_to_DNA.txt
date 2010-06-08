@@ -1,0 +1,6 @@
+RNA_to_DNA.txt
+	Notes on the hypothosis that changes to the DNA are most often inhereted from changes in RNA
+
+1. Processed psuedogenes exist that are turned to RNA then reinsirted as DNA
+2. Retrotransposons are responsible for 1/2 of the genome 	http://www.nature.com/nature/journal/v409/n6822/full/409860a0.html
+3. The pursuit of this hypothosis is eminently important to understand the mutations that lead to cancer development

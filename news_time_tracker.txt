@@ -1,0 +1,49 @@
+news_time_tracker.txt
+	To find out how long it takes me to find interesting information.
+
+Systems Biology 9/2/2009
+	Start time: 11:00
+	146 Articles
+
+Bioinformatics - 2/36 articl
+	One on information flow in proteins, 
+	one one a software utility for traking cell motility
+	Three new vocabulary
+BMC Bioinformatics 0/24
+BMC Systems biology 0/3
+Oxford Briefings in bioinfo 0/10
+PLOS Comp Bio 2/30
+	A quick guide to R for comp bio students
+	Neurons using action signals to relay internal repair signals
+q-bio on ArXiv 1/31
+	Na+ and Ca2+ movement paper 
+
+By 11:32 I was done reading the titles for all 146 articles
+By 11:53 I had found definitions for the four new vocab words
+by 12:24 I have finished perusing the 5 articles, 1 was interesting, the one on traking cell motility
+
+So the numbers for system Bio
+	146 Article Titles ( 30 minutes, 5 titles/min )
+	5 new vocabs ( 20 minutes, 4 minutes/word )
+	5 interesting articles ( 30 min, 6 min/article )
+	1 useful result ( 1:20 / result )
+
+
+
+I get more stuck on vocab for the first few articles, then I seem to move on.  Also my reading comprehension for the titles increases after the first few.  
+
+
+
+Top biology 12:35 AM 9/3/2009
+	363 Titles - 1:31 (1 hour)
+
+	Biotechniques News 	8/72
+	PLOS - One 		0/10 (* I like it anyhow)
+	Mol Sys Bio 		0/10
+	Nature			7/271 
+
+	By 2:35 done reading 15 articles of interst (1 hour)
+	Found 3 papers of intersts
+	1/120 interesting
+	1.5 interesting/hour
+	180/hour

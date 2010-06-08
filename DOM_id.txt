@@ -1,0 +1,6 @@
+DOM_id
+
+	To understand a javascript element interface (see http://localhost/Archives/DOM_Elements.txt)
+	To understand javascript to use the Google Desktop API to itch the email and webhistory of a user (see http://localhost/Archives/Google_Desktop_API.txt)
+
+	An id is an attribute of an HTML element which allows it to be distinguished from similar HTML elements for the purpose of manipulating one object without manipulating the others.  For instance if you had a number of pictures, you might make all of them bigger using the css definitions for thier classNam (see http://localhost/Archives/DOM_className.txt) or you might make just one of them bigger individually using its id.

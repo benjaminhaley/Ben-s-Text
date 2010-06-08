@@ -1,0 +1,53 @@
+long_journal.txt
+	A basis for a memoir, one that transcends the everyday and unites those important experiences from my weekly notes.
+
+To Do:
+	1. clean physical notes/room (8 hours)
+	2. read my previous long_journal
+	3. read over and summarize my weekly reviews 
+	3. schedule a proposed time for the next review
+	4. develop a plan for the future (link?)
+
+
+
+
+3/29/2010 - fail
+
+I am dropping this effort and will instead move on to weekly notes.  Here are the notes that I accumulated in the process
+
+My last review occurred from May to August of 2009.  
+Nearly 45% of my days were social.
+20% were spent on linear algebra, study reviews, and communication_biology (a directory)
+the remaining 35% were spent at my job running tissue_stats, SOAP data sharing with Gruenberger, and WoloLIMS
+I would realy like to start blogging again... I have so much material.
+Note three major section, general intro, choppy style
+too much computer work - sending tanja's toshiba back 
+roof drinking d, graham, hans, acarolines
+walking with a box of strawberries
+gruenberger stuff
+reforms to my organization, histories at the end of each file - date.py to consolidate them
+never quite implemented good soap
+Dave's dad believes in silver
+wine party (felix is a culinary genious)
+	Marissa has a new boyfreind and Dr. Mittal would love to set her up
+	Gayle keeps wine glasses empty
+Ally turned blonde
+Google reader took over news
+Mary learned to love settlers of Catan, has learned to open her mind
+FET arrays look like the future - Lieber
+linus like buckminster and is now in midstate IL, Lechner is in Texas, Pipes continues to chant
+good quote "you might not get where you are aiming, but if you don't aim, you won't get anywhere"
+I would like to refind the time to plan out my weekly goals and review the previous week
+I'm over my fear of phones for some reason
+composed the first 4-6 mo plan (we're on the late side)
+id like to make a tagged life
+windows networking escapes me
+am convinced of rest
+
+3/22/2010 - 8 hours go over old physical notes
+
+	I had started the current review nearly 3 months ago, but was distracted by my desire to create a databased verion of myself more structured than the text files.  Today I finally pieced through a large pile of notes collected from books and various sources over time.  I found a few cool things, the idea to peice through stack overflow for php feeds turned up cool resources on common error and nice rss feeds.  The http profiler led to interestingness but I fell just short of installing all its dependencies.  I really need to work on my proficiency with that.  I finished up writing about people ware on good reads and invited a few new freinds to join me.
+	It was actually quite amazing how many of the ideas that I had written down once upon an idly musing had actually made their way into life.  Its impossible to know how they would have fared had they not been written down.  
+	I also called about these stupid student loans and found out that I might have to pay $200/mo.
+	
+	

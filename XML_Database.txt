@@ -1,0 +1,5 @@
+XML_Database
+	needs: database possibilities
+
+stores data directly as XML because this is the medium so often used to transport data, doesn't seem to be too popular.
+

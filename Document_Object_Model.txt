@@ -1,0 +1,9 @@
+Document_Object_Model
+	Useful to represent objects in HTML or XML - necessary to add critical functional objects to JavaScript
+
+Web browsers are not obliged to use DOM to render HTML, however they must in order to support JavaScript inspection and modification of a webpage.  Like most good things, DOM is brought to us by the WC3.  The Document Object Model requires certain elements, the DOM_Window which holds global variables and represents the visualization window (see http://localhost/Archives/DOM_Window.txt), the DOM_Document which holds the information to be presented (see http://localhost/Archives/DOM_Document.txt) and DOM Elements which behave according to loose protocols (see http://localhost/Archives/DOM_Elements.txt).  A DOM_Inspector (ie. firebug) is a useful tool for inspecting how a webpage is declaring and interacting with its DOM elements (see http://localhost/Archives/DOM_Inspector.txt).
+
+For historical reasons, DOM is divided into four levels, 0, 1, 2 and 3 corresponding to associated required and optional modules in the web browser.  Level 0 is a shorthand for DOM's that came into being before standardization occured through WC3.  Level 1 refers to support for navigation of the document and content manipulation, Level 2 supports XML namespace (a code domain where outside names do not interfere with variables declared inside the namespace), filtered veiws and events (like mouseover).  DOM level 3 consists of Core, Load and Save, XPath, Views and Formatting, Requirements and Validation, most of which make no sense to me.
+
+It is important to realize that most modern browsers will support all of DOM level I, most of DOM level II and some of DOM level III.  A list commands that work with various engines is avaliable here for your refernce http://en.wikipedia.org/wiki/Comparison_of_layout_engines_(DOM).  The most important layout engines are Gecko (Mozilla), Trident (e), and WebKit (Safari).
+

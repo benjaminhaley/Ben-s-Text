@@ -1,0 +1,75 @@
+MAPS_notes.txt
+	My notes from learning MAPS with Stefan.
+
+
+to do:
+	Send these notes off to stefan and ping ( pingliu@sjtu.edu.cn )
+
+Generally
+	maps is the IDL program which Stephans has built.  It requires some knowledge of IDL and its setup to run and troubleshoot.  The basic running proceedure is to verify the fit of the element curve and then some topographical maps especially the standards to ensure that the element concentrations are valid and then send off the data.  Things get hairy at times when datasets are very large or in a new format (like BioCAT).  I will be able to test my skills against stephan by analyzing old datasets and comparing my results to the configuration files that Stephan has produced.  After I become well acquanited with the software it should only take 30 min - 1 hour to run a sample.
+
+Documentation:
+	In my red folder... soon Stefan will deliver me the real deal.
+
+Questions:
+	Q. Why's the GE peak missing?
+	A. Because it is not really a peak, merely the product of elastic and inelastic scatter
+	
+	Q. What are all of the abbreviations in the list of elements
+	A. See Abbreviations
+
+	Q. What is the config file?
+	A. A store of previous settings including the elements chosen, standards, voltage, and so on
+	
+	Q. How do I add comments to the parameters document
+	A. put them in lowercase separated by a line
+
+	Q. Can I export my integrated spectral fit?
+	A. No, you can only export your raw spectral data.
+
+
+Abbreviations:
+SRcument	Synchotron Current
+us_ic		Upstream Ion Chamber
+ds_ic		downstream Ion Chamber
+abs_ic		contrast between ion chambers
+abs_cfg		config absorption contrast
+H_dpc_cfg	Horizontal Phase Contrast
+V_dpc_cfg	Vertical Phase Contrast
+dia1_dpc_cfg	Diagonal Phase Contrast (which one?)
+dia2_dpc_cfg	Diagonal Phase Contrast (which one?)
+H_dpc_norm	Horizontal Normalized Phase Contrast
+V_dpc_norm	Vertical Normalized Phase Contrast
+phase		Attempt to reconstruct the Phase
+ELT1		Elapsed Lifetime - the time that measurements were actually made
+ERT1		Elapsed real time - the total time for the reading (including breaks)
+ICR1		??
+OCR1		??
+deadT		Dead time - the time that measurements were not being made because double hits were detected
+x_coord		a horizontal contrast map
+y_coord		a vertical contrast map
+s_i		??
+s_e		??
+s_a		??
+TFY		??
+Bkgnd		Background
+k_alpha		the drop from the k alpha orbital to the inner orbital (causes peaks)
+k_beta, l, m	orbitals that like k_alpha lead to the emission peaks observed.
+
+
+
+Useful IDL Commands
+	@ret		resets IDL (and by extension MAPS)
+	maps		starts IDL
+
+
+
+Peak Fitting 
+	(add to Using Maps 3 g.) a good fit is one in which the measured integral denoted by a white line is closely aligned to the predicted integral denoted by a red line.
+	(add to Using Maps 3 h.) extra peaks often arrise from pileup, when two photons hit the device at the same time.  this can be identified if the extra peak's energy aligns to a value equal to the sum of the largest peaks on the spectra (note self-pile up will be the most commonly observed).  To address these peaks simply include elem_elem (e.g. Cl_Cl) in the "ELEMENTS_WITH_PILEUP:" array in the the maps_fit_parameters_override.txt
+	(add maybe?) edge energy is the energy needed to knock an electron from an orbital which creates the bands in the XFM spectra, if the input voltage is 10 KeV, no bands will be observed with an edge energy above 10 keV.  These edge energies and other elemental properties are included in the spectral veiw of MAPS.  Complete elemental properties are organized in a emission pocket book, X-Ray Data booklet, which is available for download or order from (http://xdb.lbl.gov/).
+
+
+Parameters Document Changes
+	is:		angle for the compton scatter (in degrees)
+	could be:	angle for the compton scatter (in degrees - typically near 90)

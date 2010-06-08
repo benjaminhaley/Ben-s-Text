@@ -1,0 +1,2290 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+       log:  {res}C:\Documents and Settings\Tatjana Paunesku\Desktop\Ben's Work\Tissues\Tissue_Stats\superprostate_may29.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}29 May 2009, 21:42:59
+
+{com}. /// First we will do a simple regression
+{err}unrecognized command:  / invalid command name
+{txt}{search r(199):r(199);}
+
+{com}. // ahem, a simple logistic regression
+{err}unrecognized command:  / invalid command name
+{txt}{search r(199):r(199);}
+
+{com}. * a comment
+
+. * here we see prostate incidence against lifespan, observation count, and gender
+
+. logit prostate_inc lifespan_yrs gender observe_count
+
+{txt}Iteration 0:   log likelihood = {res}-883.01481
+{txt}Iteration 1:   log likelihood = {res}-562.17069
+{txt}Iteration 2:   log likelihood = {res}-448.39825
+{txt}Iteration 3:   log likelihood = {res}-405.16222
+{txt}Iteration 4:   log likelihood = {res}-392.32537
+{txt}Iteration 5:   log likelihood = {res}-389.18305
+{txt}Iteration 6:   log likelihood = {res} -388.4998
+{txt}Iteration 7:   log likelihood = {res}-388.41962
+{txt}Iteration 8:   log likelihood = {res}-388.41759
+{txt}Iteration 9:   log likelihood = {res}-388.41759
+
+{txt}Logistic regression                               Number of obs   = {res}      4715
+                                                  {txt}LR chi2({res}3{txt})      = {res}    989.19
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-388.41759                       {txt}Pseudo R2       = {res}    0.5601
+
+{txt}{hline 13}{c TT}{hline 64}
+prostate_inc {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+lifespan_yrs {c |}  {res} .3123497   .0209216    14.93   0.000     .2713441    .3533552
+{txt}genderzero~e {c |}  {res}-6.129642   1.010793    -6.06   0.000     -8.11076   -4.148524
+{txt}observe_co~t {c |}  {res} .0681158   .0065631    10.38   0.000     .0552523    .0809793
+       {txt}_cons {c |}  {res}-5.490056   .2481779   -22.12   0.000    -5.976475   -5.003636
+{txt}{hline 13}{c BT}{hline 64}
+
+{com}. * next we will add dose and dose rate to see if they can improve the model
+
+. logit prostate_inc lifespan_yrs gender observe_count dosetotal doserate
+
+{txt}Iteration 0:   log likelihood = {res}-883.01481
+{txt}Iteration 1:   log likelihood = {res}-563.01824
+{txt}Iteration 2:   log likelihood = {res}-446.79349
+{txt}Iteration 3:   log likelihood = {res}-402.04271
+{txt}Iteration 4:   log likelihood = {res}-388.31325
+{txt}Iteration 5:   log likelihood = {res}-384.10978
+{txt}Iteration 6:   log likelihood = {res}-382.79749
+{txt}Iteration 7:   log likelihood = {res}-382.47791
+{txt}Iteration 8:   log likelihood = {res}-382.37729
+{txt}Iteration 9:   log likelihood = {res}-382.32723
+{txt}Iteration 10:  log likelihood = {res}-382.28227
+{txt}Iteration 11:  log likelihood = {res}-382.06099
+{txt}Iteration 12:  log likelihood = {res}-379.30494
+{txt}Iteration 13:  log likelihood = {res}-379.11461
+{txt}Iteration 14:  log likelihood = {res}-379.11404
+
+{txt}Logistic regression                               Number of obs   = {res}      4715
+                                                  {txt}LR chi2({res}5{txt})      = {res}   1007.80
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-379.11404                       {txt}Pseudo R2       = {res}    0.5707
+
+{txt}{hline 13}{c TT}{hline 64}
+prostate_inc {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+lifespan_yrs {c |}  {res} .3004746   .0220261    13.64   0.000     .2573042     .343645
+{txt}genderzero~e {c |}  {res}-6.182012   1.011368    -6.11   0.000    -8.164257   -4.199768
+{txt}observe_co~t {c |}  {res} .0739345   .0074286     9.95   0.000     .0593747    .0884944
+   {txt}dosetotal {c |}  {res} .0000992   .0000343     2.89   0.004      .000032    .0001664
+    {txt}doserate {c |}  {res}-33.95543   14.17584    -2.40   0.017    -61.73956   -6.171302
+       {txt}_cons {c |}  {res}-5.465766   .2587823   -21.12   0.000     -5.97297   -4.958562
+{txt}{hline 13}{c BT}{hline 64}
+Note: 151 failures and 0 successes completely determined.
+
+{com}. *the change in Psuedo R2 and high probabilities reveal a slight improvement in the model
+
+. *now we will look at a regression with all the cross products included
+
+. logit prostate_inc lifespan_yrs gender observe_count  age_X_obs
+
+{txt}Iteration 0:   log likelihood = {res}-883.01481
+{txt}Iteration 1:   log likelihood = {res}-603.07011
+{txt}Iteration 2:   log likelihood = {res}-449.36166
+{txt}Iteration 3:   log likelihood = {res}-405.11414
+{txt}Iteration 4:   log likelihood = {res}-392.16189
+{txt}Iteration 5:   log likelihood = {res}-389.12781
+{txt}Iteration 6:   log likelihood = {res}-388.49064
+{txt}Iteration 7:   log likelihood = {res}-388.41896
+{txt}Iteration 8:   log likelihood = {res} -388.4173
+{txt}Iteration 9:   log likelihood = {res} -388.4173
+
+{txt}Logistic regression                               Number of obs   = {res}      4715
+                                                  {txt}LR chi2({res}4{txt})      = {res}    989.20
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res} -388.4173                       {txt}Pseudo R2       = {res}    0.5601
+
+{txt}{hline 13}{c TT}{hline 64}
+prostate_inc {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+lifespan_yrs {c |}  {res} .3129943   .0341978     9.15   0.000     .2459678    .3800208
+{txt}genderzero~e {c |}  {res}-6.128182   1.012612    -6.05   0.000    -8.112865   -4.143498
+{txt}observe_co~t {c |}  {res}  .068321   .0108235     6.31   0.000     .0471074    .0895347
+   {txt}age_X_obs {c |}  {res}-.0000297   .0012458    -0.02   0.981    -.0024714     .002412
+       {txt}_cons {c |}  {res} -5.49434   .3066416   -17.92   0.000    -6.095346   -4.893333
+{txt}{hline 13}{c BT}{hline 64}
+
+{com}. *no real improvement, so we will try adding the radiation terms
+
+. logit prostate_inc lifespan_yrs gender observe_count  age_X_obs age_X_dose age_X_rate obs_X_dose obs_X_rate dose_X_rate
+
+{txt}Iteration 0:   log likelihood = {res}-883.01481
+{txt}Iteration 1:   log likelihood = {res}-600.83175
+{txt}Iteration 2:   log likelihood = {res}-444.81523
+{txt}Iteration 3:   log likelihood = {res}-398.89604
+{txt}Iteration 4:   log likelihood = {res}-385.17297
+{txt}Iteration 5:   log likelihood = {res}-381.82547
+{txt}Iteration 6:   log likelihood = {res}-381.01984
+{txt}Iteration 7:   log likelihood = {res}-380.80281
+{txt}Iteration 8:   log likelihood = {res}-380.26226
+{txt}Iteration 9:   log likelihood = {res}-377.79147
+{txt}Iteration 10:  log likelihood = {res}-375.69383
+{txt}Iteration 11:  log likelihood = {res}-375.22335
+{txt}Iteration 12:  log likelihood = {res}-374.77863
+{txt}Iteration 13:  log likelihood = {res}-374.48121
+{txt}Iteration 14:  log likelihood = {res}-374.43664
+{txt}Iteration 15:  log likelihood = {res}-374.42694
+{txt}Iteration 16:  log likelihood = {res}-374.42155
+{txt}Iteration 17:  log likelihood = {res}-374.41421
+{txt}Iteration 18:  log likelihood = {res} -374.3939
+{txt}Iteration 19:  log likelihood = {res}-374.31145
+{txt}Iteration 20:  log likelihood = {res}-374.03013
+{txt}Iteration 21:  log likelihood = {res}-373.83986
+{txt}Iteration 22:  log likelihood = {res}-373.59386
+{txt}Iteration 23:  log likelihood = {res}-373.21734
+{txt}Iteration 24:  log likelihood = {res}-373.13355
+{txt}Iteration 25:  log likelihood = {res}-373.00903
+{txt}Iteration 26:  log likelihood = {res}-372.94964
+{txt}Iteration 27:  log likelihood = {res}-372.94539
+{txt}Iteration 28:  log likelihood = {res}-372.94519
+{txt}Iteration 29:  log likelihood = {res}-372.94519
+
+{txt}Logistic regression                               Number of obs   = {res}      4715
+                                                  {txt}LR chi2({res}9{txt})      = {res}   1020.14
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-372.94519                       {txt}Pseudo R2       = {res}    0.5776
+
+{txt}{hline 13}{c TT}{hline 64}
+prostate_inc {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+lifespan_yrs {c |}  {res} .3192192   .0361137     8.84   0.000     .2484377    .3900007
+{txt}genderzero~e {c |}  {res}-6.310086   1.040868    -6.06   0.000    -8.350151   -4.270022
+{txt}observe_co~t {c |}  {res} .0957607   .0153722     6.23   0.000     .0656318    .1258897
+   {txt}age_X_obs {c |}  {res}-.0023027   .0013957    -1.65   0.099    -.0050383    .0004329
+  {txt}age_X_dose {c |}  {res} .0000122   9.67e-06     1.26   0.207    -6.76e-06    .0000311
+  {txt}age_X_rate {c |}  {res} .4935338   .3782917     1.30   0.192    -.2479043    1.234972
+  {txt}obs_X_dose {c |}  {res} 3.37e-06   3.50e-06     0.96   0.336    -3.49e-06    .0000102
+  {txt}obs_X_rate {c |}  {res}-1.132928   .5754348    -1.97   0.049    -2.260759   -.0050963
+ {txt}dose_X_rate {c |}  {res}-.0152803   .0103134    -1.48   0.138    -.0354942    .0049335
+       {txt}_cons {c |}  {res}-5.640077   .3365308   -16.76   0.000    -6.299666   -4.980489
+{txt}{hline 13}{c BT}{hline 64}
+Note: 141 failures and 0 successes completely determined.
+
+{com}. * A very mild improvement
+
+. * next we will try taking variables to their appropriate powers
+
+. *first the radiation free data
+
+. boxtid logit prostate_inc lifespan_yrs gender observe_count  age_X_obs
+
+{txt}Iteration 0:  Deviance = {res} 654.5877
+{txt}Iteration 1:  Deviance = {res} 653.5109{txt} (change = {res}-1.076786{txt})
+Iteration 2:  Deviance = {res} 652.1421{txt} (change = {res}-1.368824{txt})
+(unprofitable step attempted, step length divided by 10)
+Iteration 3:  Deviance = {res} 651.4359{txt} (change = {res}-.7061953{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 4:  Deviance = {res} 651.2578{txt} (change = {res}-.1780497{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 5:  Deviance = {res} 651.1969{txt} (change = {res}-.0609109{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 6:  Deviance = {res} 651.1463{txt} (change = {res}-.0505532{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 7:  Deviance = {res} 651.0978{txt} (change = {res}-.0485591{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 8:  Deviance = {res} 651.0496{txt} (change = {res} -.048219{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 9:  Deviance = {res} 651.0017{txt} (change = {res} -.047895{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 10:  Deviance = {res} 650.9541{txt} (change = {res}-.0476023{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 11:  Deviance = {res} 650.9067{txt} (change = {res}-.0473733{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 12:  Deviance = {res} 650.8595{txt} (change = {res}-.0471549{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 13:  Deviance = {res} 650.8126{txt} (change = {res}  -.04695{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 14:  Deviance = {res} 650.7658{txt} (change = {res} -.046744{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 15:  Deviance = {res} 650.7193{txt} (change = {res}-.0465297{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 16:  Deviance = {res}  650.673{txt} (change = {res}-.0463027{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 17:  Deviance = {res}  650.627{txt} (change = {res}-.0460573{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 18:  Deviance = {res} 650.5812{txt} (change = {res}-.0457917{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 19:  Deviance = {res} 650.5357{txt} (change = {res}-.0455032{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 20:  Deviance = {res} 650.4905{txt} (change = {res}-.0451913{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 21:  Deviance = {res} 650.4456{txt} (change = {res}-.0448551{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 22:  Deviance = {res} 650.4011{txt} (change = {res} -.044495{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+Iteration 23:  Deviance = {res} 650.3967{txt} (change = {res} -.004433{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+Iteration 24:  Deviance = {res} 650.3923{txt} (change = {res}-.0044249{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+Iteration 25:  Deviance = {res} 650.3878{txt} (change = {res}-.0044212{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+Iteration 26:  Deviance = {res} 650.3834{txt} (change = {res} -.004417{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+Iteration 27:  Deviance = {res}  650.379{txt} (change = {res}-.0044131{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+Iteration 28:  Deviance = {res} 650.3746{txt} (change = {res}-.0044093{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 29:  Deviance = {res} 650.3742{txt} (change = {res}-.0004407{txt})
+-> gen double Ilife__1 = X^-1.0211-2.926051844 if e(sample) 
+-> gen double Ilife__2 = X^-1.0211*ln(X)+3.076758486 if e(sample) 
+   (where: X = (lifespan_yrs+.0027389526367188)/10)
+-> gen double Iobse__1 = X^0.4070-.9351501237 if e(sample) 
+-> gen double Iobse__2 = X^0.4070*ln(X)+.1540702845 if e(sample) 
+   (where: X = (observe_count+1)/10)
+-> gen double Iage___1 = X^-1.3494-2.509431959 if e(sample) 
+-> gen double Iage___2 = X^-1.3494*ln(X)+1.711047441 if e(sample) 
+   (where: X = (age_X_obs+9.31322574615e-10)/100)
+
+[Total iterations: 87]
+
+Box-Tidwell regression model
+
+note: Iage___1 dropped because of collinearity
+
+Logistic regression                               Number of obs   = {res}      4715
+                                                  {txt}LR chi2({res}6{txt})      = {res}   1113.57
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-326.23014                       {txt}Pseudo R2       = {res}    0.6305
+
+{txt}{hline 13}{c TT}{hline 64}
+prostate_inc {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+    Ilife__1 {c |}  {res}-1.243254   .1580818    -7.86   0.000    -1.553089   -.9334195
+    {txt}Ilife_p1 {c |}  {res}-.1514532   .0193355    -7.83   0.000      -.18935   -.1135564
+    {txt}Iobse__1 {c |}  {res} 5.325376   2.315633     2.30   0.021     .7868196    9.863933
+    {txt}Iobse_p1 {c |}  {res}-1.023849   .7552411    -1.36   0.175    -2.504095     .456396
+    {txt}Iage__p1 {c |}  {res} 4.68e-16   1.41e-15     0.33   0.740    -2.29e-15    3.23e-15
+{txt}genderzero~e {c |}  {res}-6.037857   1.007489    -5.99   0.000      -8.0125   -4.063215
+       {txt}_cons {c |}  {res}-3.149502   .2646417   -11.90   0.000     -3.66819   -2.630813
+{txt}{hline 13}{c BT}{hline 64}
+Note: 1976 failures and 0 successes completely determined.
+lifespan_yrs|{res} .2312971   .0266787      8.670  {txt}Nonlin. dev. {res}39.721  {txt}(P = {res}0.000{txt})
+      p1 |  {res}-1.021064   .0205094    -49.785
+{txt}------------------------------------------------------------------------------
+observe_count|{res} .0451817   .0096134      4.700 {txt}Nonlin. dev. {res}1.319   {txt}(P = {res}0.251{txt})
+      p1 |  {res} .4069584   .3971522      1.025
+{txt}------------------------------------------------------------------------------
+age_X_obs|  {res} -.003727   .0013685     -2.723   {txt}Nonlin. dev. {res}10.735  {txt}(P = {res}0.001{txt})
+      p1 |  {res} -1.34936          .          .
+{txt}------------------------------------------------------------------------------
+Deviance:{res}  650.374{txt}.
+
+{com}. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. * cerainly a real improvement of the model at the psuedo R2 has risen to 0.63 and a number of failures have been correctly predicted
+
+. *now we will attempt the same trick with the radiation cross product data, this should take a while
+
+. boxtid logit prostate_inc lifespan_yrs gender observe_count  age_X_obs age_X_dose age_X_rate obs_X_dose obs_X_rate dose_X_rate
+
+{txt}Iteration 0:  Deviance = {res} 644.5564
+{txt}(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(invalid transformation attempt, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 1:  Deviance = {res}   639.92{txt} (change = {res}-4.636422{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 2:  Deviance = {res} 638.8773{txt} (change = {res}-1.042697{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 3:  Deviance = {res} 638.1896{txt} (change = {res} -.687711{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 4:  Deviance = {res} 636.4116{txt} (change = {res}-1.778016{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 5:  Deviance = {res} 634.6595{txt} (change = {res}-1.752037{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 6:  Deviance = {res} 632.6495{txt} (change = {res}-2.010014{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 7:  Deviance = {res} 632.4231{txt} (change = {res}-.2263589{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 8:  Deviance = {res} 632.0192{txt} (change = {res}-.4039467{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 9:  Deviance = {res} 631.5572{txt} (change = {res}-.4619753{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 10:  Deviance = {res} 631.3047{txt} (change = {res} -.252557{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 11:  Deviance = {res}  631.089{txt} (change = {res}-.2156811{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 12:  Deviance = {res}  630.924{txt} (change = {res} -.164976{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 13:  Deviance = {res} 630.8783{txt} (change = {res}-.0456892{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 14:  Deviance = {res} 630.8396{txt} (change = {res}-.0387683{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 15:  Deviance = {res} 630.8329{txt} (change = {res}-.0066315{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 16:  Deviance = {res}  630.797{txt} (change = {res}-.0359549{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 17:  Deviance = {res} 630.7908{txt} (change = {res} -.006152{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 18:  Deviance = {res} 630.7555{txt} (change = {res}-.0353213{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 19:  Deviance = {res} 630.7128{txt} (change = {res}-.0427062{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 20:  Deviance = {res} 630.6647{txt} (change = {res}-.0480527{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+Iteration 21:  Deviance = {res}  630.646{txt} (change = {res}-.0187554{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+Iteration 22:  Deviance = {res} 630.6313{txt} (change = {res}-.0146774{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 23:  Deviance = {res} 630.6293{txt} (change = {res}-.0020445{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 24:  Deviance = {res} 630.5973{txt} (change = {res}-.0319674{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 25:  Deviance = {res} 630.5656{txt} (change = {res}-.0316621{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 26:  Deviance = {res} 630.5642{txt} (change = {res}-.0014613{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 27:  Deviance = {res} 630.5616{txt} (change = {res}-.0025338{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 28:  Deviance = {res} 630.5611{txt} (change = {res}-.0005022{txt})
+-> gen double Ilife__1 = X^-0.8527-2.451237936 if e(sample) 
+-> gen double Ilife__2 = X^-0.8527*ln(X)+2.577489233 if e(sample) 
+   (where: X = (lifespan_yrs+.0027389526367188)/10)
+-> gen double Iobse__1 = X^0.3759-.9399478118 if e(sample) 
+-> gen double Iobse__2 = X^0.3759*ln(X)+.1548607257 if e(sample) 
+   (where: X = (observe_count+1)/10)
+-> gen double Iage___1 = X^-0.8840-1.827169419 if e(sample) 
+-> gen double Iage___2 = X^-0.8840*ln(X)+1.245849104 if e(sample) 
+   (where: X = (age_X_obs+9.31322574615e-10)/100)
+-> gen double Iage_a_1 = X^-73.3044-5.7003e+103 if e(sample) 
+-> gen double Iage_a_2 = X^-73.3044*ln(X)+1.8578e+104 if e(sample) 
+   (where: X = (age_X_dose+.0009537935256958)/100000)
+-> gen double Iage_b_1 = X^-0.5254-20.03376241 if e(sample) 
+-> gen double Iage_b_2 = X^-0.5254*ln(X)+114.2956815 if e(sample) 
+   (where: X = (age_X_rate+2.91038304567e-11)/1000)
+-> gen double Iobs___1 = X^1.2088-.0682838663 if e(sample) 
+-> gen double Iobs___2 = X^1.2088*ln(X)+.151622016 if e(sample) 
+   (where: X = (obs_X_dose+.00665283203125)/100000)
+-> gen double Iobs_a_1 = X^-0.9243-89.67297279 if e(sample) 
+-> gen double Iobs_a_2 = X^-0.9243*ln(X)+436.1929034 if e(sample) 
+   (where: X = (obs_X_rate+8.00006091595e-07)/1000)
+-> gen double Idose__1 = X^1.0873-.0115960467 if e(sample) 
+-> gen double Idose__2 = X^1.0873*ln(X)+.0475355436 if e(sample) 
+   (where: X = (dose_X_rate+.0000114366412163)/100000)
+
+[Total iterations: 224]
+{search r(2002):r(2002);}
+
+{com}. 
+. 
+. 
+. logit prostate_inc gender Ilife__1 Iobse__1 Iage___1 Iage_a_1 Iage_b_1 Iobs___1 Iobs_a_1 Idose__1
+
+{txt}Iteration 0:   log likelihood = {res} -418.4718
+
+{txt}Logistic regression                               Number of obs   = {res}      1223
+                                                  {txt}LR chi2({res}9{txt})      = {res}      0.00
+                                                  {txt}Prob > chi2     = {res}    1.0000
+{txt}Log likelihood = {res} -418.4718                       {txt}Pseudo R2       = {res}    0.0000
+
+{txt}{hline 13}{c TT}{hline 64}
+prostate_inc {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+genderzero~e {c |}  {res}  1.#QNAN          .        .       .            .           .
+    {txt}Ilife__1 {c |}  {res}  1.#QNAN          .        .       .            .           .
+    {txt}Iobse__1 {c |}  {res}  1.#QNAN          .        .       .            .           .
+    {txt}Iage___1 {c |}  {res}  1.#QNAN          .        .       .            .           .
+    {txt}Iage_a_1 {c |}  {res}  1.#QNAN          .        .       .            .           .
+    {txt}Iage_b_1 {c |}  {res}  1.#QNAN          .        .       .            .           .
+    {txt}Iobs___1 {c |}  {res}  1.#QNAN          .        .       .            .           .
+    {txt}Iobs_a_1 {c |}  {res}  1.#QNAN          .        .       .            .           .
+    {txt}Idose__1 {c |}  {res}  1.#QNAN          .        .       .            .           .
+       {txt}_cons {c |}  {res}  1.#QNAN          .        .       .            .           .
+{txt}{hline 13}{c BT}{hline 64}
+
+{com}. 
+. logit prostate_inc lifespan_yrs gender observe_count  age_X_obs age_X_dose age_X_rate obs_X_dose obs_X_rate dose_X_rate
+
+{txt}Iteration 0:   log likelihood = {res}-883.01481
+{txt}Iteration 1:   log likelihood = {res}-600.83175
+{txt}Iteration 2:   log likelihood = {res}-444.81523
+{txt}Iteration 3:   log likelihood = {res}-398.89604
+{txt}Iteration 4:   log likelihood = {res}-385.17297
+{txt}Iteration 5:   log likelihood = {res}-381.82547
+{txt}Iteration 6:   log likelihood = {res}-381.01984
+{txt}Iteration 7:   log likelihood = {res}-380.80281
+{txt}Iteration 8:   log likelihood = {res}-380.26226
+{txt}Iteration 9:   log likelihood = {res}-377.79147
+{txt}Iteration 10:  log likelihood = {res}-375.69383
+{txt}Iteration 11:  log likelihood = {res}-375.22335
+{txt}Iteration 12:  log likelihood = {res}-374.77863
+{txt}Iteration 13:  log likelihood = {res}-374.48121
+{txt}Iteration 14:  log likelihood = {res}-374.43664
+{txt}Iteration 15:  log likelihood = {res}-374.42694
+{txt}Iteration 16:  log likelihood = {res}-374.42155
+{txt}Iteration 17:  log likelihood = {res}-374.41421
+{txt}Iteration 18:  log likelihood = {res} -374.3939
+{txt}Iteration 19:  log likelihood = {res}-374.31145
+{txt}Iteration 20:  log likelihood = {res}-374.03013
+{txt}Iteration 21:  log likelihood = {res}-373.83986
+{txt}Iteration 22:  log likelihood = {res}-373.59386
+{txt}Iteration 23:  log likelihood = {res}-373.21734
+{txt}Iteration 24:  log likelihood = {res}-373.13355
+{txt}Iteration 25:  log likelihood = {res}-373.00903
+{txt}Iteration 26:  log likelihood = {res}-372.94964
+{txt}Iteration 27:  log likelihood = {res}-372.94539
+{txt}Iteration 28:  log likelihood = {res}-372.94519
+{txt}Iteration 29:  log likelihood = {res}-372.94519
+
+{txt}Logistic regression                               Number of obs   = {res}      4715
+                                                  {txt}LR chi2({res}9{txt})      = {res}   1020.14
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-372.94519                       {txt}Pseudo R2       = {res}    0.5776
+
+{txt}{hline 13}{c TT}{hline 64}
+prostate_inc {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+lifespan_yrs {c |}  {res} .3192192   .0361137     8.84   0.000     .2484377    .3900007
+{txt}genderzero~e {c |}  {res}-6.310086   1.040868    -6.06   0.000    -8.350151   -4.270022
+{txt}observe_co~t {c |}  {res} .0957607   .0153722     6.23   0.000     .0656318    .1258897
+   {txt}age_X_obs {c |}  {res}-.0023027   .0013957    -1.65   0.099    -.0050383    .0004329
+  {txt}age_X_dose {c |}  {res} .0000122   9.67e-06     1.26   0.207    -6.76e-06    .0000311
+  {txt}age_X_rate {c |}  {res} .4935338   .3782917     1.30   0.192    -.2479043    1.234972
+  {txt}obs_X_dose {c |}  {res} 3.37e-06   3.50e-06     0.96   0.336    -3.49e-06    .0000102
+  {txt}obs_X_rate {c |}  {res}-1.132928   .5754348    -1.97   0.049    -2.260759   -.0050963
+ {txt}dose_X_rate {c |}  {res}-.0152803   .0103134    -1.48   0.138    -.0354942    .0049335
+       {txt}_cons {c |}  {res}-5.640077   .3365308   -16.76   0.000    -6.299666   -4.980489
+{txt}{hline 13}{c BT}{hline 64}
+Note: 141 failures and 0 successes completely determined.
+
+{com}. boxtid logit prostate_inc lifespan_yrs gender observe_count  age_X_obs age_X_rate obs_X_dose obs_X_rate dose_X_rate
+
+{txt}Iteration 0:  Deviance = {res} 643.6742
+{txt}(unprofitable step attempted, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(invalid transformation attempt, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(invalid transformation attempt, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(invalid transformation attempt, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 1:  Deviance = {res} 638.7891{txt} (change = {res}-4.885132{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 2:  Deviance = {res} 638.4351{txt} (change = {res}-.3540053{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 3:  Deviance = {res} 637.8358{txt} (change = {res}-.5992583{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 4:  Deviance = {res} 637.2729{txt} (change = {res}-.5629021{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 5:  Deviance = {res} 637.0551{txt} (change = {res}-.2177974{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 6:  Deviance = {res} 636.8782{txt} (change = {res} -.176889{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 7:  Deviance = {res} 636.7031{txt} (change = {res}-.1751628{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 8:  Deviance = {res} 636.5349{txt} (change = {res}-.1681541{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 9:  Deviance = {res} 636.4064{txt} (change = {res}-.1285413{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 10:  Deviance = {res} 636.3055{txt} (change = {res}-.1008743{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+Iteration 11:  Deviance = {res} 636.2625{txt} (change = {res}-.0430046{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+Iteration 12:  Deviance = {res} 636.2205{txt} (change = {res} -.042028{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+Iteration 13:  Deviance = {res} 636.1785{txt} (change = {res}-.0419419{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+Iteration 14:  Deviance = {res}  636.137{txt} (change = {res}-.0415379{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 15:  Deviance = {res} 636.0953{txt} (change = {res}-.0416768{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+Iteration 16:  Deviance = {res} 636.0541{txt} (change = {res}-.0412251{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 17:  Deviance = {res} 636.0133{txt} (change = {res}-.0407954{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 18:  Deviance = {res} 635.9729{txt} (change = {res}-.0404225{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 19:  Deviance = {res} 635.9328{txt} (change = {res}-.0400561{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 20:  Deviance = {res} 635.8931{txt} (change = {res}-.0397101{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+Iteration 21:  Deviance = {res} 635.8538{txt} (change = {res}-.0393624{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 22:  Deviance = {res} 635.8147{txt} (change = {res}-.0390159{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+Iteration 23:  Deviance = {res} 635.7762{txt} (change = {res}-.0384945{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+Iteration 24:  Deviance = {res} 635.7381{txt} (change = {res}-.0381708{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 25:  Deviance = {res} 635.7002{txt} (change = {res}-.0378288{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 26:  Deviance = {res} 635.6628{txt} (change = {res}-.0374692{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+Iteration 27:  Deviance = {res}  635.659{txt} (change = {res}-.0037316{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 28:  Deviance = {res} 635.6553{txt} (change = {res}-.0037227{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 29:  Deviance = {res} 635.6516{txt} (change = {res}-.0037193{txt})
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(step sign changed)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+(unprofitable step attempted, step length divided by 10)
+Iteration 30:  Deviance = {res} 635.6512{txt} (change = {res}-.0003717{txt})
+-> gen double Ilife__1 = X^-0.9165-2.62148025 if e(sample) 
+-> gen double Ilife__2 = X^-0.9165*ln(X)+2.756499897 if e(sample) 
+   (where: X = (lifespan_yrs+.0027389526367188)/10)
+-> gen double Iobse__1 = X^0.2859-.9539864496 if e(sample) 
+-> gen double Iobse__2 = X^0.2859*ln(X)+.1571736559 if e(sample) 
+   (where: X = (observe_count+1)/10)
+-> gen double Iage___1 = X^-1.3495-2.509592802 if e(sample) 
+-> gen double Iage___2 = X^-1.3495*ln(X)+1.711157112 if e(sample) 
+   (where: X = (age_X_obs+9.31322574615e-10)/100)
+-> gen double Iage_a_1 = X^7.1577-1.84145e-18 if e(sample) 
+-> gen double Iage_a_2 = X^7.1577*ln(X)+1.05057e-17 if e(sample) 
+   (where: X = (age_X_rate+2.91038304567e-11)/1000)
+-> gen double Iobs___1 = X^0.7704-.1807347371 if e(sample) 
+-> gen double Iobs___2 = X^0.7704*ln(X)+.4013153718 if e(sample) 
+   (where: X = (obs_X_dose+.00665283203125)/100000)
+-> gen double Iobs_a_1 = X^-69.4595-5.4306e+146 if e(sample) 
+-> gen double Iobs_a_2 = X^-69.4595*ln(X)+2.6416e+147 if e(sample) 
+   (where: X = (obs_X_rate+8.00006091595e-07)/1000)
+-> gen double Idose__1 = X^0.8485-.0308557874 if e(sample) 
+-> gen double Idose__2 = X^0.8485*ln(X)+.1264867814 if e(sample) 
+   (where: X = (dose_X_rate+.0000114366412163)/100000)
+
+[Total iterations: 210]
+{search r(2002):r(2002);}
+
+{com}. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. logit prostate_inc lifespan_yrs gender observe_count  age_X_obs age_X_rate obs_X_dose obs_X_rate dose_X_rate
+
+{txt}Iteration 0:   log likelihood = {res}-883.01481
+{txt}Iteration 1:   log likelihood = {res}-600.98945
+{txt}Iteration 2:   log likelihood = {res}-445.33076
+{txt}Iteration 3:   log likelihood = {res}-399.68379
+{txt}Iteration 4:   log likelihood = {res}-386.00248
+{txt}Iteration 5:   log likelihood = {res}-382.62159
+{txt}Iteration 6:   log likelihood = {res}-381.80372
+{txt}Iteration 7:   log likelihood = {res}-381.58161
+{txt}Iteration 8:   log likelihood = {res}-380.99034
+{txt}Iteration 9:   log likelihood = {res}-378.42432
+{txt}Iteration 10:  log likelihood = {res}-376.22967
+{txt}Iteration 11:  log likelihood = {res}-375.73614
+{txt}Iteration 12:  log likelihood = {res}-375.28233
+{txt}Iteration 13:  log likelihood = {res}-374.97536
+{txt}Iteration 14:  log likelihood = {res}-374.93432
+{txt}Iteration 15:  log likelihood = {res}-374.92485
+{txt}Iteration 16:  log likelihood = {res}-374.91944
+{txt}Iteration 17:  log likelihood = {res} -374.9131
+{txt}Iteration 18:  log likelihood = {res}-374.89639
+{txt}Iteration 19:  log likelihood = {res}-374.85252
+{txt}Iteration 20:  log likelihood = {res}-374.48182
+{txt}Iteration 21:  log likelihood = {res} -374.3945
+{txt}Iteration 22:  log likelihood = {res}-374.35139
+{txt}Iteration 23:  log likelihood = {res}-374.18358
+{txt}Iteration 24:  log likelihood = {res} -373.8731
+{txt}Iteration 25:  log likelihood = {res}-373.80666
+{txt}Iteration 26:  log likelihood = {res}  -373.711
+{txt}Iteration 27:  log likelihood = {res}-373.70035
+{txt}Iteration 28:  log likelihood = {res}-373.69981
+{txt}Iteration 29:  log likelihood = {res}-373.69981
+
+{txt}Logistic regression                               Number of obs   = {res}      4715
+                                                  {txt}LR chi2({res}8{txt})      = {res}   1018.63
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-373.69981                       {txt}Pseudo R2       = {res}    0.5768
+
+{txt}{hline 13}{c TT}{hline 64}
+prostate_inc {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+lifespan_yrs {c |}  {res} .3269702   .0353675     9.24   0.000     .2576511    .3962893
+{txt}genderzero~e {c |}  {res}-6.361352   1.056502    -6.02   0.000    -8.432058   -4.290647
+{txt}observe_co~t {c |}  {res} .0911165   .0149784     6.08   0.000     .0617594    .1204735
+   {txt}age_X_obs {c |}  {res}-.0020842    .001387    -1.50   0.133    -.0048026    .0006342
+  {txt}age_X_rate {c |}  {res} .4951902    .345258     1.43   0.151     -.181503    1.171883
+  {txt}obs_X_dose {c |}  {res} 6.79e-06   2.31e-06     2.94   0.003     2.27e-06    .0000113
+  {txt}obs_X_rate {c |}  {res}-1.227445   .5768196    -2.13   0.033    -2.357991   -.0968997
+ {txt}dose_X_rate {c |}  {res}-.0140899   .0105984    -1.33   0.184    -.0348623    .0066825
+       {txt}_cons {c |}  {res}-5.627754   .3343806   -16.83   0.000    -6.283128    -4.97238
+{txt}{hline 13}{c BT}{hline 64}
+Note: 141 failures and 0 successes completely determined.
+
+{com}. logit prostate_inc lifespan_yrs gender observe_count  age_X_obs obs_X_dose obs_X_rate dose_X_rate
+
+{txt}Iteration 0:   log likelihood = {res}-883.01481
+{txt}Iteration 1:   log likelihood = {res}-601.01176
+{txt}Iteration 2:   log likelihood = {res} -445.5654
+{txt}Iteration 3:   log likelihood = {res}-400.02794
+{txt}Iteration 4:   log likelihood = {res}-386.26103
+{txt}Iteration 5:   log likelihood = {res}-382.81024
+{txt}Iteration 6:   log likelihood = {res} -381.9377
+{txt}Iteration 7:   log likelihood = {res}-381.64682
+{txt}Iteration 8:   log likelihood = {res}-381.07897
+{txt}Iteration 9:   log likelihood = {res}-379.59577
+{txt}Iteration 10:  log likelihood = {res}-375.39061
+{txt}Iteration 11:  log likelihood = {res}-374.94088
+{txt}Iteration 12:  log likelihood = {res}-374.92523
+{txt}Iteration 13:  log likelihood = {res}-374.91974
+{txt}Iteration 14:  log likelihood = {res}-374.91352
+{txt}Iteration 15:  log likelihood = {res}-374.89785
+{txt}Iteration 16:  log likelihood = {res}-374.87198
+{txt}Iteration 17:  log likelihood = {res}-374.76862
+{txt}Iteration 18:  log likelihood = {res} -374.3367
+{txt}Iteration 19:  log likelihood = {res}-373.95579
+{txt}Iteration 20:  log likelihood = {res}  -373.946
+{txt}Iteration 21:  log likelihood = {res}-373.94599
+
+{txt}Logistic regression                               Number of obs   = {res}      4715
+                                                  {txt}LR chi2({res}7{txt})      = {res}   1018.14
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-373.94599                       {txt}Pseudo R2       = {res}    0.5765
+
+{txt}{hline 13}{c TT}{hline 64}
+prostate_inc {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+lifespan_yrs {c |}  {res} .3275073    .035325     9.27   0.000     .2582715    .3967431
+{txt}genderzero~e {c |}  {res}-6.327322   1.041544    -6.07   0.000     -8.36871   -4.285934
+{txt}observe_co~t {c |}  {res} .0897048   .0149789     5.99   0.000     .0603466     .119063
+   {txt}age_X_obs {c |}  {res}-.0019574   .0013825    -1.42   0.157     -.004667    .0007522
+  {txt}obs_X_dose {c |}  {res} 6.63e-06   2.29e-06     2.90   0.004     2.15e-06    .0000111
+  {txt}obs_X_rate {c |}  {res}-1.151118   .5765131    -2.00   0.046    -2.281063   -.0211731
+ {txt}dose_X_rate {c |}  {res}-.0129598   .0103206    -1.26   0.209    -.0331877    .0072681
+       {txt}_cons {c |}  {res}-5.623057   .3338566   -16.84   0.000    -6.277404    -4.96871
+{txt}{hline 13}{c BT}{hline 64}
+Note: 144 failures and 0 successes completely determined.
+
+{com}. logit prostate_inc lifespan_yrs gender observe_count  obs_X_dose obs_X_rate
+
+{txt}Iteration 0:   log likelihood = {res}-883.01481
+{txt}Iteration 1:   log likelihood = {res} -560.7188
+{txt}Iteration 2:   log likelihood = {res}-444.84813
+{txt}Iteration 3:   log likelihood = {res}-400.09889
+{txt}Iteration 4:   log likelihood = {res}-386.43787
+{txt}Iteration 5:   log likelihood = {res}-382.89589
+{txt}Iteration 6:   log likelihood = {res}-381.98978
+{txt}Iteration 7:   log likelihood = {res}-381.70732
+{txt}Iteration 8:   log likelihood = {res}-381.20903
+{txt}Iteration 9:   log likelihood = {res} -379.0626
+{txt}Iteration 10:  log likelihood = {res}-376.22767
+{txt}Iteration 11:  log likelihood = {res}-375.96713
+{txt}Iteration 12:  log likelihood = {res}-375.96431
+{txt}Iteration 13:  log likelihood = {res}-375.96431
+
+{txt}Logistic regression                               Number of obs   = {res}      4715
+                                                  {txt}LR chi2({res}5{txt})      = {res}   1014.10
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-375.96431                       {txt}Pseudo R2       = {res}    0.5742
+
+{txt}{hline 13}{c TT}{hline 64}
+prostate_inc {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+lifespan_yrs {c |}  {res} .2930607   .0227015    12.91   0.000     .2485667    .3375548
+{txt}genderzero~e {c |}  {res}-6.302059   1.023091    -6.16   0.000     -8.30728   -4.296839
+{txt}observe_co~t {c |}  {res} .0762804   .0087422     8.73   0.000      .059146    .0934148
+  {txt}obs_X_dose {c |}  {res} 4.77e-06   1.64e-06     2.92   0.004     1.57e-06    7.98e-06
+  {txt}obs_X_rate {c |}  {res}-1.418968   .4742601    -2.99   0.003    -2.348501   -.4894354
+       {txt}_cons {c |}  {res}-5.440123   .2499746   -21.76   0.000    -5.930064   -4.950182
+{txt}{hline 13}{c BT}{hline 64}
+Note: 111 failures and 0 successes completely determined.
+
+{com}. boxtid logit prostate_inc lifespan_yrs gender observe_count  obs_X_dose obs_X_rate
+
+{txt}Iteration 0:  Deviance = {res} 650.6863
+{txt}Iteration 1:  Deviance = {res} 649.1053{txt} (change = {res}-1.581088{txt})
+(unprofitable step attempted, step length divided by 10)
+Iteration 2:  Deviance = {res} 648.6101{txt} (change = {res}-.4951646{txt})
+(unprofitable step attempted, step length divided by 10)
+Iteration 3:  Deviance = {res} 648.2122{txt} (change = {res}-.3978836{txt})
+(unprofitable step attempted, step length divided by 10)
+Iteration 4:  Deviance = {res} 647.9606{txt} (change = {res}-.2515648{txt})
+(unprofitable step attempted, step length divided by 10)
+Iteration 5:  Deviance = {res} 647.8577{txt} (change = {res}-.1029165{txt})
+(unprofitable step attempted, step length divided by 10)
+Iteration 6:  Deviance = {res} 647.7936{txt} (change = {res}-.0641537{txt})
+Iteration 7:  Deviance = {res}  647.629{txt} (change = {res}-.1645728{txt})
+Iteration 8:  Deviance = {res} 647.5802{txt} (change = {res}-.0488058{txt})
+Iteration 9:  Deviance = {res}  647.577{txt} (change = {res}-.0032051{txt})
+Iteration 10:  Deviance = {res} 647.5765{txt} (change = {res}-.0004869{txt})
+-> gen double Ilife__1 = X^-0.8621-2.475539614 if e(sample) 
+-> gen double Ilife__2 = X^-0.8621*ln(X)+2.603042571 if e(sample) 
+   (where: X = (lifespan_yrs+.0027389526367188)/10)
+-> gen double Iobse__1 = X^-0.3301-1.055898522 if e(sample) 
+-> gen double Iobse__2 = X^-0.3301*ln(X)+.1739641385 if e(sample) 
+   (where: X = (observe_count+1)/10)
+-> gen double Iobs___1 = X^0.6803-.2207811932 if e(sample) 
+-> gen double Iobs___2 = X^0.6803*ln(X)+.4902371732 if e(sample) 
+   (where: X = (obs_X_dose+.00665283203125)/100000)
+-> gen double Iobs_a_1 = X^0.3393-.191943113 if e(sample) 
+-> gen double Iobs_a_2 = X^0.3393*ln(X)+.9336617394 if e(sample) 
+   (where: X = (obs_X_rate+8.00006091595e-07)/1000)
+
+[Total iterations: 40]
+
+Box-Tidwell regression model
+
+Logistic regression                               Number of obs   = {res}      4715
+                                                  {txt}LR chi2({res}9{txt})      = {res}   1118.45
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-323.78822                       {txt}Pseudo R2       = {res}    0.6333
+
+{txt}{hline 13}{c TT}{hline 64}
+prostate_inc {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+    Ilife__1 {c |}  {res}-1.304407   .9574863    -1.36   0.173    -3.181046    .5722314
+    {txt}Ilife_p1 {c |}  {res}-.0000908   .4983078    -0.00   1.000    -.9767562    .9765747
+    {txt}Iobse__1 {c |}  {res}-3.804984   2.558901    -1.49   0.137    -8.820339     1.21037
+    {txt}Iobse_p1 {c |}  {res} .0010903   .7509186     0.00   0.999    -1.470683    1.472864
+    {txt}Iobs___1 {c |}  {res} .3697495   .4752888     0.78   0.437    -.5617994    1.301298
+    {txt}Iobs__p1 {c |}  {res}   .00243   .3369819     0.01   0.994    -.6580423    .6629023
+    {txt}Iobs_a_1 {c |}  {res}-7.464257    11.6189    -0.64   0.521    -30.23689    15.30837
+    {txt}Iobs_ap1 {c |}  {res}  -.00946   1.967937    -0.00   0.996    -3.866546    3.847626
+{txt}genderzero~e {c |}  {res}-6.059401   1.007795    -6.01   0.000    -8.034642    -4.08416
+       {txt}_cons {c |}  {res}-4.373096   .9389027    -4.66   0.000    -6.213312   -2.532881
+{txt}{hline 13}{c BT}{hline 64}
+Note: 1722 failures and 0 successes completely determined.
+lifespan_yrs|{res} .2752657   .0240775     11.432  {txt}Nonlin. dev. {res}46.368  {txt}(P = {res}0.000{txt})
+      p1 |  {res}-.8620578    .383026     -2.251
+{txt}------------------------------------------------------------------------------
+observe_count|{res}  .079126   .0085592      9.245 {txt}Nonlin. dev. {res}42.421  {txt}(P = {res}0.000{txt})
+      p1 |  {res}-.3301396   .1980309     -1.667
+{txt}------------------------------------------------------------------------------
+obs_X_dose| {res} 2.65e-06   1.62e-06      1.633   {txt}Nonlin. dev. {res}0.153   {txt}(P = {res}0.695{txt})
+      p1 |  {res} .6803001    1.31599      0.517
+{txt}------------------------------------------------------------------------------
+obs_X_rate| {res}-.4861906   .5382368     -0.903   {txt}Nonlin. dev. {res}1.976   {txt}(P = {res}0.160{txt})
+      p1 |  {res} .3393234   .2872376      1.181
+{txt}------------------------------------------------------------------------------
+Deviance:{res}  647.576{txt}.
+
+{com}. 
+. 
+. *at last we see some improvement of the mode
+
+. *here's a simpler run with the same meaning
+
+. logit  prostate_inc Iage_a_1 genderzeroismale Iage___1 Iage_a_1 Idose__1 Ilife__1 Iobse__1 Iobs___1 Iobs_a_1
+
+{txt}note: Iage_a_1 dropped because of collinearity
+Iteration 0:   log likelihood = {res}-883.01481
+{txt}Iteration 1:   log likelihood = {res} -775.7966
+{txt}Iteration 2:   log likelihood = {res}-495.96204
+{txt}Iteration 3:   log likelihood = {res}-444.31878
+{txt}Iteration 4:   log likelihood = {res}-423.99702
+{txt}Iteration 5:   log likelihood = {res} -421.6102
+{txt}Iteration 6:   log likelihood = {res}-418.87533
+{txt}Iteration 7:   log likelihood = {res}-413.89768
+{txt}Iteration 8:   log likelihood = {res} -409.4798
+{txt}Iteration 9:   log likelihood = {res}-403.41905
+{txt}Iteration 10:  log likelihood = {res}-382.98696
+{txt}Iteration 11:  log likelihood = {res}-341.78744
+{txt}Iteration 12:  log likelihood = {res}-324.82053
+{txt}Iteration 13:  log likelihood = {res}-320.07531
+{txt}Iteration 14:  log likelihood = {res}-319.35131
+{txt}Iteration 15:  log likelihood = {res}-319.32356
+{txt}Iteration 16:  log likelihood = {res}-319.32194
+{txt}Iteration 17:  log likelihood = {res}-319.32136
+{txt}Iteration 18:  log likelihood = {res}-319.32115
+{txt}Iteration 19:  log likelihood = {res}-319.32107
+{txt}Iteration 20:  log likelihood = {res}-319.32104
+{txt}Iteration 21:  log likelihood = {res}-319.32103
+{txt}Iteration 22:  log likelihood = {res}-319.06794
+{txt}Iteration 23:  log likelihood = {res}-319.02785
+{txt}Iteration 24:  log likelihood = {res}-319.02643
+{txt}Iteration 25:  log likelihood = {res}-319.02643
+{txt}Iteration 26:  log likelihood = {res}-319.02643
+{txt}Iteration 27:  log likelihood = {res}-319.02643
+
+{txt}Logistic regression                               Number of obs   = {res}      4715
+                                                  {txt}LR chi2({res}8{txt})      = {res}   1127.98
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-319.02643                       {txt}Pseudo R2       = {res}    0.6387
+
+{txt}{hline 13}{c TT}{hline 64}
+prostate_inc {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+    Iage_a_1 {c |}  {res} 182.5419          .        .       .            .           .
+{txt}genderzero~e {c |}  {res}-6.104122   1.008919    -6.05   0.000    -8.081568   -4.126676
+    {txt}Iage___1 {c |}  {res}-.0177625   .0273791    -0.65   0.516    -.0714246    .0358996
+    {txt}Idose__1 {c |}  {res} -860.781   348.8631    -2.47   0.014     -1544.54   -177.0218
+    {txt}Ilife__1 {c |}  {res}-1.190769   .1781245    -6.69   0.000    -1.539887   -.8416517
+    {txt}Iobse__1 {c |}  {res}-2.703124    .798768    -3.38   0.001     -4.26868   -1.137567
+    {txt}Iobs___1 {c |}  {res} .7892861   .2845668     2.77   0.006     .2315455    1.347027
+    {txt}Iobs_a_1 {c |}  {res} .3613499   5.117072     0.07   0.944    -9.667927    10.39063
+       {txt}_cons {c |}  {res}-29.02776    10.1579    -2.86   0.004    -48.93687   -9.118643
+{txt}{hline 13}{c BT}{hline 64}
+Note: 3038 failures and 0 successes completely determined.
+
+{com}. logit  prostate_inc genderzeroismale Iage___1 Iage_a_1 Idose__1 Ilife__1 Iobse__1 Iobs___1
+
+{txt}Iteration 0:   log likelihood = {res}-883.01481
+{txt}Iteration 1:   log likelihood = {res}-775.12653
+{txt}Iteration 2:   log likelihood = {res}-511.22015
+{txt}Iteration 3:   log likelihood = {res}-464.65208
+{txt}Iteration 4:   log likelihood = {res}-441.06151
+{txt}Iteration 5:   log likelihood = {res}-429.51327
+{txt}Iteration 6:   log likelihood = {res}-423.09425
+{txt}Iteration 7:   log likelihood = {res}-416.93164
+{txt}Iteration 8:   log likelihood = {res} -403.1101
+{txt}Iteration 9:   log likelihood = {res}-366.68822
+{txt}Iteration 10:  log likelihood = {res}-335.19225
+{txt}Iteration 11:  log likelihood = {res}-322.82036
+{txt}Iteration 12:  log likelihood = {res}-319.67179
+{txt}Iteration 13:  log likelihood = {res}-319.32764
+{txt}Iteration 14:  log likelihood = {res}-319.32145
+{txt}Iteration 15:  log likelihood = {res}-319.32121
+{txt}Iteration 16:  log likelihood = {res}-319.32112
+{txt}Iteration 17:  log likelihood = {res}-319.32109
+
+{txt}Logistic regression                               Number of obs   = {res}      4715
+                                                  {txt}LR chi2({res}7{txt})      = {res}   1127.39
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-319.32109                       {txt}Pseudo R2       = {res}    0.6384
+
+{txt}{hline 13}{c TT}{hline 64}
+prostate_inc {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+genderzero~e {c |}  {res}-6.111073   1.008959    -6.06   0.000    -8.088596   -4.133551
+    {txt}Iage___1 {c |}  {res}-1.61e-14   3.11e-13    -0.05   0.959    -6.26e-13    5.93e-13
+    {txt}Iage_a_1 {c |}  {res} 176.4181          .        .       .            .           .
+    {txt}Idose__1 {c |}  {res}-832.0901   287.8854    -2.89   0.004    -1396.335   -267.8451
+    {txt}Ilife__1 {c |}  {res}-1.222248   .1727317    -7.08   0.000    -1.560796   -.8836998
+    {txt}Iobse__1 {c |}  {res}-3.084586   .5851912    -5.27   0.000     -4.23154   -1.937632
+    {txt}Iobs___1 {c |}  {res} .7695806   .2826558     2.72   0.006     .2155854    1.323576
+       {txt}_cons {c |}  {res}-28.33087   8.793001    -3.22   0.001    -45.56483    -11.0969
+{txt}{hline 13}{c BT}{hline 64}
+Note: 2784 failures and 0 successes completely determined.
+
+{com}. 
+. 
+. 
+. *this translates to prostate incidence as determined by gender, ageXobs, age_X_rate, doseXrate, lifespan, observation count, and obsXdose respectively
+
+. *and heres the same peice of work where we drop out those dose variables
+
+. logit  prostate_inc genderzeroismale Iage___1 Ilife__1 Iobse__1
+
+{txt}Iteration 0:   log likelihood = {res}-883.01481
+{txt}Iteration 1:   log likelihood = {res}-736.16252
+{txt}Iteration 2:   log likelihood = {res} -511.3276
+{txt}Iteration 3:   log likelihood = {res}-465.98525
+{txt}Iteration 4:   log likelihood = {res}-449.61218
+{txt}Iteration 5:   log likelihood = {res}-443.39053
+{txt}Iteration 6:   log likelihood = {res}-439.05625
+{txt}Iteration 7:   log likelihood = {res}-434.28853
+{txt}Iteration 8:   log likelihood = {res}-424.89632
+{txt}Iteration 9:   log likelihood = {res}-388.40932
+{txt}Iteration 10:  log likelihood = {res}-344.66019
+{txt}Iteration 11:  log likelihood = {res}-331.07509
+{txt}Iteration 12:  log likelihood = {res}-327.38524
+{txt}Iteration 13:  log likelihood = {res}-326.91077
+{txt}Iteration 14:  log likelihood = {res}-326.89941
+{txt}Iteration 15:  log likelihood = {res}-326.89914
+
+{txt}Logistic regression                               Number of obs   = {res}      4715
+                                                  {txt}LR chi2({res}4{txt})      = {res}   1112.23
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-326.89914                       {txt}Pseudo R2       = {res}    0.6298
+
+{txt}{hline 13}{c TT}{hline 64}
+prostate_inc {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+genderzero~e {c |}  {res}-6.011566   1.006821    -5.97   0.000    -7.984899   -4.038233
+    {txt}Iage___1 {c |}  {res}-1.28e-14   1.06e-13    -0.12   0.904    -2.21e-13    1.95e-13
+    {txt}Ilife__1 {c |}  {res}-1.303637    .166686    -7.82   0.000    -1.630335   -.9769382
+    {txt}Iobse__1 {c |}  {res}-3.494449   .5751573    -6.08   0.000    -4.621737   -2.367162
+       {txt}_cons {c |}  {res}-3.009757    .260601   -11.55   0.000    -3.520526   -2.498988
+{txt}{hline 13}{c BT}{hline 64}
+Note: 2513 failures and 0 successes completely determined.
+
+{com}. *again a small drop in the R2
+
+. *next I need to determine if my other variables are masking data from the radiation varaibles by predicting them, and figure out a better way to account for the fact that gender is an absolute contributer.  Last I need to come up with a way to produce a graph where we see the effect of dose rate on risk for a population of older male dogs (those that are of interest anyways).
+
+. log off
+       {txt}log:  {res}C:\Documents and Settings\Tatjana Paunesku\Desktop\Ben's Work\Tissues\Tissue_Stats\superprostate_may29.smcl
+  {txt}log type:  {res}smcl
+ {txt}paused on:  {res}29 May 2009, 22:36:28
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

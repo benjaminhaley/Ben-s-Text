@@ -1,0 +1,27 @@
+Interactive Data Langauge Notes (IDL_notes.txt)
+	Learn a little IDL so that I can interface with stefan's MATT program.
+
+related docs: stefan.txt, bens_job.txt
+
+People:
+	stefan: 
+	Coyte:		runs a IDL programming webpage (http://www.dfanning.com/)
+
+
+IDL is an array programming language that is very fast with arrays, and not much else.  It is dynamically typed
+
+Pitfalls:
+	Only one namespace (can be gotten around using objects)
+	no empty, variable sized, or nested arrays
+	function arguments are passed by reference
+	object oriented features require memory allocation form the programmer
+	Array slices are passed by value, while arrays are passed by reference
+	does not promote automaticlly on overflow, so loops will fail on their 32,768 iterationunless the iterating variable is made to be long
+	The default data formats have liscences which prohibit other programs from interfacing with them w/o a liscence
+
+Additional Resources
+	A tips list from coyte:		http://www.dfanning.com/documents/tips.html
+	HISTOGRAM guide			A fast alternative to fors http://www.dfanning.com/tips/histogram_tutorial.html
+	$25 pdf book			http://www.dfanning.com/store/
+	Library				http://www.dfanning.com/documents/programs.html
+	Medium weight guide		http://www.astro.virginia.edu/class/oconnell/astr511/IDLguide.html

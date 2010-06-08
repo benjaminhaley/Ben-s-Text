@@ -1,0 +1,22 @@
+Terms and Conditions
+	To enhance my vocabulary, give me a diversion from intense projects and something to talk about.
+
+
+	Roots 			http://localhost/Archives/Greek_Latin_Roots.ods
+	Vocab			http://localhost/Archives/GRE_Word_List.ods
+	Bioinformatics		http://localhost/Archives/Bioinformatic_Terms.ods
+	Graph Theory		http://localhost/Archives/Graph_Theory_Glossary.html
+	Discrete Math		http://localhost/Archives/Discrete_Mathematics_Glossary.html
+	Algorithms		http://localhost/Archives/Algorithm_Glossary.html
+	Java			http://localhost/Archives/Java_Glossary.html	
+	C++			http://localhost/Archives/C++_Glosssary.html
+	Genetics		http://localhost/Archives/Genetics_Glossary.html
+	Calculus		http://localhost/Archives/Calculus_Glossary.html
+	Probability		http://localhost/Archives/Probability_Glossary.html
+	Linear Algebra		http://localhost/Archives/Linear_Glossary.html
+	Parallel Computing	http://localhost/Archives/Parallel_Computing_Glossary.html
+	OS			http://localhost/Archives/OS_glossary.html
+	Database		http://localhost/Archives/Database_Glossary.html
+	Networking		http://localhost/Archives/Networking_Glossary.html
+	Internet		http://localhost/Archives/Internet_Glossary.html
+	Scrabble		http://localhost/Archives/Scrabble_Words.ods

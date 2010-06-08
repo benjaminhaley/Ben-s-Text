@@ -1,0 +1,30 @@
+﻿Is Biology Turing Complete
+	To evaluate biology's computational potential I must establish which biological systems map to a turing complete model of computation.
+
+To Do
+	model operations computationally
+	post results/ invite members
+	Find advisor
+	Study molecular transformations		100 hours
+	write paper				160 hours
+
+
+To add to Turing Biology arguments:
+RNA ligase is molecule which combines RNA's
+5000 RNA editing sites have recently been discovered by a Erez Leinon (http://arxiv.org/abs/0811.3515)
+
+
+Side Notes:		Introductory terms that help frame the discussion	see:http://localhost/Archives/turing_biology_aside.docx
+Computation: 		Complete Models of Computation				see:http://localhost/Archives/turing_computation.docx
+review:			Proven biological computation				see:http://localhost/Archives/turing_biology.docx
+New models:		New computation models in biology			see:http://localhost/Archives/turing_biology2.docx
+conclusions:		prophecies						see:http://localhost/Archives/turing_prophecies.docx
+
+
+have dave, scoutens, tanja, eric, roder, ted, eric, etc read through this paper...
+this article will be published in natural computing, then I will work on popular summaries that might be delivered to biological (plos1) and computational (acm) communities.  I will proceed to try and post these results on blogs like slashdot and biology news.net
+
+this article from nature provides a nice overview of the current pan computational theories http://www.nature.com/nature/journal/v459/n7245/full/459332a.html
+ehud's conversation: http://www.cs.virginia.edu/~robins/Bringing_DNA_Computers_to_Life.pdf
+
+

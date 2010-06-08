@@ -1,0 +1,11 @@
+JavaScript_Tutorials: 
+	I want to work with code that uses javascript (see http://localhost/Archives/JavaScript.txt), notably google desktop api code 
+	I want to design dynamic web content using javascript frameworks particularly for the development of a coaching web portal.
+	
+Tutorial	http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide
+
+Core Features 		(quizes 25/27)	(see http://localhost/Archives/JavaScript_Core_Features.txt)
+Operators 		(quiz 11/11) 	(see http://localhost/Archives/JavaScript_Expressions.txt)
+Special Operators 	(partial... ) 	(see http://localhost/Archives/JavaScript_Special_Operators.txt)
+
+Currently	I am having trouble moving forward without html and the dom model (see http://localhost/Archives/HTML.txt)...

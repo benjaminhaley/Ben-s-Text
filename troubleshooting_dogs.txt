@@ -1,0 +1,4 @@
+troubleshooting_dogs.txt
+	Steps I've taken trouble shooting the dog tissue archive
+
+Breaking the url inputs into separate lines to espy the entered values

@@ -1,0 +1,114 @@
+ideas.txt
+	To record a variety of cool ideas that I might (not) get around to working 
+
+see coding_ideas.txt
+see back_of_my_head.txt
+
+
+recursive conscience		
+events that are going to happen have an effect on what is happening. What is happening has an effect on what is going to happen. the system is recursive!
+
+casino work		
+if people had a steady pay and a bonus meter that payed out in a casino schedule they might be incentivized to work increasing happiness and worker retention.  For instance imagine a jelly donut filler who fills a donut and places it in one of three slots (that payout by different frequencies/amplitudes) and occasionally sees jackpots. 
+
+two to teach		 
+think it is a really good idea to have two people that have worked closely on an idea present it together.  For example Tanja and Gayle telling stories, Micheal and I presenting polar buddies, My Neuroscience class in College, or Dave's Cognative Disonance class at Stanford. 
+
+log [protein]		
+is a more appropriate way to express protein concentrations (think of the way that senses adjust to across scales by concerning themselve with %change rather than #change)
+
+professional restraint		
+when talkinng to a senior stranger you ought to show restraint, when talking to a senior collaborator or underlings you should show enthusiasm
+
+familarity and trust		
+I trust Dave Grdina because I am familiar with his name, not because I think his point is better proven scientifically
+
+turing mRNA		
+could produce all mRNA shapes over the lifetime of a single cell rather than over generational time spans
+
+the ignorance of crowds		
+groups of smart entities can make stupid decisions take people in a riot
+
+api intelligence		
+an enity is intelligent if you can communicate with an optimized, powerful, and simplified model of self
+
+cell readme		
+we should find the cell readme, dictionary and user files (where are they physically)
+
+rank order		
+rank order graphs look pleasing and help to show the distribution of a dataset
+
+inbred regression		
+by using inbred lines to check responses you can fix the genotype in your regressoin analysis
+
+regression check		
+check a regression by seeing if the approach you applied also produces a result it the relationships are randomized
+
+toplogy insufficiency		
+topology of a network alone is insufficient for making predictions you also need its spatio-temporal expression pattern
+
+wired biology		
+give biology high speed networks and let it go wild with communication
+
+systems fear		
+motivite through fear by telling systems biologists that their networks cannot make predictions, but that communication will overcome this problem
+
+conscience capacity		
+the conscience is responsible for communication more than thought itself.  This explains why ideas come to people 'out of knowhere' or 'in a flash'.  The subliminal part of thought is being handled by cellular process that are beyond the scope of the inter-neural processes that compose conscience.
+
+email etiquitte		
+adding recipients that are not on the original thread is potentially rude (like adding soile to gayles email)
+
+ringmaster of the genome		
+gayle's very well cited paper has a very powerful title, I wonder how I can spice up my titles with some power vocabulary
+
+easy education		
+I believe that education should focus on simple and conceptual matters and make a place for complex real world applications by exciting the kids for real world projects.  For instance, I was convinced of the complexity of using function references in equations ( like f(x) ) because I had already endured the functional complexity of trigonometry.  But trig was dealing with ridiculous equations, while these equations are of use in the real world they inhibit the acquisition of more advanced concepts.  Creating a conceptual fence around the ideas being learned and their complex application is an important way to promote good learning.
+
+martian bday		
+It would be a cool application to tell people what their birthday's were on different planets, this would make a nice addition to facebook
+
+biology bill		
+biology is in need of a leader who will create platforms that will enable the standarized exchnage of data between studies, especially in the world of sequence, and mass information biology
+
+true genius		
+Often ideas don't transfer not because they are not true, but because they have not been formulated in a way that makes their transmission exponential.  This helps to explain why cells have difficulty sending messages to us and why geniuses are recognized as originators when they are really better explainers.
+
+eric podcast		
+I should do a podcast with Eric and Mike complete with a conversation about world military spending, sports, and Haley, Haley, and Hunnicutt Lawyerin' service
+
+note sourcing		
+I'd like a firefox extension that follows me around the internet and keeps track of what page I'm on when I add a new note to a document
+
+Student tours		
+Students will always love a well conducted laboratory tour and it will promote good faith in the community
+
+Space network		
+Wouldn't it be nice if Nasa spent its time launching a series of microsattelites whose sole purpose was to provide us a long range mesh network of radio transmitters.  That's science
+
+Markov Assumptions		
+The Markov property will prove to be flawed for many computational processes which will recode past data over time so that it becomes far less measurable or discernible into the future
+
+Huffman GUI		
+when designing a user interface the buttons should take up space in proportion with how often they are used.  If a button is used 50% of the time it should take up 50% of the input space and so on.  You can allocate very small input spaces by hiding rarely used buttons
+
+One More		
+In the field of convincing people to do things, it is often good to just propose doing one of something or some small incremental change
+
+Potentialization		
+Eric was convinced that the logistic regression article in wikipedia might have new information to him only after I proposed that we test it.  I would suggest that the realization that event was testable forced a reassesment.
+
+GPS reminders		
+The rise of smart phone will fairly easily enable location based reminders on the phone.  I would like to download or use such an item once I get my smart phone.  In this line it would be even better to have more event based reminders.
+
+html my docs		
+I can easily make a script to parse my text files and make them into linked html documents with very simple formating.  I can search for links in my docs by looking up *.* files and seeing if they match the already submitted titles.  If they don't, then I can find them manually, correct the link or add a few.  These can easily be posted most anywhere.  I can put them on the woloserver without a problem and have a script that will resubmit the html encoding for any updated file once every 5 seconds - 2 minutes (depending on how slow this is).  While I create the html encoder, I should also create its counter part the html decoder so that if I tweak the html the underlying txt files will be modified.   If the html decoder/encoder combo returns itself and the txt encoder/decoder does as well, and the html looks good then we can consider the code correct 
+
+save our videos		
+I should implement a plan to preserve our old vhs and floppy info 
+
+competition good		
+I should be competing all the time for fun, especially in areas of physical strength.  This revelation is based on a sprinting contest that I had against Q in september of 2009
+
+cell computers 10/19/2009
+I read coders at work and many of them found their starts in their highschools where generous donations from IBM gave them early access to computing machines.  I should try for the same ideal in my cell computer work, donating cell interaction machines and money to maintain them to high schools for students to play on.

@@ -1,0 +1,76 @@
+In_The_News
+	Review Weekly on Sundays
+
+IT Industry
+	slashdot			http://slashdot.com/
+	coding horrors			http://www.codinghorror.com/blog/
+	the old new thing		http://blogs.msdn.com/oldnewthing/
+	Technology Review
+
+General
+	NyTimes				http://www.nytimes.com/
+	igoogle				http://www.google.com/ig
+	NewsTrust			http://www.newstrust.net/
+	digg				http://digg.com/		
+	slate				http://www.slate.com/
+
+15/Sep/2008 18:59	Eva Morales is having trouble from Bolivia's old gaurd eastern department heads and gaining military support
+15/Sep/2008 18:57	Barack Obama raised a record 66 million dollars in August and solicited donations from 500,000 first time doners
+15/Sep/2008 18:56	Merill Lynch was sold for $50 billion, 1/3 its january 2008 cost, to The Bank of America
+
+2/Sep/2008 2:48	
+[slashdot]		chrome google's web browser
+
+30/Aug/2008 15:26 	Notes at Digg under the tag "News"
+
+27/Aug/2008 14:40
+[slashdot]		micorosoft encourages bug fixing through games http://games.slashdot.org/article.pl?sid=08/08/27/188247 
+[slashdot]		mapreduce powers google, facebook and others http://www.dbms2.com/2008/08/25/mapreduce-links/
+[slashdot]		cows point north http://science.slashdot.org/article.pl?sid=08/08/26/1514226
+[old new]		a handle is an abstract pointer http://en.wikipedia.org/wiki/Handle_(computing)
+[old new]		kernel handles have 2 application bits that extend namespace http://blogs.msdn.com/oldnewthing/archive/2008/08/27/8898863.aspx
+[digg]			be a smooth driver to save energy
+[digg]			microbiology color lovers http://www.colourlovers.com/blog/2008/08/26/the-colors-of-microbiology-bacteria-fungi/
+
+25/Aug/2008 11:29
+[digg]			google's C++ style guide http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml
+[digg]			peer review (google) is better than management review
+[digg]			free food promotes communication at google
+[digg]			
+[slate]			michele obama will speak tonight about barak
+[technology Review]	Knome sequences a genome for $350,000.  DeCode or 23andMe runs a microarray of 1 million points for $1000.  Genographic charges $100 for ancestory genotyping.
+[technology Review]	Plonator is offering a sequencing machine for $155,000
+[technology Review]	social networking sights have yet to monetize thier traffic
+[technology Review]	facebook runs 90% of its queries to a memory cache it's whole MySQL database is copied in two locations
+[technology Review]	pownce allows private filesharing (<100 mb) over the internet
+[technology Review]	reQall allows scatterbrains to input msgs over text or toll free number to generate reminders later
+[technology Review]	HelScope from Helicose can sequence a single strand of DNA and 1.3 billion bases/hour.
+[slashdot] 		NewsTrust uses 'the wisodom of crowds' to validate stories and sources
+[coding horror]		deadlock is akin to philosophers at a table with one chopstick on the left and one on the right and they need both to eat... avoid starvation
+[coding horror]		SQL Server 2005 assumes high read and write, if you are low write (like web apps) change to 'snapshot' mode
+[the old new thing]	Ram Drive treats your RAM a partition on the hardisk, it can be good for web caches
+[the old new thing]	page files are RAM on the hard disk
+[the old new thing]	user space unlike kernel space is a division of virtual memory
+[the old new thing]	virtual memory makes real memory look like it is continuosly addressed to applications
+[the old new thing]	user space is the vitual memory space which a user's process has access to (for security)
+
+24/Aug/2008 18:41
+[long tail]		inflation is caused by restrictions on geneticly modified foods, natural gas pipelines, nuclear energy
+[Blog Maverick]		the platform is the message - argues that people will watch types of content on types of screens
+[slashdot]		gNewSense is a Ubuntu look alike that eliminates binary blobs (propriatary binaries)
+[slashdot]		ray bradbury doesn's support Sunsweet Prunes (see http://www.sfsignal.com/archives/007078.html)
+[slashdot]		openmoko is a linux distribution (allows user access to the os) for mobile phones that supports Qtopia, EFL and GTK+
+[the old new thing]	heisen behavior - when a behavior changes because it's being observed
+[the old new thing]	page faults happen frequently when you look at task manager due to heisenbehavior (can't find page fault on mine)
+[the old new thing]	Icon's in windows know thier source so if they are stretched, windows calls the original file to stretch
+
+20/Aug/2008 10:19
+[slashdot]		magpies pass the mirror test for self recognition 	
+[slashdot]		SRAM - RAM that need not refresh			
+[slashdot]		deep packet inspection for security and net non-neutrality
+[coding horrors]	FUI - fake user interface... good for pranking.
+[coding horrors]	Javascript frameworks for x-browser compatiability: Prototype and Script.aculo.us, JQuery, Yahoo UI Library, ExtJS,  Dojo, MooTools 
+[coding horrors]	Behind Closed Doors the secrets of great management - book rec for software managment
+[nytimes]		Financial incentives for high school AP tests resulted in more 5's (207 v 174) and more 1-2's (3144 v 2794).  The number of 3-5's (~1400) stayed the same.
+</body>
+</html>

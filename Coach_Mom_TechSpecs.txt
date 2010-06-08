@@ -1,0 +1,68 @@
+Coach_Mom_TechSpecs
+	to layout the programatic needs for coach mom
+
+currently developing the emailer
+
+methods:
+	spreadsheeter(username, password, spreadsheetname)
+		reader:
+			returns {cells:values} or failure
+		writer({cells:values})
+			returns confirmation or failure
+
+	emailer(server, username, password) (see http://localhost/Archives/emailer.py)
+		reader()
+			returns (message, from) or ("NONE") or ("ERROR", traceback)
+		writer (message, to)
+			returns ("OK") or ("ERROR", traceback)
+
+	parser(UI)
+		ToDatabase(html, {cells:values}={})
+			returns {cells:values} or failure html
+		ToUser(html='', {cells:values})
+			returns html or failure
+
+	logger()
+		writer(method, arguments=none, return=none)
+			adds time stamp
+			returns confirmation or failure
+		reader
+			returns a list of event tuples or failure
+
+	server()
+		"initiates program, must run automatically, periodically"
+		imports spreadsheeter, emailer, parser, logger, time
+		loads users, log
+		logger.writer('server')
+		for user in users:
+			NewMail = emailer.reader()
+			logger.writer(...)
+			if NewMail == (msg, from, timestamp)
+				spreadsheetbefore = spreadsheeter(...).reader()
+				logger.writer(...)
+				newspreadsheet = Parser(...).ToDatabase(spreadsheetbefore, NewMail)
+				logger.writer(...)
+				if newspreadsheet == dict:
+					update = spreadsheet.writer(...)
+					logger.writer(update)
+					if spreadsheeter.writer(...) == True
+						logger.writer(...)
+					else
+						emailer.writer(update)
+				else:
+					emailer.writer(...newspreadsheet)
+			else:
+				pass
+
+
+objects:
+	log
+	Email
+		msg, from
+	user
+		Address 
+		Interface
+		Spreadsheet
+			sheetname, username, password
+		Emailserver
+			username, password, server

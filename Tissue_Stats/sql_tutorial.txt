@@ -1,0 +1,80 @@
+Structured Query Language (SQL) Tutorial - from the W3C schools (http://www.w3schools.com/sql/default.asp)
+	So that I can better manipulate the dog and mouse tissue archives
+
+
+Commands
+	Distinct	Ensures that each result is unique
+	Where		Is used to set criterion on one or more variables
+	Like		an operator that searches for a regex pattern
+	IN		match any value in a list ( WHERE...IN (a, b, c) )
+	ORDER By	any number of column names followed by either ASC or DESC
+	INSERT INTO	adds new rows and follows the form: table, columns, VALUES in_columns ( INSERT INTO table VALUES(...) )
+	UPDATE		updates existing columns
+	BETWEEN		looks for values between two values ( SELECT...FROM...WHERE column BETWEEN( max, min ) )
+	TOP		specifies a number or % of records to return (like TOP 25 PERCENT)... might also be called LIMIT in mySQL
+	LIKE		finds matches using wildcards ( % - 0 or more, _ 1 char, [a, b, c] any in list, [^a] any not in list
+	AS		creates an alias for the selected columns so they can be handled easier ( SELECT...FROM...AS a )
+	JOIN		returns results from two tables matched by keys.  
+			A full join will return both tables if either match (SELECT...JOIN name ON name.column = from.column )
+	UNION		Joins two select statements that have the same number/type/order of columns selected (SELECT...UNION...SElECT...)
+	SELECT INTO	copies data from one table to another even between databases, good for backups (SELECT...INTO table IN database )
+	CREATE		Either CREATE DATABASE or CREATE TABLE col1 type1 [CONSTRAINT1], col2 type2 [CONSTRAINT2]
+	CONSTRAINTS	Limit the datatypes that can go into a created table column (above), 
+			NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY, CHECK, DEFAULT
+	INDEX		creates a quick lookup index on a table column ( CREATE INDEX name ON table (column,s) )
+	DROP		used to delete tables, indexes, and databases
+	TRUNCATE	deletes table data, but not its structure ( TRUNCATE table_name )
+	ALTER TABLE	allows you to add or delete columns (ALTER TABLE table_name [ADD, DROP COLUMN, or ALTER COLUMN] column name)
+	DATES		can be a pain to work with, look up the options if you need them
+	IS NULL		the only way to test for nulls which are not equal to 0
+	GROUP BY	orders by one variable's name (SELECT...FROM...GROUP BY column)
+	HAVING		used to add conditions to aggregating functions in place of WHERE which fails 
+			(SELECT...FROM...GROUP BY...Having condition)	
+	
+
+Access Data Types
+	Text		255 char or less 
+	Memo 		alot of text
+	Byte		0-255 (1 bytes)
+	Integer		-32000 - 32000 (2 bytes)
+	Long		-2e9 to 2e9 (4 bytes)
+	single		single precision floating point (4 bytes)
+	double		double precision floating point (8 byte)
+	Yes/No		(1 bit)
+	Date Time	(8bytes)
+	Ole		for large binary objects can be up to 1 GB
+	Hyperlink	...
+	Lookup Wizard	allows the user to select from a drop down of options (4 bytes)
+
+SQL Functions
+	AVG(), COUNT(), FIRST(), LAST(), MAX(), MIN(), SUM(), LEN(), ROUND(), NOW(), 
+	UCASE(), LCASE()	convets a feild to uppercase or lowercase
+	FORMAT()		changes how a feild is displayed like ( SELECT columns, FORMAT( Now(), YYYY-mm-DD )...FROM...)
+	MID()			the middle of a string like ( SELECT MID( column, start, length )...FROM...WHERE... )
+
+
+
+Facts
+	1. Not Case sensetive
+	2. Statements end with a semicolon
+	3. RDBMS's consist of DML's and DDL's
+	4. Updating indexed tables takes more time
+	5. Queries can be nested so that one depends on another
+
+
+Glossary
+
+RDBMS			relational database management system is software that implements a database like oracle, DB2, Access, and mysql
+Relational Model	describing a database as a collection of finite predicates variables that are constrained in value
+Predicate		A way of describing a set such that the you describe the rules a memeber must follow to be included {x | P(x)}
+DML			the Data manipulation language, like query, unpdate, and insert
+DDL			the Data Definition language, like Create database, alter table, or drop index
+Foriegn Key		A key that points to the primary key of another table
+Finite model theory	the structure of first order logic across finite groups, graphs, and databases
+First Order Logic	the formal deductive system known by many names that relies on predicate forms ( x | P(x) )
+Dependency Theory	studies optimization when logical constraints (dependencies) are present
+temporal database	one that supports intrisic temporally relavent values (like JFK was pres from 19XX to 19XX)
+spatial database	one which is optimized to support objects that have a spatial dimension
+
+
+

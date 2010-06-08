@@ -1,0 +1,9 @@
+Named_Node_Map - essentially a dictionary.
+	To understand the meaning of a DOM_element interface return type (see http://localhost/Archives/DOM_Elements.txt)
+	To understand javascript, to work with google desktop API to add Email and Web History results to the Itch (see http://localhost/Archives/Google_Desktop_Itch)
+
+The node map is a series of values who can be referenced by thier name within the named node map.  For example:
+
+get-named-item(node-map, name) 
+
+or equivilant will return the variable in the map associated with that name.  Essentially this is a dictionary.

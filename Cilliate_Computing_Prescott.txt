@@ -1,0 +1,15 @@
+Cilliate_Computing_Prescott
+
+General		(see http://localhost/Archvies/Prescott_Ciliate_Computing.pdf)
+	!!cilliate DNA			"How ciliates manipulate their own DNA – A splendid example of natural computing"
+	!!P & R authors			Prescott and Rozenburg - Boulder, CO - Natural Computing (2002) *cited=14*
+	
+Summary:
+	The model of Ciliate reproduction is presented in Prescott 2003.  This paper offers an alternative hypothesis to the templating hypothesis involving three genetic operations, loop excision, hairpin loop excision and double loop exchange.  Together these operations are thought to be turing complete.  
+
+Interesting points:
+	!!non-coding excision		notes that the high copy number of macronucli is related to the need to excise non-coding DNA from the micronucleus
+	molecular operations
+		!!loop excision		a looped IES forms in the micronucleus so that MDS pointers overlap and this loop is cut out
+		!!hairpin loop		similar to loop excision, except that orientations are reversed and this is overcome through a twist/splice step
+		!!double loop		rearranged disordered MDS sections by a double loop, double break, and two fold rearrangement

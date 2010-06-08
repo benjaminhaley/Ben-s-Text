@@ -1,0 +1,5 @@
+JavaScript_Frameworks
+	useful to develop dynamic web content swiftly especially for coach dave's portal
+
+There are many of these avaliable including dojo, Prototype, the Google Toolkit and so on.  They will be more pertinant for me as I decide to develop a dynamic web interface and at that point I will begin moving through my options.
+

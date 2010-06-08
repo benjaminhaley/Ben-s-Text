@@ -1,0 +1,60 @@
+JavaScript_Literals 
+	To understand javascript to work with the google Desktop API for the itch (see http://localhost/Archives/Google_Desktop_Search_API.txt)
+
+Used to represent fixed values (not variables) in javascript.  Arrays, act like python strings.  Boolean literals are true/false (not to be confused with the boolean object). Integers which can be declared in decimal. hexadecimal (0x), or octal(0).  Floating-Point Literals with a sign, decimal point, fraction (second decimal number) and an exponent), object literals like dictionaries in python and string literals. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q. -2 define these:	\b 		\f 		\v		\t		\n		\r		\uXXXX
+ 			Backspace 	form feed 	verticle tab 	tab 		new line	return		unicode hexidecimal code 
+
+Q. +1 Create an array attatched to the variable murder with two elements (a and c) with an unspecified element in between.
+ 	var murder = ["a", , "c"]
+
+Q. +1 Add the missing "b" element
+	murder[1] = "b"
+
+Q. +1 Evaluate >>> ["a", "b", ][2]
+	absolutely nothing (like what war is good for)
+
+Q. +1 Evaluate >>> murder[3] = "n"; murder
+	["a", "b", "c", "n"]
+
+Q. +1 Evaluate >>> condition = false; if (!condition) {"a"}
+	"a"
+
+Q. +1 What is another Boolean form
+	A boolean Object
+
+Q. +1 Write the decimal 22 in hexadecimal and octal.  Which is now depreciated?
+	hexadecimal = 0x16, octal = 026.  Octal.
+
+Q. +1 Simplify 0.00004
+	 4E-5
+
+Q. +1 var x = { a:53, 2:43 }; evaluate 	x.a 	x[a] 	x["a"] 	x.2	x[2] 	x["2"]
+					53 	error 	53 	error 	43 	43
+
+Q. +1 nested = { aunt:"cousins", mom:{1: "Tom", 2: "Sal"} }; reference "Tom" using one nomenclature
+ 	>>> nested["mom"]["1"]
+
+Q. +1 Evaluate "John".length... how can you call a literal like an object?
+ 	4, the object is created and destroyed to be called for this method.
+
+Q. +1 define these: 	\\ 		\' 		\"  
+ 			backslash	quote		quote		

@@ -1,0 +1,7 @@
+<html>
+<head>
+<stylesheet type="text/css"
+p {color : red}
+</style>
+</head>
+</html>

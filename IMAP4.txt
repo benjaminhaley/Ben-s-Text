@@ -1,0 +1,22 @@
+IMAP4rev1
+		
+	to make the coach mom emailer.send (see http://localhost/Archives/emailer.py)
+
+wikipedia		(quiz 5/6)	(see http://localhost/Archives/IMAP4_Generally.txt)
+python mod		(quiz 7/10)	(see http://localhost/Archives/imaplib.txt)
+RFC...			(notes)		(see http://www.faqs.org/rfcs/rfc3501.html)
+
+To Do:
+	test for no new message
+	test for failure
+
+import imaplib, email
+
+mail = imaplib.IMAP4_SSL('imap.gmail.com')				# instantiate with security protcol		N/A
+mail.login('cbttest@gmail.com', 'cbttest1')				# login						('OK', ['cbttest@gmail.com authenticated (Success)'])
+mail.select("INBOX")							# makes the state the inbox			('OK', ['7'])
+mail.search(None, "UNANSWERED")						# unanswered messages				('OK', ['1 2 3 4 5 6 7'])
+mail.fetch(1, "RFC822.TEXT")[1][0][1] 					# message text 					'message\r\n'
+mail.fetch(2, "UID")[1][0].lstrip('1234567890() ').rstrip('()')		# message UID					'UID 42'
+imaplib.Internaldate2tuple(str(mail.fetch(1, "INTERNALDATE")))		# message delivery time tuple  			(2008, 8, 25, 22, 33, 41, 0, 238, 1)
+email.message_from_string(mail.fetch(8, "RFC822")[1][0][1])[6]		# from						'"Benjamin Haley" <benjamin.haley@gmail.com>'

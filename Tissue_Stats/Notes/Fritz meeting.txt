@@ -1,0 +1,36 @@
+Know body dimensions
+Cause of Death
+Better understanding of the dataset at large
+
+Notes:
+	The average dose for the dog was .75 of the air dose, while even deeply internal organs probably recieved .50 or more (warren sinclair)
+	All of the dogs were autopsied.   A standard number of tissues were removed
+	Dogs with mid-life excisions/incisions in the pathology reports are likely to have mid-life tissue samples. (esp. mammory glands)
+	The slides and blocks are dated. 
+	Controls: lived unkenneled with a same-sex partner unless associated to an experiment.  Never bred.
+	neutral buffered formalin was the standard for all dogs
+	breeding was composed of two substrains 1. Alabama (very strong) (male dogno=78) and 2. blonde dogs
+	drugs were only administered for veterinary concerns never for experimental reasons
+	We think Cytology lines up with the blood slides
+	SNOMED is a standard set of clinical terminologies used for large medical datasets
+	
+	
+
+References:
+	RADIATION INDUCED TUMORS - HISTOLOGY OF TUMORS BOOK THE ATLAS OF EXPERIMENTALLY INDUCED NEOPLASIA IN THE BEAGLE DOG, DAGLE 
+
+
+hmmm...
+	don thomas - noble prize winner used the dog controls	
+	some dogs were given lithium treatments
+	salt lake people refused to give cause of death
+	Strontium and Radium were isolated in the bones
+	
+
+
+
+
+
+
+
+

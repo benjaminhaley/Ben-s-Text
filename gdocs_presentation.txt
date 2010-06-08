@@ -1,0 +1,15 @@
+gdocs_presentation.txt
+
+why gdocs is a good solution to our labs needs
+	1. Files are password protected
+	2. Files are accessible anywhere with the web.  Also you can add offline access to keep access to them when you want.
+	3. We don't proliferate a million copies of a documents
+	4. Sharing a document is as easy as sending a link
+	5. Document Changes are kept track of
+
+
+shortcommings
+	1. we all need a google account
+	2. we need to give some thought to password management
+	3. it is less useful if documents need to be in word format (like grant proposals)
+	4. we have to collaborate around a central folder

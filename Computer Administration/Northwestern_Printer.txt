@@ -1,0 +1,27 @@
+Northwestern_Printer 
+	installing/troubleshooting the laser printer
+
+Installation: 
+	1. Find the disk in the bottom right drawer of the janus computer
+	2. Select Network Installation
+	2.1  Select install on this computer
+	3. Select add a printer
+		Port Type: TCP/IP
+		Port : Name 8080
+		IP address: (instructions below)
+	4. Follow through with installation
+	5. Congratulations
+
+IP address:
+	The IP address can be located via the printer menu (painful) or on the janus server comptuer (in tanja's office).  To find it on the Janus server do the following.
+
+	1. Open the printer by double clicking the icon on the bottom right next to the clock
+	2. Look for Dell 3010cn-00000 and find the IP address under the column "connected to"
+
+
+Port Properties:
+	port #: 9100
+	protocol: lpr (then enter lp if there is a dialogue box)
+
+Troubleshooting: 
+	If the printer does not work, it is likely because the IP address has changed.  Update a computer's IP address by selecting the printer in the task bar.  Follow its name link to its web portal.   Update its IP address by going to 'print server settings'.  Then you can reassign it at the web portal so that people's printer will work again.  Then I have to go to people and have them change thier IP address. 

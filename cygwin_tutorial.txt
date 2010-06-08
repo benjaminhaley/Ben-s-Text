@@ -1,0 +1,68 @@
+cygwin_tutorial
+	To familiarize myself with command line interface programming
+
+
+Cygwin is a UNIX like command line interface for windows, I am working through a Unix tutorial at http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html
+
+
+
+
+
+
+Concepts
+	Kernal				Hub of Unix which allocates time and memory and handles filestores and calls to the system
+	Shell				The interface between the user and Kernal
+	File v Process			Everything is one or another, files store data where Processes are executing programs
+	standard input			This is the keyboard and it will be reffered to if you do not specify a file as the input
+
+
+Nomenclature
+	outside c:\cygwin 		To read/write a file outside of c:\cygwin use a pathname beginning with /cygdrive/c/. 
+					( c:\My Documents\hello.c   becomes:   /cygdrive/c/My\ Documents/hello.c )
+	.				current directory
+	..				parent directory
+	*				matches any string of characters
+	?				matches any single character
+
+
+
+Commands
+	
+	ls [-a, -l]			lists the contents of the directory that don't begin with a dot (.), 
+						-a retrieves hidden files
+						-l lists permissions and modified time
+	mkdir				makedirectory
+	cd				change directory
+	pwd				lists the full pathname from the root
+	cp				copy
+	mv				move
+	rm | rmdir			remove | remove directory
+	cat				outputs the content of a file or concatenation of files
+	less [/]			search [/term]
+	grep				prints each line containing a character
+	^D				control D terminates the standard input (like the end of a file)
+	>				redirects the output so it goes to the value on the right side instead of the standard output
+	who				lists the names of people on the system with you
+	<				redirects the input to the item specified to the right of the <
+	|				makes the output of one command the input of the next (pipes)
+	man				gives the manual for the following command
+	chmod				changes the permissions for files (+/- for r[ead]/w[rite]/x[ecute] for u[ser]/g[roup]/o[ther])
+	ps				lists all active processes
+	& [-bg]				causes a prompt to be run concurrently
+						bg runs the process in the background
+	jobs				lists backgrounded, suspended, and running processes
+	^c				cancels a process
+	df				shows off the disk usage
+	gzip & zcat			zips a file & reads a zipped file
+	find				looks for files or folders
+	history				shows all of the commands that have been made in order
+	
+	
+	
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+JavaScript_Constants
+	To learn JavaScript to work with Google Desktop Search API (see http://localhost/Archives/Google_Desktop_Search_API.txt)
+
+Q.
+1. +1 what is the output of const a = 2; const a = 30
+2. +1 what is the output of var a = 3; const a = 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A.
+1. a TypeError
+2. a TypeError
+
+Constants are written using the const keyword and must be started by a letter or an underscore.  A constant cannot change value or be redeclared while a script is running.

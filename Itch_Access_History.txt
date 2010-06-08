@@ -1,0 +1,10 @@
+Itch_Access_History
+	Efforts to factor previous user actions into itchiness
+
+I have been having trouble with files comming up too quickly after they were last updated... jumping to the front of the line.  I have been trying to get around this without outright barring these files esp. considering that I am in the habit of using the Scratch to review my daily efforts (including recent efforts).  I think, however that a huge number of these cases could be dealt with by considering how many interveening scratches have occurred before the itch.  The process here is two fold
+
+1. Begin recording the user action count associated to events in the ScratchLog (actually this data can be derived from the the nowtime record (which is ordinal and scalar and could easily be reduced to ordinal)
+2. Modify Itch function to reflect the change
+	Perhaps (current itch value)/ number of interceeding itches
+
+some more infintile thoughts on this are avaliable at http://localhost/Archives/scratch%20till%20it%20bleeds.txt)

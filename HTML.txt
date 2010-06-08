@@ -1,0 +1,28 @@
+HTML
+
+To learn HTML so I can scratch results from the Google Desktop Search API (see http://localhost/Archives/Google_Desktop_Search_API.txt)
+and work on the dog tissue database (see http://localhost/Archives/Northwestern_Job.txt)
+
+TimeLog (to bill northwestern at 1/2)
+	20/Aug/2008 13:08 - 
+	18/Aug/2008 18:46 - 20:07		(1.5 hours)
+	3:51 PM 8/15/2008 - 4:48	 	(1.0 hour)
+
+HTML tags can be used for page layout, link structure, javascripting and various other objects.  I will be going through the tutorial at the w3schools and developing a series of quizes to test my knowledge.
+
+go here to take quizes 			http://www.w3schools.com/html/tryit.asp?filename=tryhtml_basicTags & Attributes 	(10/10 	quiz) 	(see: http://localhost/Archives/HTML_Quiz1.html)
+Text Formatting		(9/11 	quiz)	(see: http://localhost/Archives/HTML_Text_Formatting.html)
+Entities and Linking	(3/6 	quiz)	(see: http://localhost/Archives/HTML_Entities_and_Linking.html)
+Tables and Forms	(0/6	quiz)	(see: http://localhost/Archives/HTML_Tables_&_Forms.html)
+Head CSS and Meta	(3/8	quiz)	(see: http://localhost/Archives/Head_CSS_and_Meta.html)
+URL's, Scripts, Objects	(5/7	quiz)	(see: http://localhost/Archives/HTML_URLs_Scripts_and_Objects.html)
+
+
+... afterwards study Web Serving, CSS and XHTML
+
+
+currently I am jumping way forward.  I have a basic understanding of how tags work and the like I can look up more later, but chances are that I will be using frameworkds in the future and will not have to deal with the displaying code directly.  Instead I will be jumping around to issues like how to use style sheets, interact with a server and so on.
+
+CSS
+HTML 4.01 validation and specs
+XHTML

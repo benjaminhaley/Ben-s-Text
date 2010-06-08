@@ -1,0 +1,19 @@
+tissue_archives_ontology.txt
+	Determining the wololab ontology and how it matches with the web
+
+SNODOG  unique ontology for the dog tissues
+SNOMED 	requires a liscence to use and distrubte
+MPATH 	mouse pathology ontology 
+	EU (http://www.pathbase.net/)
+MA	mouse anatomy ontology
+	Jackson Labs (http://www.informatics.jax.org/searches/AMA_form.shtml)
+
+
+Gruenberger 	recommending translation to MPATH and MA
+Shemaweb	missing pathology, mouse, anatomy and specific ontologies a
+		has bioMOBY which looks promising http://www.schemaweb.info/schema/SchemaDetails.aspx?id=281
+bioMOBY		has Pathbase_PB namespace from the EU which hosts mpath... wonderful!
+
+
+
+... very good news, if we can convert our data to mpath we will have something going, bc. mpath is supported by the semantic web.  This doesn't cover the dogs, but its a good start and an important first step into navigatiable waters.

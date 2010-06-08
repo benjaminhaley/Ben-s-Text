@@ -1,0 +1,26 @@
+Imap4_Generally
+	How A comparison of Imap4rev1 to POP3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5/6 Q. As opposed to POP3 - 6 things:
+
+3. Access MIME parts 
+1. long connections 
+2. multiple clients 
+4. message state flags (read, replied to or deleted), 
+5. multiple mailboxes 
+6. search messages.  
+
+*Further in the article I can learn about the various server mail solutions that we might put together on the virtual server, but its not necessary now.

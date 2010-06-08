@@ -1,0 +1,4 @@
+Start encrypting my codes:
+	so other people don't steal contrib points from my piggy bank
+
+with coding solutions as simple as the ones you are developing, it is very important that you keep thier underlying core secret, though it is entirely permissable to be liberal with the results they produce. (see http://localhost/Archives/Encryption.txt)

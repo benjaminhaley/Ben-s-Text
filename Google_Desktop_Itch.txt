@@ -1,0 +1,4 @@
+Google_Desktop_Itch
+	to add email, web results and additional files to the scratch protocol.
+
+Currently dependent on learning javascript to use the code associated with the api. (see http://localhost/Archives/JavaScript.txt)

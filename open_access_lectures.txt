@@ -1,0 +1,17 @@
+open_access_lectures.txt
+	Notes and summary from the Open Access lectures at NU
+
+More Info
+	Pamela Shaw 	p-shaw2@northwestern.edu	312-503-8689
+	various		Galter Northwestern - search open access - click on websites
+	OA Definition 	http://www.earlham.edu/~peters/fos/bethesda.htm
+	contract ammendments	creative commons.org
+	CIC statement	Northwestern's Defacto datasharing agreement
+	
+
+10/22/2009
+    Saw another lecture, this time with Stephanie Kern on Authors rights.  She was a little shy on delivery, but the focus of the talk - how to retain control of your creative work was very interesting.  I learned the ease with which you can construct and apply a creative commons license to your work and the way to Use the SPARC, CIC or NIH contract addendums to retain the ability to distribute your papers following publication.  Interestingly enoughc journals will often have points of the contract that limit addendums, but most of them will accept these anyways.  They then give you control to continue redistributing or archiving your own work, especially after the license has run out.
+
+4:54 PM 10/21/2009
+	Today Pamela Shaw put on a presentation for only two of us related to open access data and articles at NU and beyond.  She brought to our attention a number of interesting resources including the official definition of open access, blog writer Peter Suber, and advocate Michael Eisen.   In the area of open access publications she told us that the main difficulty is paying for the publications, which often cost $3000 for researchers.  A way to get around that is to have universities join the Compact for Open Access Publication Equity which is a collaboration between a few major US universities pushing for university funding for open access publication.  For this purpose Pamela Shaw has to convince the Provost to give the go ahead.  However, this makes sense as the school already pays for library access they should pay for the flip side of that coin, but the incentives are not as pressing.  
+	One other cool thing Pamela Shaw used to work for Elien something or another who was apparently a close collaborater with Gayle back in the day, so she is in the know.

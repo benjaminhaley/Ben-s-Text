@@ -1,0 +1,53 @@
+biological_computation_funding.txt
+	To justify and find funding to pursue studies and experiments in biological computation
+
+To Do:
+	Try looking at the sources you have gathered and see where there funding comes from
+
+Sources of Funding:
+	see this grant funding website to lookup grants: http://crisp.cit.nih.gov/crisp/crisp_query.generate_screen
+
+Reasons to Fund:
+	massive computation (1. decryption 2. ?) , programmed drug release, Discovery of efficient algorithms (1. Molecular folding predicition, 2. Disease Prediction), More sophisticated disease models (complex phenotypes/diseases like cancer or diabetes are computationally dependent)
+
+Why we need money
+	DNA/RNA synthesizers
+	DNA/RNA readers
+	delivery tools (electricity might be the cheapest)
+	reading tools (draws out DNA, maybe through descrution?)
+
+
+The reasons to explore computation in biology are not only the infinite computing at our fingertips (literally), but also developing disease models that reflect recursive operations.  Complex diseases like cancer and diabetes might as easily be due to changes in process as the failure of cricital components (proteins).  Most likely, process errors act in a feedback loop with component failures as they compensate and feed off one another.
+
+
+High-speed input/output devices between us and computational biological systems is a necessary technology to enable understanding of biological information processing .  Only then can we test for processing patterns that will allow us to compile complex enough code to serve our purposes.
+
+
+
+
+The use of living things or chemicals found in living things to compute 
+	Gardner, Tim, “Biological Computing,” Technology Review, May/June 2000 	
+Biological computing can be more energy efficient (one billion times) than silicon computing 
+	Forbes, Nancy, “Life After Silicon: Ultrascale Computing”, The Industrial Physicist, December 1997, pp. 20-23.
+One gram of DNA can hold as much information as one trillion audio CDs. 
+	“Wet ‘n Wild Computers" at http://whyfiles.org/shorties/dna_computer.html
+Component materials are plentiful in supply and easily obtained in most cases.
+	Bonsor, Kevin, “How DNA computers will work”, http://howstuffworks.lycoszone.com/dnacomputer.htm
+Biological computing allows for massively parallel computing. (suggests 10^14 operations/sec)
+	Dassen, J.H.M., “DNA Computing: Promises, Problems and Perspective”, IEEE Potentials, December 1997-January 1998, pp. 27-28
+Biological computing promises the ability to control cellular level chemical production.
+	Gardner, Timothy S., “Genetic Applets: Biological Circuits for Cellular Control”, 2001 IEEE International Solid-State Circuits Conf. Digest of Tech. Papers, 2001.
+Biological compution might be Capabile of healing injuries and the capacity to self-improve.  
+	Innovations @ Georgia Tech news release, http://www.innovations.gatech.edu/livingcomputers/indextextonly.html
+Evaluating seventy quadrillion (70,000,000,000,000,000) possible keys of the U.S. government’s Data Encryption Standard with less than a liter of DNA.
+	“DNA Based Computing” http://cism.jpl.nasa.gov/program/RCT/DNACompUD.html
+Some types of genetic sequences would have to be synthesized to make fullfunctioned genetic “applets” or genetic “robots” possible would be prohibitively expensive. 
+	Gardner, Timothy S., “Genetic Applets: Biological Circuits for Cellular Control”, 2001 IEEE Inter. Solid-State Circuits Conf. Digest of Tech. Papers, 2001.
+Despite their capacity for massively parallel calculations, the individual operations of DNA computers are quite slow in comparison to silicon.
+	Dassen, J.H.M., “DNA Computing: Promises, Problems and Perspective”, IEEE Potentials, December 1997-January 1998, pp. 27-28
+DNA computing requires quantities of DNA that can only be used once, since reuse would contaminate reaction vessels and lead to less accurate results.
+	“Nanotechnology will ... DNA molecule as functional components”, Olympus Techno Zone, http://www.olympus.co.jp/en/magazine/TechZone/Vol54_e/page5.html
+DNA computing is prone to errors at a level that would be considered unacceptable by the siliconbased computing industry (maybe 1 in 10^5, requires new algorithms).
+
+Kevin Fulk under the supervision of Dr. Blake Ives
+Good laymen's plea for the future of biological computing: 	http://www.uhisrc.com/FTB/Biocomputing/FTBBioComp.pdf

@@ -1,0 +1,28 @@
+DOI parser
+	To retrieve the DOI from a pdf file
+
+10/Jan/2009 14:27 - 20:00	6 hours		improved regex, called pdfminer from .py script, implemented the 
+15/Jan/2009 16:22 - 21:10	5 hours		closed cmd, wrote html, breaks gracefully, create validator, sent files to dave for integration
+
+Program At:  C:/Python25/DOI_in_PDF.py
+
+
+1. PDF to Text			http://www.unixuser.org/~euske/python/pdfminer/index.html
+	To parse the PDF it is x-lated to hmtl using pdfminer.
+	Follow the instructions at their website to install their library.  
+	Once it is installed go to pdfminer's directory and use command line argument to translate the PDF to html
+
+		example: 	$ python -m pdflib.pdf2txt -o output.html samples/naacl06-shinyama.pdf
+
+
+
+2. DOI in html			C:\Python25\Lib\doi_in_html.py
+	this function is callable from the command prompt and accepts a path as an argument.  It returns a DOI or "No DOI found" message
+
+		example:	$ python doi_in_html.py C:\Python25\Lib\pdfminer\temp.html
+
+
+3. DOI validator		C:\Python25\Lib\doi_validator.py
+	this function is callable from the command prompt and accepts a DOI as an argument.  It returns "Good DOI" or "Bad DOI"
+
+		example:	$ python doi_validator.py 10.1371/journal.pbio.0050254

@@ -1,0 +1,18 @@
+Sratch_For_Dave
+	Dave would like to try the Scratch protocol.
+	This would be a great opportunity to get a user test with feedback and user actions.
+
+Give Dave Upgrade and hand him again.
+
+
+untie tickle from new and modified (see http://localhost/Archives/Untie_New_Or_Modified_From_Scratch)
+#add older bias (see http://localhost/Archives/Itch_Older.txt)
+#add ignoring function (see http://localhost/Archives/Scratch_Ignore.txt)
+#change subdirectory noting for user interface reasons
+#Crawl all of the subdirectories of a folder for files.  
+#Add a setup step to name the searched directories 
+	*this will be called automatically if no directories are detected or called by user choice later *command noted in startup script
+#develop an easily accessiable user action stat which is the summation of all user actions as noted by the log dictionary file.  
+#I would also like the user stats to include how many are new, modified and to be reviewed again.  
+#Be sure that scratch doesn't open folders, just files.
+

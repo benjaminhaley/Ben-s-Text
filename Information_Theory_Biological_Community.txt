@@ -1,0 +1,22 @@
+Information Theory of Biology Community
+
+Key Terms: informatics, bioinformatics, systems biology, mathematical biology, information theory, computational biology, genomics, theoretical biology
+
+Top Names:
+	Hubert Yockey 		(seminal author for the combination of the feilds)
+	Claude E. Shannon's 	(seminal information theory author - "A Mathematical Theory of Communication")
+	Tom Schneider		(active proponent)
+	Christoph Adami		(top hit paper?)
+
+Useful Resources:
+	http://students.itsoc.org/BiologyIT/		IEEE's information theory in biology article with people, papers, and seminars
+	http://www.cs.uchicago.edu/events		local seminars
+
+Local People
+	Dongning Guo		(information theory northwestern)
+	Sandy L. Zabell		(bioinformatics at Northwestern - algorithms)
+	Ming-Yang Kao		(bioinformatics at Northwestern - algorithms)
+	Nancy Cox 		(bioinformatics at U of Chicago - genetic variation and disease risk)
+	Jonathan Pritchard	(bioinformatics at U of Chicago - genetic variation statistically)
+	Bruce Lahnt		(bioinformatics at U of Chicago - the genetics of brain development)
+	Leo Irakliotis		(medical informatics at U of Chicago)

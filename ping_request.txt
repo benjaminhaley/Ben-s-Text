@@ -1,0 +1,64 @@
+ping_request.txt
+    To deliver tissues to ping commercial
+
+To Do:
+    Make doubly sure that the MTA's are in order
+    Post MTA on website
+    call her and see if we can change tissues
+    come up with a tissue identification scheme
+        a set of example tissues
+        pathologist trainging for beau
+        an expert pathologist
+        study online - http://informatics.med.nyu.edu/virtualmicroscope/collection/3
+        label the tissues
+
+Tissue request
+    hearts and bladder slices from 5 dogs (based on a phone call)
+    original request http://mail.google.com/mail/?shva=1#inbox/1244f53f7135d36d
+
+MTAs
+    Composed by Anne Shriner https://mail.google.com/mail/?hl=en&shva=1#search/mta/125b81621ac847ad
+
+
+query to find dogs with all tissues
+    select DISTINCT o1.dog_number
+    FROM organs o1
+    INNER JOIN
+    organs o2
+    ON o2.dog_number = o1.dog_number
+    INNER JOIN
+    organs o3
+    ON o3.dog_number = o1.dog_number
+    INNER JOIN
+    organs o4
+    ON o4.dog_number = o1.dog_number
+    INNER JOIN organs o5
+    ON o5.dog_number = o1.dog_number
+    WHERE o1.organ like "%skin%"
+    AND o2.organ like "%prostate%"
+    AND o3.organ like "%muscle%"
+    AND o4.organ like "%heart%"
+    AND o5.organ like "%pancreas%"
+    
+query for dogs with heart, bladder, and count
+     SELECT organs.dog_number, organs.organ, o.organ, COUNT( c.dog_number )
+    FROM `organs`
+    JOIN organs o ON o.dog_number = organs.dog_number
+    JOIN organs c ON c.dog_number = organs.dog_number
+    WHERE organs.organ LIKE "Urinary bladder"
+    AND o.organ LIKE "Heart"
+    GROUP BY c.dog_number
+    ORDER BY COUNT( c.dog_number ) ASC
+    LIMIT 0 , 30 
+
+The excel sheet built from the bladders and hearts query is availabe at bladders_and_hearts.xls
+
+    
+02/22/10
+    The tissues were finnally sent.  Check out the shipping_instructions for how you can track them.  The tracking number is 081054510034265
+    
+01/21/10
+    I did manage to do a query for the tissues 
+    
+01/25/10
+    I've looked for the tissues with Beau (last week), re-checked them to be sure they are valid, and sent an email (https://mail.google.com/mail/?hl=en&shva=1#sent) to sumita to be sure that the tissues get cut.  Now I just have to keep checking on the process.

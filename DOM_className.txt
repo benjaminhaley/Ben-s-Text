@@ -1,0 +1,5 @@
+DOM_className
+	To understand one of the element interfaces in javascript (see http://localhost/Archives/DOM_Elements.txt)
+	To know javaScript to implement the google desktop API for scratch (see http://localhost/Archives/Google_Desktop_API.txt)
+
+This className attribute is what associates an object in the html to its corresponding style class in the CSS.

@@ -1,0 +1,11 @@
+Programming_Language:
+	To know what languages need to be applied to what problems so I can program.
+
+Programming langauges are turing complete, whereas SQL or HTML are more accurately known as non-computational host languages.  A language used to give commands to a software application is known as a scripting language.  Syntax is the form that a program is written in, most are written languages though others are graphic languages that use spatial relationships to define a program.  Syntax is usually defined using lexical regexes and grammatical backus-Naur form.  Lexically, regexes convert a sequence of characters to a token.  A token consistes of a lexeme categorized by a type.  For example the text sum=3+5 is taken by a machine to be [{lexeme:sum, token type: IDENT}, ..., {lexeme:5, token type: NUMBER}].  Statements that are gramatically correct may still be meaningless or false.  For instance "John is a married bachelor" is gramatically correct.
+
+Typically data in a program is typed as to what sort of manipulations it supports.  Execution semantics define the how and when expressions are evaluated.  Most programming lanugages have a core library which essentially extends the types of data that might be defined and manipulated which are then known as classes.
+
+Programming language designers typically provide users with Specifications and Implementations.  The specs define what a program behavior ought to be.  These clearly state syntax as an algorithm of regexes and baur-naur forms, semantics as natural language, formal language and test suites.  Implementations allow users to execute a script using various hardware and software.  Languages might be compiled or interpreted.  Compilation involves translating the text of the programming language into another programming language esp assembly or machine languages.  Machine code is a series of 0's and 1's used to address data and xchange/compare it between registers.  Assembly gives a 1:1 mapping of mneumonic human readable names to machine code.
+
+... I'm gonna break from this into something where I can actually write out some code.
+ 

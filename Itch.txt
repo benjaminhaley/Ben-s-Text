@@ -1,0 +1,34 @@
+Itch	
+	The most pertinant data to a user that doesn't require explicit user input (see http://localhost/Archives/Input_Free_Searching.txt)
+		useful to me to keep me focused and reviewed
+		Later this will be made into my enterprise solution for worker activity
+
+Itch Algorithm:
+	Uses the Modified and Accessed values of files in a file folder (see http://localhost/Archives/Scratch/Scratch.py)
+	Genetic Programming (see http://localhost/Archives/Genetic_Algorithms.txt)
+
+Data to be added:	
+	Emails 		(see http://localhost/Archives/Google_Desktop_Search_API.txt)
+	Web History	(see http://localhost/Archives/Google_Desktop_Search_API.txt)
+	Other Users 	(see http://localhost/Archives/Sratch_For_Dave.txt)
+	New Data	(see http://localhost/Archives/Body.txt)
+
+Factors to be added:
+	Other User's Data Access		(see http://localhost/Archives/Michael_Merzenich.txt)
+	Data Access History			(see http://localhost/Archives/Itch_Access_History.txt)
+	Data's Position relative to other data	(see http://localhost/Archives/Itch_Geography.txt)
+	Data's Content relative to other data	(see http://localhost/Archives/Itch_Content.txt)
+
+Other Needs:
+	Liscence	(see http://localhost/Archives/Scratch_Propriatary.txt)
+	Encryption	(see http://localhost/Archives/Encryption.txt)
+	Sales		(see http://localhost/Archives/Selling_the_Itch.txt)
+	
+Success Measures:	(see http://localhost/Archives/Itch_Success_Measures.txt)
+	The Itch protocol is dependent on the number and type of user actions solicited Scratch applications (see http://localhost/Archives/Scratch.txt).
+
+	ie. sum for all users of ((# of good responses) - K*(# of bad responses)) 
+		*where k is set to match surveyed results of overall satisfaction.
+
+Ideas:
+	The project to collect user contribs and associated metadata needs to be open source because thier are so many apps that users contrib to.  Any one should have access to the data set that is generated and then the actual itch algorithm and scratch interface might or might not be propriatary.

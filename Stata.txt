@@ -1,0 +1,36 @@
+Stata
+	To produce paper relavent statistics from mouse and dog data from the lab.
+
+Before I do stats read up on the experimental techniques.  Dave just sent me an intro paper http://localhost/Archives/StataProgramming.pdfsa
+
+In these examples we will:
+	Port data from Access to Stata
+	Use Excel to write scripts for Stata
+	Use stata to test a hypothosis
+	Log Stata Session
+
+Porting data from Access to Stata:
+Start by making a table in microsoft access of animal_id, total dose, age of death and # of macrocodes.  Open it and choose File>export as a txt file.  Open stata 10.0.  Choose File>Import>ASCII Data created by a spreadsheet, and open data.  
+
+Using Excel to Write Stata Scripts:
+To rename the column variables open excel and write out "rename", the current variable names (v1-v4), and what they should be (animal_id...) in side by side columns like so:
+
+		A		B		C		...
+	1	rename		v1		animal_id
+	2	rename		v2		animal_id
+	...
+
+On stata open up the window>do-file editor and copy in the excel code.  Press crtl+r to run this code.
+
+Testing a hypothosis:
+To test the hypothosis that the age of death will correlate negatively to the total dose, first test that the source data is randomly sampled.  This could be discerned from the janus documentation or through statistical verification. To combine the data from two studies compare the behavior of their control groups.  We have not differentiated the control groups so we must compare the general distribution of ages in the dataset. Run "sktest age" and determine thier is a 0.000 probability of not being skewed or kurtoted.  We cannot test our hypothosis because the dataset is bogus.
+
+Logging Stata Session:
+Open mouse data (C:\DaveData\MouseData.dta).  Set maxvar 8000 and set memory 300000 K.  Start logging by File>log>begin and save 'ben_tutorial' as a '.log' file to keep it simple text.  Next we will enter 'sktest age if expt == 14 & radn == "C"' well it doesn't look so good.  So we will use excel again to check the rest of the experiments.  Well dave was having some trouble with the do log so he did it the old fashioned by copying the excel values to notepad saving it as a '.do' file and then going to stat and executing it as a file>do and then select the file.
+
+Ok we found a study where the age data wasn't skewed or kurtosed so now we could test if 'regress age totaldose if expt ==8' and we see a small coefficient with a very good P value, the hypothesis holds time to put it in print!
+
+The dataset that dave has loaded into stata has all of the JM variables and a number of other variables of Dave's design like total number of diseases (tumors, macrocodes, non-tumors..etc.).  In general I will want to make my own dataset.
+
+Challenge 1: Do ages between experiments differ significantly
+Challenge 2: Of all of the disease listed (macrocode variables - if TTST is the macrocode the following are avaliabe TTST, lthTTST, diedTTST, and nlTTST), which does neutron radiation confer the highest risk to in experiment 4 (exp is arbitrary).

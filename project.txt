@@ -1,0 +1,178 @@
+/*
+Ben Haley - Dec 2009
+
+The following Script is made to reproduce my notepad file organization as a database driven website
+The interface should be clean, load fast, and each element should be individually modifiable.
+
+This script will provide the basic functionality upon which I can build more sophisticated reports
+These sophisticated reports will not only reproduce the notepad functionality, but extend it to produce
+summary reports, make content more readable through abreviation, and allow data to migrate between projects
+intelligently, especially to-do data on the basis of priority and due date.
+
+*/
+
+
+// Ajax Support Functions
+    function GetXmlHttpObject()
+        {
+        if (window.XMLHttpRequest)
+          {
+          // code for IE7+, Firefox, Chrome, Opera, Safari
+          return new XMLHttpRequest();
+          }
+        if (window.ActiveXObject)
+          {
+          // code for IE6, IE5
+          return new ActiveXObject("Microsoft.XMLHTTP");
+          }
+        return null;
+        }
+
+
+//Time Entry Collection Object
+
+    function print_time_entry()
+        {
+        alert(this.time + this.short_description + this.long_overview);
+        }
+
+    function save_time_entry()
+        {
+        alert('I should connect to the database and upload my changes')
+        }
+
+    function time_entry_object( record_number )
+        {
+        //properties
+        this.time = "\n01-01-2525";
+        this.record_number = "\n22";
+        this.short_description = "\nsome small description";
+        this.long_overview = "\nsome long description that goes on and on";
+        
+        //methods
+        this.print= print_time_entry;
+        this.save = save_time_entry;
+        }
+    
+    
+    function time_entry_stateChanged()
+        {
+        alert('here');
+        alert(time_entry_xmlhttp);
+        alert(time_entry_xmlhttp.readyState);
+        if (time_entry_xmlhttp.readyState==4)
+          {
+          xmlDoc = time_entry_xmlhttp.responseXML;
+          
+          
+          alert( xmlDoc.toSource());
+          
+          //~ document.getElementById("record_number").innerHTML=
+          //~ xmlDoc.getElementsByTagName("firstname")[0].childNodes[0].nodeValue;
+          //~ document.getElementById("lastname").innerHTML=
+          //~ xmlDoc.getElementsByTagName("lastname")[0].childNodes[0].nodeValue;
+          //~ document.getElementById("job").innerHTML=
+          //~ xmlDoc.getElementsByTagName("job")[0].childNodes[0].nodeValue;
+          //~ document.getElementById("age_text").innerHTML="Age: ";
+          //~ document.getElementById("age").innerHTML=
+          //~ xmlDoc.getElementsByTagName("age")[0].childNodes[0].nodeValue;
+          //~ document.getElementById("hometown_text").innerHTML="<br/>From: ";
+          //~ document.getElementById("hometown").innerHTML=
+          //~ xmlDoc.getElementsByTagName("hometown")[0].childNodes[0].nodeValue;
+          }
+        }
+    
+    
+    function load_time_entry_collection( project )
+        {
+        var url="scripts/get_time_entries.php?project=" + project;
+        var time_entry_xmlhttp = GetXmlHttpObject();
+        time_entry_xmlhttp.onreadystatechange = time_entry_stateChanged;
+        alert(time_entry_xmlhttp.toSource());
+        time_entry_xmlhttp.open("GET",url,true);
+        time_entry_xmlhttp.send(null);
+        
+        
+        //example time entries for testing
+        var time_entry = new time_entry_object( );
+        var time_entry2 = new time_entry_object( );
+        
+        this.time_entries = new Array(time_entry, time_entry2);
+        }
+
+    function print_time_entry_collection()
+        {
+        entry_collection = this.time_entries;
+        for( i in entry_collection )
+            {
+            entry = entry_collection[i];
+            entry.print();
+            }
+        }
+
+    function time_entry_collection()
+        {
+        //properties
+        this.time_entries = new Array( );
+        
+        //methods
+        this.load = load_time_entry_collection;
+        this.print = print_time_entry_collection;
+        }
+
+    entries = new time_entry_collection();
+    entries.load( 'students.txt' );
+    entries.print();
+
+
+/*
+
+create the descriptions object
+    has short description
+    has long description
+    can load given the project object
+    can print
+    can can update the database
+
+create the relations object
+    has a way to update
+    has a way to print
+    has a link
+    has a relationship description
+    has a short description from the linked object (will be the slide over label)
+    
+create the relations collection
+    has an array of relations
+    can call the print function of the array
+    can load an array of relations given a project object
+    
+create the to do object
+    can print
+    can send changes to the database
+    has a priority
+    has a due date
+    has a project name (link)
+    has the short description from the project name 
+
+create the todo collection
+    has an array of to do objects
+    can tell all of its to do objects to print
+    can load a set of to do objects
+    
+
+create the open text object
+    can load changes
+    can print
+    has free text
+
+create the project object
+	has time entry collection
+	has descriptions
+	has relations
+	has to do
+	has open text
+    has a title
+	can load from database
+	can print time entries, descriptions, relations, to dos, and open text as links which call a java script that allow them to be edited
+
+*/

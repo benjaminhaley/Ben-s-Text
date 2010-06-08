@@ -1,0 +1,6 @@
+DOM_Document (partially through http://developer.mozilla.org/en/docs/DOM:document)
+	To understand javascript (see http://localhost/Archives/JavaScript.txt)
+	To work with the google desktop search API (see http://locahost/Archives/Google_Desktop_Search_API.txt)
+	To allow the scratch to itch more files like emails and web history (see http://localhost/Archives/Scratch.txt)
+
+The DOM document object provides the general of representing HTML, XHTML and XML documents.  Document objects implement the general DOM Core document interface (see this w3 spec for more detail http://www.w3.org/TR/DOM-Level-2-Core/core.html#i-Document).  HTML documents further implement the DOM HTMLDOcument interface (see this w3 spec for more detail http://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-26809268).  DOM Documents are presentd within the DOM_Window (see //http:localhost/Archives/DOM_Window.txt) and may have any number of elements (see http://localhost/Archives/DOM_Elements.txt).  (to be cont...)

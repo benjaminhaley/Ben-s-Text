@@ -1,0 +1,6 @@
+Scidex
+
+Does the pubmed crawler work?	No!
+
+Suggestions 		(see http://localhost/Archives/Scidex_Suggestions.txt)
+	

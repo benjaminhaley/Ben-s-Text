@@ -1,0 +1,82 @@
+done - added the group_editor js script
+
+check out to stanford and check participant_panel on three browsers
+automate jslint and css validations using the programmer control panel
+check jslints adsafe code requirements
+
+
+
+development notes
+
+admin_control panel
+	it would be nice to introduce the idea, 'classes you can view'.  In some cases we will want researchers to be able to veiw the participant monitor for each class in the program they created.  In some cases we will not.
+	participant monitors need to view all your active students simultaneously even if they are in different programs.  Teachers will not have the time to switch between participant monitors.  So the classroom name should be the link to the particiapnt monitor.  
+	The number of students online should be out of the totals.  
+	We need the ability to add and delete classrooms.  
+	The default program and stage should be changed simultaneously.
+	the default stage needn't be called default stage, it can just be 'baseline survey of VAP1' for instance
+	each program should be able to 
+		view the current progress
+		student id, progress, classroom, group, results (as a table)
+		filter by columns, classroom, group, and progress
+		select all, or select a pasted list of student ids
+		reassign groups, delete students, change classrooms.  We won't allow them to change results, they can do this on their own for data analysis purposes.
+		edit the structure
+		veiw previous structures
+		reassign student groups
+	we should store the previous structures of the programs, so that we can restore them as we need to
+	admin navigation bar should include an option to change classroom, change program, go to home page, 
+
+log in
+	The first time computer is used to log into PERTS, we should ask for the country, state, and school.  Subsequent logins can remeber the values added to these fields based on IP address and cookies
+
+data
+	any dynamic elements need to load with AJAX so that they can be reset when synchronization errors occur
+	I think it might generally be better to commit entire objects to the database so that when errors occur the previous object can be loaded from the database w/o hastle.  These objects will be light-weight enough that I don't think the CPU costs will be significant.
+
+program_editor
+	I need to add a way to load and unload the command buttons which switching between the stage list and the module editor
+	I need to define a 'load' function for the stage box and the module editor
+
+
+4/30 I've been adding links between scripts so that we can understand thier 
+interrelations
+
+4/30 I'm having trouble knowing how to change Chris's code to get it working.  I think it is important that I come up with a strategy.  I would like my changes to be clearly motivated, more than trivial, and easy to argue about/ revert independently.  I think knowing that files can be rolled back independently will make that much easier, but if I've made a number of changes then it might be kinda tough.
+
+
+UI notes
+	I should be able to click an entire bar to start rather than having to click start
+	instead of done? and re-open - it should allow you to click either this one or the next stage.  Like the repeat and begin stage.
+	the done? re-open option comes back when I click on an earlier stage.
+	I think we should deliver the students some type of 'time is up message' rather than just closing their other tabs.  Also we need to flash to get their attention in case they are on a tab that doesn't close.
+	how is it closing with the done button?
+	I think we should comment out the message code until it is needed
+	I want to add the backend for the VAP program
+	why does the stage image go away breifly after it is clicked?
+
+
+SVN
+	How do I perform a commit from my local machine?
+	why are the images missing from the svn server?
+	why isn't the folder structure the same on the svn as stanford.  Because the trunk and branches are different in the below example, the images do not load correctly.
+
+		perts_repo/platform2/trunk/participant_panel.php
+		dev/platform2/participant_panel.php
+
+
+Code
+	Adding timers as Gets on our redirects will prevent caching.  I don't think we want to do that, because a timer will not affect content
+	Are we going to load all of the program to a user or just up until their current checkpoint.  That affects how we display things.  I think 
+	the time limit doesn't work on qualtrics pages.  So we are going to rely on the 3rd party to manage the timer?  I think we should have built in tools for this.  We need a warning message that tells the student to proceed and an automatic way to update the timer
+	I like the idea of Page, but I think it might be a little overdone.  I like the idea of adding titles, js_files, and css_files along with all the other base settings.  I think we should remove extra head markup and extra js.  Instead I think we should actually include these on a script page using the header() function if necessary.  The point is that we don't normally expect these, so we shouldn't normally have to pass them.  js, css, and titles, however will nearly always be defined.
+	we need to add timers, do not repeat, and optional to the stage array.  It would be best to make this into a full on stage object.  It should also come with a status as to when the student started it, what stages they have already finished and so on.
+	
+	
+Changes
+	Expanded the Activities array to include required, time limit, started, done, and repeatable values
+	Changed the activities array so that the above options will be tested (thier names reflect the test) and so they actually link to the VAP session II material.
+	Mocked up the School_class Class
+	Mocked up the class program including the get activites array for Chris's current participant monitor
+	Mocked up the Module class
+	Mocked up the Stage Class with its children, checkpoint, multistage, and singlestage

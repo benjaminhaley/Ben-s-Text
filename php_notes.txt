@@ -1,0 +1,16 @@
+I need to set an exception handler in addition to my error handler
+I can add log_errors to php_ini and define an error_log, we can also set ignore_repeated_errors to true to prevent redundant logging
+what is the certificate of authority file, how does it work?
+how is PUT different than POST?  
+what is a proxy server?  how does it work?
+What is http version 1.1 how is it related to 'chunked transfer decoding'
+how can we verify a user in addition to their cookie?
+how can I set permissions over a folder to prevent outsiders from accessing its contents?
+we need to check our cookie for security risks
+check the type of inputs
+I need to log database queries
+it appears that I can use division id's as anchors, I didn't know that... I want to test it
+add the buisness logic to the database directly, through triggers and views
+md5 does 36^32 or about 6 e 50 combinations
+I really need a parser with autofill
+I also want command line php access so I can play around better

@@ -1,0 +1,4 @@
+Body
+	The data which a user has accessed or modified
+
+I may want to better the distiction... data that has been modified is in the body, data that has been accessed is in the memory and data that is being accessed is in the environment.

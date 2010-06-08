@@ -1,0 +1,64 @@
+Openbooks - see open_books.txt
+
+
+
+
+
+
+
+
+
+
+Just_Click_Here
+	To teach the youth to use computers
+
+Time sheet:
+	9:00 1/24/2009 - 	Kipp (smoothest ever), websites started, project 10 brainstorm, made teacher website, wrote to jordan and nick about space, 
+				researchered chicago computer clubs
+
+KIPP syllabus: 	http://localhost/Archives/KIPP_Syllabus.doc
+KIPP day one: 	http://localhost/Archives/KIPP_Intro_Day_1.doc
+
+Classroom management musts:
+	Use the boom clap to get attention (ask a student to start it)
+	Logon to the computers after the opening lecture
+
+
+Simone Woods is the Saturday School Resource Coordinator
+Kate Mazurek is the Principal who opens the room and logs onto the computers.
+id: kmazurek  pass: mazKIPP1
+
+Rules
+	Post discipline plan of simple rules and consequences.
+	Clarify and communicate rules
+	Enforce rules consistently and immediately.
+
+Behavior
+	Repeat your command a maximum of three time.
+	Command silence for 3-5 seconds before starting a lesson.  Teach in a quiet voice.
+	Use silencing clap
+	Look around the room frequently.
+	Briefly acknowledge misbehavior at first detection.
+	Work on making transitions between parts of lessons smooth.
+	Tell students what they should be doing rather than what they shouldn't
+
+Attitude
+	Start Fresh Everyday.
+	Smile and praise students frequently.
+	Don't elevate disruptions.
+	Use humor to diffuse situations.
+	No student should prevent you from teaching.
+	Agree with other administrators.
+
+Planning
+	Over-plan lessons.
+	Learn students names.
+	Outline the plan for the students.
+
+
+sources:
+	http://www.ericdigests.org/1992-1/school.htm
+	http://712educators.about.com/od/discipline/ht/class_manage.htm
+	http://www.honorlevel.com/techniques.xml
+	http://maxweber.hunter.cuny.edu/pub/eres/EDSPC715_MCINTYRE/AssertiveDiscipline.html
+	http://wik.ed.uiuc.edu/index.php/Kounin,_Jacob

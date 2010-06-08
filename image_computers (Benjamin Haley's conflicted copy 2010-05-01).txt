@@ -1,0 +1,18 @@
+image_computers.txt
+	to image the wololab machines for backup purposes
+
+Instructions
+    more detail from lifehacker http://lifehacker.com/software/feature/hot-image-your-pcs-hard-drive-with-driveimage-xml-326086.php
+    1. Plug in Hard Drive
+    2. Start DriveImage XML
+    3. click on the "Backup" button on the lower left of the screen
+
+Last Backups - Stored at Gayles
+    Gayle's Toshiba Portege - 02/12/10
+    Janus Server - 03/05/10
+    Typhoon machine - 03/05/10
+
+
+
+03/05/2010
+    I had to reformat the external hard drives that we recieved.  This is pretty straightforward once you know how.  I wrote the instructions above.

@@ -1,0 +1,24 @@
+Searching Bee
+	To make a competetion for kids similar to the spelling bee, but with applicability to the useful task of web-search
+
+questions:
+from: http://www.googleguide.com/practice_searching_games/
+
+   1. What popular toy was originally invented as a type of wallpaper cleaner?
+   2. You love playing Settlers of CatanTM, but want to find out something about the Seafarers edition or Knights and Cities. How would you search?
+   3. What toy was originally marketed during the depression as make a face pieces?
+   4. Did you know that Twister® was originally called Pretzel? If you try to look up the history of the game with just twister pretzel, you get a lot of extraneous sites on different topics. If you want to make sure you get sites on when Twister was pretzel, how do make sure Google searches for all three of the search terms?
+   5. The Imperial Hotel was designed by Frank Lloyd Wright, but a different Lloyd Wright was inspired by it to help kids flex their construction muscles. Who was it, and what did he invent?
+   6. How can you search for information on the Yoyo® toy and make sure to get all of its spellings?
+   7. Find chess glossaries, making sure that you search for all the synonyms for glossary.
+   8. Find Classic Tinkertoy® sets for sale for between $10 and $22 dollars.
+   9. What year was the Rubik’s Cube® invented?
+  10. Ideafinder.com covers the history of the Frisbee. Find that specific page on that specific site.
+  11. Find resources for using Hot Wheels® in an educational setting.
+  12. Find a definition of the word scrabble.
+  13. Where did LEGOs get their names? What is leg godt, anyway?
+  14. Find reviews of the book Mistakes that Worked.
+  15. What is the volume in cubic millimeters for an eight block LEGO®, if the dimensions of said LEGO are 9.6mm by 32mm by 16mm?
+  16. If a Classic Radio Flyer® weighs 26.6 lbs., what is that in kilograms?
+  17. Find stock information on the following toy companies: mat has mvl gaw
+  18. What was itnellectual property was captured with patent number 59745? Use Google Patent Search (www.google.com/patents) to find out.

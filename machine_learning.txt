@@ -1,0 +1,49 @@
+machine_learning.txt
+	my pursuits in learning (maybe applying) the feild
+
+First hunt for terminology: 
+	machine learning, 
+	reinforcement learning, (best source http://www.scholarpedia.org/article/Reinforcement_learning)
+		agent, action (modified through dynamic programming), environment (a Markov Decision Process), reward (reinforcement signal)
+		Temporal Difference Learning, monte carlo method, sampling, policy
+			TD learning is most closely associated with R. S. Sutton, whose 1984 Ph.D. dissertation addressed TD learning and whose 1988 paper
+		Q-Learning
+		Adaptive Actor-Critics
+		*Has been used to simulate animal learning ala Sutton and Barto 1981, Montague et al 1995, Porr and Wörgötter 2003). 
+		*It was essentially the work of Klopf (1972, 1975, 1982, 1988), that began to bring TD-methods together with animal learning theories.
+	Control Theory
+		classical control theory, open loop, closed loop
+		SISO, MIMO, PID
+		Stability, Controlibility, Observability
+		Intellegent Control
+	neurobiology,
+		Reward Signals, operant conditioning
+	cell communications
+		
+Glossary:
+	Markov Decision Process		(MDP) A math framework to model decision making processes where part of the result is under the control of the observer and part is random
+	dynamic Programming
+	One-armed bandit		A thought experiments which highlights the need to balance exploration with explotation by making an analogy to a man playing many slot machines without knowing thier outcomes, hence he must either choose to explore more statistics or use the thus-far statistically best slot
+	Predictive State Representation	A dynamical system interpretation that keeps track of the state in the form about of predictions of the future state (like ALVIN)
+	Temporal Difference Learning	A prediction method that solves reinforcement problems by adjusting the model even before the final outcome is fully known.  For example, because Friday accurately predicts the weather of Saturday, Monday's role in the model can be adjusted when Friday comes even before Saturday finally arrives
+	Q-Learning			Asks what the expected value of an action is given a subsequently fixed model (model that will not further adjust).  This limits the need to model the way that new information emerges from the environment that would effect the model
+	Dynamic Treatment Regimes	A set of treatment decisions predicated on the branching history that has been observed
+	Markov Chain			A chain of events with the Markov Property
+	Markov Property			Given the Current state, The future state is independent of the past states
+	open loop controller		sets an input and does not change in response to the output
+	closed loop controller		sets at input and modifies it based on the observed output
+	Single-Input Single-Output	(SISO) the most simple controller where only one input is effected by only one output
+	Multi-Input Multi-Output	(MIMO) more complex controller whose behavior and inputs are multi-variable vectors
+	Proportional Integral Derivative	(PID) is the most well studied controller which makes the input signal a function of the output, its derivative and integral which serves to prevent sudden jumps and allows for changes in the acceleration depending on the current rate
+	Intellegent Control		Controller techniques that use modern AI approaches, neural networks, machine learning, genetic networks, and so on
+	Reward Signals			Brain signals perhaps deriving from dopagenic neurons that guide subsequent behavior
+	operant conditioning		The ways in which an organism is guided by rewards towards certain behaviors 
+	shaping				Gradually changing a response over successive trials
+
+
+Hunt for publications:
+	A list of publications in neurobiological RL http://www-anw.cs.umass.edu/rlr/
+	Sutton, R.S., & Barto, A.G. (1981). An adaptive network that constructs and uses an internal model of its world,  Cognition and Brain Theory 4:217-246. http://www.cs.ualberta.ca/~sutton/papers/sutton-barto-81-CBT.pdf
+	Sutton, R.S., & Barto, A.G. (1981). Toward a modern theory of adaptive networks: Expectation and prediction,  Psychological Review 88:135-140. http://www.cs.ualberta.ca/~sutton/papers/sutton-barto-81-PsychRev.pdf
+	Montague et al 1995 http://foxyurl.com/1Aa
+	Porr and Wörgötter http://foxyurl.com/1Ad

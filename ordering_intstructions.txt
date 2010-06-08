@@ -1,0 +1,26 @@
+ordering_intstructions.txt
+	How to order new suppplies for lab
+
+Updated: Nov 2009
+
+NU Portal with Tanja's account
+	1. http://nuportal.northwestern.edu/nuportal/login.html 
+		(use Tanja's password (in wallet/ask her)) 
+        	(username tpa148)
+	2. Faculty
+	3. Purchasing
+	4. Nu financials
+	5. eprocurement
+	6. create requisition
+	7. catalog
+	8. I buy NU
+	9. Find the appropriate Item Proceed to Check out
+	10. Click small arrow
+	11. Enter Fund (610)
+	12. Enter Dept (526000)
+	13. Enter Activity (01)
+	14. Search for an account
+	15. Submit (I think, we didn't quite make it this far)
+
+Via Tiffany
+	If the NU portal fails, take the item that was selected and send it off to Tiffany having filled out the following template (order_template.xls).

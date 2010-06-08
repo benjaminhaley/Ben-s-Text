@@ -1,0 +1,60 @@
+depreciated 03/11/2010 see bens_review.txt
+	This document has been depreciated for a number of reasons.  Most importantly, it is old and I no longer use this particular technique for planning.  In its place, I perform periodic reviews.  These reviews involve setting project specific goals and are usually set over longer time periods than a single perfect day.  Perhaps one day I will revisit this type of organiztion.
+
+Perfect Day
+	To imagine your future and make it happen.
+	Perfect Week on Sundays at http://localhost/Archives/Perfect_Week.txt
+
+
+
+
+15/Sep/2008 17:22
+	I would like to do a few jumps to wake up, finish up this perfect day and spend a little time studying the gerund.  On the plane I will be sure to say hi to my neighbors, ask them what they do, and talk to them if they seem interesting.  I will prioritize my time spending a couple of hours on the weekly review and if thier is time besides that write the perfect week file.  I will read the paper or talk to my plane mates as it lands and then proceed to the blue line and red line.  During the ride I will read the New York Times and be sure to give a mental review at the end of each article to be sure that I have some idea of what I am reading about.  By midnight I will get to the commie house area stop by krolls to check for Micheal and then move on to commie house where I will go to sleep after hanging with the peeps and catching up.
+
+12/Sep/2008 14:13
+	Work on Note submitter html, learn some speech techniques and call 2101.  Play rummikub with Eve, ask everyone how there day has been and talk to Lynsee.
+
+11/Sep/2008 12:36
+	Continue review tech specs.  Talk to Dave about what might be productive today.  Have a beech fire tonight.  Do the daily grammar thing.
+
+10/Sep/2008 13:54
+	Go over the RefLib techspecs with Dave.  Look into waking up methods.  Program some of reflib depending on what needs doing.  Walk to Long drugs for luffa, liquid soap and floss.  Talk to people about daily grammar.  Go sing some Kareokee.  Stay chill and have fun.  Try your best.
+
+5/Sep/2008 12:06
+	Add 10 changes to hnRNP, three new sources, new paragraph and sync with endnote.    Fill out and turn in the personal data forms.  Go see dave for dinner.  Do your laundry.  Practice posture.
+
+
+4/Sep/2008 10:11
+	Present wine stats and other work at lab meeting.  Talk to T bout corrections and work status.  Finish 6 corrections, add two new sources, add sentence to paragraph integrate with endnote and ship to tanja.  Make a schedule to push her so I can know when the project is done.  Ask Arrielle about posture.  Ask Ted for screwdriver.  Work on posture.   Explore appjet, python library reference and the elements of style when you get home.
+
+3/Sep/2008 8:49
+	News, browse python library reference.  Ride to books, toiletries, nuts and cash check.  Go to Northwestern, meet with Tanja bout hnRNP paragraphs, endnote file, submissions.  Accept or regect Tanja's revisions, add paragraph and endnote and place in your two new refs.  See what is required for submission.  Say goodbye and meet with Dave to go to the burbs and rock out, call Matt.
+
+2/Sep/2008 10:57
+	Check news.  Study encoding and unit tests.  Ride to get GRE, toiletries, and nut.  Visit Office.  Add unit tests to emailer.py.  Start on spreadsheeter unit tests.  Workout.  Meet Phil at 8:30.  Play backgammon, hackisack, eat for fun.
+
+1/Sep/2008 10:56
+	Go to Serbo Fest, ask T about Freezing Mom.  Check into getting GRE study materials.  Work through IMAP find new messages and change the flags.  Make the module work and then work and then move to the spreadsheet module.  Play backgammon with Mikey... maybe ride to the beach and do a quick swim.  Eat dinner with Dave, Mike, Meggan and Zach.
+
+30/Aug/2008 15:27
+	Workout, review keyboard shortcut quizes.  Look into Stanford Grad school through thier website and general web search.  Pursue the IMAP specification and determine how to implement coach mom.  Finally, Hang with Phil and Kai partly at the Jazz fest.
+
+28/Aug/2008 10:40
+	I am going to recompose this after starting the day, it is 1:30 already.  I only have 3 hours to work with.  So I am going to finish up this review, then I am going to take some notes on serialization using diigo.  After an hour I will spend a half an hour looking into what it is going to take to get into stanfords CS graduate school.  Then I will take some time to read more about the IMAP protocol and figure out whether I can retrieve an object that will allow me to access parts of the message body.  Finally I will go get ally, we will role on the red line up to the concert.  I will try to bring with some material that we can read together and if she isn't interested I will run to the library.  We will rock out till whenev and then I will run her back to the train station before I get moving to Dave's thing.  I will be sure to take some time out to compose a perfect day for tomorrow and I will ensure that I talk to lots of people.
+
+	Wake up at 7 am eat breakfast and listen to Johnny, get a little workout, shower and get dressed.  Then ride my bike to TI grab some fruit and spread then to lab by 8:30am.  Get down to buisness with a little daily review... but try to read the title's first.  Get done by 9:30 am and get cracking on some news checking, by 10:30 am be done with that and make the rounds to say hi to peeps.  Eat a little after asking about people's buisness get back down to work by 11:00.  First look at the stata manual on pwcorr and determine how to find significance, load this into the data set.  By 12:00 begin reviewing your notes on the database architecture.  Do a little exploring and check to see whether variables cover the entire data set or not, get this prepared for a talk to tanja on monday.  Before you leave check to see where a library is near the metro... esp if they are going to be open.  If you have any time leftover you can read the hnRNP word files that Tanja sent you.  Otherwise shove off by 4:15 to go get ally.  Lock your bike tight at union bfor running up to the show with ally get her in line by 5 then take off for the library.  Study a little about serializing in databases for dave then get back to ally and go to the show.  Try as best you can to rock out with your sis.  At ? time take her back to union.  Then ride back to commie house for the dave night party.   Sneak away for a few minutes to make tomorrows perfect day.  Everyone will be really smashed hopefully you can get some cards rolling.  Try to get to sleep by 2am or so ( you will be really tired)
+
+27/Aug/2008 23:28
+	Tomorrow I will wake eat, workout and get going to work by 9am.  I will arrive at work by 9:20 say hi to everyone.  I will look through the hnRNP sources to two new ones that are not neuronal and compose sentences to put in the first paragraph in the first two hours of work.  At 11:20 I will take a little break to talk to people and then I will get back to work on going over the new hnRNP sources to see if any of them are useful.  I will work till lunch at 1:00 or so, I will see if I can get anyone to eat with me.  Afterwards I will get back to work on the hnRNP sources, find all addables and put at least five of them into sentence form.  If I have time I will insert these into the paper before I leave which will happen by 5pm.  I will ride home tomorrow and get home to a little workout before eating a snack and looking a little into what it might take to make it in stanford grad school.  Then I will work a little further through the IMAP4rev protocol.  Soon enough dave will come home and I will spend some time talking through the Scidex problem.  By 10 I want to be winding down and working on the perfect day for tomorrow.
+
+26/Aug/2008 20:46
+	Tomorrow, I would like to wake up at 7 am and eat immediately some eggs, onions, toast and an apple.  I will get in a breif workout and a shower get dressed and leave by 8 am.  I will hit the train and take it to my bike where I will replace the intertube and ride to work.  I will get to work by 9am and start the daily review and in_the_news.  I will be sure to take a break to say hello to people as they arrive and ask them about thier day.  By 11am I want to start going over the hnRNP potential sources that I found yesterday.  By 6pm I want to have those sources summarized into a sentence or so that I might include in the paper.  I also want to take the time to talk to Tanja if she is around about the changes she made to the file and the paragraph that I have written so far.  By 6pm I want to go back to commie house and get a little more workout and food in me.  Then I will try to give it a go at continuing to study the IMAP.  I'm too tired to do this right, I should do it earlier in the future.
+
+25/Aug/2008 23:04
+	Tomorrow, I would like to wake up at 7 eat and excersize, walk to the 8:00 train.  On the train I will review today.  Then I want to walk to my bike and ride it to the northwestern job by 9:00.  If I am locked out of lab I will work to figure out what elements of access I will need to study.  I will spend 30 min - 1 hour running the rest of the wine stats on stata.  I will then move on to reviewing my Dog Tissue Archive notes.  I will assess the database and what values will be relevant.  By 11:30 I will bike over the toastmasters meeting grabbing a cheap lunch on the way.  I will say hi to everyone there and speak during the 2 min speeches.  Afterwards I will return to lab and continue to inspect the relevant database values.  By the end of the day I will take a copy of Dave' Mouse tissue html and alter it so that it looks the way the proposed dog tissue archives will look.  I will send this to Dave and Tanja to see if they approve.  By 7 pm I will leave.  I will sqeeze in dinner and a brief workout before meeting with everybody to play riskopoly which will likely take up the rest of the night and be a blast.  I will talk to elise about the internet technology end of her novel, to justin about his wiki organizational efforts and others, to dave I will speak of my work effort and his scidex moves and to Micheal I will appologize in private for making him upset in front of Phil and Kai.  Before I go to bed I will write tomorrows perfect day.
+
+24/Aug/2008 21:56
+	Tomorrow I would like to wake up at 9 am, excersize minimally, shower and get dressed grab a bite and a car to run over to the library.  I want to begin the day at 10 am with a review, email and news.  By 11:30 am I would like to be studying HTML URL's and Scripts.  I will snack on apples, but I will eat a real meal of mcds at 1:00 pm or so.  Then I will get back to the library for two more hours of HTML study of Events, URL-encoding and Web Servers before meeting up with Brita.  I will hang with Brita for one hour talk through my time on the road and her things as such. Then I wil go back to the house for a meal, cleanup and cards with mom and ally.  By 8 pm I hope to be setteld in for a few hours of work on coach mom where I can finish the emailer and the spreadsheeter.  I will work till 11 pm and then compose the next day's perfect day before bed.
+
+24/Aug/2008 17:43
+	My first time doing this.  I would like to scan quickly (<1hr) through the news, slashdot, nytimes, and Matt's blog suggestions (see http://localhost/Archives/In_The_News.txt).  I would like to make dinner with mom and host chuck and matt.  I would like to ask matt about visualizing link connections, how to migrate text files to html, esp. how to design a template.  After dinner and bridge I might have an hour to look at coach mom.  At the end of the night I want to hang with Q and unwind by talking about our day's activities and thoughts before going to bed.

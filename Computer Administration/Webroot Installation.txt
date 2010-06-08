@@ -1,0 +1,16 @@
+Webroot Installation
+	to install webroot in order to protect the lab's machines
+	
+
+System requirements
+	OS: check (windows xp pro SP3)
+	cpu: check (pentium 4 3.0 GHz - used DXDIAG to find)
+	Memory: Check
+	Database Support
+Upgrade requirements
+Install Microsoft SQL Server 200, 2005, or 2005 Express.  Then install SQL Server Database
+Install Webroot
+Install Webroot Clients
+Install Distributers for different sites
+
+Distracted by networking issues... forced quit on this project.

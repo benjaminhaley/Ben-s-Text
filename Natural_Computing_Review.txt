@@ -1,0 +1,80 @@
+Natural_Computing_Review
+	A list/description of papers from the Natural Computing journal from 2003-2008 relavent to the problem of turing systems in biology
+
+
+Turing Splicing			Takashi Yokomori's		from http://www.springerlink.com/content/t6tu771210710l65/fulltext.pdf
+				Lila Kari			http://helix-web.stanford.edu/psb96/cshhaj-varju.pdf
+	Head introduces a mathematics of splicing systems (H systems).  Claims that a splicing system can be shown to be a GRP system that can fill type 1 and type 2 cells and is therefore turing complete.  However I am too unfamiliar to understand their defintions.  So I must come back to this.
+	Lila Kari and the Hungarians are approaching the same topic of Turing completeness in splicing systems as of 1996.
+
+glossary
+	H system		
+	GRP system		
+	GRP type 1		
+	GRP type 2		
+	splicing systems	
+
+
+GRN are Diff eqs		from http://web.ebscohost.com.turing.library.northwestern.edu/ehost/pdf?vid=2&hid=108&sid=995f87b0-e2fa-4591-adff-309a700fd3b3%40sessionmgr108
+	Ben-Hur (stanford) and Sieglemann (massachusettes) describe a precise and robust analogy between a calculation system made of linear differential equations and gene regulatory networks  (2003).
+	Are differential Equations Turing complete?
+
+
+DNA for Maximal Clique		from http://www.sciencemag.org/cgi/content/abstract/278/5337/446
+	Ouyang (princeton) develops a DNA algorithm to solve the Maximal Clique Problem (another NP complete problem).
+	Maximal Clique		the clique in a graph that has the most vertices
+	Clique			a subgraph in which each node is connected to every other node
+
+
+Silicon trumps DNA 		from http://nicosia.is.s.u-tokyo.ac.jp/MCP/
+	Masami Hagiya says that hope has been abandoned of DNA computer outcompeting silicon in the solution of NP-complete problems, but rather the future of molecular computing will be in alternative types of algorithms.
+
+
+20 V 3SAT with DNA		from http://www.biosino.org/bioinformatics/SAT.pdf
+	Braich and Adleman (USC) solve a 20 variable instance of the NP-complete 3-SAT problem in 2002 using a DNA computer.
+	3-SAT problem		the satifiability problem asks if T/F values can be given to variable in a boolean expression so that the expression evaluates TRUE
+	Boolean expression	A sequence of propositions linked by AND/OR/NOT operations
+
+
+DNA addition			from http://find.galegroup.com.turing.library.northwestern.edu/itx/retrieve.do?contentSet=IAC-Documents&resultListType=RESULT_LIST&qrySerId=Locale(en%2CUS%2C)%3AHQE%3D(__HR__%2CNone%2C47)sn+0036-8075+and+iu+5272+and+sp+220+and+vo+273+%24&sgHitCountType=None&inPS=true&sort=DateDescend&searchType=CCLSearchForm&tabID=T002&prodId=AONE&searchId=R1&currentPosition=1&userGroupName=northwestern&docId=A18500958&docType=IAC
+
+	Guarnari and Bancroft describe a algorithm for DNA computation that performs addition in 1996.
+
+
+Human/DNA I/O			from http://web.ebscohost.com.turing.library.northwestern.edu/ehost/pdf?vid=2&hid=106&sid=d5a2918a-a4c1-4bc8-a16f-b8f0f40c4b16%40sessionmgr102
+	Benenson describes a complete biolgical computation machine that has programable input and visiable output without intervention.
+
+
+DNF DNA	solution		from http://www.springerlink.com/content/lk46674n676g3334/?p=79dab4b513d344d894b01820f12057e1&pi=2
+	Sakakibara (Japan) uses DNA computing to implement a solution to DNF (disjunctive normal form) Boolean formulae of some k value.  They further use weighted majority algorithms to overcome noisy calculaitons. (Natural Computing 2004)
+	Disjunctive Normal Form		a boolean equation of not/normal statements bound by AND statements further bound by OR statements. ( X1 <and> <not>X2 ) <or> ( X3 )
+	weighted majority algorithm	a pool of algorithms contribute votes a solution.  Trained by discounting those algorithms which contribute to a faulty consensus.
+
+Inert Oligos			from http://www.springerlink.com/content/t50405t47j268r65/?p=248facd7644a48ab8b288d2ad1159a44&pi=4
+	Bi (delaware) shows a screening method for filtering hybridizing oligonucleotides to select for a group that behaves independently. (natural computing)
+
+Insertion/deletion enumarable	from http://www.springerlink.com/content/k885j8g24757n405/?p=248facd7644a48ab8b288d2ad1159a44&pi=0
+	Takahara and Yokomori (Japan) show that insertion deletion systems proposed by Kari are equal to the set of all enumarable recursive languages. (Natural Computing 2003)
+	enumerable recursive language	the recursively enumarable subset of all words in a language
+	recursively enumerable		there is an algorithm that enumerates all the members of a set S (they are countable?)
+	insertion deletion systems 	???
+
+retroviral computing		from http://www.springerlink.com/content/l03722q376017136/?p=db133a4a06354f3a949567a3a104357a&pi=3
+	Nitta (Japan) Looks at retroviral based computing systems for the development of in vivo intracellular biological computers.  (Natural computing 2005)
+	retrovirus		an RNA virus that is reverse transcribed as DNA and integrated into the genome
+
+protein RAM 			from http://www.springerlink.com/content/x6604283471r8642/?p=e640f4fdc63242ed919570666abea9c9&pi=0
+	Bouchard, Osbourne (Alberquerque NM) Shows how protein networks can be mapped to a RAM (random access memory) model of computing (a turing machine) then elucidates the properies and processing potential of hypothetical and real-world implementations of such and model and describes its utility for higher order systems than molecular ones.
+	RAM computing model	run off of registers that can hold arbitrarily large strings
+
+DNA multiplications		from http://www.springerlink.com/content/2v76471t1470k108/?p=eed7584e9d1b4e9ab45e5b5b21f2f9bd&pi=3
+	Wu and Seamen (NYU) present an experimentally validated algorithm to perform DNA multiplication (Natural Computing 2006).
+
+turing peptide/antibody		from http://www.springerlink.com/content/tm2830l136407086/?p=de07a095e82a4e92b44fe0b3dcc8dd07&pi=5
+	Balan and Jurgenson discuss an idealized model of computation using proteins and antibodies. (Natural Computing 2006)
+
+taqman output			from http://www.springerlink.com/content/274762236w14u704/?p=30e9ab353600451785e6355933c1968f&pi=8
+	Ibrahim (Malaysia) proves that taqman based RT-PCR can be added as the output step in Adelman's Hamaltonian path solution.  And that it is faster to implement than whatever Adelman used.
+
+Automating 3SAT, EDNAC		from http://www.springerlink.com/content/3pm48m91p5529014/?p=30e9ab353600451785e6355933c1968f&pi=6
+	Johnson (NYU) describes the EDNAC bio-computer which automates steps following the paradigm used to solve the 20-variable 3-CNF SAT problem (the most complicated bio-computation problem thusfar calculated).  (Natural Computing 2007)

@@ -1,0 +1,5 @@
+biological_computing_programs.txt
+	useful libraries for solving problems in biology
+
+biolgical opensource parts at mit	http://partsregistry.org/Part_Types
+bioperl					http://www.bioperl.org/wiki/Main_Page

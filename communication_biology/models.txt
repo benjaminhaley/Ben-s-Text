@@ -1,0 +1,8 @@
+models.txt
+	To find an appropriate model organism to use for communications studies.
+	Of course, more than one is likely.
+
+	C. Elegans		Tanja reccomends, good because their development and cell structure is known
+	plants			??
+	animals			??
+	virus			??

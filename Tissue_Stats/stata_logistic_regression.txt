@@ -1,0 +1,67 @@
+stata_logistic_regression
+	to learn logistic regression from stata to apply to the tissue data
+
+
+Assumptions:
+	Be sure we can explain these in the paper
+		
+	1. The true conditional probabilities are a logistic function of the independent variables. (not fatal)
+	2. No important variables are omitted.
+	3. No extraneous variables are included.
+	4. The independent variables are measured without error.
+    	5. The observations are independent.
+    	6. The independent variables are not linear combinations of each other. (confirmed automatically)
+
+
+Preanlysis:
+	Encode variables properly, apply functions and crossproducts, check for suspicious outliers
+
+	set survey set			svyset variable - sets the primary variable allowing data restriction later
+	encode 0/1			dependent variable non-events are 0's, stata will assume all coded events are 1's (1)
+	check n size			> 100 sample size, > 10 observations per predictor (Long, 1997, pages 53-54) (1)
+	add interactions		generate [new] = x*y
+	apply functions			recode x=ln(x)
+	check for outliers		codebook [var], table [var], contents([var]), scatter [vars], mlabel [label var], msiz(#), jitter(#)
+
+
+
+Analysis:
+	The bread and butter commands (really the easiest part once the other steps are done)
+
+	subpopulations			svy subpop(var): logit... runs a
+	logistic regresssion		logit [dep var] [indep vars], Prob > chi2 is sig, _cons = log(odds) at 0, coef. unit change : log odds change
+	dummy variable generation	xi : logit [var] i.[var]
+	transformations			boxtid logit...  will raise all varaibles to the best possible power
+
+
+
+Post Analysis:
+	Store analysis for later use, graph predictions. compare regressions, and look for influential and extreme observations.
+
+	save regression			estimate store [new name]
+	load regression			estimate restore [name]
+	see command			ereturn list 	or 	ereturn list cmdline (for a specific element)
+	observation prediction		predict [new name]
+	prediction table		prtab [vars]
+	various R2s			fitstat (works on last regression)
+	aic and bic			lrtest [model1, model2], stats - higher is worse
+	interactions			linktest - the sifnifance of _hatsq denotes missing interaction variables
+	collinearity			collin [vars] VIF's above 5 or 10 will confound interpretations
+	chi2 residual			predict [new], rstand	the contribution of each data point to the value of pearson's chi2 test
+					predict [new], dx2
+					predict [new], dbeta
+	deviance residual		predict [new], dev	-2*log(predicted probabilty - observed) for each observation
+					predict [new], dd
+	leverage			predict [new], hat	The Pregibon Leverage which shows the influence of the variable on the data
+	variable influence		ldfbeta			For each variable the difference in probability if that factor were null
+
+
+
+
+
+
+
+
+
+
+

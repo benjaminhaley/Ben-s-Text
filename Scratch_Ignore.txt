@@ -1,0 +1,5 @@
+Scratch_Ignore
+	Add an ignore option to the itch and improve user files to note atime, mtime and ctime for a file along with user action
+	This will give me the opportunity to emperically test the Scratcher.
+
+for an itch algorithm to be meaningful it must result in frequent scratching.  When a file is opened, it is scratched, when it is ignored it is not scratched.  Blacklisted files ought never have been presented to the user, ignored files ought not have been so itchy.  When we look at these statistics we could develop changes to the scratch to prevent such misguided uses.

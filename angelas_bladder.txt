@@ -1,0 +1,49 @@
+angelas_bladder.txt
+    To get the beagle dog bladder pathology stats to Angela.
+
+
+related Docs
+    angelas_bladder.xls
+    angelas_bladder query
+    tissue_stats.txt
+    angelas_pathologies (a sub query)
+    angelas_cytologies (a sub query)
+
+Hacks
+    Dose Rate Conversion:   1544 26.3 rads/day, 35 Rontigens/day, drat 0.02652.     rads per min = 0.7507 times the drat
+    Exposure Time for Only one accute exposure #802 was exposed for 18.33 minutes
+    removed  x124, x247, x436, x443, x473, x485, x536, x538, x1078, x1237, x1609, x1761, x2167 because they are not in ext or control
+
+
+Tables
+    PAT
+    Cyt
+    
+
+If a dog has observations from both of these groups we want them in the assay
+    Overlappers T
+        T740100 Mucous membrane of urinary bladder  
+        T744000 Neck of urinary bladder
+        T730000 Ureter
+        T750000 Urethra
+        T740000 Urinary bladder
+        T740600 Wall of urinary bladder
+
+    Overlappers M
+        M898030 Carcinoma, malignant
+        M802030 Carcinoma, undifferentiated type, malignant
+        M800011 Neoplasm, uncertain whether benign or malignant
+        M800010
+        M720000 Hyperplasia
+        M805000 Papilloma, benign
+        M889000 Leiomyoma, benign
+        M881000 Fibroma, benign
+        M814030 Adenocarcinoma, malignant
+    
+If a dog has any observations matching the following we want them to be included.
+    Any
+        M812030 Transitional cell carcinoma, malignant
+        M812000 Transitional cell papilloma, benign
+    
+
+

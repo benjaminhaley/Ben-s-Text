@@ -1,0 +1,4 @@
+Coach_Mom_Instance
+	description of how I would like coach Mom to work
+
+Each day Mom will be sent an email form (see http://localhost/Archives/Coach_Mom_Email_Form.txt) that will include a report on her progress and a request to submit her newest results.  She will send back her reply and we will either bounce it back because it is invalid or save it to the google spreadsheet.  The google spreadsheet will act as our database, but also allow Mom to add new questions or change her previous answers if they were wrong somehow.  I will interregator on changes made to know better what is going on.

@@ -1,0 +1,28 @@
+receptor_concentration.txt
+	A list of the number of receptors per human cell.
+
+There are over 1100 human membrane receptor proteins, I have just pulled out some common ones.
+
+Receptors
+	
+ cl-2 Apoptosis 		   50.000 Penphal Blood Ivmphocvtes (Dragowska et al, 2000)
+ Apaf-1 Apoptosis 		  100.000-2.000.003 NCI cancer cell panel"" i;.-:;vin;:er sfa.1. :::"-; 
+ Pro-Caspase9 Apoptosis 	     5000-160.000[12.0001 NCI cancer cell panel***[293 celisi (Svingen ef a;, 2004) (Stennicke ef al, 1999)
+ Pro- Caspase8 Apoptosis 	  170.000-8.000.000 [18.000] NCI cancer cell panel*"*[Jurkat cells] (Svingen ef al, 2004)  (Sun et al. 2002)
+ Pro-Caspase3 Apoptosis 	  600.000[60.000-120.000] NCI cancer cell panel***[Jurkat cells] (Svingen et al. 2004) (Sun étal, 2002) (Stennicke ef al. 1999)
+ c-abl DNAdamage 		  250.000 NIH3T3 fibroblasts (Etteneîa/. 1994)
+ CREB cAMP 			   50.000 PC 12 cells (Hagiwara ef al, 1993)
+ ProteinKinase A CAMP 		  720.000 PC 12 cells (Hagiwara ef al, 1993)
+ p300 CAMP 			   28.000 Jurkat T cells (Hottiger ef al. 1998)
+ IFN-yreceptor Cytokine 	   25.000 A431 carcinoma cells (Crouse and Mitchell,1992)
+ Eporeceptor Cytokine 		   60.000 Endothelial cells (Banerjee et al, 2000)
+ STAT2 Cytokine 		  150 000 .. urkatT cells (Hottiqer ef a/. 1998)
+ STAT3 Cytokine 		  750.000 Pnmary MouseHepatocytes (Klingmulleret al, 2006)
+ RelA NF-kB 			  125.000 Jurkat T cells (Hottiger ef a,', 1998)
+ ~ce recepjji Immune 		   30.000 Thymocytes (Altan-Bonnet ef ai,2005)
+ Immune 			   60.000 Thymocytes (Altan-Bonnet ef ai,2005)
+ ZAP70 Immune 			1.200.000 Thymocytes (Altan-Bonnet ef ai,2005)
+ FC Receptor Immune 		  700.000 Macrophage cell line (Mellman and Unkeless. 1980)
+ XIAP ApOptDiiS 			   36.000 THP-1 monocytic cells (Bratton ef al, 2001)
+
+Source BioNumbers http://bionumbers.hms.harvard.edu/bionumber.aspx?s=y&id=101729&ver=10

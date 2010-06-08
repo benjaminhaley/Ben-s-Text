@@ -1,0 +1,29 @@
+DNA Computing
+	The prospect of using nucliec acids as a computation device.
+
+Summary:
+	DNA is common, non-toxic, and cheap.  DNA computers are many times smaller than today's computers; two grams of DNA holds one trillion gigabytes of memory.  The computing power of a teardrop-sized computer, using DNA logic gates, would be more powerful than the world's most powerful supercomputer (what does this mean?). The large scale parrellel processing possible using DNA computers would enable powerful decryption tools...
+	
+
+computing with artificial RNA in a cell (2008) http://news.nationalgeographic.com/news/2008/10/081016-rna-computer.html
+
+Papers:
+# ^ Leonard M. Adleman (1994-11-11). "Molecular Computation Of Solutions To Combinatorial Problems". Science (journal) 266 (11): 1021–1024.  — The first DNA computing paper. Describes a solution for the directed Hamiltonian path problem.
+# ^ Dan Boneh, Christopher Dunworth, Richard J. Lipton, and Jiri Sgall (1996). "On the Computational Power of DNA". DAMATH: Discrete Applied Mathematics and Combinatorial Operations Research and Computer Science 71.  — Describes a solution for the boolean satisfiability problem.
+# ^ Lila Kari, Greg Gloor, Sheng Yu (January 2000). "Using DNA to solve the Bounded Post Correspondence Problem". Theoretical Computer Science 231 (2): 192–203.  — Describes a solution for the bounded Post correspondence problem, a hard-on-average NP-complete problem.
+# ^ Computer Made from DNA and Enzymes
+# ^ Yaakov Benenson1, Binyamin Gil, Uri Ben-Dor, Rivka Adar, Ehud Shapiro (2004-04-28). "An autonomous molecular computer for logical control of gene expression". Nature (journal) 429: 423–429.
+
+People:
+	Dr. Corn 		chemistry 		at Wisconsin Madison
+	Lloyd M. Smith		chemistry 		at Wisconsin Madison
+	Max G. Lagally		materials-science 	at Wisconsin Madison
+	Anne E. Condon		computer-science 	at Wisconsin Madison
+
+	Leonard M. Adleman	Computer Science University of Southern California
+
+	Richard J. Lipton	computer-science at Princeton
+	Daniel Boneh		computer science at Stanford
+	Christopher Dunworth	computer-science at Princeton
+Grants
+	NSF ?

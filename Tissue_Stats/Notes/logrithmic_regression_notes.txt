@@ -1,0 +1,16 @@
+Logrithmic Regression
+
+Analyzes bionomially distributed data and finds the maximum likelyhood regression coefficients of various factors that inform the probability assuming that the logarithm of these factors contributes linearly to the odds.
+
+
+f(z) = 1 / ( 1 + e^-z )
+  z  = b0 +b1*x1 + b2*x2 + ... + bn*xn
+
+
+binomially distributed data 	the outcome of independent binary events
+OLS regression			ordinary least square regression, - useful for continuous variable prediction.
+
+
+
+In stata
+	"diagnostics are used to check that the assumptions are valid"

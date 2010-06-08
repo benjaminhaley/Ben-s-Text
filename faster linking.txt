@@ -1,0 +1,8 @@
+faster linking
+	could be used to improve the speed at which I compose ideas
+
+I wish I could write these notepad files and when I want to make a link to a new concept mearly highlight some of the words and use a keyboard shortcut to link those words to any matching filename in my archives folder.  If the file cannot be found, I'd like the text editor to automatically compose such a file and note that to me somehow.
+
+However, I am getting pretty good at typing out all that http garbage and useing google desktop to quickly find any filenames I might be unsure of.
+
+

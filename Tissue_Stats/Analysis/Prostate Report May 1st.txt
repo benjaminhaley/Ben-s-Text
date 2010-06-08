@@ -1,0 +1,33 @@
+Here we present a logistic regressions relating prostate event incidences (malignancy and hyperplasia) to the number of pathological observations, lifespan, dose rate, and total dose.
+
+We see a significant positive relationship in the count of pathological observations (pathologyc~t), the lifespan in years (lifespan_yrs).  Exposure rate (cGyPerHour) has a significant negative relationship.  Total dose (GyTotal) has a positive but insignificant relationship.  Taken together, these factors are highly significant (Prob > chi2 = 0.0000) and account for roughly 1/5 of the observed affect ( psuedo R2 = 0.2263 ).
+
+*note: Psuedo R2 should be taken with a grain of salt as variance is not measurable in a binary outcome
+**note: the range, mean, and std. dev for each variable are provided to contextualize the coefficients
+
+
+
+Logistic regression                               Number of obs   =        501
+                                                  LR chi2(4)      =     130.77
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -223.52143                       Pseudo R2       =     0.2263
+
+------------------------------------------------------------------------------
+  morphology |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+pathologyc~t |   .0927559   .0204726     4.53   0.000     .0526303    .1328815
+lifespan_yrs |   .1869324   .0365599     5.11   0.000     .1152763    .2585886
+  cGyPerHour |  -.7861223   .3798071    -2.07   0.038    -1.530531   -.0417141
+     GyTotal |   .0095067   .0054897     1.73   0.083     -.001253    .0202664
+       _cons |  -3.833825   .4624452    -8.29   0.000    -4.740201   -2.927449
+
+
+
+
+			Range		Mean		std. dev
+
+pathologyc~t		1 - 36		10.7		6.69
+lifespan_yrs		0 - 16.3	8.0		4.9
+cGyPerHour		0 - 2.4		0.36		0.40
+GyTotal			0 - 147		16.7		21.3
+

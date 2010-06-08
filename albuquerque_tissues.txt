@@ -1,0 +1,71 @@
+albuquerque_tissues.txt
+	To get the albaquerque tissues for future use
+
+To Do:
+    can we get Michael an ID?
+    can we hire Christine?
+    read about the studies in the beagle dog book.  Prepare a list of q's for Ray.
+	estimate the number of documents
+	come up with a scanning plan
+	estimate the scanning time needed
+	what info do we need off each doc
+	can we find a way to recruit foreign labor to do the work (like amazon turk to digitize)
+    create backups for Gayle and Tanja
+    Come up with a cool name for our compelete archives (NUra maybe?)
+    Order empty boxes for when we organize things
+
+
+Contact
+    Raymond A. Guilmette, Ph.D. 
+    Lovelace Respiratory Research Institute 
+    Director, Center for Countermeasures Against Radiation 
+    2425 Ridgecrest Drive SE 
+    Albuquerque, NM 87108 
+    (w) 505-348-1809 
+    (c) 505-205-3878 
+    (f) 505-348-4980 
+    rguilmette@lrri.org
+
+Tissues
+	LRRI Inventory for NRA - summary.xls
+    we will wait for ray to decide on 7 garbage cans full of wet tissues https://mail.google.com/mail/?shva=1#inbox/126911637b8d17f8
+    We will soon get the frozen tissues from Afri https://mail.google.com/mail/?shva=1#inbox/126911637b8d17f8
+    TATTOO No: is the animal ID number that associates to the tissues
+	
+Move
+	Pallet size: 40x48" - we can move through all but the final door.
+	Friday is the move
+	Details http://mail.google.com/mail/?shva=1#inbox/12354df21181a13a
+    The shipping doc manager is Hank and Aurellio is his worker
+
+Mike Hire
+	start comming in when you can after that
+
+	Fill out forms: http://mail.google.com/mail/?shva=1#inbox/12628c7a4a5ef88b
+		I9 http://www.northwestern.edu/hr/payroll/PersonalDataForm.pdf
+		Personal Data form http://www.northwestern.edu/hr/payroll/PersonalDataForm.pdf
+		fed-w4 http://www.northwestern.edu/hr/payroll/fed-w4.pdf
+		w4 http://www.northwestern.edu/hr/payroll/Il-w4.pdf
+		time sheet info http://www.northwestern.edu/hr/payroll/kronos/tempmanual.pdf
+
+book scanning
+    diy scanner
+    ask the librarians
+    destructive scanning http://en.wikipedia.org/wiki/Book_scanning#Destructive_scanning
+    Tanja says we already have OCR software
+    Xray scanner options - see https://mail.google.com/mail/?shva=1#inbox/126b9db061dedd50
+
+Data 
+    Ray will contact Joe Deasy about the access to and format of the old computer files https://mail.google.com/mail/?shva=1#inbox/126911637b8d17f8
+    We should scan all of the Argonne reports
+    Put up the lovelace reports C:\www\dog_tissues\reports\Lovelace Reports
+
+
+01/29/2010
+    Got Michael to submit his user info get Micheal to activate his netID https://mail.google.com/mail/?shva=1#inbox/126660f06ee4058f
+
+01/25/2010
+    We've handled the vast bulk of Michael's hiring day stuff (http://mail.google.com/mail/?shva=1#inbox/12628c7a4a5ef88b) and now we are on to the process of activating his ID. 
+
+01/15/2010
+    I contacted the shipping doc before the move.  It was a great idea.  The data arrived in decent shape, on crates.  It was only a little messy because they had stacked 1/2 full boxes which smashed in the move.  After a little hassle and a couple of stuck elevators we managed a moving technique to get all of the materials into the floor on time with everyone moving at full steam.

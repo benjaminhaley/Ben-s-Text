@@ -1,0 +1,12 @@
+JavaScript
+	I want to be introduced to javascript so I can work with code that uses javascript, notably google desktop api code.
+	and design dynamic web content using javascript frameworks particularly for the development of a coaching web portal.
+
+Javascript is a scripting language primarily used for client side web application development.	Implementing Javascript is complicated by incompatiabilities, usually due to a browser's failure to support elements of the Document Object Model (see http://localhost/Archives/Document_Object_Model.txt).  Pre-written javascript libaries allow for easier development of JavaScript advanced applications.
+
+Overview 		(see http://localhost/Archives/Javascript_Overview.txt)
+Uses 			(see http://localhost/Archives/JavaScript_Uses.txt)
+Incompatibilities 	(see http://localhost/Archives/JavaScript_Incompatiblities)
+Frameworks/Libraries 	(see http://localhost/Archives/JavaScript_Frameworks.txt)
+Tutorials 		(see http://localhost/Archives/JavaScript_Tutorials.txt)
+

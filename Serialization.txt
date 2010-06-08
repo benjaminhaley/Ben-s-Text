@@ -1,0 +1,24 @@
+Serialization:
+	To store complex data objects as one value in a table
+
+Use:  	
+	To make a questions/answer support and extensiablity support for reflib.
+The reflib will have at least two and theoretically infinite note taking 'objects' that could be implemented by a user.  The elements of the object will be defined at XML tags.  The values of these elements will be defined by the values between the xml tags.  The look and behavior of elements will be encoded in the CSS and javascript.
+
+
+Example:
+	1. Dave's	<note> 	
+				<text> This is Awesome </text> 
+			</note>
+
+	2. Ben's	<note> 	
+				<question> What's going on? </question> 
+				<answer> We're building reflib </answer> 
+				<right> 3 </right>				# store this info in tags
+				<wrong> 2 </wrong>				# store this info in tags
+			</note>	
+
+Notes:
+	General (reviewed 0) 	http://en.wikipedia.org/wiki/Serialization#Python
+	JSON 	(reviewed 0)	http://en.wikipedia.org/wiki/JSON#Data_types.2C_syntax_and_example
+	XML	(reviewed 0)	http://en.wikipedia.org/wiki/XML#Processing_XML_files

@@ -1,0 +1,19 @@
+gre_submission.txt
+	A list of how to send the GRE transcripts by school
+
+Stanford BioMed Info
+	to institution code 4704
+	no departmental code needed
+
+Berkeley EE/CS 
+	institution code 4833
+	department code 1203 
+
+NU IGP
+	institutional code 1565
+	no departmental code needed
+
+
+U of C	Janelia Farm
+	Can submit unnofficial scores prior to admission
+	

@@ -1,0 +1,12 @@
+HomeWork
+	To crack the genetic code
+
+17/Nov/2008 12:08 - 18/Nov/2008 1:08	addative and multiplicative Counting, Pigeon Hole Principle, permutations/combinations, Adami notes finish, wrote to adami, trued wheel
+					downloaded office, etc.
+18/Nov/2008 11:00 - 18/Nov/2008 23:21	C(n, r) and P(n, r), probability, tried to repair jockey pulley... couldn't, 1/2 page of molecular information theory terms.
+
+
+To Do:
+	Discrete Mathematics book
+	Grad School Work (see http://localhost/grad_school.txt)
+	

@@ -1,0 +1,8 @@
+anna_games.txt
+	A collection of games which I would like to try with Anna and freinds.
+
+pigmania
+diplomacy
+yatzee
+Knights of Catan
+

@@ -1,0 +1,26 @@
+Servers_Space:
+	in order to develop always on computer to communicate with clients of Dave and my software particularly Coach_Mom
+
+Support: Steve Scott, steves@godaddy.com, 480-366-3333
+customer id: (see gmail - virtual dedicated server instructions)
+password: (see gmail - virtual dedicated server instructions)
+
+To get things started:
+# Set the DNS so edudex.org redirects to our server.  Ideally, I think we might be able to set it up so that www.edudex.org directs to one directory and www.scidex.net (or org) redirects to another.  Those domains are already registered with godaddy under my account, so that should make it easier (hopefully).
+# Get the FTP root access information. FTP clients should be set to require the password each sign in -- I don't want someone to be able to wipe out all of our work from any of our computers.
+# Figure out how to set up the virtual desktop connection (so we can actually access the server).  Virtual server sign-in should be set to require the password each sign in -- I don't want someone to be able to wipe out all of our work from any of our computers.
+# See if it comes with WAMP, Python, and SVN pre-installed.  If not, we should install them.
+# Set up MySQL (Dave)
+# Upload repo files from Janus to our own svn
+# Upload edudex files from Dave's laptop (Dave)
+# Figure out SSL
+# Rock out with our cocks out
+
+
+
+Dave reccomends start logic and blue host and request a web service which supports python, mysql and php.  I would like to have a system where we have full control over how the computer opperates.  It looks like a Dedicated hosting Service or Virtual Dedicated hosting service grant root access to users.  They come in flavors of managed and unmanaged the former of which is more expensive but may provide security features, maintenece and upgrades.
+
+The OS of your server is a bit of a base decision to make.  You can use Microsoft Windows Server, but also flavors of linux like the subscription based Red Hat Network or the open source Debain, Fedora Core, FreeBSD, NetBSD and Open BSD.  OS choices will greatly affect security of a website.  Other basic concerns include bandwidth, network uptime (better if multi-homed), and price.  So after a long search with few results we have settled on Dave's old provider, bluehost.
+
+
+

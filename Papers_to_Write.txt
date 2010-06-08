@@ -1,0 +1,15 @@
+Papers_to_Write.txt
+	A list of papers that I am developing to publish in order of importance.
+
+Papers to Write
+	Turing Biology Review						see http://localhost/Archives/turing_biology.txt
+	Turing RNA							see http://localhost/Archives/turing_RNA.txt
+	Memomory and Computational Capacity of Biology			see http://localhost/Archives/Cellular_Computation.txt
+	The Network (virus)						see http://localhost/Archives/biological_network.txt
+	The Interface							see http://localhost/Archives/biological_interface.txt
+
+Maybe papers...
+	Compression in Nucleic Acids					see http://localhost/Archives/biological_compression.txt
+	Information between transcriptome and genome			see http://localhost/Archives/Transcriptome_Genome_Information.txt
+	Unusual Distributions in the Genome				see http://localhost/Archives/Properties%20of%20GA-Sequences.docx
+	DNA from RNA							see http://localhost/Archives/RNA_to_DNA.txt

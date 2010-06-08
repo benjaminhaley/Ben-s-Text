@@ -1,0 +1,4 @@
+DOM_Inspector
+	A tool to inspect and edit the live DOM tree of a web document or XUL application
+
+So a DOM tree is composed of a series of nodes in a hierachy.  In html this is represented by the relationship of <start> and </start> tags within the document.  A DOM inspector might take that data and redisplay it as something navigated like a traditional windows filestructure.  In addition for a DOM tree chrome (GUI), the DOM Inspector.

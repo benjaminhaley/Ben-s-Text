@@ -1,0 +1,9 @@
+DOM_Attribute
+	To understand the meaning of a DOM_element interface return type (see http://localhost/Archives/DOM_Elements.txt)
+	To understand javascript, to work with google desktop API to add Email and Web History results to the Itch (see http://localhost/Archives/Google_Desktop_Itch)
+
+
+??? don't really know what these are.
+
+
+

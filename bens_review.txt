@@ -1,0 +1,90 @@
+bens_review.txt
+	My regular review process will be organized from here.
+	tags: ben.txt
+
+
+High Priority
+	04/02/2010 add a gdocs interface to date.py... might take a few hours
+
+
+To Do:
+		Write a short summary
+		Schedule the next week	
+		Schedule the next review
+
+	date.py
+		add gdoc support
+		add a search feature
+		put results in database (note when they've been modified)
+		add a small script that will show off a preview of all date matching entries in order.
+		add results to a calendar or reminder service like email
+		I would like to have the ability to expand the selection.  The best way to do that would be to only show a teaser (the line and whatever else fits) as a sort of gmail style list and then allow their expansion into the full text.
+		
+	to_do.py
+		find a way to parse and present my to_do lists
+		integrate with g calendar
+	
+	HTML me
+		transfer my files to html, make them .txt extensions into links
+		develop method of determining how often my files/urls are visited
+		create an FOAF profile (tim berners lee recommends)
+		I need a quick search function whereby I can easily (by keyboard commands) get a link to the item I am searching for
+		delicious_key.txt
+		
+	Log my computer activity
+		get a key stroke logger
+		
+	Secure Me
+		Add some security to my files/computer
+		
+	Backup 
+		my gdata https://mail.google.com/mail/?shva=1#inbox/126de2ab3d8c44e5
+		cache delicious pointed to pages
+		
+	06/30/2010 long_journal.txt 
+	
+	I'd like to have autofill for any text that I have copied recently
+
+
+
+6/3/2010 - 7 hours
+	Went over my various notes from the papers I had read on web page optimization, php sockets, scalability in web design, unix, cygwin, and so on.  In addition to looking up a bunch of new terms and concepts, I wrote several new blog.txt posts - one on idea theft (and how its not too bad), one on turing computation and all the questions is opens up and one more I can't recall.  I spent a little time writing up the loose outline of the argument I made for network biology (now in gdoc) and I spent a bunch of time adding PERTS documentation, emails, and tickets based on my accumulated notes.
+
+03/29/2010
+	After starting on the 6 mo review this last week, I have come to understand that conducting a review of that sort across email, text files and all the other miscillaneous archives I have is too involved.  In the last case, doing a 3 mo review was easy because I had access to my weekly reviews which massively simplified the data to go over.  So instead of conducting the massive review, I am going to try and reestablish my habit of doing a weekly review, though I will avoid the Sunday habit that caused so much bother last time.
+
+03/15/2010 - 0.5 hours - ben.txt
+	I did manage to find the long awaited quick search function for gmail.  It required that I allow google desktop to index https documents.  Still, for the most part they don't come up high enough in the search results.  Hopefully as the computer has more time to index, and I go through this portal more often, it will be easier.  
+
+03/15/2010 - ben.txt - organization,  1.0 hours
+	I'm taking some time to depreciate some of the files from this to-do list that I think have grown uninmportant, namely the Slow Down.txt document, Hatred.txt, Wrong_with_me.txt, Perfect_Day.txt, Quiz_Elements.txt, and text_to_HTML.txt.
+.  These files are not being used and maintained, so I think it is time to file them out of to do and into the archives.
+  
+3/15/2010 - retiring old ideas 1.0 hours
+I'm taking time to organize this databasing ben project.  I've decided to move away from the concept of developing a total database, because I realized the incridiable amount of work that would be necessary to make additions to such a statically composed document.  My new concept will involve work with text files and features that crawl these text files to glean imporant information from them.  This important distinction will prevent me from having to build an overly complex system and it will also generate tools that other users will have a chance to benefit from provided that they follow similar conventions in their listing of dates, to do's and the rest.
+So the following ideas are being retired: Impliment trial with Grad_School.php	Build a report which mirrors the current .txt file but where elements can be added to each section and changes will be reflected in the database, make a utility to search the database by name. Go through the NU time sheet and correct the categorizations, Start going through documents and build them into the php database include space for free entries.  And ben_parser.txt, and sqlite.txt.
+
+03/15/10 - 10 hours - date.py
+	I spent a long 6 hour night an another 4 hours today producing date.py.  The function is pretty straightforward.  It goes through all the txt files nested in whatever directory it is in, parses out the dates and associates them to all the content below them.  Then it prints out a date-ordered preview list of this content.  Right now it is limited by the fact that it requires a year feild, will only accept numerical date entries, and looks for the format MM DD YYYY (or YY).  Still that covers about 90% of my own personal cases and so moving forward I want to integrate it with gdocs, my other major platform, and then add a utility to filter the results with a simple search term.
+
+01/31/10
+	Cool, I think time has eased my work with jquery.  After I managed to get things rolling by opening up eclipse, streamlining my to-do's (I had forgotten a lot of my mindset) and deleting misleading pathways, I managed to get to the grad_school.php script on eclipse (with FTP support).  Finally, I figured out how to parse the xml and print to the dom.  If I finish this up for my remaining items, then I will have the original document fully displayed.  Once there I can think about the very interesting question of how to make it parsable.  One note, right now I am giong through the xml by hand to produce the dom, but I really should be printing it out nearly verbatim as a series of nested divisions.  I think it should be relatively straightforward to do that, but that will be the main challenge of the next time I revisit this problem.
+
+01/04/10
+	OK, so I have downloaded the eclipse aptana extension and it seems to be working, although it is annoying that I will not be able to automatically ftp it to the lab, I can just do it by hand for the time being.  I have added a link to the google jquery library and it appears in firebug, so I assume it is accessible.  I hope that it is automatically identified in eclipse due to aptana.
+	While testing the jquery library I was surprised to learn that it had to be called first in the html file in order to be integrated into my own javascript.  I thought it would have offered up some sort of error in that case, but I guess that is is not so.
+	A random web search brought me to the aptana homepage and after a few clicks I learned to set the perspective in eclipse to aptana.  This in turn made ftp connections obvious and now updates happen automatically.  This is awesome.
+	After not discovering aptana I found a number of aptana plugins that I had not yet installed, including the support for jquery.  I just installed those using the plugins manager and have restarted aptana, hopefully that will get things working properly from the get-go.
+	Wonderful news, I got things rolling on the jquery so that now my jquery script adds to the DOM directly which I can now use as my document model.  This will drastically simplify my proposed development as I will no longer have to add a print statement, but rather prints will be loaded directly into my model.  I can't wait to keep working on this, but for now I have to go visit Q.
+	Last I came back late tonight and learned how to actually send the AJAX.  Now that I have the full scoop, I think it is time for me to read the tutorial again to learn how things actually should work, but first bed.  
+	
+	
+1/01/10
+    I was looking for ajax development frameworks and according to wikipedia jquery is one of the most popular.  I had heard it mentioned before, especially as having an intuitive syntax (better than xml) and so I ran through some tutorials.  Now that I understand the library it is based on I am very impressed and I think it will make it much easier to develop ajax using the httpRequest object in javascript.  
+    So my next mission has been to find some development tools to get rolling on it.  I just printed a cheat sheet and found an ide plugin on a post at stack overflow (aptana - which can integrate with eclipse).  I don't have more time to work on things at this point, but I do have this document started to ease my development.  I am pretty excited to get the system rolling.
+
+12/30/2009
+    I just finished up mapping out the object relations that I want to have for an individual project presentation in html as updated by ajax.  I implemented one of these in javascript using a helpful tutorial that described how to make javascript objects.  Last, I've been working my way through the AJAX tutorial.  I've made a php script which produces an xml of my database.  I can call that from my home script and it delivers a result.  But I am having trouble gettting the xml called into a script that will do its parsing into the object.  This is quite the annoyance.  I have also learned that I might be better off working with DOM as my parameter carrying object, but I am not totally convinced of this.  For the time being I am going to grab lunch and meet up with Dave to talk PERTS.  I doubt I will have a chance to get back to this in the next few days, so I will leave it for Saturday with some good notes about where I am at.  So for now a bit of cleanup.
+    
+11/01/2009
+    I've just brainstormed out this process and decided that it's not worth spending too much time on just yet.  When I do decide to make a push for it I will essentiall want to implement a wiki architecture.  This will handle the problems of linking, give me a clear starting format for a page (to do list, related docs list, purpose statement) and allow me to have a related page available via tabbing that tracks my use of time.  This could be estimated by starting a wiki and starting the process of unloading to it.

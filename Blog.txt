@@ -1,0 +1,216 @@
+Blog.txt
+	To post my thoughts to the world at http://benjaminhaley.blogspot.com/
+
+
+...
+
+The Turing Plateau
+
+A turing machine is supposed to be the most powersul computer that can be described (?check this definition carefully).  While I would not be so bolds as to frefute taht 75? year old clpaim, I might counter that the definition of 'power' and 'computation' in this context are rather limited.
+For instance, the turing machine,  takes for granded the need for an agent to provide input and outpu.  Who/what is the agent, some other turing machine?  And what means of connection do they share - a binay switch to tap on anand off?  If so then practicatlity of their unlimited power is rather dull.
+This idea leads to a sweris of interesing questions.  What would it take to make a pcouputer that is chemically complete, that is it could read as input the set of all chemical and output all chemicals.  Such a device would need some real ability to manipulate energy at a fine scale, impossible fine perahaps.  More realizable, what would it take for a machine to be DNA complete, capable of reading and writing any arbitrary sequence of nucleotides.  This is a far more obtainalbe goals, but one still confounded by teh difficulty of dealing with very long tangle chords.  The need for interface power in compjuting is more than hypothenitacl, it drivers our technological persuits as we try ot merg our turing machines to electrons trhough coper wires, phontols through cglass and air aand out into such abstractions as human speech.
+Thern there is a second elephant in thTuring's room. The code generators.  While the turing machines is as powerful as they come, all its power rides off the assumption that their exists some master mind who might enter a program just so and validate its outcomes.  Who/What is this mastermind that drives the turing ?  We can see that in our experience ift if ourselves and naturie itself whiech programs these calculating engines to program themselves.  This chicke and egg relationship begs the questions where did it originate?  Can a turing engined be build and programmed by a non-turing engine?  And does it gain the first program which propoage and refine themselves.  This is a preequistive of the machie's power that bests ofr answers.
+
+...
+
+Idea Theft - a Bruce Willis attitude
+
+
+Recently Dave told me about his meeting with Mark Leper who warned him of the 'vipers' in the education department at Stanford who might poach our idea, PERTS.  So what if our idea were poached?  I say good! Our mission, to improve the state of education through research and online deliveries is a large one.  We take it one, not for our own glory, but because 'some one has to do it'.  We are like Bruce Willis, driven by necessity to get our hands dirty to save the world, grumbling all the way. If we manage to get another group to give a damn, or two shits as much as we care then we might be able to relax kick our feet up and enjoy a day where we 'don't have to do everything around here'. Of course if we are to learn anything lessons from Bruce Willis, we can rest assured that some stooge in that group will fuck it all up and we will have to strap on our boots again and go crack some educational skulls.
+
+...
+
+Save Our Planet - Preserve Screen Real Estate
+
+Recently I heard a comment to the effect of "we might as well put it in, its not like we have a shortage of screen real estate".  Comments like these make me cringe.  Screen real estates is on eof the recious natural recousrces we have of the user's attention.  Despoil it with bad designe and the user will want to avoid our website.  Leve it open or place a pretty garden there (like a nice picture) and it will be preserved for the use of future coers.  It is much easier to reclaim underdeveloped land than to teacr down UI houses that are ouccupied by user habits. 
+The most beautiful example of UI simplicity is the google search bar.  The most powerful tool on the internet surrounded by nothing but a beautiful logo and a pane of dissappearing links [edit:now google has some more features on their search page, but rest assured they spent a long time thinking about them before adding them]. and a pane of dissappearning links like magic google faiies fleeting abut the code wood.  The beauty of the isterface is clear to anyone that's used it, but more importatn is ts versitility.  The google search can move to mobile devices toolbars and context menus by hardly chaning ists appearnce.   The affect to us users is ubility to 'google' is a verb, but no one 'yahoos' anything.
+Just as important is our ability to focus.  When we go to a serach engine we miean to search and every peice of today's headlines, silly ads and feature flash, distracts us from our ultimate purpose.  We many follow these primrose paths into other activities, but at the cost of our growing resentment. For the same reason we avoid calling gramdnma, because she will talk our ear off about trivialities, we avoid the poorly focused website. 
+Then there is the matter of duplication.  All too often designers throw us multiple paths to the same place.  Consider Microsoft word.  How many roads lead to Rome?  How many mensu can we use to make our text bold.  Designers think they are doing us a favor with this redundancy, but theyr are hurting our psychy  Have you ever dug through the cudldesacs of word to hit confuseing one way streets where the actin you want to t find is burried in a bizzare contesxt maze.  Have you ever tireid to tel a freind how to do a simple task in word and found yourself saying that they could make it bol by x, y, or some uknown infinitude of z's.
+rant over!
+
+...
+
+Bee-traction
+
+I was wondering recently how so many flowers manage to stay so symetrical and beautiful.  They have no eyes to see with and therefore would find it difficult to gauge this beauty themselves, so how is it maintained?  The most obvious answer is that their polinators maintain it.  For some reason bees - which have the eyes needed to appreciate symmetry and visual beauty must be biased toward very beautiful symetrical plants.  (perhaps plants are seeing some sort of underlying symmetry a sort of 'inner beauty' that drives the behavior, but I will ignore that possibility for the time and focus on the polinators ).
+Why would bees be attracted to really pretty looking flowers?  Well an obvious answer is that they are able to grab their attention, but if attention alone were enough to get polinator to spread your pollen, then it wouldn't explain the complex symmetry and beauty of some flowers.  So perhaps bees are drawn to this symmetry because it indicates a tightly run ship.  In the same way that a finely set dining room signals a (probably) delicious meal, a very nice flower might signal some very nice nectar inside.  
+However, there is another plausible and tantalizing source of this flower beauty.  Perhaps it relates to the flowers ability to select its polinator.  We know that certain flowers lend themselves to certain polinators and that co-evolution sometimes pushes this relationship to a singly exclusive one like in the case of humming birds and the long flowers they suck from.  One could imagine that if a bee A* were very selective and chose only the finest most symetrical flowers while bee B were a little less discerning then it would be in your benefit as the flower to keep your Ovums nicely out of reach of that Bee B and open wide for bee A.
+
+...
+
+Java Script Future
+
+see JavaScript_Future.txt
+
+...
+
+A revised saying: 
+"why would they buy the cow if they've never sampled the milk?" 						Inbox		X						 
+
+
+...
+
+Infinity and Beyond
+	Hotel Occupancy for Integers
+
+	Infinity is at the edge of mathematics.  Once you sail through the number system past the billions and the trillions, the googol and the googolplex, you approach the mysterious limit of infinity.  A little magic limit dust and suddenly you are in a world very unlike the integer world you came from.
+	The infinity world is strange because you can manipulate it without changing it.  For instance if I gave you all the even numbers in the universe and asked you to give me back all of the even and odd numbers you could accomplish the task simply by dividing each even number I gave you by two.  You didn't get more numbers in the process because the number of all even numbers is the exact same as the number of all whole numbers, namely infinity.
+	So, it might come as a surprise that infinities come in different sizes, three different sizes to be exact.  You just saw above that you can produce all of the whole numbers using all of the even numbers and by analogy you might expect that you could produce all of the decimal numbers by starting with the whole numbers.  I challenge you to try exactly that, think for a moment of a simple transformation (like dividing by two) to produce all of the decimal numbers starting only with the integer numbers.
+	If you are tired of that exercise, I will reveal the secret you may have already guessed, that you can't produce all of the decimal numbers starting with the integers.  The truth is that no matter what transformation you apply, there will always be an infinite number of missing decimal numbers between each of the transformed integers.  This mystifying revelation is only trumped by the fact that there is another inifinity above both of these, and the still more staggering revelation that this infinity is the largest one.  They call it beth-2, and I can't claim to understand why math demands this final infinity, but I can advise that if you are ever in a competion of numerical one-upsmanship you can skip right over that silly exercise of "infinity plus 1" and jump to "beth two" at which point I can assure you that you have won the argument undeniably.
+
+...
+
+
+Log base b of a... or some such nonsense.
+
+Even the best of us has a flaw.  I am no exception.  For me its logorithms.  While I've always been mathematically inclined, bent you might say, I never got the logorithm under my belt.  Its always bothered me the way it turns multiplication into addition, switches around the order of everything and creates a dreadfully hard to write subscript.
+
+Trouble is that logarithms are useful, at least in discrete mathematics they are, and since I am studying discrete mathematics they are made use of frequenctly.  This is a bother to me, because mathematics is like a pyramid and you can't well stack new blocks on the pyramid if you don't have the base, so any discrete mathematics proof relying on logs made for a sort of shoddy construction.
+
+Today, however, I decided to change that and learned something in the process.  I went to the apendix and studied the page or two on logorithms.  All of it was familar, but little of it struck me as intuitive.  If the logorithm was some distant relative I would always be refferring to them as "old what's his nose".  Well, after a bit looking things over I stumbled across one of my favorites, a mnumonic, and a really elementary one at that.  
+
+Log base b of a is the power to apply to b to get a.  That's so simple, right, and its really not too much different than what I was thinking before, the relationship wasn't lost on me.  What was lost on me was a way to phrase it in less than 10 words so that it could fit on the pulleys made for hoisting up into the middle of my mathematical pyramid.  And now it rolls, everytime I look at a logorithm I will think of this relationship and suddenly the keystone of my understanding is made.  Now I can look forward to scratching my head at why i'd ever have trouble with the concept in the first place and consider what a man's to do when he's out of flaws to polish.
+
+...
+
+
+intellectual dearth
+
+	There aren't be many phrases more taboo in a biology lab than intelligent design... except maybe who spilled the mercury.  To those that are in arms about it, the intelligent designers are creationist wolves in lab coats.  They represent the festering backwaters of conservative oppression striking its death blows against a culture best off to leave them in the murkey past.  
+
+	Well, I'm more open minded.  You see, Darwinism is right.  A truism, in fact.  Those things which survive pass on their traits, and so the future looks like a modified version of the past biased towards the most successful variations.  The evidence to support this veiw is insuperable, and I won't waste time detailing it here.  
+
+	The ID argument holds that an object of exquisite design indicates the presense of an intelligent designer.  Those creationist wolves would have you believe that the intelligence is (dum dum dum) God, but there is no reason to jump to that conclusion.  It is entirely possible to suppose that the intelligent force is something natural, something testable.
+
+	You see the running line in biology is that variation is random and Darwanism acts on these random changes.  But random is a bit of an intellectual cop out, a sort of 'we don't know'.  It is entirely possible that some of those variation are directed in some way.  Perhaps by those tender gaurdians of the genome we call cells.  Perhaps the little cells that make us up are not careless automatons afterall, but are helping to design their fate with infinately more care than we give them credit for.
+
+	Of course, there is no proof for my postulation, nor is there a good disproof.  Fortunately, as open minded scientists we don't have to rely on faith, we rely on skeptisism.  In the past 10 years we have just begun to peer into the molecular landscape of our genomes.  Very soon we will have high resolution data from multiple generations over time.  And with this clarity, we can decide yet again if the word 'random' is the best descriptor for the sculptor of our intricate design.
+
+...
+
+
+
+Fire
+
+Man's success is due to fire, and metal
+
+...
+
+Deprevation Holiday
+	Why its good to want
+
+Suffering through a slow information connection exasberated by slow servers at pubmed, a spotty DSL link, and permissions hoops that acemdemic publishing forces a learner to jump through to get to there ivory tower of information has me sympathisizing with that poor neuron that finds itself miffed when ethanol coursing through the brain shuts down those connections that allow it to warn the body that walking on the edge of the roof might not be such a great idea.  Still, the drunk seems to enjoy the process, despite the frustrations to its neurons, which makes me think that perhaps there is a connection between information depravation and the holiday.
+
+People turn off thier cell phones for holidays, they stop checking there work email and ignore their snail mail as well.  People seek sensory deprivation through fasting, heat caves, and payote when they need a spiritual experience.  Perhaps there is something to this, a need for reflection and reorientation is filled through the severance of external stabalizing inputs.  Maybe we can predict that in this increasingly interconnected world of ours there is growing room for network breaks.  Perhaps network breaks are a necessary part of sanity maintanence?
+
+...
+
+Das Schmect Mir Gut
+	Automated translation and the cultural transedence
+
+	Voice recognition technology is just now comming of age.  Goog411 and Windows Speech offer tantalizingly glipses of a world not 10 years away in which computers and phones will be able to recognize your words as easily as your key strokes.  The implications of this change are huge even if it doesn't spell the end of QWERTY, not the least of which is the advancement of a world language and a cultural exchange that may or may not be the dawning of the age of aquarius.
+	The essense of my point revolves around machine translation, which is also a rather sophisticated technology, but far from complete.  Computers are quite adept and translating between tounges provided that you don't demand the rigours of grammer, subtelty, or complete sensability.  For instance a clip from a translated German baby food site looks like so:
+	
+	"Hello now I write now my second report on the lunch menus of my daughter Marie. It is a baby mash. Since Marie eats porridge of course we have to mash the glass in the house to buy, and therefore I write you now about the Breie my little Marie is at noon and evening." 
+
+	This quote fails, naturally in its ability to form perfectly constructed and meaningful sentences.  It fails to translate all the words (Breie) and translates some poorly (glass).  But in all, I can pull far more meaning from this translation than from the original German!
+	Now this translation is fun and nothing too new, but when it is combined with voice recognition technology a new world will emerge.  Given this technology, any English speaking schmuck visiting Germany might grab a small and cheap device whereby his English mutterings would be interpreted into clear and only somewhat sensless German and the German spoken to him follows the reverse path.  The advantage of this system is that when things come out strangely, the stranger might say 'begging your pardon' and then quickly clarify that idomatic phrase to "I'm sorry, I don't understand what a Breie is" and here you can see the first example of a long series of cultural exchanges that will nit together the fabric of world language.
+	As it is, word memorization provides a huge barrier to communication between most people of the world.  It takes months or even years to learn enough foreign vocabulary to gain an appreciation for the depth of the grammatical and idomatic diversity that divides your native language from your new one.  The real time voice recognition and machine translation system (find a catchy short phrase for this) I am describing will allow people to jump into the language differences than divide Hindi and Swahilli with the kind of aplumb that only modernity would enable.  And this increased conversation will speed up linguistic and cultural exchange.  Foreign words without equivilants, and foreign grammers without equililants will be mirrored across languages and soon enough we will talk like yoda with a plain spoken and backwards grammer that represents the lingo-consensus.
+	Like all homogenizing factors in society, this will cut in on diversity and there is no doubt that the world will bemoan the losses of its native tounges.  But the newly emerging world language will provide us with a degree of unity, cooperation, and understanding that has not been possible.  The lingo fence is moving, and I'm excited to enter into these new pastures.  
+
+...
+
+The world according to Sam
+	Following the money
+
+How much each person spends per year per program at a federal level and what they might also buy with that money.  Is credit card debt of $1000 a year a problem?
+How does America's military subsidize that of Europe, South America, and Japan?
+How does America's military spending justify our share of world trade, that is how we get goods for escalating promises.
+
+...
+
+
+Fast Cars and such
+
+GPS and networks, could make routing cars a packet switching problem, meaning we could rock through cities at 30 mph with no stops (would probably start with city busses, around which other vehicles could cluster
+
+...
+
+Alchemist Revealed
+	How to spin wheat into gold
+
+The advent of the atomic age has proven tantalizingly that mere mortals can spin together a chemistry of regular elements so fantastic that they produce atimic level reactions turining everyday molecules into more amazing ones.  Of course we needed a little help from taht atomic fireball known as the sun.
+
+...
+
+DNA Graph
+
+In the modern world some of the most important work being done involves mapping and applying search algorithms to meaningful graphs in the world.  The most notable of these efforts have been the graphs produced by google of the internet and facebook of the network of friends.  The creation of each of these maps has relied upon the fact that nodes involved are willing and capable of defining their own connections to the central  service.  This ability to communicate connectivity is of paramount importance in the study of biology.  If cells are capable of defining their communication paths to researchers then we will have a powerful method of researching multi-cellular entities.
+
+
+...
+
+
+abstraction biology 
+
+well designed system feature layers of abstraction so that you can modify the higher levels w/o having to retool the lower levels.  In this way cellular behavior might be abstracted from its underlying genome.  To find an analogy, if we wanted to affect the U.S. governement we might try to modify the way people organize.  If we modify people themselves, we could find changes, but they would be incidental and less usefull.  For instance if we were to cut off people's legs, we would see changes in the underlying infastructure of the world, but this is not the best solution.
+
+
+...
+
+Flow of Violence
+
+Even unbiased news sources represent America as a relatively peaceful nations while areas like Iran and South Korea are represented as backwards and violent regions.  This is most notably emphasized in the restriction of atomic armorment.  Still if one looks at the flow of violence between these nations and their regions as a whole it is striking to find that the vast majority of violence is pushed from America, China, Russia, and other developed nations unto these supposedly dangerous countries.
+
+...
+
+
+blog
+
+A formula is just a stupid way of saying two algorithms produce the same result
+
+...
+
+income tax is a bad taxing system, as it is monopolistic, very hard to change governments
+
+
+.,.
+
+Advertising flowers
+	Why tulips are the standard for quality advertisement
+
+...
+
+If, For, and While
+	the new literate elite
+
+Computer Science is an emerging discipline taken up by specialists to promote their individual intersts in science, finance, and technology.  So it would be easy to dismiss its meaning as transient or specialized.  I will argue here, however, that the ability to utalize the universal conventions of computer programming are akin to a new form of literacy, one which will have a growing prominence in the days to come.
+
+Consider that a computer scientist can write more quickly.  Google search results are read as much as any item on the planet, but the editorial process necessary for their construction intinsicly relies on computer languages (and their supporting hardware) to implement.  The most widly read authors of our time are a disparate hoard carefully currated by some programmed machine conscience.  The progression of this technology will soon have it that the computer portion takes more dominance and the authors of interest will be machine.
+
+...
+
+
+normal_lunacy.txt - a discussion of the craziness of taking averages for data that does not behave normally
+
+...
+
+
+The Universe is smaller than You.
+
+    When we look up at the very big we see nature, rocks and air, sun and stars.  But an inantimate nature.  When we look down, then we see nature.  We are among the 0.01% largest animals in the history of the world.  Even the very biggest living things on earth today get to only 100 times our height.  Yet, the smallest are more than 100,000 times smaller.  Because life is small
+    
+    ...
+    
+Plain English
+
+	NPR just played a story about a subject I am passionate about, plain English.  Resources hidden behind obscure vocabularies are ubiquitious in our lives, in health care, bank contracts, parking signs.  Difficult language is more than obscuring, it is costly and dangerous.  Difficult language was deeply entrenched in a million unfulfilled morgate agreements.  Difficult language in medicine has led to misread perscriptions.  IBM reported recently saving 1/2 a billion $ ?? when clarifying thier documentation to thier services.  
+	A natural question to ask is who is responsible for keeping langauge clear.  Chrissie Maher the leader of the plain english campaign claims that writers might be sued for difficult language use.  Her argument holds that most contracts are only understood by the lawyers that draft them, people highly trained in their own peculiar language and clearly motivated to serve the interest of their clients (ie. banks, government, etc.).  Her back story is compelling reason to believe in her cause, born to a poor Irish family, she didn't learn to read and write until she paid her way through night school when 15.  Through her youth she found herself incapable of employing even basic services like public transportation in her town because the langauge employed was beyond her.  After educating herself she came to realize that the plights of her youth were only in part her fault while blame also lay on the drafters of confusing and obscure language.  To reinforce her point the Plain Language Campain gives out awards for confusing language (link ??).  Shoe repatriation area, ??, and ?? top her list of needlessly obscure language.  Her point is well made.  The tyranny of monopoloy is everywhere in our society and one of its most incideous tools of coersion is the careful control of language, because obscure language acts as a fence around the privilaged communities that employ it, not because their knowledge is complex, but because their semiotics are obscure. 
+	
+...
+
+Biological Intelligence (post to research gate maybe - inspired at the natural computing conference )
+
+Given that the vast majority of biology both historically and by mass concerns itself with spatial scales far smaller than human sizes, it should be something of a surprise if the most sophisticated computational device ever developed were the human brain that deals mostly with problems of a human scale (very large).  This would imply that the nanoscale concerns of most of biology are not well solved through sophisticated computation or that such computational devices are not readily constructable.  Both of which are false conclusions.
+
+An important question to ask if one were to suppose that cellular biology is a computational marvel is why such a system cannot be readily communicated with via the neuronal cells that compose our own human mind.  I cannot pretent to fully answer this paradox, but I might propose a couple of helpful clues.  To reason by analogy, a government is a sort of intelligent agent composed of intelligent agents, and yet when governments think, act, and model reality they do so in a way that is in some senses incompatible with that of an individual human.   So that we could not say that a government 'knows' a person in the same casual way that we can 'know' one another.  

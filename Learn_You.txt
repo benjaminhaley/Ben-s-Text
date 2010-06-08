@@ -1,0 +1,95 @@
+Learn_You
+	A list of interesting things I've learned today
+
+*redundant with news and projects
+
+6/Oct/2008 19:45	trb - stands for the pirate bay
+
+29/Sep/2008 23:17	sacrosanct means sacred
+29/Sep/2008 23:14	risible means capable of laughter
+29/Sep/2008 23:08	prehensile refers to a gripping limb (hand, foot, or tail...)
+29/Sep/2008 21:41	a polyandrous marrige is one involving multiple men
+29/Sep/2008 21:37	twist your body during side to side to add flavor
+29/Sep/2008 21:34	heal toe back and forth is a simple dance move
+29/Sep/2008 21:22	placebo means 'to please' and originally reffered to a false flatterer at a roman funeral attempting to get a peice of the funeral meal
+29/Sep/2008 20:38	a pedagogue is a dull and formal schoolmaster
+29/Sep/2008 20:36	antipathy is the dislike of someone
+29/Sep/2008 20:35	pandemonium means place of all the deamons
+29/Sep/2008 19:56	oligotrophic environments have few resources
+29/Sep/2008 19:54	numismatcis is coin collection
+29/Sep/2008 19:53	noctilucent clouds emit light and have only been noted since 1895
+29/Sep/2008 19:46	neuropathic is that pain which is caused by dysfunctional neurons, like phantom limb syndrome
+29/Sep/2008 19:44	a neophyte is novices
+29/Sep/2008 19:43	neologism is a new word
+29/Sep/2008 18:10	manacles are handcuffs
+29/Sep/2008 18:05	circumlocution means to talk around the matter
+29/Sep/2008 17:58	obliterate means to strike out letters
+
+28/Sep/2008 2:08	anode means upwards way, reffering to the eastern sun rise which is where the negative pole of the hypothetical current caused by the earths magnetic feild would originate
+27/Sep/2008 22:47	twi means twilight
+27/Sep/2008 19:59	neoclassical prefixes differ from native in thier use of foriegn languages in the construction of new words
+27/Sep/2008 19:29	1/root(n) 95% of the time will be greater than the measurement error
+27/Sep/2008 18:54	floor of x is the greatest integer not exceeding x
+
+25/Sep/2008 16:33	a menagarie is an exotic domestic animal collection
+25/Sep/2008 16:21	the grave accent is at the top left corner of the keyboard
+
+24/Sep/2008 19:01	In risk you might allow someone to get a card with an easy territory before conquoring them.
+24/Sep/2008 19:00	groups may judge differently than thier constituents (e.g. presidential nominees are not honest) (i.e. neurons:cells)
+
+15/Sep/2008 20:56	non-redundant tracing is impossible for a network with more than two oddly spoked nodes
+15/Sep/2008 18:01	gerunds are composed of verb+"ing" [other words] and function as a noun with relation to a verb or adjective
+15/Sep/2008 18:00	gerunds can generally be replaced with the phrase 'a gerund'
+15/Sep/2008 17:59	ungrammatical sentences are frequently preceeded by an astrix.
+
+/Sep/2008 14:06		The founders of Behavioral Economics only tested hypothesis they could prove in 24 hours
+
+12/Sep/2008 22:33	by default posts x-www-form-urlencoded, multipart/form data encoding is better for filenames and large data files
+12/Sep/2008 13:41	e.g. exempli gratia 'for the sake of example' (i.e. not id est or 'that is')
+12/Sep/2008 13:28	possesive prounoun :. noun form | adjectival modifier  (e.g. hat of mine | my hat)
+12/Sep/2008 13:26	DOM allows calling page elements like document.form.input.value() 
+
+11/Sep/2008 0:21	massive video audio and text archive from brewster kahle http://www.archive.org/index.php
+11/Sep/2008 0:12	professional scanning for 10 cents/page http://www.ted.com/index.php/talks/brewster_kahle_builds_a_free_digital_library.html
+11/Sep/2008 0:07	all 26 million books in the library of congress would fit in a cubic meeter (brewster Kahle ted talk)
+
+10/Sep/2008 23:29	A session is a server object associated to a cookie number
+10/Sep/2008 12:26	A cell freezing service would need an Internal Review Board (IRB) for the human tissues
+10/Sep/2008 11:56	Surnames are usually family names as of 1375, but alternatively origin or prominent feature
+
+5/Sep/2008 12:55	Arielle says to imagine a string from your cosax to the tip of your head, focus on butt and head, don't arch back.
+5/Sep/2008 12:02	Augustine thought if god wanted scintillating conversation for us eve would have been a man
+5/Sep/2008 12:00	restrictive descriptors: my friend sarah vs my only sister, Sarah, 
+5/Sep/2008 9:05		most calls are not sent to the microprocessor directly, but to a library like glib c
+5/Sep/2008 9:04		system calls are generally made in assembly
+5/Sep/2008 9:03		A system call is a request of the operating system
+5/Sep/2008 9:03		A call is a request of another program
+
+4/Sep/2008 23:20	callable(x)
+4/Sep/2008 23:20	bool(x) == true | false
+4/Sep/2008 23:17	any() tests any item
+4/Sep/2008 23:16	all() tests all items
+4/Sep/2008 23:13	double sided ques (deques)
+4/Sep/2008 22:47	except if():
+4/Sep/2008 22:23	nested classes don't share namespaces
+4/Sep/2008 22:02	() start __init__()
+4/Sep/2008 21:11	class(object) defult inheritence
+4/Sep/2008 20:42	_ + tab shows __builtins__
+4/Sep/2008 20:40	reload(module) reimports
+4/Sep/2008 20:09	self.method calls another method in a class
+4/Sep/2008 20:08	_hides a class method
+4/Sep/2008 19:08	del __builtins__.quit()
+
+3/Sep/2008 16:38	Gayle aknowoledges grant funders
+3/Sep/2008 16:37	endnote library unopenable when read only.
+
+31/Aug/2008 11:54	frameworks build websites
+
+30/Aug/2008 21:32 linear white space (LWSP): 	term in baucus naur
+30/Aug/2008 21:16 Demonym: 			name for a people
+30/Aug/2008 19:01 string literals: 		delimited strings
+30/Aug/2008 18:45 Interoperability: 		playing nice
+30/Aug/2008 18:38 No operation (NOOP): 		checks connections and manages timing
+30/Aug/2008 18:32 IANA: 			assigns IP domains
+30/Aug/2008 18:21 ATOM: 			XML feed
+5:51 PM 8/30/2008 Stanford CS 2010

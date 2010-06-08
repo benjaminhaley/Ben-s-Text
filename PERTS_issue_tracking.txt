@@ -1,0 +1,10 @@
+PERTS_issue_tracking.txt
+	How will we make sure that we track issues as a group
+
+	
+	Project Management Alternatives
+		The Big Picture
+		GtdAgenda
+		Clocking IT
+		Bug Zilla
+		Source Forge

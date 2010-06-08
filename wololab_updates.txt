@@ -1,0 +1,18 @@
+wololab_updates.txt
+	To be sure the wololab website stays up to date
+
+related docs:
+	Northwestern_Computer_Administration.txt
+	bens_job.txt
+
+Checklist
+	1. Be sure all members are on the front page (http://janus.northwestern.edu/wololab/)
+	2. Update Research Interests
+	 	a. Assign People to update the Current research paragraphs (http://janus.northwestern.edu/wololab/)
+		b. Fill out links in the homepage
+	3. Make sure each member has an updated picture and CV
+	4. Make sure all of the links work
+
+
+03/19/2010 - 0.5 hours bens_work.txt
+added Angela to the website https://mail.google.com/mail/?shva=1#search/angela/126d97e13f07cd14

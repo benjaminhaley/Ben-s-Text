@@ -1,0 +1,26 @@
+Memory_Improvement_Techniques
+	So that I don't have to constantly be taking physical notes and I can be less tied to a computer for memory demands.
+	So that I can be more prodcutive when reviewing concepts to be memorized
+
+I want to memorize long lists of functions (see http://localhost/DOM_Elements.txt)
+	I think flash cards would work well
+	I would think that sample code and predicting output functions would be the best (though it is best if this covers all exceptions of the function)
+
+
+Mnemonic notes from Wikipedia:
+
+First letter pnemonics
+	For example Roy G. Biv can be used to memorize the spectrum of colors in order.  These pneumonics needn't be logical and benefit from data chunking.  They are quick to develop but may not apply to all situations or perform as powerfully as visual memory techniques.
+
+Art of Memory (Ars Memorativa)
+	A loose grouping mneumonics of historical origons used primarily for Rhetoric or Logic.  Techniques include conjuring emotionally striking images in visual locations, chaining groups of images, associating images to symbols or text.  Again lumping (<7 itmes at a time) is very important.  So memorizing a list of 100 items would actually correspond to measuring 5 lists of 5 lists of 4 items.  Starting points are also extremely important to strike the memory's beginning which is why visualizing a location is so effective (esp. if you start at a starting point like an entrance).  It is also important that images be striking and not banal so that they stick most powerfully in the memory.
+
+Architectural mnemonic is performed by associating a system of memory to a known location.  One might first start by walking through a building in a particular order a few times after which one can memorize the elements of a list by associating them to objects in the architecture and following the same path through the architecture in ones' mind in order.  The influence of this technique can be seen in the English expression "in the first place...".  
+
+A graphic mnemonic is similar to it's architectural cousin, except that it might employ a sign or imagined space instead of a real physical architecture to attatch goods. 
+
+A textual mnemonic, the repeated reading of text esp by vocalizing.
+
+A link system of memory involves creating associations between the elements of a list outside of a specific architecture or this can be done as a building link where the elements all associate with eachother by the end or may be deconstructed into a series of individual links, so that the list dog, envelope, thirteen, yarn, window could be thought of as a dog eating one envelope among 12 others one of which is attatched to a peice of yarn that is hanging out of a window in an effort to fish for the dog.
+
+....

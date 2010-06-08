@@ -1,0 +1,7 @@
+DOM_Window (partially through http://developer.mozilla.org/en/docs/DOM:window)
+	to understand the global JavaScript Namespace and Envrionment, 
+	to work with javascript (see http://localhost/Archives/JavaScript.txt), 
+	to work with google desktop API (see http://localhost/Archives/Google_Desktop_Search_API), 
+	to scratch google desktop files (see http://localhost/Archives/Itch.txt).
+
+The DOM_Window has methods, properties and events available.  It implements the windows interface which is inherited from the AbstractView interface reccomended as a root for all interfaces in w3c's DOM 2 specifications.  The document property of a window points to the DOM_document loaded in it (see http://localhost/Archives/Document_Object_Model.txt) while the (to be cont...)

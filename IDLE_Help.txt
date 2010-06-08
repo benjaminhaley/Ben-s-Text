@@ -1,0 +1,94 @@
+IDLE_Help
+	To be faster at writing python scripts
+
+
+
+
+
+
+
++0 Q. Go to File/Line
+
+alt + g
+
+
++0 Q. Untabify regions
+
+alt + 6
+
+
+
+
+
++2 Q. how would you delete a whole word at a time
+
+
+
++2 Q. how would you scroll a cursur left by words 
+
+ctrl+arrow
+
+
+
++2 Q. how would you go to the begining of a file
+
+ctrl+home
+
+
+
++2 Q. Show Parens
+
+Highlight the surrounding parenthesis
+ctrl + 0 
+
+
+
++2 Q. Expand Word      
+
+alt + /
+
+
++2 Q. Dedent Region
+
+ctrl + ]
+
+
++2 Q. Indent Region
+
+ctrl + [
+
+
++2 Q. Comment out Region
+
+alt + 3
+
+
+
++2 Q. Uncomment region
+
+alt + 4
+
+
+
++2 Q. restart
+
+ctrl + F6
+
+
+
+
++2 Q. Veiw last restart
+
+f6
+
+
+
+
++2 Q. retrieve the previous command
+
+Alt-p
+
+
+
+
+

@@ -1,0 +1,4 @@
+Genetic_Algorithms
+
+Roder reminded me of thier existance, we ought to use them to optimize the itch protocol.  The itch could have various factors it understands about a file that it uses to produce its itchiness, we might judge the value of the itch protocol by user inputs or survey results.  Then we could use the genetic algorithm to produce various algorithms using the itchiness of files in order to optimize for the best algorithm.
+

@@ -1,0 +1,7 @@
+convert text files to html files
+	So that I can make my files web-compatiable
+
+This should be relatively easy.  I just need to set up a python script that will dig through my materials parse out any useful data and then add a header of my choice, a tail of my choice, change them into .html files and delete the txt files.
+
+I also need to set this up as a template that I can work with in the future.
+

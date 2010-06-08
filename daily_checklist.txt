@@ -1,0 +1,34 @@
+daily_checklist.txt
+	Some odds and ends that I would like to be accomplishing or avoiding daily.
+
+related docs:
+	ben.txt
+	self_improvement.txt
+
+
+*Note: the time stamps here are only supposed to be accurate to the level of the date
+
+	exercise: 	
+9/11/2009	stair climb 	2:19 PM 9/8/2009, 1:22 PM 9/11/2009, 8:05 PM 9/15/2009, 3:30 PM 9/19/2009
+9/11/2009	compete 	2:21 PM 9/9/2009 boggle, 3:31 PM 9/18/2009 race Q,
+9/11/2009	curls 		2:19 PM 9/8/2009, 1:22 PM 9/11/2009, 8:05 PM 9/15/2009, 1:49 PM 9/24/2009
+9/11/2009	pushups		2:20 PM 9/8/2009,
+9/11/2009	situps
+9/15/2009	walk		6:46 PM 9/15/2009, 
+9/21/2009	run		11:26 PM 9/21/2009, 1:48 PM 9/23/2009, 1:48 PM 9/24/2009
+
+
+
+	moral:		
+9/11/2009	bossy		 
+9/11/2009	moody 		
+9/11/2009	berating	6:46 PM 9/15/2009 when Michael needed to get op,
+9/11/2009	schadenfreude	2:20 PM 9/9/2009 thought placing a bannana peel on outdoor tables would be funny,
+9/11/2009	irratiable	1:11 PM 9/11/2009 when Michael asks me to meet his parolee for him
+9/11/2009	timid
+9/15/2009	judgemental	6:47 PM 9/15/2009 towards meggan's absense,
+9/19/2009	quiet
+9/29/2009	defensive	11:01 AM 9/29/2009 when hans reminded ye that he had to work,
+
+	hygene
+9/19/2009	teeth whitened	11:26 PM 9/21/2009

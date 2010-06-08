@@ -1,0 +1,3 @@
+DateTime
+
+f5 is a keyboard shortcut to add datetime in notepad

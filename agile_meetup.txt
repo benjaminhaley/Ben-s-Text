@@ -1,0 +1,6 @@
+agile_meetup.txt
+
+
+3/2/2010 - 2 hours
+	I went to the first agile meetup group, (https://mail.google.com/mail/?shva=1#inbox/1271c111bb621444).  It was really fun.  I gave a breif synopsis to Matt encouraging him to come (https://mail.google.com/mail/?shva=1#sent/12724dab6641293d).  I feel a little outmatched by programmers, but in a way this is good.
+	I think these meetup groups would be excellent venues to try and poach a little talent out of other companies, although I believe I would have to be wary of hacks looking for work.  Perhaps a better venue for finding talent is by collaborating with well run open source projects.  

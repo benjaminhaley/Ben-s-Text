@@ -1,0 +1,7 @@
+biological_compression.txt
+	The compressiblity of biological codes
+
+Hypothosis 1
+	Highly compressible nucleic acids are likely to contain non-compressible modification at some point in time.
+
+Genomes are largely redundant, so they may be compressed to about 10% of their original size (http://hc.ims.u-tokyo.ac.jp/JSBi/journal/GIW01/GIW01P130/index.html).

@@ -1,0 +1,13 @@
+Transcriptome_Genome_Information
+
+		for microarrays Hmax might equal the # of RNA per Node on average, H(x) might equal the sum across nodes of pi*log(pi) where pi is the RNA in node i / RNA in chip
+
+		I(x:E) = Hmax(x) - H(x:E)
+
+		Hmax(x) = sum across nodes of 1/(nodes.count) * log( base = nodes.count, 1/(nodes.count) ) 
+			= (# of RNA strands)/(# of nodes)
+
+		H(x:E)	= sum across nodes of ( RNA[node].count/RNA.count ) * log( base = nodes.count
+		
+
+		for a comparison between microRNAs and 

@@ -1,0 +1,20 @@
+tissues.txt
+	To organize the woloschak labs tissue efforts
+
+Most of the tissue associated files can be found in the Ben\Tissues folder
+
+
+05/10/2010 - 8 hours - quick fixes to the website and the start of grey_book wikification
+    added the fact that all of our tissues are stored in neutrally buffered formalin and delivered as slides 
+    readded the sire and dam qualities to the database
+    removed a couple of old backup tables from janus
+    combined great portions of the janus and beagle style sheets (conformed janus style to beagle style)
+    added the top bar menu to the janus archive
+    broke home page into teasers, introduction, sample request, and data sections
+    recovered Janus's old tissue request form
+    made the front page style consistent on Janus
+    Removed Home from the side navigation bar and add it to the top navigation bar
+    Removed the element that prevented copying and pasting the first letter in css
+    Broke the grey document by major element and parsed out all of the study ids using grep
+    
+

@@ -1,0 +1,3 @@
+building from source
+
+	When installing SVN it talks of building open source projects from source.  It doesn't reccomend this for novices... I need to figure out what the hell they are talking about.

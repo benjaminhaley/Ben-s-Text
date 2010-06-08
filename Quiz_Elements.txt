@@ -1,0 +1,13 @@
+To establish a quiz element I will want to define the following
+
+1. The question	(1)
+
+2. The answer (1 or many)
+
+3. The environment (0 to many) URLs
+
+4. Various tags for the question
+
+5. Score
+
+A user would be prompted with Q's within the environment dependent on thier score and tags

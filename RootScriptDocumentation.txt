@@ -1,0 +1,178 @@
+
+
+Scripts
+
+
+Common.php
+	PROCESS:	start session
+			connect to DB
+			load common functions
+			include all class files
+			include style
+			load objects
+				User
+				PageElement
+
+
+Signin.php
+	POST:		[username (str), password (str), referrer(str)]
+	IMPORT:		referrer (str) from SERVER
+
+	PROCESS:	If username and password were posted:
+				If(User->signin(username (str), password (str)))
+					Redirect to referrer
+				Else
+					signinErorMessage = 'there was a signin problem'
+			print signinErrorMessage
+			print PageElement->signInBox
+
+
+Banner.php
+	IMPORT:		User (User) from SESSION
+	
+	PROCESS:
+			If User->authenticated is true
+				Print PageElement->signoutLink
+				Print PageElement->profileLink
+			Else
+				Print PageElement->signinLink
+				Print PageElement->registerLink
+			Print PageElement->searchBox
+			Print PageElement->bannerLogo
+			Print PageElement->bannerBackground
+
+
+Profile.php
+	POST:		[newPassword (str), newEmail (str)]
+	IMPORT:		User (User) from SESSION
+	
+	PROCESS:
+		If User is set
+			If newPassword != ''
+				User->changePassword(newPassword)
+			If newEmail != ''
+				User->changeEmail(newEmail)
+		
+			Print PageElement->changePassword
+			Print PageElement->changeEmail
+		Else
+			Redirect to Signin.php
+
+
+
+SourceRecord.php	
+	GET:		srcrecId (int), sourceId (int)
+	IMPORT:		User (User) from SESSION
+	
+	PROCESS:	LoadedSrcrec(Srcrec) = Srcrec->retrieveSrcrec(srcrecId [, sourceId (int)])
+			
+			Print PageElement->renderSource(LoadedSrcrec(Srcrec)->SourceAr[0])
+			Include Notes.php
+
+Notes.php
+	POST:	[	// these are POSTED when a note or tag is made or deactivated
+			srcrecId (int),
+			
+			newUserTags (str),
+			newNoteXml (str),
+			newNoteType (str),
+			newNoteGroupIds (str),
+			
+			addUserTagsToNote (str),
+			noteIdOfActiveTags (int),		// noteId corresponding to addUserTagsToNote or used for tag lookup in case of amend
+			tagNoteRelationship (str),		// may be 'srcrec_tag' 'number_correct' 'number_incorrect'
+			
+			deactivateTagAsscId (int),
+			
+		]
+	
+	IMPORT:		[Srcrec (Srcrec)] 			// if Notes.php is called as Srcrec.php include, it will already have Srcrec set
+	
+	PROCESS:
+			If srcrecId is numeric			// Notes was called independently, it should load the Srcrec
+				LoadedSrcrec(Srcrec) = Srcrec->retrieveSrcrec(srcrecId [, sourceId (int)])
+	
+			If newUserTags != ''
+				NewNote = Note->createNote(User, LoadedSrcrec(Srcrec)->srcrecId, newNoteType, newNoteXml, [newNoteGroupIdAr])
+				newNoteId = NewNote->noteId
+				newTagTextAr = explode(newTags, ' ')
+				foreach newTagTextAr as newTagText
+					Tag->createTag(User, LoadedSrcrec(Srcrec)->srcrecId, newNoteId, 'srcrec_tag', newTagText, [newNoteGroupIdAr])
+
+			If addUserTagsToNote != ''
+				addUserTagsToNoteAr = explode(addUserTagsToNote, ' ')
+				foreach addUserTagsToNoteAr as addedTagText
+					Tag->createTag(User, LoadedSrcrec(Srcrec)->srcrecId, noteIdOfActiveTags, tagNoteRelationship, addedTagText, [newNoteGroupIdAr])
+			
+			If deactivateTagAsscId is numeric
+				Tag->deactivate(amdendTagAsscId)
+			
+			If noteIdOfActiveTags is numeric and tagNoteRelationship == number_correct or number_incorrect
+				Tag->incrementTag(User, noteIdOfActiveTags, tagNoteRelationship, incrementTagValue)
+	
+			Print LoadedSrcrec(Srcrec)->SrcrecSummary->titleText
+			Print PageElement->noteBox
+			Print PageElement->renderNoteList(LoadedSrcrec(Srcrec)->AsscNoteAr)
+
+
+Upload.php
+	POST:	[	// these POSTED variables are for source/srcrec creation and they initiate redirect to Srcrec on submission
+			sourceFile (file), 
+			sourceUrl (str), 
+			sourceEmbedding (str),
+			sourceType (str),
+			sourceGroupIds (str),
+			newTags (str),
+			titleNoteText (str)
+		]
+			
+	PROCESS:
+		If User is set
+			If titleNoteHtml != ''		// a new source was uploaded		
+				sourceId = Source->createSource(User, sourceType, sourceUrl, sourceEmbedding, 'sourceFile')
+				srcrecId = Srcrec->createSrcrec(User, sourceId [, groupIds])
+				titleNoteId = Note->createNote(User, srcrecId, 'srcrec_title', titleNoteHtml)
+				foreach(newTags)
+					Tag->createTag(User, srcrecId, titleNoteId, 'srcrec_tag', tagHtml, [sourceGroupIds]) 
+				redirect to Srcrec.php?srcrecId=srcrecId
+			Else
+				Print PageElement->uploadSourceBox
+		Else
+			Redirect to Signin.php
+	
+
+Search.php
+	GET:	[	// all variables submitted in the GET are search criteria
+			searchQuery (str)
+			searchRecordStart (int)			// record to start SQL query at
+			searchGroups (str)			// groups to search
+		]
+	
+	IMPORT:		User (User)
+	
+	PROCESS:	Print PageElement->renderSearchResults(Data->search(User [,searchQuery , searchRecordStart , searchGroupAr]))
+
+
+
+Register.php
+	POST:	[	
+			newUserUsername (str)
+			newUserPassword (str)
+			newUserEmail (str)
+		]
+		
+	PROCESS:	If User->authenticated == true
+				Print 'You are signed in as ' . User->username
+			Else	
+				If newUserUsername != ''
+					If ! User->createNewUser(newUserUsername,newUserPassword,newUserEmail)
+						Print newUserUsername . ' already exists.  Please choose a different username.'
+					Else
+						Print 'Your are registered and signed in as ' . newUserUsername
+						Print PageElement->publicSearchLink
+				Else
+					Print PageElement->registerBox
+
+
+Features to add:
+Group management to Profile.php

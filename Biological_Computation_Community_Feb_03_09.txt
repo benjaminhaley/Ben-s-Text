@@ -1,0 +1,51 @@
+Biological_Computation_Community_Feb_03_09.txt		(fixed copy, original is evolving at http://localhost/Archives/Biological_Computation_Community.txt)
+	People and places to interact with in the computational biological community
+
+Journals
+	Journal of Theoretical Biology
+	Genome Research
+	Natural Computing
+	PLOS computational biology
+	Science
+	Nature
+
+Groups
+	natural computing
+		facebook		http://www.facebook.com/groups/create.php?success=1&customize=&gid=38691432569#/group.php?gid=38691432569
+		linked in		http://www.linkedin.com/groups?home=&gid=1476697&trk=anet_ug_hm&goback=.gms_1476697_1228845827688_1
+		nature networks		http://network.nature.com/groups/natural_computing/forum/topics
+
+Local Seminars
+	U of Chicago CS seminars				http://www.cs.uchicago.edu/events							
+	northwestern CS seminars				http://www.eecs.northwestern.edu/events/?monthOffset=&date=11/13/2008			
+	uic CS seminars						http://www1.cs.uic.edu/CSweb/public/seminars.php?audience=public&label=Seminars#DLCurrent	
+	IIT cs seminars						http://www.cs.iit.edu/~seminar/Fall-08/fall08-sem.html					
+	http://ocw.mit.edu/OcwWeb/Biology/7-349Spring-2005/Readings/index.htm			biological computing readings
+
+Distant Seminars
+	information processing in biology 		http://dimacs.rutgers.edu/SpecialYears/2005_IPB/			
+	information processing in cells			5-9 April, Switzerland http://ipcat2009.epfl.ch/
+
+Local People
+	Guenter Albrecht Bueler	northwestern - genomics and computing
+	Eric Gamazon		U of C - bioinformatics 
+	Jordan Weil		U of C - econ and math
+	L. Ridgeway Scott	(biological computing and more at University of Chicago)
+	Dongning Guo		(information theory northwestern)
+	Sandy L. Zabell		(bioinformatics at Northwestern - algorithms)
+	Ming-Yang Kao		(bioinformatics at Northwestern - algorithms)
+	Nancy Cox 		(bioinformatics at U of Chicago - genetic variation and disease risk)
+	Jonathan Pritchard	(bioinformatics at U of Chicago - genetic variation statistically)
+	Bruce Lahnt		(bioinformatics at U of Chicago - the genetics of brain development)
+	Leo Irakliotis		(medical informatics at U of Chicago)
+
+People
+	Prescott		Boulder Ciliates
+	Ehrenfeucht		Boulder Ciliates
+	Rozenberg 		Boulder Ciliates
+	Julia Kordor 		mit biolocial computing instructor http://www.psrg.csail.mit.edu/~caissa/whoami.html	
+
+Tom Knight, a researcher at the MIT Artificial Intelligence Laboratory and one of the leaders in the biocomputing movement.
+Tim Gardner, a graduate student at Boston University, recently made a genetic system that can store a single bit of information— either a 1 or a 0.
+Collins, Elowitz and others want to do instead is forward-engineer biological circuits, or build novel ones from scratch.
+

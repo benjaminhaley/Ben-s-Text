@@ -1,0 +1,75 @@
+Python Programming challenge:
+
+1. Is just 2 ** 38 = 274877906944
+2. Ceaser Sipher shifting two late = 'ocr'
+3. find rare letters  = 'equality' 				(script below)
+4. strip '/n's find l's in sBBBlBBBs = 'linkedlist'	 	(script below)
+5. recover and parse a url = 'peak.html'			(script below)
+6. unpickle banner.p and print sets as lines = 'channel'	(script below)
+7. unzip, follow path, get comments, read letters, 'oxygen'
+
+
+#3 rare words script:
+
+for letter in range( 0, len(string) ):
+	letter = string[ letter ]
+	count  = string.count ( letter )
+	if count < 10:
+		print letter, count
+
+#4 caps
+#first string /n's then 
+for position in range( 0, len(string) ):
+	farback= string[ position - 4 : position - 3 ]
+	behind = string[ position - 3 : position ]
+	letter = string[ position ]
+	infront= string[ position + 1: position + 4 ]
+	farfor = string[ position + 4: position + 5 ]
+	if letter.islower() and behind.isupper() and infront.isupper() and farback.islower() and farfor.islower():
+		print letter,
+
+#5
+# find the number in the source '12345'
+# midway through you have to go to one of the urls and follow the instruction to halve the value
+# at the end you must instert the final number and read the text that specifies 'peak.html'
+
+import urllib2
+for i in range( 0, 401 ):
+	path = base_url + number
+	page = urllib2.urlopen( path )
+	read = page.readlines()[0]
+	start= read.index('next nothing is ') + 16
+	number=read[start : ]
+	print number,
+
+#6
+import pickle
+banner = load ('...\\banner.p')
+for line in b:
+	for tup in line:
+		for rep in range( 0 , tup[1] ):
+			string += tup[0]
+	string += '\n'
+
+print string
+
+
+#7
+# you should start by looking at the readme in the zip it tells you to start at 90052
+# you do not know to collect comments till the first time through the list in order
+
+
+import zipfile
+a = zipfile.ZipFile(filepath)
+
+def next_nothing(name):
+	content = a.read(name + '.txt')
+	comment = a.getinfo(name + '.txt').comment
+	i = content.find('Next nothing is')
+	name = content[i+16:]
+	return name, comment
+
+def sweet_nothings(name = '94191'):
+	while True:
+		name, comment = next_nothing(name)
+		print comment,

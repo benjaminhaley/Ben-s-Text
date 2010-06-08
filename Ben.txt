@@ -1,0 +1,542 @@
+Ben
+	The Central Organizing Document of my life
+
+Current Projects:
+	PERTS - Ben
+	bens_job.txt
+	grad_school.txt
+	volunteering.txt
+	blog.txt
+	bens_review.txt
+	news.txt
+	health.txt
+	fun.txt
+	people.txt
+	Dreamlog.txt
+
+
+History:
+
+3/17/2010
+	(0.5) got the rent paid hopefully done with that stupidity.
+
+3/5/2010
+	(2.0) Spruced up this document by reording the history and moving it to the bottom and then consolidating my files into a series of projects.  In the process I got to thinking that a number of my files are now historical and the best way to note that is by having a link to them within the history.  Duh!  However, if I do decide I need to rekindle documents of the same or similar names, in general I think it would be best to start new documents and reference the old ones from within.  This will maintain the historical accuracy of my posts.  
+
+2/19/2010						
+	(1.0) email and organization					
+	(3.0) health physics paper.txt					
+
+2/15/2010						
+	(1.0) organization, going over emails, cleaning my room and eating					
+	(3.0) teacher_network.txt - going over the requirements document					
+
+2/10/2010						
+	(2.0) Going over my notes from the Art of Project Management					
+
+2/2/2010						
+	(3.0) today cleaning up old emails and such					
+	(1.0) volunteering					
+	(2.0) waking.					
+
+1/27/2010						
+	(2.0) teacher_network.txt					
+
+1/20/2010						
+	(teacher_network.txt 3.5) orientation, scripts, emails, ah!					
+
+1/19/2010						
+	(teacher_network.txt 3.0) mostly on the recruiting documentation					
+
+1/17/2010						
+	(teacher_network.txt 2.0) worked on the meeting followup and PERTS email					
+	(bens_job.txt 1.0) wrote the pathologies csv generator for Will					
+
+1/16/2010						
+	(teacher_network.txt 2.5) met with dave to talk about the VAP orientation https://docs.google.com/Doc?docid=0AYJ4Epsreb6hZGZ3dGo5aHBfNzRkZGNzczJmaA&hl=en					
+
+1/11/2010						
+	(ben.txt 1.0) email and review of anna date, imaginarium, perts meeting, basia, meggan, and will lui					
+	(teacher_network.txt 2.0) updated docs and so on					
+
+12/28/2009						
+	(news 1 hours) top news					
+	(email 1 hours) responding to NewYears plans, war hawk email, and following up on Berkeley					
+	(lunch 0.5 hours) augmented by some ted talks :)					
+	(review 1.0) my weekly review doc - first time in months!					
+	(teacher_network.txt 2.0 hours) recruiting_letters_for_kate_cichon.txt					
+	(databasing_ben.txt 2.0 hours) made an example database using Grad_School.txt.php					
+	(teacher_network.txt 1.0 hours) met with dave on recruiting_letters_for_kate_cichon.txt					
+	(teacher_network.txt 2.0 hours) talked to dave about new intervenions, and vap vision					
+	(databasing_ben.txt 3.0 hours) 					
+
+12/21/09
+	Finally picked up my contacts from Smart Optical.
+
+12/18/2009						
+	(news 1 hours) top news, endgadget, lifehacker, etc					
+	(teacher_network 1 hours) writing Dave about the Cichon exceptions recruiting_letters_for_kate_cichon.txt					
+	(teacher_network 1 hours) writing up my recruiting experience see http://docs.google.com/Doc?docid=0AWNgIkZ1w2sCZGZmcmtkcnNfMTM4ZGZkNGp6aGg&hl=en					
+	(teacher_network 1 hours) writing Dave and editing the letter and program introduction for Perspectives recruiting_letters_for_kate_cichon.txt					
+
+12/16/2009						
+	(news 1.5 hours) all of the top news and the blogs					
+	(grad_school 5 hours) personal_statement_berkeley.doc					
+12/15/2009						
+	(grad_school 2 hours) personal_statement_berkeley.doc					
+	(fun 2 hours) writing lynsee care notes					
+	(fun 20 hours) hangning with lynsee and Dave playing bananagrams					
+	(self_improv 0.5 hours) reviewing, adding to anna.txt and lynsee.txt					
+	(teacher_network 0.5 hours) reviewing in preparation for meeting with Kate Secon (see PERTS_pitch.txt)					
+	(anna 0.5 hours) anna_love.txt proofing					
+12/8/2009						
+	(self_improv 1 hours) cleaning					
+12/7/2009						
+	(self_improv 1 hours) sorting through u of I papers, listening to ted talks					
+	(self_improv 2 hours) semantic web meetup					
+	(fun 8 hours) hang with phil	
+12/04/09
+	I noticed just within the last day that I sometimes have trouble writing up these reviews because I miss a couple of the items that I did, or it takes me a minute to think of.  I think that could be fixed right up if instead of deleting to-do items as they were done, I prefaced them with 'done - ' that way I could parse them into some nice statement like this when I had a moment.  
+	It just struck me how nice it would be to be able to type notes as I read an article w/o the distraction of seeing what I am typing or having to bind it to the resource that I am taking notes on.	
+12/3/2009						
+	(news.txt 3 hours) read a bunch of reader, especially the top news, but also some delicious and stack overflow					
+	(self_improv 2 hours) cleaned and organized room, set up desk					
+11/30/2009						
+	(grad_school.txt 10 hours) personal statement essay					
+11/27/2009						
+	(grad_school.txt 2 hours) personal statement essay					
+11/24/2009						
+	(self_improv.txt 2 hours) semantic_web_meetup.txt - dumantelab.com lecture from Toronto					
+	(self_improv.txt 1 hours) open_books.txt - volunteering					
+11/21/2009						
+	        (grad_school.txt 3 hours) personal statemene essay - youth, education, tischkau lab					
+11/19/09
+	Managed to set up texter to automate document design and the signature for myself.  Now I can type "b n u" without spaces to get my northwestern signature and "b t e m p" no spaces to get a document template
+11/18/2009						
+	(grad_school.txt) apps, essay					
+11/17/09
+    I've noticed a couple of times this week that I have a nasty habit of mispelling people's names in type.  I noticed this particulary with Shelley, Kathy, Manjari, and Michael.  I'm quite sure that this is an annoyance to those that recieve the emails, and I think I ought to do my best to double check the name in particular before I send one off.
+11/6/09
+	I've been studying all day, happy to have the stamina to make it through it.  Now I think it is near time for bed and soon I will.  Two things of note just lately that are important to me.  Maybe 4.
+	When studying its good to skip questions you don't know or just guess.  Do that through a whole chapter, then come back and look at what you've missed and try to figure out why.  Just bashing your head up against a problem is ineffective, it wastes time.  I noticed that because taking the GRE practice, I felt a time crunch and I just had to finish.  I need to give myself that time crunch more often, along with the opportunity to review my mistakes.
+	Appreciation rules, I wrote heartfelt letters of gratitude to Gayle, Carol, Dr. Whitt, and Shelley.  They responded back with beauty.  I think it makes the world nicer.  I should pick out a few more people that I appreciate and let them know why I do.
+	Honesty is critical.  I wrote back to Lynsee and Dave with my heartfelt emotions.  For Lynsee she had trouble with me.  For Dave, I had trouble with him.  In both cases the conversations were productive because I let the calm wash over me and let me step back outside of my own selfish ambitions to look at the situations as a father, over unruly children. These children including my personality.  That's good, that's helpful.
+11/13/09
+	I've been frustrated by distractions today.  Anna and Elise started chatting me as soon as I got up.  Mary called, Lynsee keeps leaving messages.  Then this evening I am hanging with Q, Lynsee, and Elise so I will have no time to get my work accomplished.  I need to figure out mechanisms to avoid these kind of distractions.  I think it might be helpful if I figured out when I wanted to really get talking and set my g-chat to busy mode.  My phone I can also screen via email.  As for hanging out with people, which is by far the biggest distraction of the day, I am hard pressed to avoid it, because I love it so and my freinds need me.  I might, however, insist that people come to visit me, rather than asking to meet me half way between.
+11/12/2009						
+	(teacher_network 2 hours) reviewing Dave's first grant					
+11/2/2009						
+	(grad_school 2 hours) design patterns - facade, and two others					
+	(misc	1 hours) email				
+	(grad_school 3 hours) letters_of_recommendation.txt finding programs to apply to					
+	(grad_school 3 hours) letters_of_recommendation.txt composing letters (full of flattery) to the people I am requesting from					
+	(self_improv 2 hours) open_books.txt - vocab and decimals with Mikeal and Anthony					
+	(grad_school 5 hours) 					
+10/27/2009						
+	(grad_school 3 hours) letters_of_reccomendation.txt 					
+	(grad_school 7 hours) letters_of_reccomendation.txt and grad_school.ods					
+10/23/2009						
+	(news 4 hours) caught up on tons and followed up on my to research notes					
+	(grad_school 4 hours) sent out previous emails 4, and composed 3 new ones for the berkeley people.					
+10/20/2009						
+	(news 2 hours) checkd a bunch and caught up					
+	(comm bio 1 hours) finding the number of various receptors per cell					
+	(self improv	1 hours) open_books.txt blogging for Anna				
+	(grad school 1 hours) grad_school.ods - proofed 3 emails drafted one more					
+10/16/2009						
+	(self improv    1 hours) open_books.txt drafted blog post					
+	(teach net	1 hours) edited Dave's homepage writeup and CAP program landing page doc				
+	(self improv 	1 hours) getting computer up and running, following up on emails from lynsee and phu				
+	(fun  		2 hours) eating lunch with my family			
+10/13/2009						
+	(grad_school    3 hours) grad_school.ods weaned stanford and MIT for contactable reasearchers (as opposed to labs)					
+	(self improv    1 hours) open_books.txt worked with Chris  					
+	(fun            2 hours) anna.txt dinner with anna					
+	(grad_school    5 hours) grad_school.ods wrote 3 emails... 					
+10/10/2009						
+	(teach net      1 hours) teacher_network.txt - cleaned up comments in the design doc, drafted expectations, wrote Dave/Chris					
+	(news           2 hours) 200 items - physics, slash, metabolomics, comm bio, self improv - all just scanned over (pleasent). watched a beautiful network video					
+	        (grad_school    5 hours) grad_school.ods found 6 BioMEMS researchers at Berkeley that will be worth writing					
+10/9/2009						
+	(news		    1 hours) slash and top 100 items - elephant giving birth			
+	                (grad school    2 hours) grad_school.txt - organized and reviewed cv for power points					
+	                (grad school    3 hours) grad_school.ods - stanford found 4 tangentials and 7 emailers					
+10/6/2009						
+	(news   		1 hours) slash/top news (100 items)			
+			(grad school 	3 hours) grad_school.ods 12 research centers identified(2 great matches)		
+			(grad school 	2 hours) Design Patterns 36/400 pages		
+			(self improv	2 hours) perspectives (open_books.txt) 		
+			(grad school 	2 hours) grad_school.ods selected MIT research centers		
+10/2/2009						
+	(misc   		1 hours) wake up			
+			(news	    	1 hours) all news	
+			(self improv	1 hours) email		
+			(grad school 	2 hours) networking_tutorial.txt (50 pages - finished)		
+9/28/2009						
+	(news   		1 hours) 			
+			(cryptography	4 hours) RSA, lookup, http://www.netautopsy.org/whatcryp.htm		
+			(news		    3 hours) lookup coders at work	
+			(self improv	1 hours) email		
+			(self improv 	1 hours) volunteering		
+			(fun	    	1 hours) chris download	
+			(grad school	6 hours) networking tutorial (80/150 pages)		
+9/25/2009						
+	(news		    1.0 hours) top, cs, delicious, top_bio, ted (42 total)			
+			(fun		    .5 hours) talk to mary	
+			(grad_school	3 hours) os tutorial (http://tinyurl.com/3od2vg)		
+			(fun		    .5 hours) TV - simpsons/seinfold	
+			(grad_school	2 hours) concurrency tutorial		
+						
+9/22/2009						
+	(news   		2.0 hours) top, delicious, cs, blog, 			
+			(self improv	1.0 hours) delicous_key.txt 36/251		
+			(volunteering	2.0 hours) open_books, perspectives day 2		
+			(grad_school	6.0 hours) c++ pages 77-107		
+9/21/2009		(news		2.5 hours) top, physics, delicious		
+			(grad_school	7 hours) 77/144 pages of C++		
+9/17/2009		(news		1.5hours) top, nano, top_bio		
+9/16/2009						
+	(news		2 hours) top, del, blogs, metabolomics			
+			(comm bio	2 hours) semantic web meetup		
+			(grad_school	2 hours) reading code complete		
+			(exercise	1 hours) walking		
+9/15/2009						
+	(grad_school	1 hours) code complete				
+			(volunteering 	1 hours) perspectives		
+			(news		1 hours) ted, top news	
+			(email		1 hours) gre registration, sorting	
+			(self improv	4 hours) planning - cs study, finding researchers, organizing delicious		
+9/12/2009						
+	(news		1 hours) top news, RNA, communication biology			
+			(grad_school	1 hours) code complete		
+9/11/2009						
+	(news		1 hours) top news			
+			(self improv	3.5 hours) planning: vocab review, delicious review, reader, ideas		
+			(grad_school 	1 hours) reading code complete		
+						
+9/8/2009						
+	(misc		2 hours) laundry/Ted Talks			
+			(misc		1 hours) travel	
+			(study		1 hours) design patterns, 2.3 and strategy	
+			(grad_school	3 hours) practice cs exam		
+			(fun		1 hours) talked to Dave	
+			(fun		1 hours) tv with mike	
+			(self improv	5 hours) planning: cs, news, linear algebra, daily_checklist)		
+9/7/2009						
+	(journal	4 hours) end of week review/next week plan				
+			(news		1 hours) top news and fun	
+9/2/2009						
+	other: buying room from target (4 hours), talk to Dan (1.5 hours)					
+			grad_school.txt: dragon book chapter 10 exercises, CO chapter 7 exercises (3 hours)			
+7/3/2009						
+	1 hour boyeez group (picture sharing etc.)					
+5/26/2009						
+	(news		2 hours) cs, lynsee help, diybio, theo biology, slash, lifehacker			
+			(com bio 	4 hours) linear algebra.txt 	LU decomposition, inversing, O( elimination ), transpose inverse, 4 methods of multiplying, communication biology.txt	
+			(other		3 hours) transit, dealing with computer virus	
+5/23/2009						
+	(news		1 hours) science, slashdot, lifehacker, diybio			
+			(com bio	5 hours) machine learning notes.txt		
+			(com bio	3 hours) linear algebra.txt	first two lectures	
+5/22/2009						
+	(news 		1 hours) diybio, signaling 			
+5/21/2009						
+			(grad school	5 hours) algorithms		
+			(news		1 hours) slashdot, biotechniques, lifehacker	
+5/18/2009						
+			(grad school 	10 hours) algorithms		
+			(news		1 hours) lifehacker, slashdot, diy.org	
+5/16/2009						
+			(grad school 	2 hours) grad school proposal		
+			(volunteering	4 hours) kipp syllabus, email, notes and thank you		
+			(news		4 hours) lifehacker, slashdot, science, and natural computing	
+			(email		1 hours)	
+1/8/2009						
+	(news.txt 2.0 hours)					
+	(lunch.txt 1.0 hours)					
+	(self_improv.txt 1.0 hours) laundry					
+	(anna.txt 1.0 hours) preparing our date					
+
+
+[ A great deal of the history missing between these two sections is stored in hand written jouranls.  I took to the habit of weekly journalling in them.  Below you will find the daily journals I was composing electronically for a time.  Above you will see much sparser notes.  My new system, embodied above makes histories in a project (document) specific way as they occur.  The combination of all of these notes into the Ben document is an attempt to confrom to that structure. ]
+
+30/Nov/2008 16:25
+	just had a nice chat with Richard Lusk over at Emmits.  We went over his bioinformatics research with yeast binding sites and my bioinformatics aspirations.  It seems he works at a lab with someone who has worked with Tom Schniederman.  He will put me in contact.  He's also biked up the coast which is awesome.  Last night I went to the Beat Kitchen with Ally.  Miller was there playing with State and Maddison.  He managed to sell out the 800 person Cubby bear with the Chicago noise machine and they might be able to use that as a sales pitch to get a position at the House of Blues.  He's also to play a show on Dec 13th at Regies.  During the day I studied my notes about Adami's information theory in molecular biology and managed to wrap my head more thoroughly around the concept.  It made me think that spending a good amount of time on a good paper is certainly worth it.
+	On Friday I cleansed out my email inbox and had a chance to go hang out with Leif and Tai-Chi.  Leif is about to go study at NIU which Tai is about to apply for grad school.  All this hanging out with people has been really fun.  It is especially good to see people that you haven't seen in a while, becuase you can catch up on so many important life events and the conversation is lively.  Also it is important in conversation to give each topic its thorough approach so as to maximize the benefit of it.
+
+5:24 PM 9/16/2008
+Yesterday I went on a morning walk with dave.  We found his barbecue volleyball net and laundry room.  I have to rezone and ends with their server and.  After a morning review a workout in the shower we left for the Palo alto Lieber on the way it did turn in his teens no doubt news feeds.  When we got to the library I spend the first day of time playing wrist outside in a very beautiful place.  Then I spent a good deal of time working on man lives source registrations for.  I was able to program a two hearts out dead end of the file name and the URL man using the split function.  However I have some slowdown when trying to when dealing with a flawed open this use names.  I guess the the Americans supported national government's and local.  And major source of this lack of enter the was an American firebombing no on American bombing was filled in.  In his state civilians homer in claims the only field said.  This despite the fact that the U.N. and the government can stay in full support playing.  That's the case load.  Overwriting loans saying I was trouble with the ball, memorize this moving freight gets in his last name without his sedentary and the.  I've got to my soul grants and be good for writing now visited people and it seems to help defray that's all it's impossible to tell if it wasn't just a matter of the station and time spent 55.  Oh Mo Vaughn should be to reduce the amount of time the states to memorize a word saw that in such a way that he did the next day.  main checker is not all that good.  In order to fix this in the future I should look for a better force are all I can one fireball of lifers I should check to see if it works.  I would also look to repeat myself once in my scripts.  When looking to see if the variable Pete Wilson value for another I might have used instead of the in clause.  Instead of repeating the variable two times.  Which was the source all of the way.  It was also much more reflective views from entering.  To solve the problem banks EU's alert boxers your following that I spent some time of day talking through the documentation.  As a side note I mentioned to him I would like to have the script itself use of documents by having its most radical features the function an in the same namespace.  Air Force there was some confusion day was proposing a hybrid solution were as comments might have space.  However this proved the time, hordes of exploiting my intentions.  Because I did not want to kiss Marvin Davis associate data from one another.  Rather isolate by making Mr. Allchin will for making rather that express of the cases functional they'll be forced to be grateful go up to date your Oliver I was proven enough to stop when it was obvious that day was an understanding.  I focused on that and have a moment were-described the problem.  Then I went to an example I say if I wanted to get the most all the dates for I will not attack specifications for the quotes up.  Either also pointed out that the Rialto wasn't all that different from a technical specification your and your that would deny came understand.  Because I got my fundamental after that we worked on a lonely information to the SP and serve.  They had some trouble occurs.  The family gathered they were I now have my own ISP and repository of the roughly a project that's stored on the desktop under the fan sites.
+
+At 1:45 PM I'm a lock for the Airport.  On the way a reviewed at a women's.  We face days wed fire.  Then we drove to the Airport gates of the all and we sent out read the file.  I found error is still in use.  And I don't know why.  I've all rushed to the mall Microsoft will have on rice preparing to go through this.  It's fine people behind.  PERHAPS I SHOULD HAVE A MORE PREPARED by serving more AE.  My day was right next to the security and the senate New York Times.  I've felt slightly awkward lock in someone's home this year when of flights from lax moral of the news sent to the fact that I wouldn't sit next to some other man Lowry occupy one of the second thing if only I'd move the same excuse me as the seats taken and take back CI went up a little more culpable maestro.  I may have read in salary cap are defined 15.  Then I said about the process of composer independently for you.  Actually it was the end of two weeks.
+
+Reviewing the early portions of my family.  This EC because they were paper terms.  If you can hope for us later court.  After allen's way I was on the airline.  I said all of the people Maximilian but they were very easy.  Until applicants that were willing to take an older than I visit my soul with the newspaper.  I read an article about the closer all believe in brothers and financial prices for Merrill Lynch which had been bought out by bank of America 1/3 their January rights the current price of vaio rights if you believe all iran's small learn about victims in Dallas and over hurricane hit that were hurt by the hurricane edsall provide a subsequent destruction of utilities this after the one with men who is running and one Hispanic.  I continue to read some of the things I've learned the New York Times and, conflict of interest especially one that talks about a profitable boss line in would be for the whole village of New York.  However I never read the following up on that word.  When announced its ratings from before down either mime down and open up the computer to continue my weekly review.
+
+I read a very little bit of a stroke and wait for.  End of the remaining in the chair and another form of the early and then follows Franken why is the this kind of personal pronouns reviews differently depending on whether the subject of a Dr..  For example I want him will not be sent as their lifetime with Mather he likes me this is because the subject and off a given time and be switched around in the second case.  After reviewing some examples of Rowe subject of a pronoun differences I opened a the factions that say on this very and read about his trials and tribulations of the year.  Decent two things that set may very well.  In the first use a low was not make the mistake of thinking down the final less we now find an duties in the final two eerie and will the second rays would say, that the knights lose when you talked about his you and I'll win seven play there been phenomenal as whereas when adult choir is all business.  The rest of constantine's conversation is this time as an infant is rather honor, and he understands only renounce will this time as the fault of his time as a middle school trial is one of its three insults slowly on his own art and also on the part of the instructors.  For and so you would like nothing more than to the home this is the best whereas others this instructors like to see him reach the issue of Maria Davis of all.  Both of you see this guy is a global pursuits.  But the woods and Torrance but you would spend the day they got that said fonts for the 15 and in such a way to better so the mafia's acting borrowing as revisions factors got was acting in the best interests.  They also describes what are Rasheed Wallace that thinking that the and the wrong move OME its was a beautiful store Wildomar new plan was a this is a list because learning man with the requisite defender standings or even years with 254 and a concern if he could not meet in this home with a console.
+
+I made my head down for their own plane descends to inspire.  Soon enough we remain.  I want quickly for the train.  The open up the newspaper and started reading an article although Afghanistan the Spanish and Bessemer known as write this was complaining about the state and if you stay saying this is the worst of van in years since 2001 that and seven year period you believe the worsening of situations impact has been no in Afghanistan on a growing into the bed and two of the story you read in mime.  For this for grant was just put in up to date.  The rest of the tremendous logo back to contents.  And that might train pass on the headers still outside of station in both its only might be able to use it.  Walking further down the road at best a homeless man who said he wanted to let you down trying.  I fall in the end of life are on that hands full.  I hope the UC.  When I go to the lower on the grounds that are the plac in one another and porcelain items for the Bosnian.  I sat down on the couch and active member station are about the future from a house for work on animal start for no reason an some of the room about consternation sizes a little above my for including the San Francisco raids their once she doesn't care for and C stronger bond.  We were those of you together will place I can remember and I'm learned what route of one's ever.  And useful site for getting food.
+
+
+16/Sep/2008 15:42
+	Woke up at 10:00 am in palo alto, Dave had just gotten back from his conference call and we both went out for a quick walk around the neighborhood.  I pointed to the grills and volleyball courts from yesterday and then Dave pushed us to discover a new grill and volleyball court at his place along with the free laundry room the general rec center a meeting with the psych students and the Ensinita rec center located across the way near the childrens school.   Getting back I cooked some chirizzo and eggs was dismayed to discover that I had smelted Hawi's spatula.  Did a quick workout and polished off something of a daily review before shoving off.
+
+15/Sep/2008 15:00
+	Woke up to a little walk and found volleyball nets and grills nearby.  Got back to Dave waking up and cooked some breakfast of charred chirizo and eggs... apparently burning Hawi's spatula.  I did a few situps before calling Kai and learning that Phil could not get ahold of us due to Dave's phone's voicemail deficiancy.  I spent the rest of the morning on review before leaving with Dave to the san fransisco library.  We made it there in 40 minutes flat and I finished parts of the source submitter for Reflib.  
+	Then I was frustrated in an effort to pull the filename from the url and so I spent some time looking into taking the Computer Science GRE.  I still need to find more sources of practice exams I will also look into where I might find more general study text books to work off of to further my pursuits.  4-6 hours of good studying a day would do wonders I imagine.  I got really hungry waiting for Dave and had little way of contacting him, so it was fortunate when he IM'ed me that he was in hell talking to Prevail people.  I left to Burger King and picked up a copy of the paper.  While waiting for Dave to arrive I read about McCain and Obama's competing health care plans and Google's 10 years of service.  
+	Dave and I talked through my trouble with url naming and we decided that we might just parse out the name from the end of the url an elegant, quick, and dirty solution.  Dave had to spend a little more time tapping out a prevail email before we left on our way to Phil's.  We arrived at Phil's temporary place at 229 Shipley to discover a tired phil in a hole in the wall with a door that wouldn't open to the outside without a key.  We spent some time chatting, he's been searching for a job mildly about town and through craigs list related to social work or being a cook.  He has been looking for an apartment through craigs list and soon will be searching in the flesh with Kai.  Dave spent a good deal of talking down Zack about the apartment.  Soon enough we left for the red woods.
+	We found the Muir woods a meer 40 minutes away and got in free to tromp through the forest for an hour.  The hike was rather hard and forced us up a steep hill which had phil wheezing the most.  Back at the car we drove to the golden gate bridge and walked half way over it seeing a beautiful moonit expanse of the bay and city lights.  In an hour or so we left to a slow ride to find mexican food.  Eventually we settled for some pretty good pizza before dropping the still quiet phil off at his house and driving home to an early bed time.
+
+14/Sep/2008 13:35
+	Woke to Rummikub and eggs.  Eve was disintristed by the invention of the computer.  Enticed Robert and Jenny to play Rummikub with Eve and I.  Left with Dave for Palo Alto.  Took highway 1 to recall the camino real bell, seal lions, and fried salmon.  Wished for external stimulation.  Moved Dave in at Stanford and met Hawi. Showered and lay down.  Met Max Osipov who asked Dave about sports and parties which made me jealous.  Couldn't find the internet with dave.  Bought Dave supplies at Target.  Read Math a Day then watched Equilibrium with Taye Diggs and Christian Bayle.
+
+12/Sep/2008 13:05
+	Popped out of bed to people talking in the other room.  Went for a walk where I learned the word el camino means road.  Got back to breakfast with everyone did a few pushups and then got about the daily review.  Coming away from that I went to work on RefLib, first proofing Dave as he reviewed the manuscript, which was fruitless.  Then I set to work on a few of the elements which were for the most part easy, but became challenging with the register.html string which had to include javascript to proof its functionality.  Soon enough we went to Ross's, the 99cent store, and Taco de Mehico which was delicious.  I came home with a tired headache and so I went to bed.  When I woke up Eve wanted to play, but I deferred to later and fruitlessly worked on the next element a php script which delievers the html to upload a new source.  At about 10 I sat around with the Fam, Roberts Mom and her kids along with the other girl and her baby.  I played rummikub with Eve who enjoyed it and got Robert curious about the game.  Afterward D, R, and I went off to Tropic Thunder which was hysterical.  I went to bed reading Strunk and White and a little of Confessions which I found laborious.
+
+11/Sep/2008 12:25
+	Woke up at 8 am to a walk around the neighborhood.  Got back to finish proof reading Eric's manuscript which I am on.  Then I learned about the voice recognition features of vista before getting to work reviewing Dave's tech specs.  I'm not convinced it was entirely super productive.  Maybe I should have gotten around to coding directly, but then again there are probably fundemental parts of the system that I didn't understand and would have needed to anyways.  I got very distracted when Eve and Robert came home, but it was fun anways quizing Eve on grammar and robert about how his day went.  I had a chance to walk to longs drugs, show dave the soft tree and memorize a few street names.  Come to think of it that morning walk period was increadibly good for me.  After eating a hearty helping of egplant parmasean, I got real lazy, we watched a bit of Team America and then I drifted into sleepy land.
+
+10/Sep/2008 13:58
+	Woke at 2 did some pushups and walked to the store with Dave.  Got home to lunch and going over techspecs.  Got really frustrated working on the old tech specs with dave and went outside for a break.  Things got much better when I calmed down, Dave got to work on editing the specs to make them his own without me, which was necessary and perfect.  I should learn from this in the future as Dave asked to start working on the techspecs together but I suspected before that he would need time to make them his own.  If I had remembered this going into things I wouldn't have needed to be so frustrated by it.  I got to spend this free time fixing up my emails, notably smoothing things over with elise and signing up for an account at northwestern.  I spent the rest of my time reading over Eric's manuscript and sent him some notes on fixes.  Later I talked grammar with Jenny, Dave and Robert and then sat around in Robert's room to hear Dave and Rob argue some bullshit about killing animals.  I should have picked up the economist sooner.  I went to bed near one after a little grammar reading where I learned the rules of none and everybody (50/50 and singular).
+
+
+10/Sep/2008 13:58
+	Woke at 2 did some pushups and walked to the store with Dave.  Got home to lunch and going over techspecs.  Got really frustrated working on the old tech specs with dave and went outside for a break.  Things got much better when I calmed down, Dave got to work on editing the specs to make them his own without me, which was necessary and perfect.  I should learn from this in the future as Dave asked to start working on the techspecs together but I suspected before that he would need time to make them his own.  If I had remembered this going into things I wouldn't have needed to be so frustrated by it.  I got to spend this free time fixing up my emails, notably smoothing things over with elise and signing up for an account at northwestern.  I spent the rest of my time reading over Eric's manuscript and sent him some notes on fixes.  Later I talked grammar with Jenny, Dave and Robert and then sat around in Robert's room to hear Dave and Rob argue some bullshit about killing animals.  I should have picked up the economist sooner.  I went to bed near one after a little grammar reading where I learned the rules of none and everybody (50/50 and singular).
+
+
+	On Sunday, BBQed and went swimming in the burbs with Zack, Dave, Michael and Mom.  Then proceeded to the city to meet James and the rest for alley badmitten.  Monday, serbian BBQ with Dave, Zach, Tanja and Gayle.  Saw thier beautiful iconic monistary and ate dinner on the expansive grounds.  Drove home in sleepy quietness and then slept for a while before waking up to talk through Reflib specs with Dave, look up GRE materials and download I tunes U tracks.  
+	Woke Tuesday to news teaching of buffer overflows and cross-site scripting.  Went to dinner with Meggan and Mike and turned in forms.  Met Phil and Kai breifly then read Augustine's confessions intro before bed.
+	On Wensday went to lab and finished pwcorr significance for the wine stats.  Ate lunch with Ted, Caroline and Jinju then loaned Ted my spoke screw.  Caroline said she was quitting smoking.  Talked to T about hnRNP and made some of the suggested changes from Gayle and Tanja.  Met Dave, Elise, Mike, Tommy and James for Dinner, Polin speech, Trip pictures and Trailer Park boys.
+	On Thursday rain and potatoes and was kept in working on the emailer.py portion of coach momo.  Got GRE supplies from Mateo's back porch and rolled through mcD's for lunch.  Took a long nap and woke to solve a little more of the emailer issue before writing to Chris, starting the elements of style, and reviewing my day awake from the nap.
+	On Friday I made it to lab worked through the 
+
+5/Sep/2008 11:52
+	Woke to potato's and rain.  Ditched work and spent time on the emailer.py.  Went to pickup GRE books and on the way thought I hadn't concerned myself with error reporting when writing the tech specs and hadn't isolated methods or made mock objects.  Got home and took a long nap.  Got up and looked into how to call methods within classes from other methods and how to hide them.  Ate dinner with Dave, Meggan and Zach then back to work.  Decided I need to ask 5 questions then explore thier answers.  Emailed Chris to tell him of my new study method.  Spend the last hour looking at the python manual.  Curled up to the elements of style, Augustine read and a buzz over yesterday.
+
+
+4/Sep/2008 10:04
+	News. Finished pwcorr significance.  Lunch with Ted, Caroline and Jinju.  Loaned Ted my spoke screw.  Caroline's quitting smoking.  Talked to T about hnRNP.  Made suggested changes from Gayle and Tanja and found endnote file.  Didn't add paragraph or two new references.  Left work and met Dave, Elise, Mike, Tommy and James for Dinner, Polin speech, Trip pictures and Trailer Park boys.  Never made it back to the burbs.
+
+3/Sep/2008 8:29
+	Learned about buffer overflows and cross site scripting security holes.  Worked frustratingly on the emailer.  Went to dinner and turned in forms with Meggan and Mike.  Played a little backgammon then kept up the labor on the emailer.  Met with Phil and Kai.  Threw in the towel on work and read a little of Augustines confessions before bed.  Didn't ride for supplies (should have... when I got frustrated).  Never got to the spreadsheeter because I overestimated my progress on the emailer.
+
+2/Sep/2008 10:34
+	Went to Serbian fest.  I can store mom cells on the dl under ANL.  Walked into New Gracanica Monastery, a living bible.  Ate meat a gogo.  Tanja workedout, watched movies, and worked during time off.  Fell asleep for five hours.  Finished weekly review, perfect week, and worked with Dave on Reflib specs.  Downloaded itunes U lectures. Looked into GRE study materials, will be Kaplan, Dave's and ETS website.  Got the emial reader to return message time, unanswered messages, the UID and from feild.  Was slowed by inability to encode the objects.
+
+1/Sep/2008 10:28
+	Woke late for church. Wrote weekly review interspersed with backgammon and mario tennis.  BBQ and swimming in the burbs with Dave, Zach and Micheal.  Mom wants to freeze cells.   Badmitten in Chi-town.  James' classes have young kids and big written assignments.
+
+31/Aug/2008 12:15
+	Ate at volois with the Commies.  Studied Stanford Grad school admissions, which will require GRE's (see http://localhost/Archives/Stanford.txt) and the IMAP rfc which cracked following formal syntax enlightenment.  Study was cut by frequent backgammon.  Crashed the 'Butterfly Social Club' with Phil, Kai, Eien, Kathy, Lisa, hub and Kevin.  Went next door then ate Mexican food.  I had great fun with out drinking.
+	
+31/Aug/2008
+
+Switched from pop3 to imap4 in Coach Mom and studied the imap4 RFC which cracked under syntax (see http://localhost/Archives/emailer.py).  Ran wine pwcorr stats at Northwestern (see http://localhost/Archives/wine_stats.ods), fixed the FTP access, performed routine maintenence, drafted hnRNP differentiation paragraph and found 3 new 2008 titles (see http://localhost/Archives/hnRNP.txt).  Implemented diigo to learn keyboard shortcuts for firefox, scite, and windows (see http://localhost/Archvies/keyboard_shortcuts.txt).  Studied forms, tables, meta, head, entities, linking, embeding scripts, objects and url construction (see http://localhost/Archives/HTML.txt).  Looked into posibilites of object serialization and Grad School Admission (see http://localhost/Archives/Serialization.txt or http://localhost/Archives/Stanford.txt).
+Lunch found Rick CODing, working long hours, and living with Dad.  Elise is working on conscience internet for her novel and reccomends the elements of style (see http://localhost/Archives/Books.txt).  Saw Claudio over dinner and cards.  Tea with Brita found graduation, desire for travel job and decision to meet regularly.  Phoning Nancy and Grandmother found Chase is joining volunteer club, Nancy would like Mike to call, while Grandmother is quite the same as ever.  Q railed against Elise and evolutionary theory.  Played life, bought school supplies, rocked, shouted and read at the metro with Ally who met Lindsay.  Caroline gave me bread and yeast knowledge.  Arielle chatted about boy v. grad school dillemma and Paul about protective neon vests and troubles with math.  Runin with Pete led to talk of games.  Mike's on backgammon, cycling to Jackson park and volunteering with Rolondo.  Cycling, Dave is abuzz with Scidex.  At Toastmasters sheela and laura said hi, Kenn praised his sister, the Indian bemoaned inflation, Varesh elucidated fantasy football, and Caroll promoted racial harmony.  Tutored Mary on her scientific method assignment.  Met Rick's Blake who reminds one of Dan with eating peculaities, stop-start vocal gait, and paranormal obsessions.  Ate at volois with the Commies.  Crashed the 'Butterfly Social Club' with Phil, Kai, Eien, Kathy, Lisa, hub and Kevin.  Had great fun with out drinking.  Cards with the scoutens found Matt is a sphere sage working to make log files searchable and the sub at the science and industry is german captured.
+Suffered nasty coffee withdrawl.  My bike's back tube was stolen (wtf!), I fixed it.  Listened to this american life's self change.  A moringing headache, advil, and back to bed.  Morning Johnny Cash and Hole-in-the-wall experiments Lift Conference Speech make me happy.
+
+30/Aug/2008 11:49
+	Cycled with Mike to Jackson park, through lake front beaches and the japanese garden.  Studied keyboard quizes, windows shortcuts (see http://localhost/Archvies/keyboard_shortcuts.txt), and serialization (see http://localhost/Archives/Serialization.txt).  Rocked at the Metro with Ally reading the paper and shouting at the band.  Ally met a new concert buddy(name?).  Went to Dave's party, broke with Rick and Blake for Chinese food.  Blake reminds me of Dan with eating peculaities and stop-start vocal gait.  He's a fun guy excepting his paranormal obsessions.
+
+29/Aug/2008 9:47
+	Morning Johnny Cash and Hole-in-the-wall experiments Lift Conference Speech.  At work, chatted w/ Arielle about boy v. grad school dillemma and Paul about protective neon vests and troubles with math.  Found 3 hnRNP references frustratingly slowly (see http://localhost/hnRNP.txt).  Broke to implement diigo to learn firefox shortcuts (see http://support.mozilla.com/en-US/kb/Keyboard+shortcuts).  Cycled with Dave to discussions of reflib over Pilsen Dinner.  Learned of serialization and convinced him to make the note object extensiable to add Q&A interface.
+
+28/Aug/2008 9:50
+	A moringing headache, advil, and back to bed.  Cooked breakfast for D & I.  Fixed the bike then toastmasters.  Met Sheela and said Hi to Kenn and Laura.  Kenn praised his sister, the Indian dude bemoaned inflation, Varesh elucidated fantasy football, and Caroll promoted racial harmony.  Only 1 table talk, not me.  Studied IMAP and Scite keyboard shortcuts.  Tutored Mary on her scientific method homework assignment.  Dinner at Krolls w/ Cladio, Elise and D.  Laundry.  Played cards and again composed a tired perfect day.
+
+27/Aug/2008 10:25
+	A breakfast plum and 8:12 train review.  In Chi, my bike's back tube is stolen (wtf!).  At work, Caroline gave me bread and yeast knowledge.   That morning, I worked through the wine stat pwcorrs (see http://localhost/Archives/wine_stats.ods), fixed the FTP access, and went through backup, scans, and cleanup process on firefox and 'the beast'.  After lunch, I had to break my perfect day by working on hnRNP.  I finished a draft of the paragraph and highlighted promising 2008 titles (see http://localhost/Archives/hnRNP.txt).  At 5:30 I left and ran into a suited Pete Cahill.  We promised to get together with sam et al. for board games.  I bought an intertube from the bike store before making my way home.  At 7pm I finished this american life.  Later, Mike and I played backgammon and talked about Rolondo - the kid he's becomming big bro to.  I talked to Meggan and Mike for a while before D came in abuzz with talk of scidex.  I looked at what he'd done and insisted on testing it before comitting to work on it.  Finally, I wrote the perfect day for today, but I was too tired to do it very well.
+
+26/Aug/2008 8:17
+	Added digg, technology review, slate and news trust to my list of reads and removed the daily wtf.  I learned about google's C++ style guide, peer-review management style and that free food promotes communication.  Knome sequences a genome for $350,000, decode and 23andMe run a million points for $1000, planator sells a $350,000 sequencer,  and the Helscope sequences 1.3 million single strand bp/hour.  Facebook runs 90% of queries to memory cache, has not monetized its traffic, pownce allows microblogging private filesharing, and reQuall helps scatter brains remember.  Snapshot sql databases prevent locking in high read low write databases. Ram Drives, Page Files, user space, and virtual memory.  At 1:00-2:30 I relearned forms, tables, meta, head, entities and linking  (see http://localhost/Archives/HTML.txt).  At 2:30 i studied embeding scripts, objects and url construction (see http://localhost/Archives/HTML_URLs_Scripts_and_Objects.html).  At 4:30 I met with Brita for conversations on her easy summer, desire for a job with travel and family.  We decided to meet for tea regularly.  Afterwards, I went home, chatted w/ Mom and cleaned with Ally before driving to get school supplies and taco bell.  We ate and played life, which was too long at 33 turns.  At 9 I phoned Nancy and Grandma.  Nancy wants Michael to call and is sending Chase Volunteer Club.  Grandmother is quite the same as ever.  At 10 I settled down to programming on coach mom (see http://localhost/Archives/emailer.py) and was forced to switch from pop3 to imap4, because pop3 couldn't find the emails.  I wrote out today's perfect day (see http://localhost/Archives/Perfect_Day.txt).  Then I saw Q, asked him to come to the city, heard his rail against Elise, and talked to him about any variety of mystic pursuits.
+
+25/Aug/2008 11:05
+	Lunch with Rick and Elise.  Rick is starting school, working long hours, and living with his dad.  Elise is over the hump in her novel and looking for inspiration on a conscience internet.  She reccomends a few books including the elements of style (see http://localhost/Archives/Books.txt).  I spent two hours doing my end of week review (see http://localhost/Archives/End_of_Week_Reflection.txt).  This made me feel really good.  I composed a perfect day scenario (see http://localhost/Archives/Perfect_Day.txt) and then spent two hours looking through the news learning about technology restrictions inducing inflation, correlation between media type and player, heisen behavior in the page fault, windows icons, ray bradberry doesn't support sunsweet raisens, gSense - an open ubunto, and openmoko for linux phones (see http://localhost/Archives/In_The_News.txt).  I played cards with the scoutens and heard matt was sphere sage that wasn't all too magical, the sub at the musuem of science and industry was captured from germans in a heroic effort, and Matt's current project at work is to make some of thier log files searchable.  Afterwards, I went out with Q and learned about his jelousy of Elise's manuscript, his interest in evolutionary theory, and other things. I also went through some rather nasty coffee withdrawl.
+
+25/Aug/2008
+
+This week, I had fun and socialized.  I watched thier will be blood and no country for old men.  I ate dinner with Zach, Dave and phil and ate lunch with the lab.  I sang Karokee at the pie hole and rocked out at the bcl show.  I traveled to Champaign with Phil where we partied, cruised, and ate out.  To socialize I attended a Toastmasters meeting (see http://localhost/Archvies/Toastmasters.txt).  I posted the nicene creed blog (see http://localhost/Archives/Nicean_Creed_Blog.txt).  I called mary three times. I talked to the band, Eien, and those new kids.  I hung with phil, kai, jori, tom, alex, ray, and sci-fi in champaign.  I taught ally to remove antivirus from the computer.
+
+I wasted time at court, buying tickets offline with poor information and going on this vacation to Champaign.  I fought with Mike about smokes in front of freinds.  I fought with dave too.  Technically I shifted the end of day reflection to the next morning and added the best and worst elements.  I put my notes under the Ben hierarchy which will turn into my homepage (see http://localhost/Archives/Ben.txt).  I nearly finished the pop3 server side of the coach mom project (see http://localhost/Archives/emailer.py).
+
+I studied machine code, assembly and syntax (see http://localhost/Archives/Programming.txt).  I checked into xml, owl, rss, api and rdf see http://localhost/Archvies/Net_2point0.txt).  I studied through quiz making and review for HTML attributes, text formatting, Linking, Tags, Tables, Forms, CSS and Meta.  In news I found self-aware magpies, $ for AP exams, DPI, FUI and SRAM introductions.  I read a technology review.
+
+At work I figured out how to source website elements and went over my notes ond databases and stata (see http://localhost/Archives/Norwestern_Job.txt).  I found hnRNP sources (see http://localhost/Archives/hnRNP.txt).  I turned my paper work to start and sent off Phu's letter of rec.  I also eeked out the majority of the stats for the wine party (see http://localhost/Archives/Wine_Stats.ods)
+
+	Best: 	Toastmasters
+	Worst: 	Not having reading material on vacation
+
+24/Aug/2008 14:57
+	Yesterday started late waking up a Ray's place post the radio show.  I did a little morning review then spent a lot of time talking through the virus situation with ally and mom.  Ally got to learn all about how to clean up computers which was pretty cool.  I rolled around with Kai and Phil ate lunch, cruised through farm country and rolled through Allerton.  We went to the grocery strore and then had a massive DCFS picinic at the union.  After a stop at Jori's to play cards we went back to the train station and made our way home.  I slept for most of the train ride and then cruised back to the suburbs with phil and this hysterical group of drunks behind me one of whom kept screaming "I don't know what my face means".  I rolled around with Q before meeting up with Dave and Elise then we rolled out to Omega.  A quick chat and I was ready for bed, so I slept the night away.
+	Best: 	teaching ally 'bout the virus
+	Worst:	driving with kai and phil
+
+23/Aug/2008 11:56
+	Woke at 10:00 yesterday to beging a drive with Phil and Kai.  I managed to get some reviewing done in the car, did a little time talking to the two of them, but spent the most of my time just unwinding, which is something I'd like to get better about now.  When we got to champaign we spent a little time at Jori's who is way into games and sports too.  Then we rolled out to Alex's (a cool cat) where I took a little nap.  Afterwards we got dinner, a keg, and rolled over to the party.  The party was slow and I spent the time reading a technology review which was awesome (see http://localhost/Archives/In_The_News.txt).  I walked to the gas station with phil and then we started playing cards with Neena who was full of spitfire.  'Round 2, the night got tired and with only slight interruption I curled up on the couch for bed.
+	best:	Meeting Jori and Alex
+	worst:	going sans book
+
+22/Aug/2008 11:09
+	Woke up a little late yesterday didn't make it to work till 11:15pm.  When I got there I screwed around on the morning review and then went out to a going away lunch with the summer students that was alright.  I ate some really hot wings and nearly burned up.  When I made my way back to the office I worked with T and D on figuring the dog tissue database (see http://localhost/Archives/Dog_Tissue_Archive.txt).  After an hour I turned in some forms to Becky Booi.  I spent the rest of the day entering and processing stats for the wine party (see http://localhost/Archives/Wine_Stats.ods).  Then I rode home with dave in a way that made me a little angry (see http://localhost/Archvies/Wrong_With_Me.txt).
+	When I got home Phil arrived.  We went to dinner with Dave and Zach before going to the BCL show which was awesome.  I talked to miller and such and then went home that night with a bunch of wild kids who were freind of Eien (Kai's sis).  We partied late and hard, though I got antsy for lack of drink.  Then I got into a fight with Mike about smokes before going to bed.
+	best:	BCL at Regies
+	worst:	Fighting with M, M and D.
+
+21/Aug/2008 11:07
+	Got to the library in not too much time yesterday, wrote the morning review, then spent a bit of time looking up xml, owl, rss, api and rdf (see http://localhost/Archives/Net_2point0.txt).  I studied the news and learned about self-aware magpies, monetary incentives for AP exams, javascript frameworks (prototype and script.olo.us, a management book suggestion (behing closed doors...), DPI (deep packet inspection), FUI and SRAM (see http://localhost/Archives/In_The_News.txt).  I then ate lunch at mcd's and made my way to a toastmasters meeting which was totally awesome and I'd love to do more of (see http://localhost/Archvies/Toastmasters.txt).
+	Afterwards I had just a little time at the libary to go over my HTML quizes on basic tags, atributes, text formatting, variables and linking (see http://localhost/Archvies/HTML.txt).  Then I made my way off to deliver papers to Paul Williams which was something of a chore, but a nice ride.  When I finally made it back to the libary I spent some more time studying HTML, I almost thought that I was done after writing about tables and forms (see http://localhost/Archvies/HTML_Tables_&_Forms.html) but then I stumbled on to the deeper elements of HTML like head CSS and meta issues (see http://localhost/Archives/Head_CSS_and_Meta.html).  At the end of this I took a little time to edit and post the nicean blog (see http://localhost/Archives/Nicean_Creed_Blog.txt - edits on webpage).  When I finally got tired of it all it was 8pm.  I made my way out to Dave who had been waiting for 40 minutes and then we rolled back to commie house to meet elise.  
+	We played some asshole around the house went to pie hole for a bit of kerokee.  I got on stage thrice, though I shouldn've for blind mellon.  Then we went back home to 'no country for old men' which was pretty awesome.  Then to sleep and a late start getting to work today.
+	Best: 	toastmasters
+	Worst: 	Making Dave wait
+
+20/Aug/2008 9:38
+	Yesterday I did this in the morning on the train which was perfect and I will do it again.  So I got up in time for the 8:40 (good) and made my way downtown.  After buying goods at TI I wandered on down to lab and chatted a bit with all before getting my day started.  Despite frequent A&A interruptions (like 3-4 maybe 1.5 hours) I managed to finish reviewing my notes working my way through website element manipulation, the databases and working with stata.  At the end of the day I spent a little time finding some new hnrnp sources which I will be integrating shortly.
+	At 6:30 I was pretty beat so I went home, I stopped at union station to buy tickets only to find that I would need to wait in line twice and go to greyhound.  This meant that it took an extra hour to get home, which was quite the waste.  It would have been so much better if I could have bought the tickets online, but my bank account is dwindled, which is a good reason not to let it get so low again.
+	When I did finially get home I cooked a little meal said goodbye to Dave and the settled in to watch a few Ted talks while filling out forms for rental applications and the job.  Mary called and I had a chat with her with much less fighting where she brought up a new testemant vs in Romans getting down on gays.  After hanging up with her I did a brief workout and Dave and Tyler got home to watch 'there will be blood'.  It took me longer than I would have liked to unwind from the day and I think it would be good to try and fix that in the future by having a long chat about the days activities before I try to enjoy myself too much.
+	Today was great for the morning review, productivity at work and with forms, and for the workout. today was annoying for too much A&A, extra time on train tickets and not winding down faster.
+
+19/Aug/2008 8:46 -
+I didn't have time to do this last night, so I will do it now.  I had to go to court yesterday, I spent the morning doing an end of day review.  Court was a big time waster but I managed to get fed and to the library by 2pm.  I spent time doing the weekly review (see http://localhost/Archives/End_of_Week_Reflection.txt) and organizing my notes under the Ben hierarchy (see http://localhost/Archives/Ben.txt) which would be nice to turn into my homepage in not too long.  I then spent a few hours studying programming esp. learning about machine code, assembly and what syntax fundementally describes (see http://localhost/Archives/Programming.txt).  I quit this upon exhaustuan and went on to studying and making quizes for HTML attributes, text formatting, Linking, and basic tags (see http://localhost/Archives/HTML.txt).  It was easier to work through these examples than to just read and study, so it was a great excersize for the end of the day.
+After a while I made my way home to light conversation with Mom about Mary's biology and such and Ally about her buzzing off.  I thought to myself that I would have liked to have come home and organized an activity to do with the both of them.  I should try to do this later.  So instead I did a little work on the coaching project and got most of the pop3 email server done, though I still need to make it into a data object where I can access the text, date and who from.  I also seem to be having some trouble with gmail working as a pop3 server, it doesn't seem to like being completely cleared out (it resets the server), maybe I could get around this by calling the second message instead of the 1st (see http://localhost/Archives/emailer.py).
+Then I went to sleep and woke up this morning ready for a day at northwestern.  I'm doing this reflection in the morning and that it actually much nicer... I'll keep that habit in the future.
+
+18/Aug/2008 0:55
+	So apparently I haven't managed to do this in the past few weekend days.  After writing below on thursday we Dave and I made our way out to hang with Q, Elise and Eric.  It was really nice to see the Q especially before he is about to leave.  The next day was friday and I was back at the library again.  I went through the javascript core elements from the day before and began to formalize a quiz structure related to the opperators I was then studying (see http://localhost/Archives/JavaScript_Expressions.txt).  As I got into the special opperators (see http://localhost/Archives/JavaScript_Special_Operators.txt), I got to areas of the code that were dependent upon being embeded in javascript and relied on the dom model to work, since I don't really have the protocol knowledge for messing with that sort of thing, I have decided to take a step back and go through a little html tutorial from the w3c (see http://localhost/Archives/HTML.txt).  HTML is nice to study because the quizes can be embeded in the language.  I think as I study it I will be migrating these texts to it, which is a good idea.
+	So at 5pm the library closed much to my dismay and I was sent wandering back to Commie house.  Come to think of it, I belive friday night was the time that we ended up going out to see Q, Eric and Elise.  The next morning we made our way brunch at the bongo room and it was a fortunate time to decide to start taking bites of meals.  Afterwards we walked to northwestern to see the air and water show, which was cool enough, but had me a little bored.  We went to dinner at Timmy O-tooles and walked over for coffee at T's which was perhaps the best part of my night.  Afterwards we wandered back to commie house and I was very tired, I slept.
+	I woke up from my nap to go meet eric and the bullet called life boys at thier show at goose island.  Unfortunately, I left late, took a backwards route to the highway and had the address of a different goose island and so I arrived just too late to see thier show.  Fortunately, they will be playing again on Thursday at regies 10pm which I will definately go see.  Eric and I then made our way to James' place for Sabrina's show.  I felt really uncomfortable there when thier were still tons of people and wished I hadn't come.  I was much happier when I found myself alone with James and Eric.
+	We got home pretty late that night and went to bed after some fun conversations which Mike.  On sunday I woke too late for church got going rather slowly and eventually made my way back home for some pleasentries with Matt.  At this point I am pretty tired so I think I'm about to bed.
+	My favorite things about this weekend were seeing Matt for a couple of hours and the work I did on HTML and javascript.  My least favorite things were the time that I spent going to the air and water show.
+
+18/Aug/2008
+
+This week, I saw many people. I ate a going away dinner with MR and the fam, rode the train with Mike, celebrated with the Hans and the lab, chatted with Ally and Mom, chilled with scouten, sang Karokee with Q (awesome), ate at the berghoff with Eric, ate brunch at the bongo room with elise and dave and sipped tea with Tanja et al.  I wasted time at the air and water show, Sabrina's concert, and at Decker's.  In gossip, Dave was just offered $20000 by his bosses at prevail to work on a sort of generalized coaching technology facillitating goal setting and review through text, email and webpages.  Hans just passed his exams and is now a real something or another.  Matt gave me a job lead (flattering). 
+I studied a few hours this week, especially javascript background, varaiables, expressions, and opperations (see http://localhost/Archives/JavaScript_Tutorial.txt).  I started on HTML (see http://localhost/Archvies/HTML.txt) and will soon move on to the DOM model.  I made up and reviewed quizes which was very productive.   For fun, I read about the value of language learning from The Brain That Changes Itself (see http://localhost/Archives/The%20brain%20that%20changes%20itself.txt),  watched Daniel Tosh standup and read the first chapters of the 'Tipping Point' by malcolm gladwell.  Michael also showed me something of x-dressing hypnotizing cuddlefish which is awesome.
+I was frustrated at times this week by silly arguments and time wasters which I hope to avoid.  I wasted some time when I took dave's keys, had to go to court, commutted back to the suburbs, looked for javascipt books, went to the air and water show, Sabrina's concert and Decker's.  I had heated moments with Dave, arguing about his design because I had made assumptions about the program, pushing him on prevail so that he thought I was telling him not to go with the company when in fact I was trying to give him a context to think about it and getting mad with him when he questioned my seatbelt courtroom defense and  study of javascript, on the former he is right.   I had heated moments with Mary when I confronted her for telling Mom that she didn't come from a Christian home.
+In work, I forked the scratch system I had setup and made a daily review system which is awesomly useful (more than scratch right now).  I biased the itchiness towards older files by multiplying again by the deltadate modified at dave's suggestion.  I've been pushing to give a hierachical organization to my files which is headed by the Ben file at http://localhost/Archvies/Ben.txt.  I finished the techspecs on CoachMom and then started working on the emailer (see http://localhost/Archives/Coach_Mom_TechSpecs.txt).  I had my first couple days of work at the lab where I grilled the heck out of Dave and then spent the next day reviewing (see http://localhost/Archives/Northwestern_Job.txt).  I managed to get a pretty steady stream of workouts in this week and ate like a cow.  I converted my no sugar rule to a 'only a bite' rule (good idea!).
+
+
+14/Aug/2008 23:59
+	Woke up today to Eric time.  I did a little workout and then spent my morning discussing life and everything with the rock, we got off to a slow start and eventually made our way down to the Berghoff Cafe.  I left him near 1:30 at the train and then rode my bike over to the library.  I spent the first part of my day reviewing the past couple (see below) and then had a rocky start with the javascript.  I decided that my notes from before were too confusing to wade through and started to look for a book which would provide me with review quizes.  But the selection at the library was poor and after wasting an hour in the effort I gave it up only to settle back down to the mozilla javascript tutorial.  This time I made an effort to make quiz questions out of each element I studied which was fun to do.  In the future I may be able to publish these quiz questions for other users to test thier knowledge against.
+	I re-studied my notes on variables, learned about constants, and the various data structures that are supported (see http://localhost/Archives/JavaScript_Tutorials.txt).  I learned about literals, expressions, and constants.
+	Around 7:30 I started looking for some talkable material to read and spent a half-hour searching in vain for lost resources at the libary to settle down on The Tipping Point by Malcolm Gladwell.  I think the broad point of the book that events some time happen dramatically without a dramatic cause, but rather due to a gradual increase to a 'tipping point' that acts like a viral spread is a good one.  Malcolm is arguing that these viral events spread from person to person due to changes in the environment and the elements themselves.  He is also arguing that like diseases these social memes seem to spread through carriers who are prone to spreading social ideas, stds and the like.
+	Comming home I spent a bit of time talking to Dave about his pdf-noter idea which is pretty exciting.  He seemed a little stressed out.  I put together a letter of rec for Phu.  I managed to get a little work done on the Coach_Mom documentation (see http://localhost/Archives/Coach_Mom_TechSpecs.txt).  But it got late pretty fast and now I am just finishing up my review before going off to bed.
+	Today I had a great time studying javascript and visiting with eric.  I wish I had spent less time looking for new javascript books or other books at the libary.  I also wish I hadn't talked to dave about our relative approaches to programming as it annoyed me when he was questioning my learning of javascript which makes me happy.
+
+Around 7:30
+
+13/Aug/2008 17:54
+	So I woke up early today in nervous anticipation of my first day of work.  Despite this, Dave and I left late to get to Northwestern just in time for the lab meeting.  I reintroduced myself to the lab and then commenced on a long day of work drilling Dave's mind for his understanding of our computer, web server and databases.  I got a rough and trouble intro to FTP, permissions, maintenence, data strucuture and data manipulation.  All told it was a trying day for the both of us but especially for Dave (see http://localhost/Archives/Northwestern_Job.txt).
+	When we finally left at 6:30 dave and I got to talking about his opportunities at the veteran job.  I tried to emphasize to him that he was like an eligible young bachelor fresh on the scene.  He should fall for someone who he really wants to be with and not just commit to the first one that falls in love.  He didn't catch that I wasn't trying to stop him from going with the veterans.  I want him to go wherever suits him best and I am just trying to be sure that he is choosing with his head and not with his heart.  In the future I will have to be sure to emphasize that I am not trying to dismiss the veterans.
+	After arriving home I ate the shit out of a whole penut jar full of penuts and raisens, I must have let myself get really hungry following those salmon bagels I ate for lunch, which were superbly delicious but obviously unsatisfying.  Later I would eat a whole pizza to myself proving that I hadn't given myself enough food throughout the day.
+	I managed to eek out a quick workout when Phil called we got together and it was the most tempted I've been to drink in a long time.  Phil and Kai are making thier way out to San Fransico soon and I will get to see them a few times before I leave, but I must be sure to have some activity besides drinking to participate in next time lest I go insane (preferably sport, song, food, game or the like).
+	I went to bed late that night without time to review my days changes which I have been worse about of late.  So the next day I awoke in fullfillment of the scriptures and made my way to work, by racing to make up time for oversleeping.  I got to northwestern a bit unkempt and a little late and then started off my day with a chat with T.  We decided that we would need to figure out whether I would be devoted to website development or stats building which will depend on how long it would take to get the website developed, I would prefer to do this work, but I will have to ask dave what he thinks the timeline will be.
+	I got back to work with barely enough time to get looking into things before it was time to go off to Hans celebration.  We ate and drank with the lab, which was very nice and then made our way stuffedly back to lab.  I got to work finally and in my three hours or so managed to bang out a little review effort from what Dave and I had talked about yesterday, learning about backups, permission settings, scans and the FTP.  I set some appropraite calendar reminders and then left to go to union station.
+	Fortunately I did make it on time, but it was difficult.  I spent a little time reviewing the above paragraphs before Micheal and I started joking and having fun, it was particularly nice.  Soon Mary picked us up and we made our way (too slowly) to the waterfront in the St. Charles area for a very nice meal.  I couldn't have liked hanging with my family more and I broke my no sugar policy to enjoy little bites of the bannana, key lime, and chocolate desserts which were delicious.
+	Upon getting home I called Q and we raced off to the city to enjoy karokee at Cafe Bong, we sang maddonna, rush and cat stevens to the intermittent imberresement or joy of my tastes.  I found it a bit difficult to sing with Q as he wasn't so serious about performing as I was, but that feeling was parleyed against the joy of him suggesting the event.  The bar was quiet, but clapped politely when we finished songs.  I really love that karokee singing, esp the mike and word suggestions and I'd like to do it again when I have a chance.
+	Mike later took me to commie house where everyone was already asleep.  I awoke early today did a little workout and then made my way with Eric to eat lunch at the bergoff.  We had a hell of a time talking about the olympics, e-reader, notetaking and the like.  I just left him behind and made my way to the libary to get a little work done.
+	I am happiest this week with my first day of work which was so productive and hanging out with people.  I am sorry that I didn't get more of my own work done or find more engaging activities to perform with my friends.
+
+12/Aug/2008 0:57
+	Today did not feel that great for me, but looking back on it I was relatively accomplished.  I woke up pretty late which came as no surprise as I'd stayed up so late the night before.  I got the morning going with excersize, a shower, and some coffee and then made my way to the library.  I only had an hour and fifteen to work as I'd accidentally taken Dave's keys with me (twice for that bullshit now).  I worked through a little more JavaScript to some effect, though I realize now that I might actually want to play with the functions that I am spending so much time dwelling on right now, write them into some code and the whatnot.  Even before that I might want to get back to the conceptual landscape of javascript before I dive too deep into its functionality (see http://localhost/Archives/DOM_Elements.txt).
+	When I got back to the house I stayed to have a cup of coffee which turned into a 30 min discussion with Dave about his efforts to bring text based interventions to his veteran clients.  I felt a sort of miscommunication in this effort and more than once Dave and I got teste with one another.  I misunderstood him early thinking that he was interested in the report based texting I was talking about and I came in with a number of assumptions about what he was aiming to do.  Still despite the back and forths or perhaps because of them we did begin to realize what one another were talking about and so I think we came to some good design points.
+	Going back to the library I spent a good deal of time reviewing the work of last week, especially this file which I then went on to summarize as a weekly report (http://localhost/Archives/End_of_Week_Reflection.txt).  During the course of that I felt inspired to put some work into my scratch protocol and I forked the script to produce a similar function which digs for recently modified files.  I now have that script up and running and made some improvements to Scratch protocol so that ignoring files does not change their access date attribute and more importantly added an improvement which Dave suggested to be sure that older files have more presedence in the system (see http://localhost/Archives/Itch_Older.txt).
+	Then I took some time off to read the brain that changes itself (see http://localhost/Archives/The%20brain%20that%20changes%20itself.txt).  But I didn't really pull away too much, except a little more on Michael Merzenich's geiratric work and a hint of Dr. Taub to come.  I next came home and after some wicked masterbation, I found myself editing the paper that Christine had asked me to (see email Christine abstract biology).  Afterwards I got lost and watched a little Daniel Tosh during commercials (sweet lovely death I'm waiting for your breath).
+	At the end of the night Dave came home with the news that his boss is really excited about the text and email based intervention services and might throw something like $20,000 at the project.  We spent some time looking at his structrue and decided that we will each bring a few goals to the table see if they fit in the architecture and he will develop a google spreadsheet that represents what we are interested in doing while I will continue to work on the text/email side of things that I am doing for coach_mom.  By combining the two we should have a structure which represents what we would want to do and tests whether the design is right.  Then we could bring some programmers in to actually make the application swiftly (see http://localhost/Archives/Coach_Veteran.txt).
+
+11/Aug/2008 16:01
+	I didn't manage to take notes on Saturday or Sunday night, which is perhaps testimony to how fun those days were.  On saturday I spent my time doing a bit of the review work to make up for the day prior and then went off for put-put with the fam.  I Skyped for a while to Lynsee, and studied memorization.  I went down to the city in the evening (doing x-word puzzles on the train) and then enjoyed some time hanging with Elise, Justin, Dave, Meggan and Mike till nearly 3 AM.
+	The next day I woke around 10:30 and found a church at 2900 Wabash (St. James?) that had an 11:00 AM service (see http://localhost/Archives/Church.txt).  The service was OK, but it's not for me in the long run.  When I got home I had nothing to do for an hour or more and spent some time singing, dancing and watching the olympics opening ceremony wiht Michael before catching 1/2 hour of lost.  Then Elise and Justin arrived and we talked a bit about my church annoyances (the niceane creed) before shoving off to Q's.  Q himself was unfortunately disposed because he had just resumed medication that made him quite drowsy.  Still we managed to have a good time and eating, playing asshole and eventually turning back to the city.  When we did get back to the city we rounded up Sam, Zach and Michael and made our way to James' freind's place (Sam's) for a bit of badmitten.  It was a nice time and I got to do a little chatting, but had more fun with the badmitten.  I will try to go back thier regularly given how awesome it is.
+	Then it was off to bed and now the start of a wonderful new day.  My favorite parts of Sat and Sunday were badmitten, olympic dancing with my bro and put-put.  If I were to do anything differently I would have tried a different church (less orthodox than catholic), and come up with more concrete activities to enjoy when hanging with everybody.
+
+11/Aug/2008 16:54
+	This week I managed to start trying out churches (see http://localhost/Archives/Church.txt).  I played A&A and bbq'd with Ted et al. I enjoyed badmitten with James, and visited with lots of people like: Q (lots), Elise, Justin, Meggan and Mike.  I Skyped with Lynsee and played bridge with Chuck (bridge) et al.  I went out to eat and chatted with Mom, Ally and Mary.  I went to dinner with Dave and Tanja.  I got a new bike and watched Across the Universe with allison. Micheal and I picked Mary up from the airport.  
+	I remembered and wrote about a couple of dreams including a Jackie O' sex dream in the dream log (see http://localhost/Archives/Dreamlog.txt) and managed to work out on 4/7 days of the week (see http://localhost/Archives/Workout.ods).  I memorized the man who sold the world and started on Jolene and a boy named sue.  I got my tooth fixed and read some of "The brain that changes itself" (see http://localhost/Archives/The%20brain%20that%20changes%20itself.txt).	I looked into and signed up for a Toastmasters meeting and found that roatary might be a good association for me to get involved with to get started in community activism (see http://localhost/Archives/Clubs.txt).  I did a hell of a lot of biking.
+	I manged to have some productive brainstorms with Dave, I gave him the scratch tool which resulted in good feedback for making the tool useful for new users even if the current form wasn't right for him (see http://localhost/Archives/Sratch_For_Dave.txt).  He told me about a cool idea for using an online eddition of the implicit association test which we should keep on the back burner for when production of these kind of tools becomes an easy effort (see http://localhost/Archives/Are_You_Racist_Applications.txt).  I also helped vet out his ideas to organize the depressed veteran interventions.
+	In programming we have a virtual server (http://localhost/Archives/Server_Space.txt) so my efforts were not in vain.  I made great strides in the scratch program both in its documentation and its implementation by adding the search features dave wanted, better logging features (a time stamp and an ignore options) and a prettier front.    I've learned a fair amount about JavaScript and the DOM model in this last week (see http://localhost/Archives/JavaScript.txt) and should be using these in the next week to work on Coach_Mom (see http://localhost/Archives/Coach_Mom.txt), the PDF_Noter (see http://localhost/Archives/PDF_Noter.txt) and eventually for the itch (see http://localhost/Archives/Google_Desktop_API.txt).
+	In the area of money I have a job again working with the lab on part time stat efforts which is the best position I could ask for.  I haven't gotten money from those TIAA-Cref people which is pretty madening.  I think I would need to get approval from paul first, which is an annoyance beyond annoyances.  I will ask about it tomorrow when I go in for work.
+	If I could do this week over again I would be sure to keep plenty of food on hand and be careful when leaning in the morning to not take people's keys.  I am proudest this week of learning about javascript, adding a book to read, getting a job and honestly a whole bunch of things.
+
+9/Aug/2008 13:08
+	I didn't have time to finish my reviewing last night even though I spent a fair amount of time on it.  I got caught up making improvements to the Scratch... which is now much better.  So I did the same old wake and go the Library thing.  I did a pretty thorough review session in the morning and then began JavaScript work.  In javascript I began to vet out what the DOM model means esp how to declare and work with variables (see http://localhost/Archives/JavaScript_Variables.txt).  I also worked on learning the basic interfaces common across DOM Elements (see http://localhost/Archives/DOM_Elements.txt).  Finally I blew my load learning about firebug, firefox's DOM Inspector addon (see http://localhost/Archives/DOM_Inspector.txt).
+	I noticed that my stamina is pressed at a couple of hours and took breaks to eat, ride my bike and drink coffee.  I think lunch is especially important for me to keep up my stamina and I will try to a better job with that in the future.  After dinner with the girls and mom I went back to the library for an hour or so of reading The Brain that Changes Itself (see http://localhost/Archvies/The%20brain%20that%20changes%20itself.txt) which was one of the best and most inspiring parts of my day.  I should be sure to keep that habit.
+	As I said before when I got back home I was distracted mostly by improvement to the scratch which included a number of documentation formalizations (see http://localhost/Archives/Itch.txt and http://localhost/Archives/Scratch.txt) but also the readdition of an ignore feature (see http://localhost/Archives/Scratch_Ignore.txt) and an improvement in the log storage (so that it stores the access time, modified time and time of last access.
+	I also managed to workout last night and wound down at the end of the night by watching a video on Yo Yo Ma which was wonderful.
+
+8/Aug/2008 0:08
+	Woke at 9 pm and got cracking with coffee ate some almonds watched a little TV till I took off to the library.  After composing the day's schedule, I spent a bit of time studying up on clubs to join.  I scheduled a meeting with a toastmasters group in the city and found out that Jaycee's sucks (see http://localhost/Archives/Clubs.txt).  Later, partly under Lynsee's advice, I came to realize that Rotary is the club to join for volunteering, networking and community leadership, so I will spend more time on them in the future.
+	I tried to find the game book from earlier but to no avail.  After a bit of time studying JavaScript (see http://localhost/Archives/JavaScript.txt) Lynsee and my bro interrupted.  I had to run home to return a key and spent a little time chatting with Lynsee.  I will have a chance to talk to her tommorrow on Skype.  Next I went to lunch with Q and he seemed a little down.  He kept comming back to a point of psychosis, that it was the unwillingness to accept changes.  Afterward I had him drop me back at the library where I spent some time tightening up the scratch code for dave.  Now the searchLog is a dictionary and subdirectories are not explicity declared which makes the user interface much cleaner in terms of directory adding.  Still I hope not to spend much more time on that problem, as this user interface must surely be replaced, esp. following the google desktop input upgrade.
+	I spent most of the rest of my night continuing my studies of javascript which were very fruitful.  I now know how to exec some simple code and have a decent understanding of the place and purpose of the language (see http://localhost/Archives/My_First_JavaScript.txt).  At 7pm I took off.  I spent a bit of time with Allison and Mom chatting and getting food.  Later I was off to home depot requesting that they jack up my bike seat.  I tried to get a heater from my coffee press from target, but they had none.  I will try walmart in the future.  Last I came back to a little more javascript studying and had a chance to write a second test scrip (see http://localhost/Archives/My_Second_JavaScript.txt).
+	My favorite thing about today was finally having a good hunk of time to do some productive study and putting those finishing touches on the scratch for Dave.  If I could do today again, I would not have spent so much time studying clubs and been more careful to pickup some reading that I might share to amuse (like Dave's book for instance on the mind that changes itself).
+
+7/Aug/2008 1:03 - 
+I woke up motivated this morning, if a little groggy, to run of to play 9am bridge with Chuck and his brother Bobby and nephew (see http://localhost/Archives/Bridge.txt).  Chuck and I came away with great victories before I had to rush off and get allison to run down to the city.  I was a little tired, but it was still very nice to ride with my sis.  We managed to buy a bike from working bikes and then some pizza.  Later ally bought her bike from Target which was cheaper than mine!  Getting home I had to rush off to a dental appointment which ran like clockwork to get my wisdom tooth filled.
+
+Next I rushed over to Chuck's with Mike in tow for another round of bridge where we decided that we must try and do this regularly on Sundays.  Finally I came back home got a little work done reviewing and had some fun memorizing song lyrics (see http://localhost/Archives/Song_Lyrics.txt) before joining up with Q for dinner and a drink (though I didn't).  At last I came home and got alot of the dave scratch work done... which is now sufficiently complete to pass to him, though the user interface for adding files leaves a little to be wanted (see http://localhost/Archives/Sratch_For_Dave.txt).
+
+After a tiny workout and this nights note I will be off to bed.  But to sum my favorite things about today were efficient movement for bike and dental chores, the bridge and finishing my sratch work.  If I had a chance to live this day again I would be sure to bring more conversation to the bridge table by studying some interesting material beforehand (outside of javascript) and would have skipped today with Q in favor of more productivity (as I will be seeing him tomorrow and met with him yesterday... still our time was really fun together...)
+
+5/Aug/2008 22:57 - 
+I woke late this morning around 11:30 and had some pleasent chattings with my bro a cup of coffee and a quick shower before running off to pick up sis from the airport.  I got home had some time to make tuna salad sandwhiches for everyone, then went off to hang with Q.  We had a nice chat for a couple of hours before I left to go back home.  I started watching beyond the universe (the beatles movie) with Ally.  When mary came home she gave me a great haircut (following a little extra encouragement) and soon mom was home.  I finished the movie with Ally then went off with Mike to get culver's and enjoy a laugh (he is spitting blood following wisdom tooth surgery). 
+
+Comming home we ate and I spent time hugging ally and talking to mom.  I didn't get on the computer until an hour ago and spent all of my time reviewing.  I have to say that I am happy having done that instead of jumping into some work, it shows patients and good sense on my part to spend a large portion of my time reflecting.  I had a little annoyance that the scratch broke, which means that my script is a little tangled... still no bother.  But more largely I really would have like to have gotten some work done, I now realize that in order to get any meaningful things done in my day I need to make sure that my solitude is maintained esp. for the early portions.  This will not be true tomorrow and again only partially true on the Thursday.  The task of increasing my work component will be a matter of decreasing... or better, optimizing my social engagements.  Perhaps the sat sunday model the bible is so proud to promote would do the trick.  We shall see.
+
+
+5/Aug/2008 1:40 - 
+Early this morning I completed an entry in the dream log (see http://localhost/Archives/Dreamlog.txt) about Jackie-O's seed fascination of which I am very proud.  Then I was patient in deciding to develop a plan instead of going haphazardly onto the internet for the day (see http://localhost/Archives/Todays_activities.txt).  So after dream logging (see http://localhost/Archives/Dreamlog.txt), masterbating, and drinking a coffee I rode down to the public library to spend my hours studying Javascript (http://localhost/Archives/JavaScript.txt).  This was the best choice of my day, I learned about the netscape origins of javascript how it came to be a standard how it is included in smtp and http transfer protocols, and a bit about its inheretence and such.  Unfortunately I was signed into chat and was interrupted after just an hour of centered absorbtion.  Fortunately, I was interrupted by Elise and had a chance to learn of her efforts, including wi-fi at a hair braiding salon, hating new york, plans to move to palo alto and quit smoking... hurah.
+
+Then I made my way to Subway for a pleasent lunch.  Later I came home to a bit more masterbation, a shit load of coffee, a frustrated effort to get my TIAA-CREFF shit.  I need to print something and mail it in before I get account access, do'h (see http://localhost/Archives/Tiaa-cref.txt).  I did however manage to get my contacts perscription mailed to me (fingers crossed).  I spent a little time designing Coach_Mom and hope to give that more effort tomorrow (http://localhost/Archives/Coach_Mom.txt).  Then I went to a wonderful and fruitful dinner with Tanja and Dave where I was rehired to the lab part time doing stat work and maintaining the website, I will go in next week for the first time again.  Comming home I spent some time watching this delicious t-storm roll in with Dave and Mike (and hearing the enchanting tornado sirens).
+
+Next I was in for a terrible journey through server land, spending a couple hours studying the options only to decide that I would settle for Dave's Bluetooth, with which he has had some experience (http://localhost/Archives/Servers_Space.txt).  For some reason finding server data is next to impossible.  I wonder where it's at.  Why don't any major companies provide hosting (go daddy aside)?
+
+Last I had a nice chat with Dave wherein he expressed a desire for a copy of the scratch and impossed upon me a great idea for using the implicit association test in a way compatiable with science 2.0 (ala Ben Schniederman) (see http://localhost/Archives/Are_You_Racist_Application.txt for details).  All in all a rather nice day.  My only major complaints involve getting interrupted while working on studying Javascript and the fruitless effort searching for server space.
+
+
+12:04 AM 8/4/2008 - 
+I woke today and got to excersizing rather early took a shower and changed into my fresh clean clothes.  I did a bit of computer work before going to church at 2nd presbyterian just up the street.  Then I came back did a bit more computer work before taking a rather long bike ride to Teds.  We spent a couple of hours playing axis followed by a couple of hours of eating and socializing.  Then I biked back home.  I really enjoyed the social aspects of this day at church and at Ted's, especially the greetings at church which were a sort of rapid fire smile and eye contact session.  I find it interesting that I am having trouble remembering what I did in a computer sense.  I will check the Kaizen for a refresher, but it might be useful to slow myself down on this computer.
+
+So in a computer sense I reinstalled gdesktop to make the web history crawlable, memorized Jolene and The Man who sold the world, downloaded firefox 3, and added keyboard shortcuts to editpad.  Looking back these are pretty trivial things.  I wonder what I spent the unknown unaccounted for time doing?
+
+
+
+
+15/Sep/2008 20:30
+15/Sep/2008 15:00
+	Woke up to a little walk and found volleyball nets and grills nearby.  Got back to Dave waking up and cooked some breakfast of charred chirizo and eggs... apparently burning Hawi's spatula.  I did a few situps before calling Kai and learning that Phil could not get ahold of us due to Dave's phone's voicemail deficiancy.  I spent the rest of the morning on review before leaving with Dave to the san fransisco library.  We made it there in 40 minutes flat and I finished parts of the source submitter for Reflib.  
+	Then I was frustrated in an effort to pull the filename from the url and so I spent some time looking into taking the Computer Science GRE.  I still need to find more sources of practice exams I will also look into where I might find more general study text books to work off of to further my pursuits.  4-6 hours of good studying a day would do wonders I imagine.  I got really hungry waiting for Dave and had little way of contacting him, so it was fortunate when he IM'ed me that he was in hell talking to Prevail people.  I left to Burger King and picked up a copy of the paper.  While waiting for Dave to arrive I read about McCain and Obama's competing health care plans and Google's 10 years of service.  
+	Dave and I talked through my trouble with url naming and we decided that we might just parse out the name from the end of the url an elegant, quick, and dirty solution.  Dave had to spend a little more time tapping out a prevail email before we left on our way to Phil's.  We arrived at Phil's temporary place at 229 Shipley to discover a tired phil in a hole in the wall with a door that wouldn't open to the outside without a key.  We spent some time chatting, he's been searching for a job mildly about town and through craigs list related to social work or being a cook.  He has been looking for an apartment through craigs list and soon will be searching in the flesh with Kai.  Dave spent a good deal of talking down Zack about the apartment.  Soon enough we left for the red woods.
+	We found the Muir woods a meer 40 minutes away and got in free to tromp through the forest for an hour.  The hike was rather hard and forced us up a steep hill which had phil wheezing the most.  Back at the car we drove to the golden gate bridge and walked half way over it seeing a beautiful moonit expanse of the bay and city lights.  In an hour or so we left to a slow ride to find mexican food.  Eventually we settled for some pretty good pizza before dropping the still quiet phil off at his house and driving home to an early bed time.
+
+14/Sep/2008 13:35
+	Woke to Rummikub and eggs.  Tried unsuccessfully to finish yesterday's conversation with Eve about the invention of the computer.  She was disintrested.  However, managed to entice Robert and Jenny to kibitz on then play Rummikub merely by explaining the rules while they watched Eve and I.  Soon, left with Dave for Palo Alto.  Convinced him to drive up highway 1 so to recall events the bike trip, the camino real bell I rang, huddled barking seal lions on at the lookout, and salmon fish & chips at big sur.  At points, felt I was repeating myself and wished we had some sort of external stimulation.  Arrived at Stanford and I made a go at being helpful moving Dave in saying hi to Hawi, taking a shower and then laying down from a bit of meal exhastuan.  The gregarious Max Osipov came in and was quick to ask Dave about sports he plays and whether he would like to throw a party in the next week.  I found myself getting a tinge jealous before I realized that instead of jealousy I ought to be learning from his example.  Soon enough dave and I moved on to try and find the internet, but we were thwarted and bought a useless $3 coffee when the Cafe del Dogge didn't serve wireless.  Instead we rolled out to target and quickly bought supplied for Dave before comming back to the apartment.  I got lost again in Dave's Math a Day book which feels like good exercise.  Then Dave and I watched Equilibrium which is a sort of shitty matrix meets V for Vendetta starring Taye Diggs and Christian Bayle.  I went to bed with one more look at the Daily Math Book where I learned that you can't trace a network if more of the two nodes have an odd number of spokes... thanks Euleur. 
+
+12/Sep/2008 13:05
+	Popped out of bed to people talking in the other room.  Went for a walk where I learned the word el camino means road.  Got back to breakfast with everyone did a few pushups and then got about the daily review.  Coming away from that I went to work on RefLib, first proofing Dave as he reviewed the manuscript, which was fruitless.  Then I set to work on a few of the elements which were for the most part easy, but became challenging with the register.html string which had to include javascript to proof its functionality.  Soon enough we went to Ross's, the 99cent store, and Taco de Mehico which was delicious.  I came home with a tired headache and so I went to bed.  When I woke up Eve wanted to play, but I deferred to later and fruitlessly worked on the next element a php script which delievers the html to upload a new source.  At about 10 I sat around with the Fam, Roberts Mom and her kids along with the other girl and her baby.  I played rummikub with Eve who enjoyed it and got Robert curious about the game.  Afterward D, R, and I went off to Tropic Thunder which was hysterical.  I went to bed reading Strunk and White and a little of Confessions which I found laborious.
+
+11/Sep/2008 12:25
+	Woke up at 8 am to a walk around the neighborhood.  Got back to finish proof reading Eric's manuscript which I am on.  Then I learned about the voice recognition features of vista before getting to work reviewing Dave's tech specs.  I'm not convinced it was entirely super productive.  Maybe I should have gotten around to coding directly, but then again there are probably fundemental parts of the system that I didn't understand and would have needed to anyways.  I got very distracted when Eve and Robert came home, but it was fun anways quizing Eve on grammar and robert about how his day went.  I had a chance to walk to longs drugs, show dave the soft tree and memorize a few street names.  Come to think of it that morning walk period was increadibly good for me.  After eating a hearty helping of egplant parmasean, I got real lazy, we watched a bit of Team America and then I drifted into sleepy land.
+
+10/Sept/2008
+for some very deep history see worktime.ods
+
+09/Sept/2010
+Big Mook: 		http://localhost/Archive/BigMook.txt
+	This project was abandoned when I didn't work on it for more than a year.  I left Mook hanging, so its a regret for me and something I should make ammends for.
+	
+18/Aug/2008 1:27 workout, javascript operators, html tutorial, hang with Matt, sent coach_mom email
+15/Aug/2008 0:36 workout, javascript datatypes and core mathematical/logical manipulations, coach mom documentation, help dave develop his idea, wrote phu rec
+6/Aug/2008 17:56 new bike, bridge with freinds, cavity filled, sang "the man who sold the world" no peeky, added file walk and directory adder to scratch, worked out.
+5/Aug/2008 2:19 - Good job today, meditated on my bike and by reviewing.
+5/Aug/2008 23:06 loved my fam, got a haircut, watched beyond the universe, added user_action stat to scratch, restricted scratch to files, clarified user stats
+5/Aug/2008 worked out, studied javascript, requested contact prescription, started TIAA-Cref and Coach_Mom documentation
+3/Aug/2008 21:56 reinstalled gdesktop to get web history http://desktop.google.com/support/bin/answer.py?hl=en&answer=16901
+3/Aug/2008 21:18 biked 2 hours, A&A with Ted, BBQ with Ted
+3/Aug/2008 13:18 Transcribed and Reviewed Jolene_lyrics http://localhost/Archives/Jolene_Lyrics.txt
+3/Aug/2008 12:45 Added ctrl+z and ctrl+y shortcutrs in editpad
+3/Aug/2008 12:37 Added ctrl+s shortcut for save in editpad
+3/Aug/2008 12:07 Went to Church
+12:29 PM 8/3/2008 Updated to firefox 3
+3/Aug/2008 10:15 Made ctrl+C and ctrl+v the copy paste shortcuts for EditPad Pro
+3/Aug/2008 9:50 Learned lyrics to The Man Who Sold the World http://localhost/Archives/Song_Lyrics.txt
+
+3/Aug/2008 1:36	Added Link Support to my txt files
+3/Aug/2008 1:41 Added F5 timestamp shortcut to EditPad
+3/Aug/2008 1:43 Added Version Control to txt files <a href ="Version Control.txt"> Version Control<a/>  http://localhost/Archives/Version_Control.txt
+	

@@ -1,0 +1,13 @@
+news.txt
+	A place to organize my news interests
+
+linkback:
+	ben.txt
+
+resources:
+	reader_stats.txt - what publications are worth reading
+		According to news_time_tracker.txt
+
+
+Fall 2009, as of now I am porting my news through google reader and marking items of interest on delicious.  This has evolved from my previous (inneffective) habits run through gmail.
+

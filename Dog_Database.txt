@@ -1,0 +1,7 @@
+Dog_Database
+
+So I talked to Dave about the reasons for putting the dog database online.  He thought it was techinically feasible, but he wasn't sure what the purpose would be.  We could give the dog database to users to give them access to dog slides, but it would probably be really important to survey the dog slides first and determine if we actually have a large enough collection (or a high enough percentage) to put them up.  This would also require a more limited effort analogous to the bear file effort.
+
+In order to use the dog dataset as a statistical dataset it would be necessary first to validate that the samples were collected randomly.  
+
+The mouse tissue survey was validated through an independent third party review who's conclusions for randomly selected samples matched those of the study coordinators.

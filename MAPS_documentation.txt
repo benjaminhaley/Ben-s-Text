@@ -1,0 +1,14 @@
+MAPS_documentation.txt
+	To point to and improve the MAPS documentation
+
+Added numbered lists to installation and getting started instructions
+Added table of contents
+Sent back to Stefan
+
+
+To Do:
+	standardize document format (bleh)
+	try using MAPS following the guide and filling in missing info
+	merge documentation
+
+

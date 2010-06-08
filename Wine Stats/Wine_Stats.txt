@@ -1,0 +1,284 @@
+Wine_Stats
+	To entertain and please my bosses, coworkers and self
+	For full stats see wines.xls
+
+To Do: present these one at a time at the lab meetings.
+
+Proceedure
+	The majority of the stats can be done by copying the methodology on any page of the wines.xls document
+	After scores have been standardized they can be loaded into stata using the data editor and "pwcorr *, print(0.05)"
+	will give the correlation matrix.  By selecting the results and right clicking copy table they can be pasted int excel.
+
+
+Results in a google Doc https://docs.google.com/Doc?id=dffrkdrs_182hptkmrcz#
+and on the web http://janus.northwestern.edu/wololab/fun.php
+        
+        
+
+
+
+
+Aug 7 2009 - Summer Stuedents/Dave
+	Summary
+		Red > Sweet > White
+		Rheingrafenberg (Riesling), Opolo (Paso Robles), Alacaia (Cab) were best
+		Tres Valles (Sauvignon Blanc) and Selecta (White Burgandy) were poorly received.
+
+	Awards
+		harshest reviewer	Marissa, Rick, Eleni
+		Softest reviewer	Zebin, Mushroom, and Cornelius
+		Most Deviant		Christine
+		Most Stable		Dave	
+		Feminine		Sarah, Eleni
+		Masculine		Ye, Nathan
+
+	Anecedotes
+		Selecta White Burgandy			Sarah		"men..."	
+		Rendeo Syrah (2005)			Dave		"tastes like an elephant cage smells"
+		Cook's Sparkaling White Zin		Nick		rated |e^pi*i|
+		Bellatore's Spumante			Kat		"girl crush"
+							Graham		name written - "Graham Cracker from CinciNasty"
+		Mary Michelle's Cynthiana (2004)	Caronline	"too earthy aka tastes like dirt"
+
+	Pairings
+		Gayle: Ye
+		Christine: Nathan
+		Caroline: Marissa, Cornelius
+		Kat: Cornerlius
+		Marrissa: Michael, Nick		
+		Zebin: Michael
+		Michael: Nathan
+
+		Dave: !Tanja
+
+
+
+
+
+
+
+
+
+Ted's Defense
+	Summary:
+		Red > White > Sweet
+		Opolo, Lindermans, and Pacific Crest were favorites
+		Les Tortues and Cook's were poorly recieved (perhaps due to the name)
+	
+	Awards
+		harshest reviewers		- Jess, Travis, and Phillip Vick
+		softest reviewers		- Qiong, Gayle, and Jeff
+		most deviant 			- Timmy, No-name and Rueben
+		most stable			- Jess and Caroline
+		manliest			- Jess
+		most feminine			- Ben
+		Cartography Award		- Caroline for her map of the western hemisphere
+
+
+	Anecedotes
+		"Yum, Yum"			- Rueben to Cook's Blush Champaign
+		"Like Koolaide w/ Liquor"	- Schilnk Haus's sweet red
+		"Question Your legs", "Yowza"	- Beau to the Westend Shiraz and Opolo Sangiovese respectively
+		"Sweet and Complex like me"	- Caroline to the Viognier
+
+	Pairings
+		Tanja: Travis
+		Gayle: Beau
+		Jess: Ben
+		Qiong: Caroline
+		NoName: Jeff
+		Phillip: Eric
+		Ted: Ben
+		Reuben: Qiong
+		Timmy:Jess				
+
+		Caroline : !Timmy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jin Ju's Shower
+	Summary:
+		Sweet > Red > White for everyone
+		Opolo, Villagaichi, and Bevlamo were favorites
+		Bracebridge Cellar and Villa Masetti were poorly recieved
+	
+	Awards
+		harshest reviewers		- 2 Anonymous and Megan boyle
+		softest reviewers		- Gayle, Anonymous, and Eric
+		most deviant 			- Caroline, Hans and Kavita
+		most stable			- Tanja and Gayle
+		manliest			- Ben
+		most feminine			- Tanja
+
+
+	Anecedotes
+		"Am I getting drunk or is this really good"  	-Anonomous 	Petite Sirah
+		"THis = GOD"					-Kavita		Pinot Noir
+		Kavita and Megan scored digits, eachothers
+		"I got all of these [rated] in two ours!"	-Caroline
+
+	Pairings
+		Gayle:	Tanja
+		Tanja: Megan Boyle
+		Kavita: Eric and Megan Boyle
+		Megan: Ben, Eric, and the averages
+		Ted: ben
+	
+	
+		
+Eric's Defense
+	Summary:
+		Red > Sweet > White though girls prefer sweet
+		Opolo, Robert Hall, and Dezzani are favorites
+		Tres Valley and Hermits view were poorly recieved
+	
+	Awards
+		harshest reviewers		- Kat and Beau
+		softest reviewers		- Rueben, Linda, and Gayle
+		most deviant 			- Kat, Amit, and Christine
+		most stable			- Arielle, Gayle, and Jeremy
+		manliest			- Gayle and Ted
+		most feminine			- Qiong
+
+
+	Anecedotes
+		Arielle turns in two sheets
+		"Angel Kisses"					- Kat		Skouros
+		"Excellent!  The sugar is Speaking"		- Michael Brown	Dezzani
+		Ted has clout in the mexican Mafia
+		Beau is a whiz with a sharpe (beautiful drawings)
+		Christine gave a 2X rating					Opolo
+		Ruben loves bunny
+		Qiong rated a 1.234						French Rabbit
+		Opa!						- Susan Brown
+		"Full of Meat"					- Arielle	Baron De Barbon
+
+		"Am I getting drunk or is this really good"  	-Anonomous 	Petite Sirah
+		"THis = GOD"					-Kavita		Pinot Noir
+		Kavita and Megan scored digits, eachothers
+		"I got all of these [rated] in two ours!"	-Caroline
+
+	Pairings
+		Arille: Qiong and Linda but not with Gayle
+		Susan Brown: Qiong and Linda
+		Gayle: Christine and Ted
+		Christine: Amit
+		Kat: not with Ben
+		Jermy: Michael Haley and not Ted
+		
+		
+
+
+
+
+
+
+
+Summary
+	Sweet and sparkling wines were big favorites
+	Popular	1. EOS Mascato, 2. Wilhelm's Vidal 3. Fredric Cellars Cabernet.  
+	While EOS was the most popular wine among women it was the penultimate wine among men who preffered Domaine Ste Michelle.
+	Takeda's Red table wine was the least popular.
+
+Awards
+	harshest reviewers		- Moke, Christine, and NoName
+	softest reviewers		- Angie, Ye and Gayle
+	most different pens used award 	- Jeremy
+	schizophrenic rating award 	- Jeremy 	(rated the desert wine 1.4/5.0)
+	schizophrenic scribbles award 	- Mushroom	(for symbols in chinese, English, Aremiec?, cursive, print and arrows )
+	best coffee readings		- Tanja		(cat's in 2nd)
+
+
+Quotables
+	"trampy Wine"		- Columbia Crest Gewurztraminer 	- Angie
+	"Best for Boggle"	- Frederick Cellars Cabernet		- Angie
+	"Bogglelishicious"	- Columbia Crest Gewurztraminer		- Caroline
+	"best for Boggle"	- Los Planos Syrah			- Marissa
+	"what can I say, this polish girl loves her vodka"		- Monika Pabian "Moko"
+	"doesn't taste like alcohol! dangerous!" (EOS Moscato)		- Kat
+	"you know what it tastes like to me, it tastes like venison"	- Caroline
+	"best while operating the auto stainer" (Solaz Tempranillo-Cabernet) 	- Marissa
+	"OMG I repent, I repent" (7 Deadly Zins)			- Arielle!
+
+Pairings
+	Angie 	: Marissa or Narissa
+	Qiong 	: Marissa
+	Nick 	: Kat
+	Ye	: Ben
+	Dave	: Marrissa, Lisette, Qiong, Ted, or Ye
+	Cornelius: Ye
+	Dave	: average or female
+
+
+
+
+
+
+Funny:
+	Beau Anarchy symbols in NA
+	"me likey", "taste like leather" - croatian wine
+	Arielle and Matt 1.25's
+	tanja gives ranges "2.2-2.5"
+
+
+May 2
+	deb, dana and neva are most opinionated
+	Matt, Gayle and Dave G. are the least opionated
+	Gaye, Elonda and Neva are the softest reviewers
+	Dana, Dave G. and Deb are the toughest
+
+	gayle drinks with elonda
+	neva drinks with lea
+	phil drinks with tanja, gayle, elonda or lea
+	John, Matt and Dave G are manly
+	Gayle, Lea, and Dana are feminine
+	
+	Opolo rhapsody red was the fav
+	Matanzas Creek red merlot took #2
+	Tabor Hill Cabernet Franc red was the worst
+	Wilhelm blended rose was second worst
+
+	Sweet/Sparkling was the overall fav for both m and f
+	rose was the least fav
+
+Aug 1st
+	AiGuo, John and Caroline are the nicest reviewers. 
+	Beau Cecille and Stella are the toughest reviewers.
+	Fumie, Kat and Basia are the most opinionated
+	Dave, Narissa and AiGuo are the least opinionated.
+	
+	Tanja shouldn't drink with marissa, narissa or casey
+	John should drink with marissa and caroline
+	Dave should drink with Zach
+	Hans and Casey are Manly
+
+	Opolo (a red grand rouge) was the top wine
+	Fre (red alcohol free) was the worst, followed by Domaine Markou
+
+	men like red
+	women like sweet/sparkling
+	red or sweet/sparkling took the top 5 spots in both contests	
+	
+
+
+03/19/2010 - 3 hours 
+    I rearranged the website so that it included these reports rather than the original table of average scores.  I also added a rolling cycle of Carolines Pictures.  Still the code for all of that is really messy, but wouldn't it be better if I spent my coding work on more interesting problems.

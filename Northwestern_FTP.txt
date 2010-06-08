@@ -1,0 +1,12 @@
+Northwestern_FTP:
+	remote access to 'the beasts' filesystem.
+
+To change permissions: Login as Admin on beast.  Open filezilla server interface from the taskbar. Select edit>users, then add users and change access permissions.  To give users access to sister folders with easy navigation to a root you must create an artificial root known as an alias.  Right click on a folder in shared forlders to add an alias.
+
+To access files: Download the Filezilla Client.  Login, Host: @janus.fsm.northwestern.edu, username and password should be set using the above permissions, port is the default 21.
+
+my username is : 	Ben
+my host is : 		janus.fsm.northwestern.edu
+my password is:		[gmail password]
+
+

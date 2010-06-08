@@ -1,0 +1,30 @@
+My_First_JavaScript
+	to show how to write a functional JavaScript embeded in a simple HTML document, to learn JavaScript, to work with google desktop API
+	from web teacher tutorial for dummies (see: http://www.webteacher.com/javascript/)
+
+JavaScript can be embeded in the header of html files.  Files can be written in a text editor then run on a web browser.  The following is a simple example which can be run by following this link: http://localhost/Archives/HTML_JavaScript_Test.html.
+
+	<HTML>
+	<HEAD>
+	
+	<SCRIPT LANGUAGE="JavaScript">
+	<!-- Beginning of JavaScript - 
+
+	function MsgBox(textstring) {
+	alert(textstring)}
+
+	// - End of JavaScript -->
+	</SCRIPT>
+	</HEAD>
+	<BODY>
+	
+	<FORM>
+	<INPUT NAME="text1" TYPE=Text>
+	<INPUT NAME="submit" TYPE=Button VALUE="Show Me" onClick="MsgBox(form.text1.value)">
+	</FORM>
+
+	</BODY>
+
+It is standard practice to declare javascript with the tag <SCRIPT LANGUAGE="JavaScript"> <!-- and --> </SCRIPT>.  The <!-- --> is used by HTML to denote comments and is used to prevent incompatiable browsers from rendering javascript code on the page.  Functions are declared as so: function MyFunction(input){ (stuff to do to an input) }
+
+The Alert Command opens a msg box.  Forms in the HTML body work to solicit user actions and input, they are denoted by <FORM> and </FORM> tags.  The forms used in this example are 1. a text box which would has a NAME and TYPE 2. A button which has a NAME, a TYPE, VALUE (which appears inside the button) and ONCLICK command. The ONCLICK variable is followed by a function that the button calls.

@@ -1,0 +1,63 @@
+angela.txt
+	Working with my coworkers
+
+Related Docs
+	angelas_bladder.txt
+	bens_work.txt
+
+To Do:
+	Pick a cancer below and define its patholgies 
+		Select all control and long term irradiation dog pathologies
+		search the list for conditions matching the below conditions
+	Dog tissue stats paper
+
+Most Common Cancers
+	Cancer 
+		new cases | deaths
+	Bladder	 
+		70,980 | 14,330
+		We tried but had weed results
+	Breast 
+		192,370 | 40,170
+		Taylor GN, Shabestari L, Williams J, et al. Mammary neoplasia in a closed beagle colony. Cancer Res 1976;36:2740-2743
+	Colon and Rectal  
+		146,970 | 49,920
+	Endometrial 
+		42,160 | 7,780
+	Kidney (Renal Cell) Cancer 
+		49,096 | 11,033
+	Leukemia (All)	 
+		44,790	| 21,870
+		Seed TM, Tolle DV, Fritz TE, et al. Irradiation-induced erythroleukemia and myelogenous leukemia in the beagle dog: hematology and ultrastructure. Blood 1977;50:1061-1079
+	Lung (Including Bronchus)	 
+		219,440 |	 159,390
+		0.1% / dog year control risk (pg 77 Lifespan book)
+		0.7% / dog year for dogs > 13 years of age (page 77 Lifespan Book)
+		Increased due to inhilation and X-Rays (page 77-78 Lifespan Book)
+	Melanoma	 
+		68,720	| 8,650
+	Non-Hodgkin Lymphoma	 
+		65,980	| 19,500
+	Pancreatic	 
+		42,470	| 35,240
+	Prostate	 
+		192,280 | 27,360
+	Skin (Nonmelanoma)	 
+		>1,000,000 | <1,000
+	Thyroid	 
+		37,200	| 1,630
+
+Sources
+	1. Qiong's summary paper - Qiong_Janus_Study_Summary.doc
+	2. Fritz's paper on cancer incidence in dogs - Carnes, B.A., T.E. Fritz. Continuous irradiation of beagles with gamma rays. Radiation Research 136 103-110, 1993.
+	3. The Argonne portion of the Grey Book - http://janus.northwestern.edu/dog_tissues/reports/abridged_grey_book.pdf
+	
+
+
+
+12/10/09
+    I just spent time working through the list of most common cancers and then annotating that list with results from the research.  
+
+11/10/09
+	I just came into work only to have Angela bail on me in the last moment.  I think that is partly the plight of the doctor, but it would have been really nice to know in advance so I wouldn't have had to have come all the way to work.  In the future I can probably get around that just by sending her a text before I leave asking if we are still on.
+

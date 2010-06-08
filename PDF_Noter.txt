@@ -1,0 +1,6 @@
+PDF_Noter
+	To facillitate easy browser based note taking, retrival and sharing
+
+Basically Dave and I are interested in developing an application which is capable of taking notes on a pdf associated with a position on the pdf (so that we could make a note relating to a line in the materials and methods section and make this note permanantly associated with the same line.
+
+We are hoping now to develop a text box side by side with a pdf i reader (the one that lab meeting uses) that will be capable of understanding what page number or scrollbar position the element is at and then have a side box to place a note at that postion.  I will try to work on this after I have a simple version of coach_mom up and running.

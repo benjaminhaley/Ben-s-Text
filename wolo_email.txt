@@ -1,0 +1,13 @@
+wolo_email.txt
+	A list of email addresses that we have set up for the woloschak lab.
+
+
+wololab@gmail.com
+	I use this whenever I want to give a company an address for the lab.  It is also the owner of the wololab listserv.  Its password is the same as all the WoloLIMS passwords and it is set to forward to benjamin.haley@gmail.com.
+
+wololab@googlegroups.com
+	This is the lab's listserv, it forwards mail from lab memebers to all other lab members.  I have made hans and ye managers.  The wololab gmail account is the owner.
+
+janus.request@gmail.com
+	This is the contact email listed for the janus tissue archive.  All emails sent to it are forwarded to Gayle, Tanja, Beau, Kristen and I.  Its password is the same as the WoloLIMS.txt passwords.
+

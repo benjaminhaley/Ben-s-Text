@@ -1,0 +1,3 @@
+publish your javascript quizes if they ever get to a point of completion.  You could do a lot of editing and make them nice or just depend on the community for that effort and post them kinda sloppy.  Either way would be alright.
+
+(see http://localhost/Archives/JavaScript_Tutorial.txt)

@@ -1,0 +1,20 @@
+Biological_Computing_Time_Log
+
+
+	 8/Dec/2008 12:41 - 11:00	12 hours	organized notes, found discussion threads, read about prescott's cilliates, read Kari's super review
+	 9/Dec/2008 11:33 -  6:00	6.5 hours	started 'natural computing' groups, reviewed Kari and cilliates, began reading regulatory genome and the computer
+	10/Dec/2008 12:01 -  7:00	7.0 hours	regulatory genome and the computer notes
+	15/Dec/2008 12:58 - 7:00	6.0 hours	filled in keyword definitions, broke away community text, added turing question and cilliate comments to groups
+	31/Dec/2008 11:00 - 4:00	5.0 hours	checked news, summarized "the regulatory genome and the computer
+	2/Jan/2009 4:00 - 8:00		4.0 hours	found some cool citing paers, summarized and extracted a couple
+	3/Jan/2009 12:01 - 6:00		6.0 hours	found all interesting abstracts from the Natural Computing Journal.  Summarized 50% of them.
+	13/Jan/2009 12:55 -10:00	9.0 hours	reviewed lila Kari, summarized and reviewed Istrail and Natural Computing notes
+	14/Jan/2009 1:00 - 8:00		7.0 hours	read/took notes on computation theory, turing machines and the theory of computation
+	15/Jan/2009 13:48 - 15:34	2.0 hours	reviewed remainder of theory of computation terms... now a break
+	26/Jan/2009 16:00 - 24:00	8.0 hours	in the news, computation glossary, turing biology terms
+	29/Jan/2009 15:21 - 17:00	1.5 hours	organized resources, reviewed turing glossaries
+	30/Jan/2009 16:57 - 18:30	1.5 hours	signed for email alerts, reveiwed some mu-operator terms
+	31/Jan/2009 12:00 - 16:00	4.0 hours	reviewed theory of computation terms, read some of turing's paper, began to understand the turing machine, read genome res
+	2/Feb/2009 11:27 - 4:30		5.0 hours	cleanup; defined universal; brainstormed: channels, recursion disease, speedy IOs, and reviewers, drafted turing section
+	3/Feb/2009 13:22 - 17:00	4.0 hours	did search on turing complete biology in the lit
+	16/Feb/2009 14:23- 12:00	10.0 hours	found, downloaded, endnoted, noted, and prioritized all turing biology sources, checked news, notes on does the cell compute and dynamic self assembly

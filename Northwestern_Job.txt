@@ -1,0 +1,66 @@
+Northwestern_Job
+	To post the dog database, maintain the wololab website, and run statistics on the janus dataset to help produce papers.
+
+
+Worktime:
+
+	*12/Aug - 19/Sep	 70.5 hours	hnRNP submission, dave's introduction to the 'Beast', dog tissue database outline, wine stats
+
+	*23/Sep/2008 		  39.0 hours	covered access, mysql tutorial, began verifying database values and surveying tissues, lab meetings, added to website (beau, ted
+	*8/Oct/2008 10:00-4:30	 6.5 hours	got Xiong printing, Added Xiong and Beau to website, Paycheck, Kiril Book, Backup
+	*9/Oct/2008 10:00-6:00	 8.0 hours	noted tissue page numbers, listed known database discrepencies, searched for some discrepencies (failed), moved on to review.
+	*15/Oct/2008 10:00-7:00	 9.0 hours	updated hans, dave, and myself, went to lab meeting, uploaded 5 ANL books.
+	*16/Oct/2008 10:00-6:00	 8.0 hours	pushed through 4 ANL reports
+	*17/Oct/2008 12:00-6:30  6.5 hours      2 ANL reports (more depth)
+	*22/Oct/2008 10:15-6:15  8.0 hours	translated 1968 and 1969 dog notes into a calc sheet
+	*23/Oct/2008 11:00-6:00  7.0 hours	found that Live:GrpCode the meaning codes 10 (killed - 1300 dogs) and 8400 (stillborn - 300 dogs)
+	*29/Oct/2008 11:00-6:30  7.5 hours	defined deathcodes and began to define the meaning of group codes.
+	*30/Oct/2008 11:00-7:00  8.0 hours	looked for group associations, xlate_Gro defnitions and settled on disparity.  Then talked to T.
+	*5/Nov/2008 10:00-6:00	 8.0 hours	dug through argonne documenta and found new controls, finished backup, began to unravel dosage, cleaned desk
+	*6/Nov/2008 10:00-4:00	 6.0 hours	built CO-60 treatment tables.
+	*7/Nov/2008 11:00-7:00	 8.0 hours	found unknown treatments, gave Pat a summary of ANL, took pics, lab meeting, gave tanja drive, started basic dog table
+	*13/Nov/2008 10:00-7:30  9.5 hours	web updates, copys for Pat, printed my glossaries, found bike tire, made Co-60 long and short exposure tables
+	*14/Nov/2008 11:00-6:00	 7.0 hours	made drugs and surgeries tables
+	*20/Nov/2008 10:00-6:30	 8.5 hours	fixed FTP, made partial backup, finished Basics, Organs, Pathologies, Clinical observation and control tables
+	*21/Nov/2008 11:00-3:00	 4.0 hours	began plotting html and php to write sql script
+	*24/Nov/2008 10:00-7:00  9.0 hours	learned how form calls php, php calls database and how to port databases from access to MySQL
+	*2/Dec/2008 10:00-6:00   8.0 hours	wine stats, dog tissue letter to gayle, 75% of functional form
+	*3/Dec/2008 10:00-8:00	10.0 hours	sped up gayle's computer (deleted Rootkit), added remaining functional elements to dog tissue archive search form
+	*4/Dec/2008 10:00-7:00	9:00 hours	Eric's comitee meeting (he's defends in Feb), added units and php variable to website, removed autoclave, reviewed database upload
+	*5/Dec/2008 12:30-7:00	6:30 hours	posted Jinju, sent queries to angela, translated drugs, started writing the queries to make the databases 
+	*11/Dec/2008 10:00-6:00	8:00 hours	beau found Dmode translations, updated Dmodes and controls in database, formalized fritz questions, tried to fix gayles computer
+	*12/Dec/2008 12:00-8:00	8:00 hours	attended Ted's meeting, submitted Basia's manuscript, fixed Gayle's computer
+	*16/Dec/2008 11:39-22:2411:00 hours	talked to Fritz, updated windows on Gayle's computer, added wine stats, converted databases to mySQL
+	*17/Dec/2008 11:00-5:00  6:00 hours	talked to mladov, fixed Gayle's computer
+	*28/Dec/2008 11:00-7:00  8:00 hours	website, computer fry, talked to Tanja
+	*5/Jan/2009 11:00-9:00   10:00 hours	added the tissue search and wrote 80% of the search queries for the front page
+	*6/Jan/2009 10:00-9:00	11:00 hours	lab meeting, optimized database by joining only when needed, short exposures are tissueless, finished table and individual queries
+	*7/Jan/2009 13:00-17:00   4:00 hours	posted teds new CV, wrote Angie, asked beau for pics, changed font size and background color, added cobalt long and general result
+	*9/Jan/2009 12:00-19:00	 7:00 hours	tidy and show to T, added a couple translations and the fractionated table, partied with next door
+	*12/Jan/2009 11:00-10:00 11:00 hours	responded to referee/editor comments on hnRNP (removed sections, checked acronym use, etc.) brainstormed figures, edited christine
+	*16/Jan/2009 13:29-22:29  9:00 hours	made NHEJ and 1/2 of HR figures.
+	*22/Jan/2009 11:00-7:30	8.5 hours	met with Angela, added folded display boxes for Tissues - Treatments, talked to T, emailed ScienceSlides guy
+	*23/Jan/2009 12:00-21:41 10:00 hours	failed to recreate Dave's title, tidied display page with icons, css classes, alignment, and full links
+	*27/Jan/2009 11:00-6:30 7:00 hours	made/posted top logos, picked up Angela translations, added janus pictures, tweaked table layout
+	*28/Jan/2009 12:00-1:00 13:00 hours	optimized/uploaded pics for speed/beauty, corrected dogs table layout, entered/databased Angela's x-lations
+						expanded varchar feilds and reloaded, fixed tissue count, prepped pathology x-lations for Angela
+	4/Feb/2009  11:00-22:45	12:00 hours	top bar link, favicon, aligned NU, linked logos, translated drug routes, perfected dog table layout and added sort
+						added types to search, reloaded fractionated_radiation, began to order search page, incuded totals on search page
+
+To Do:
+	teach Xiong statistics/ learn statistics
+	Link to Colaborators (get list from Gayle)
+	Add former member's contact info
+	upload posters to website
+	present winestats (see http://localhost/Archives/Wine_Stats.txt)
+	particle coverage with T
+	miRNA comparisons between animals for general trends which squelch specific trends
+
+Projects:
+
+	animal databases	(current)		(see http://localhost/Archives/Dog_Tissue_Archive.txt)
+	computer administration (continual)		(see http://localhost/Archives/Northwestern_Computer_Administration.txt)
+	stastics		(later)			(see http://localhost/Archives/Stata.txt)
+	hnRNP			(submitted)		(see http://localhost/Archives/hnRNP.txt)
+
+	In the first month, I submitted the hnRNP paper after adding a paragraph on differentiation, addressing Tanja and Gayle's corrections, and proofing acronym use, comma usage, and sources.  Dave introduced me to computer administation (backups + permissions), the databases (locations and naming conventions), the FTP client, webserver, and stata.  Then, Tanja, Dave, and I drafted a plan for the dog tissue database which I will work on next.  Most importantly, I ran and wrote a report on the winestats.

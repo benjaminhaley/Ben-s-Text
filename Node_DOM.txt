@@ -1,0 +1,6 @@
+Node_DOM
+
+	To understand one of the datatypes in the DOM_element Interface (see http://localhost/Archives/DOM_Elements.txt)
+	To understand javascript to itch email and web history results provided by the google desktop api (see http://localhost/Archives/Google_Desktop_API.txt)
+
+	The node is the fundemental data unit of DOM corresponding to a single node in the document tree.  A node can be an element, attribute, text or any of many other different types.  The DOM_Elements sections you are studying is describing the interfaces supported for nodes of various types.

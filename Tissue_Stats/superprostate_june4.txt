@@ -1,0 +1,64 @@
+. logit p_incidences lifespan_yrs observe_count lifespan2 observations2 pat_tf pat_none doserate dosetotal if cod!="infant" & cod!
+> ="other"
+
+
+Logistic regression                               Number of obs   =       1584
+                                                  LR chi2(8)      =     645.95
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -309.78563                       Pseudo R2       =     0.5104
+
+------------------------------------------------------------------------------
+p_incidences |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+lifespan_yrs |   .8819149   .1387209     6.36   0.000     .6100269    1.153803
+observe_co~t |    .151651   .0307291     4.94   0.000     .0914229     .211879
+   lifespan2 |  -.0381137   .0074064    -5.15   0.000    -.0526301   -.0235974
+observatio~2 |  -.0017791   .0005745    -3.10   0.002    -.0029051   -.0006531
+      pat_tf |   .5632117   .3173229     1.77   0.076    -.0587297    1.185153
+    pat_none |  -1.621414     .52688    -3.08   0.002    -2.654079   -.5887478
+    doserate |  -23.00843   15.38535    -1.50   0.135    -53.16316      7.1463
+   dosetotal |   9.44e-06   .0000423     0.22   0.823    -.0000734    .0000923
+       _cons |  -7.239977   .7347525    -9.85   0.000    -8.680065   -5.799888
+------------------------------------------------------------------------------
+Note: 65 failures and 0 successes completely determined.
+
+. est store radio_prostate
+
+. logit p_incidences lifespan_yrs observe_count lifespan2 observations2 pat_tf pat_none if cod!="infant" & cod!="other"
+
+
+
+
+Logistic regression                               Number of obs   =       1584
+                                                  LR chi2(6)      =     638.34
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -313.59211                       Pseudo R2       =     0.5044
+
+------------------------------------------------------------------------------
+p_incidences |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+lifespan_yrs |   .9067918   .1362552     6.66   0.000     .6397366    1.173847
+observe_co~t |   .1523588   .0304431     5.00   0.000     .0926915    .2120262
+   lifespan2 |  -.0389301   .0072498    -5.37   0.000    -.0531395   -.0247206
+observatio~2 |  -.0018185   .0005673    -3.21   0.001    -.0029304   -.0007065
+      pat_tf |   .6256876   .2926581     2.14   0.033     .0520883    1.199287
+    pat_none |  -1.533323    .513101    -2.99   0.003    -2.538983   -.5276639
+       _cons |  -7.514811   .7068329   -10.63   0.000    -8.900178   -6.129444
+------------------------------------------------------------------------------
+
+. est store prostate
+
+
+
+. lrtest prostate radio_prostate, stats
+
+Likelihood-ratio test                                  LR chi2(2)  =      7.61
+(Assumption: prostate nested in radio_prostate)        Prob > chi2 =    0.0222
+
+-----------------------------------------------------------------------------
+       Model |    Obs    ll(null)   ll(model)     df          AIC         BIC
+-------------+---------------------------------------------------------------
+    prostate |   1584   -632.7616   -313.5921      7     641.1842    678.7582
+radio_pros~e |   1584   -632.7616   -309.7856      9     637.5713    685.8806
+-----------------------------------------------------------------------------
+               Note:  N=Obs used in calculating BIC; see [R] BIC note

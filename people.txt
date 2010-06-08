@@ -1,0 +1,11 @@
+people.txt
+	Some people that I know and am keeping little files on:
+
+Related
+	gift_ideas.txt
+	socialize.txt
+
+People
+	Anna.txt
+	kayle_sawyer.txt
+	lynsee.txt

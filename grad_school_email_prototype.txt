@@ -1,0 +1,34 @@
+grad_school_email_prototype.txt
+	To contact researchers and see if any of them are interested in my project
+
+To Integrate
+   I've added the delicious tab and will start writing the emails for Berkely
+
+emphasize 
+	real-time cellular interaction
+	batch file interaction
+	over the web - in a browser
+	standardized ontologies
+	integrating with other results
+	human and automated interfaces
+
+
+goldberg@berkeley.edu 
+Proffessor Goldberg,
+
+This is Ben Haley from the Woloschak lab.  I stumbled on your groups page in my hunt for a PhD program.  The remote robotics projects you are developing are really amazing, especially the efforts implementing collaborative telerobotics over the web.
+
+Personally, I'm looking for a PhD program building remote access to live cell interfaces.  There are a few groups at Berkeley building bioMEM and microfluid cell control systems.  I'd really like to be involved in building a telerobotic web interface like yours to connect these new cell interface technolgies to remote researchers.
+
+I can see that you are doing some bio work, but nothing focused on individual cells.  If that's a project that appeals to you, I would love to have a chance to talk to you further.
+
+let me know, thanks much,
+
+Ben
+
+
+Informatics Email
+	musen@stanford.edu
+	Dr. Munsen,
+	
+		This is Ben Haley from the Woloschak lab.  I'm on the hunt for a graduate school and I stumbled across the your group when looking at Stanford's Informatics networks.  I think the work that you are doing to employ open ontologies and the semantic web to automate knowledge discovery is great

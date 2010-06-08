@@ -1,0 +1,83 @@
+laptop_fix.txt
+	To fix the laptops of lab members
+    
+To Do:
+    troubleshoot the network connections by following NUIT's instructions
+
+
+Batch Service Files
+    
+    Create a batch file using the following syntax
+    *a batch file is just one with a ".bat" ending.  Commands are seperrated by rows
+        
+            sc config "[service name]" start= disabled
+            *you can also choose auto or manual
+            
+    Start the command prompt as an administrator
+
+05/03/10 - 5 hours
+	On the AFM machine I had ever so much fun.  Right now I have realized that the ip address needs renewing but there is a more fundemental error which seems to involve a winsock2 corruption (http://support.microsoft.com/kb/811259)
+	In better news I followed out those instructions to their fullest to fix the winsock.  It turns out that reading the instructions took longer than applying them and now the internet is working just swell (thank god).  So now we have microsoft downloading 80 cleansing updates ...
+
+05/03/10 - 3 hours
+
+	Just had a fun time with Sumita's computer trying desperately to install word.  That didn't work, but at least I got her copies of open office and the adobe she was missing.  I also taught her how to use the firefox search bar which seems to make her life a lot simpler.  It makes me think that I should look over the shoulder of how other lab members do their computing and help them with some simple hack improvements.
+	Now I'm spending some time on the xfm machine which mysteriously decided to go fubar by loosing some system file.  Realizing now that I can get into the recovery consol and copy paste it makes me wonder if I couldn't have just copied in the one missing file into the system.  Next time I will have to give that a shot, but for the time being I am stuck with a repair reinstallation.  So fun!
+
+
+03/24/10 
+    1 hour - I have figured out that the firewall is the only thing that prevents connection when the full set of services and devices are on.  However the computer is running quite slowly and so I need to bring it up to speed by disabling some services and installing the windows updates.
+
+03/23/10 - 2 hours
+    OK, so I am following some online advise for troubleshooting from the safe mode by disabling devices - http://kb.wisc.edu/helpdesk/page.php?id=502
+    I have disabled the following
+        Display Adapters
+        Network Adapters (but not the wi-fi one)
+        PCMCIA adapters
+        PORTS
+        Storage controllers (SCSI)
+        Sound Video and Game controls
+    then rebooted - that didn't work, something else besides the adapters seems to be causing the issue.
+    so now I uninstalled this suspicious little utility called the wireless switcher.exe and now it works!  Time to bring the devices and services back online.
+    Now I restarted all of the services to their original settings.  A reboot will determine if things work as expected.
+    Things are mostly normal, the wifi is showing up, but the northwestern network is not being connected to properly, I suspect that this is due to the weird setting that NUIT requires (though how they were reset I have no idea).  In the meanwhile, I will work on the problem tomorrow.
+
+03/05/10
+    I have finially found my way to the tricky nut of this problem.  By noticing that the net sometimes was available at the first part of startup and sometimes disabled, I came to realize that if the adapter was disabled during shutdown then it would not reenable itself after restart.  This meant that even when I started in modes that fixed the problem, like safe mode with networking.  I was unable to see its efficacy.  Now that I can I will go through building up services starting from safe mode.  To aid in that effort, I will use a batch file to start and stop services based on the excel sheet of what should and what should not work.  That should finish me up pretty soon here.
+    Upon further examination, I can see that the services do not seem to be the critical factor.  But I will need to make doubly sure of that by checking what runs outside of safemode compared to what runs within safe mode.
+    
+
+02/12/10
+    The internet works provided I enable everything and turn off the windows firewall.  Asked Tanja to get me the warantee info and gayle's other laptops (for a complete copy), then worked through the network adaptor advanced properties (didn't find anything), finally I turned all of the services to automatic that were on, but not set to run on startup (because the intenet was working at the point I did it.).  Last I have tried enabling those disabled services.
+
+
+02/11/10
+    I rolled back the changes that I had made to an early state because I was having trouble connecting to the northwestern network, but now I still can't connect to our network.  I'm not sure what is going on now, but it is very suspicious that it will not connect at all.  I think that the time is night to send it back!
+
+01/27/10
+    I tried contacting the good people at sony chat for a little help, but to no avail.  SOB!  Next I will try the website they recommend and then calling (dum dum dum) their services.
+
+01/06/10
+    Naturally, what I thought might be a simple fix turns out to be unduly difficult.  The basic problem I am having is that Gayle's network is not loading on startup.  Fortunately, we can follow the troubleshooting advice and it tells us to turn on the network connections.  I do, and then it works.  Unfortunately that problem comes up everytime at startup.  I tried digging around a little, uninstalling the second antivirus, searching online for the error, updating windows, but to no avail.  I wondered if a service was not running so I compared the list of working services before and after going through the troubleshooting step, but nothing was different.  A couple of processes were different when I did that same step with the task manager, svchost.exe and mobysync.exe, but I felt no closer to resolving my issue.  Finally, I was just toodling through the network connections section ( I might have started with this ) when I discoved that the wireless modem was disabled.  I clicked through to its properties and then configuration to find that the driver that supported it was disabled.  I clicked to enable it, and this fixed the wireless in the same way that troubleshooting had before.  I tried going through the builtin vista device manager but could not find any information to control startup options.  Last, I tried searching microsofts support to find a fix and they reccomended some automatic fixit utility which I tried.  It did not seem to recognize any problems with my wireless device driver (though it did detect problems with another driver).  I am just now restarting to find that it still does not work - ah me, at least tomorrow is another day!
+    
+    Gayle's Laptop
+
+    Steps I took:
+        enable the network adapter "wireless network connection"
+        turned on wireless (button on laptop)
+        I installed windows updates just in case
+
+    What works:
+        I can open word
+        I can access gmail
+
+    Recommendations
+        Uninstall one of the two antivirus packages (symnatec or webroot) - it is bad to have more than one antivirus software running at a time because they attack eachother's files and persmissions.
+        
+        
+    tried starting
+        WLAN autocnfig
+        
+        
+    Intel(R) PRO/Wireless 3945ABG Network Connection 
+        NETw3v32.sys

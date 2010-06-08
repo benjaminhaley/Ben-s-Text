@@ -1,0 +1,46 @@
+JavaScript_Variables
+	To understand how to declare, type and affect the namespace of javascript variables
+
+Q's : 
+4.  +1 What is the output of >>> console.log(y)? 
+6.  +1 What is the output of >>> var q; !q
+7.  +1 What is the output of >>> var q; q*8
+8.  +1 What is the output of >>> var q = null; q*8
+10. +1 condition = false; if (condition) { x = 5 }; x
+1.  +1 What is "37" - 7?
+2.  +1 What is "37" + 7?
+3.  +1 Which are valid variable names? a. 44, b. n44, c. _57, d. $89, e. *30
+5.  +1 What is the output of >>> console.log(y); var y = 5, console.log(y)
+9.  +1 condition = true; if (condition) { var x = 5 }; x
+11. +1 condition = false; if (condition) { var b = 5 }; console.log(b)
+12. +1 what syntax is used to access a variable in another window or frame?
+
+
+A's :
+1. 30
+2. 377
+3. b, c, d
+4. A reference error because the variable has not been assigned
+5. undefined; 5
+6. True
+7. Nan (for not a number)
+8. 0
+9. 5
+10. reference error
+11. undefined
+12. window.variable
+
+JavaScript variables are declared with the syntatic expression: var = someValue.  They can be of local scope to a function, global scope to a window and can be referenced from outside windows (universal scope).  Variables may be declared explicitly with the keyword var or implicitly by dropping the var, but omitting the explicit var term is frowned upon.  Javascript recognizes the following types of values: numbers, Booleans, Strings, null and undefined.  
+
+Javascript is happy to concotanate numbers to strings to produce a string using only a '+' symbol.  This can get tricky sometimes, "37" - 7 returns 30, while "37" + 7 returns 377.  Variables (identifiers) must start with a letter, _ or $.  
+
+the statement var y; means y === undefined.  So that statements referencing this variable will not raise a ReferenceError.  Undefined is equivilant to the boolean false so that; if (!y) myFunction(); will call the hello world function (cool!).  Undefined also behaves as a null integer so that; print( y * 5 ); prints 0 (didn't they tell me print wasn't an option... turns out if I run a print command in firebug it takes me straight to the widows to printer window, awesome!).
+
+Scoping variables to local is as simple as declaring them inside of a function scope { var x = 5 }.  Variables are accessiable before they are declared, but hold the value undefined.  So that:
+
+	function sweet() { console.log(m); var m = 3; console.log(m) }; sweet()
+	returns undefined; 3
+
+while a subsequent call to console.log(m) outside of the function would raise a ReferenceError.
+
+Global variables are properties of the global object which is the window (see http://localhost/Archives/DOM_Window.txt) and can be set using a window.variable syntax.  For this reason you can access the global variables of another window by specifying the window or frame name.

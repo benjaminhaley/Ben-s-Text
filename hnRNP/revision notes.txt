@@ -1,0 +1,65 @@
+Another sentense was added in the abstracts conclusions to emphasize the roles found for hnRNP in NHEJ and HR
+
+The results section of the abstract was re-ordered to place the most interesting findings at the begining and ending
+
+
+Pluralized Acronyms
+	page 13 "Another major group of A18 hnRNP binding mRNA's are those coding for ribosomal proteins"
+		"Another major group of A18 hnRNP binding mRNA are those coding for ribosomal proteins"
+
+	page 17 "However, the localization pattern of hnRNP C1/C2’s does not change after exposure to ionizing irradiation"
+		"However, the localization pattern of hnRNP C1/C2 does not change after exposure to ionizing irradiation"
+
+	page 22 "Given hnRNP K's relationship to p53 and its transcript targets"
+		"Given the relationship between hnRNP K, p53 and the transcript targets of p53"
+
+	page 23 "more work is needed to elucidate the mechanistic underpinnings of hnRNP P2's role in genomic maintenance."
+		"more work is needed to elucidate the mechanistic underpinnings of the role of hnRNP P2 in genomic maintenance."
+
+	Fig 3	"This figure presents a simplified view of p53's role in the DNA damage response pathway"
+		"This figure presents a simplified view of the role of p53 in the DNA damage response pathway"
+
+
+New Acronyms
+	Defined MDM2 in Fig3 legend
+	Added UV-B, UV-C, and siRNA to the list of acronyms
+
+
+
+Rad50				Rad50 Homologue
+Nbs1				NIBRIN 1
+Mre11				meiotic recombination 11 homolog
+XRCC4				X-ray repair complementing defective repair in Chinese hamster cells 4
+DNA-Ligase IV
+14-3-3s				stratifin 
+
+C57BL mice
+HEL-C fibroblasts		Human Embryo Lung
+U87 fibroblasts			Human glioblastoma cell line
+U13MG fibroblasts		colon carcinoma cell line
+U87MG fibroblasts		(see above)
+HepG2 cells			Hepatocellular carcinoma, human
+Hep3B cells			Human Hepatoma Cells
+CEM-6 cells			Human acute lymphoblastic T-cell leukemia
+NIH-3T3 cells			mouse embryonic fibroblast cells 
+COS cells
+293 cells
+HeLa cells
+RKO cells
+MOLT4 cells
+CHO cells
+GM00637
+BL30A cells
+BL30K cells
+VA 13 cells
+GM 14680 cells
+SAOS2 cells
+U2OS cell line
+MRC5 fibroblast cells
+
+
+
+RPA
+RGG Box
+
+Table 1 has also been re-added, it was notably absent from the revision

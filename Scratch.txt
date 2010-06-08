@@ -1,0 +1,14 @@
+Scratch
+	A Tool for presenting itchy data (see http://localhost/Archives/Itch.txt) and logging user response.
+
+Currently
+	A simple dos prompt python based UI named Scratch.py (see http://localhost/Archives/Scratch/Scratch.py)
+	This tool is being developed in preperation for passing off to Dave (see http://localhost/Archives/Sratch_For_Dave.py)
+
+In the Future
+	Google desktop bar widget
+	Firefox extension
+		one that makes the internet a stream which channel changing becomming the ignore feature
+
+Add feilds 		(see http://localhost/Archives/Add%20to%20the%20scratch.txt)
+Add type recency	(see http://localhost/Archives/Recent_Work_by_Type.txt)	

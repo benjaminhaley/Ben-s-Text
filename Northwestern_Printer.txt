@@ -1,0 +1,4 @@
+Northwestern_Printer 
+	installing/troubleshooting the laser printer
+
+Installation: To install a printer for a user you will need the disk (blue - labeled Dell Color Laser Printer) which is located in the bottom right drawer of Tanja's offices comptuer desk (the one with the two monitors).  Use this disk to instal and choose the network option to start.  If the computer cannot automatically find the IP address of the printer you can fill it in manually by scrolling through the printer's menu options until you find its IP adress.  The default port setting of 9100 should be left the same.

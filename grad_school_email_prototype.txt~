@@ -1,0 +1,35 @@
+grad_school_email_prototype.txt
+	To contact researchers and see if any of them are interested in my project
+
+To Integrate
+   I've added the delicious tab and will start writing the emails for Berkely
+
+emphasize 
+	real-time cellular interaction
+	batch file interaction
+	over the web - in a browser
+	standardized ontologies
+	integrating with other results
+	human and automated interfaces
+    
+
+
+
+ We recently developed the first microfluidic large scale integration, in which we have shown how to fabricate chips with thousands of mechanical valves (1,2) These chips have proven to have value for high throughput measurements of single cell biochemistry (3), single cell genetic analysis (4), highly parallel genetic analysis (5), and protein crystallization screening (6). Besides the expected economies of scale that accompany the miniaturization and parallelization inherent in these devices, there have also been unexpected discoveries about how the unique physics of fluids in small dimensions can be used to achieve performance that is impossible with benchtop laboratory devices (7,8).
+ 
+ have been able to demonstrate microfluidic chips that perform parallel single cell gene expression measurements (1), as well as chips that perform parallel single cell biochemical analysis (2). (See Figure 1 for an example of the latter.) 
+
+
+Platform Email
+    quake@stanford.edu
+    Hello Dr. Quake,
+
+    This is Ben Haley from the Woloschak lab.  I'm on the hunt for a graduate school and I stumbled across the quake group.  I think the microfluidic large scale integration techology you've developed is really cool, especially the projects to genotype and measure expression profiles of single cells. There's no doubt that this kind of miniaturization will play a critical role in the future of biological research.
+
+    Personally, I'm interested in building web interfaces and data services using accepted vocabularies to promote data integration and automated knowledge discovery in biology.  I expect that the data your microfluidic platforms produce would be valuable to bioinformaticians if delivered to the research community through standardized and automated reporting practices.  I believe that this level of data accessiability would increase the value of the underlying hardware.  And, I would love to be involved in the development of those data services.  
+    
+    If that's an idea your group would be interested in I'd love the opportunity to talk to you about it in more depth to see if we might be able to form a collaboration.
+
+    let me know, thanks much,
+
+    Ben

@@ -1,0 +1,5 @@
+Qualified_Name
+	to understand this new term that came up in studying javascript
+
+An unambiguous name that specifies an object, function or variable absolutely.  Usually this implies explicitly refering to a namespace that would otherwise be implicit.
+

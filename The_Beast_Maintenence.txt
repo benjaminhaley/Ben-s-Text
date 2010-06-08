@@ -1,0 +1,8 @@
+The_Beast_Maintenence:
+	backup, cleanup and antivirus for 'the beast'
+
+Backup to the drive on the right beneath the desk.  A calendar has been set to remind you of these duties on gcalendar.
+
+Biweekly backup wamp, www, myDocuments and Desktop (or things that people will change), clear firefox's temporary internet files (ctrl+shift+del), clean off the desktop and run spy sweeper.  
+
+Bimonthly backup all of C: and x-change the harddrive with one at T's, update Symantic Antivirus and update Spy Sweeper.  

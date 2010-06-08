@@ -1,0 +1,30 @@
+Michael_Merzenich
+	A cool neuroplaticity researcher that I read about in The Brain that Changes itself (see http://localhost/Archives/The%20brain%20that%20changes%20itself.txt)
+	Good for inspiration
+	Add to blog
+
+Begining with work at John Hopkins and later University of California San Fransisco Michael Merzenich has explored neuroplaticity.  He has focused on regions in the brain which have the same layout as the region of the body they respond to (topographic maps).  He has shown that these brain regions or topographic maps reorganize even in adults to make use of unused connections and respond to new inputs.  Previously, it was well known that babies and young children had adaptive platic minds, but the work of Merzenich and others extended that understanding to older children and adults.  The implication is that we can reorganize the way we think at a fundemental level well into adulthood with the proper tools and techniques.
+
+To understand exactly what this platicity means it is useful to get a feel for the experiments that have defined the paradigm.  For instance, if you cut one of three nerves (the medial nerve) that extends from the hand of a chimp the area of the brain devoted to sensations from this region, that area of the brain is taken over by signals from the two nerves covering the peripheral areas of the hand.  These peripheral areas of the hand become more sensative because they take over the unused brainspace (in the topographic map).  Moreover, if you cut apart the webbed fingers of a patient the area of the brain which used to map to both areas simultaneously forms two indepenedent maps for each area.  Lastly, if you take a peice of skin from one finger without detaching its nerve and attatch it to another finger the brain map for that peice of skin becomes embeded in the middle of the brain map of the new finger.  
+
+Cool stuff.  But what does it do for me?
+
+Well it comes down to this, babies and young children have very adaptive minds because the brain's maps are flexiable and less detailed.  Over time older children and adults develop a number of useful maps which become more detailed and more permanant with persistant use.  Genearlly, this is a good thing, allowing us to specialize and optimize to our environment, but these maps also act to inhibit the formation or expansion of other maps.  Sometimes it is useful to promote the expansion of a new map space or inhibit another.  Atheletes call this re-tooling.  I call it self-improvement.  And Michael Merzenich is busy developing tools to take advantage of this concept.
+
+Merzenich's innovations include teaching kids to hear high pitched sounds by playing the vibration frequency on thier skin.  He has improved
+
+
+
+
+
+Micheal Merzenich's work also includes designing the world's leading cochlear implant.  And a computer program called fast forword which the Scientific Learning company has developed to help learning disabled children to improve their neurological maps using platisity enabled training.  However a wikipedia search shows that the efficacy of Fast Forward is questionable.
+
+This makes me think of retooling for an athelete.  The mental equivilant is depriving yourself of a tool that you use to do your thinking.  If you deprive yourself of one of your early tools you will learn new techniques to think of the same thing using different tools. (see http://localhost/Archives/Retooling_Ben.txt.)
+
+Hebb's theory states that when neurons fire simultaneously and repeatedly they tend to become inductors of one another.  This would be very useful for the itch equation.  Further if neurons are sepperated and begin to fire asynchronously their induction ceases.
+
+Divided attention does not change thought patterns (monkey's maps only changed when they concentrate).  
+
+A reward can be as simple as a behavior change in the thing that the rewarded is interacting with.
+
+Michael Merzenich has also started a company called Posit which aims to reverse the signs of aging in the minds of older people.  They focus on a video game which forces participants to distinguish between subtely different pronounciations based on timing and such.  The goal of these excersizes is to resharpen the audio maps of the patients in question.  The results have been good.  A study in the Proceedings of the National Academy of Sciences has reported that these excersizes take 70 year old minds and make them opperate in the ranges of 45-60 year olds.  Merzenich is pushing forward with developing tools to heighten participants visual maps next.

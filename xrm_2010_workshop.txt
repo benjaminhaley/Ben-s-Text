@@ -1,0 +1,75 @@
+xrm_2010_workshop.txt
+	A webpage for the 2010 xrm conference at Argonne that Gayle wants me to post
+
+Links
+    Gayle's Request: https://mail.google.com/mail/?shva=1#inbox/1288869954c62eb7
+    Website: http://janus.northwestern.edu/xrm_2010
+    email: bioxrm@northwestern.edu ( username oxc559 | password see passwords.kbd )
+    pingdom web monitoring service: ( url https://www.pingdom.com/signup/submit/ username bioxrm@northwestern.edu | password NDRjYmQ1OWY1 )
+    registered_attendees: http://janus.northwestern.edu/xrm_2010/pages/registered_attendees.php
+
+To Do:
+    Make sure everything is running smooth    
+
+6/2/10 - 0.5 hours
+    Answered Stefan's suggestions https://mail.google.com/mail/?shva=1#inbox/128f543bca1c686c        
+        done - Home: The Bio XFM workshop is sponsored by Northwestern University, Argonne National Laboratory, and the Illinois Institute of Technology. you may want to check with Gayle. I believe BNL is also co-sponsoring, and probably should be acknowledged.
+        done - Instead of 'Proceedings' maybe you can put 'Agenda' as a link for the page with the schedule, etc.
+        done - on 'Proceedings', instead of 'Our agenda will be posted when it is agreed on (or maybe slightly after that). maybe put:       'Our agenda is currently work in progress - speakers that have been lined up include: '.
+        done - 4) Poster: instead of 'Posters should be prepared for each attendee who submits and abstract.' perhaps one could say: Attendees who are interested in presenting a poster are required to submit an abstract in advance.
+
+6/1/10 - 3 hours
+    sent out an email to get us a link to the real bioxrm
+    set up a pingdom account
+    made a page where we can check registered attendees http://janus.northwestern.edu/xrm_2010/pages/registered_attendees.php
+    confirmed that bioxrm@northwestern.edu forwards to me
+    tripple checked the website and determined it is working swell thank you very much
+    done - make sure we get a link to http://xrm2010.aps.anl.gov/index.php?/xrm2010/bioworkshop/
+
+5/28/10 - 5 hours
+    I managed to get the input validated using a white character validation and then the database setup with a prepared statement entry into it.  I'm pretty happy all in all.
+    I still worry that things will slip through the cracks, the system is not full proof, but for now if I am sure to check the bio_xrm email address regularly I should be able to catch onto the flaws.
+    done - Make sure development mode is off (so that errors are not reported to the user)
+    
+05/27/10 - 5 hours
+    My time today was split, but I managed to pull together some of the odds and ends early and then follow it up with a long haul into the registration script.  Most of that time was spent organizing the script, breaking it into its component peices (like the email itself, the registration form and so on).  I was very upset with myself for having designed the page class to include a string file for the contents of a page, in retrospect I definately think this is the wrong way to design html as it made it impossible for me to include scripts that were modifying thier own html at the appropriate times.  Maybe there is a way to do it that I just don't understand, but from where I stand now it seems like it is best to treat pages as html and use php functions to echo headers and tails around them at different appropraite levels.  The happiest moment of today is when I figured out how to do email pre-processing using stack overflow as my source.  I found a nifty little script that plugged in as a preprocessor and I know now that I should validate my email addresses before sending them out.  I also think I need to worry about someone using this as a spam engine.  I am doing a pretty decent job of parsing the input, so it would be difficult, but I think I should set up some simple rate limiting utilities to prevent anyone from bulking off my system.  Also I should recieve my own bcc when registration emails are sent in so that I can be sure that everything is copescetic.  Actually just a simple utility to alert me when the rate is too high would probably be sufficient.
+    anyways here's some of the quick stuff I did that I haven't mentioned yet
+    	done - Get from Gayle et al
+		done - A more thorough description
+		done - A list of speakers and description of their presentation and link to their website
+		done - A proper name for the event (I've been using bio XRM)
+    done - add the speaker list https://mail.google.com/mail/?shva=1#inbox/128d0db619de25a9
+    done - Title: Biological Applications of Xray Florescence Microscopy
+    done - Location: Hughs Audotorium in the Lurie Building
+    done - change all references to _GLOBALS to GLOBALS
+
+05/25/10 - 3 hours
+    Email is working and so I am integrating it into the registration script
+
+05/24/10 - 4 hours
+    I continued to play around with the mail server logic and was continually thwarted.  I could not enable SSL w/o causing Apache errors that were listed as closing x open threads where x was between 61 and 50.  Then I tried upgrading my php and apache versions on WAMP only to find that I destroyed my copy of wampmanager and the program would no longer auto-start.  Finally, I restored wamp from the recent image that I had made.  Then I reinstalled the progress I had made on PEAR (now the path setting stuck because the machine had been restarted in the meanwhile).  I continued to try and get a clue to get SSL to work but could not.  Then I went looking through northwestern's email setup advice only to realize that they use smtp for their own outgoing mail, which made me think that maybe the problem I was having was with the email addresses I was using.  So I switched my email address over to a reasonable one (my own) and set my mail script to run again, which it did.  Then I set up the autoscheduler to run every hour and hopefully at this point I will have no trouble recieving all of these emails.  If I still do I really need to go about calling people, it is obvious that NUIT is bumping me, not anyone else, so their is no excuse for them not to fix it.  In the meanwhile, I think I might have discovered a pretty clever way to spam some people.  For every NU email address I colect, I can send out mail to all sorts of people... not.
+
+05/13/10 - 12 hours
+    In trying to disable the automatic directory listings, I learned a little something about how apache works.  Most importantly I got to play with the httpd.conf configuration file which determines which modules are loaded and which basic options are available.  I eventually found my way to the options page and then turned the index setting off, but nothing changed.  After some time I came to realize that my options were being applied to a directory that was not the true root director ( c:\wamp\www rather than c:\www ).  Perhaps I would have seen that difference faster if I had contenxt highlighting to differentiate the code from the comments...
+    done - Prevent the folders from being directly navigatable
+    done - miraculously email already works, I'm glad I set up a test script (and tested the test script (because I mispelled benjamin)) before going down a primrose path to set up a list serve and all of that.
+    done - set up an automatic email tester in email_test.php
+    done - added more more info that I acquired from Tanja 
+            Lodging and Travel Instructions
+            Abstract Submission Guidelines
+            Poster Guidelines
+            Student Speaker Guidelines
+            Important Dates (when to register by, submit abstracts by ect)
+    done - did a spell check
+    Most of my time today was spent in persuit of the elusive email.  I really need NU support to give me a hand in this, but for the time being, this is what I have come to understand.  It is possible to send an unblocked email through northwestern's new centralized mail system, but only one.  After that and somehow the system gets wise.  I was able to send the first one after following some instructions on ask.com detailing how to go about setting up a PEAR's mail extension.  That required me to set up PEAR which in turn required me to understand more about what PATH is in a command line sense which answered the question I had earlier this morning of how you make a command line utility available all the time.  Phew -
+    Only trouble is that after you've sent the first email via smtp (which is now set up in email_test.php) it is impossible to send another.  I suspect that the answer lies in the use of a secure socket layer (ssl) because the northwestern webmail is generally ssl.  However, though PEAR's Mail module supports ssl connections, I recieve an error from PHP telling me that is unable to open an ssl port.  Turns out that you need openSSL installed and included during php compilation to do that, which takes me right back to the process of building up the program from the ground upwards - gaw.  So now I am leaving, happy trails, hopefully NUIT will get back to me with a better solution.  In the meanwhile we will have to wait and I will send notice that the webpage is not functional yet.
+    
+
+
+05/12/10 - 8 hours
+    Nailed out a template of the homepage with all the major elements and files in place along with some basic css.
+    Also I sent along a full request to Gayle, Tanja, and Stefan to request the rest of the content that I will need to finish the work https://mail.google.com/mail/?shva=1#inbox/1288869954c62eb7
+    
+    
+    
+    

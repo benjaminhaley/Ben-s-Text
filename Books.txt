@@ -1,0 +1,14 @@
+Books
+	A list of books to read
+
+15/Sep/2008 19:56	CS textbook
+
+14/Sep/2008 16:03	The Camel's nose by Knut Schmit Nielson		Lynsee reccomends this scandanavian scientists biography
+14/Sep/2008 14:01	Math A Day					Dave's book that lightly quizes a variety of basic math concepts
+
+The Elements of Style 					Strunk and White		Elise
+Tipping point						Malcolm Gladwell		Eric
+behind closed Doors, Secrets of Great Management					[coding horrors]
+Polotics of the English Language 							Elise
+Culture Industry considerations								Elise
+Natural Born Cyborgs					Andy Clark			Mladev

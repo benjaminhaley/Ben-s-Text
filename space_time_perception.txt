@@ -1,0 +1,18 @@
+The Space-Time-Conscience Continuim
+
+An important assumption of 20th century physics is that of the observer.  The observer is capable of taking in information (usually light) and process it to make predictions about the future state of the universe.  From careful dissection of the perception of this observer and the properties of light we have come to understand that time and space move relative to him and that energy at its smallest boundries exists in a world of quantized probability.
+
+The very fact that the observer is capable of sensing and then modeling those observations in a way that is relevant to his future is a small miracle and utterly unaccounted for in the physics of relativity and quantum mechanics.  However, there are those who have worked on this problem.  Philosophers have asked a myriad of questions related to the role of this observer such as what happens to unobserved trees that fall in the woods.  The anthropomorphic principal has approached the subject with greater rigour and come to explain why infinitely improbable things might have played a role in our creation.  Still, there is more fruit to be born for the one who can detail a mathematical model of the role of the observer (the conscience one) in the fields of space, time, and energy.
+
+We might start with the rather simple anthropic principal that without a conscience the units of space, time, and energy are unobservable and hence beyond meaning.  To build these concepts we first need a physical computer, one that is built from the very universe that it seeks to investigate.  As such it will need a turing machine (rather easy) and moreover a sort of chemical turning machine at least to the utility that it can form real world observations.
+
+The production of this chemical turing machine is the real trick.  We might start with the goal of building a machine that is capable of  capturing light and implementing a turing machine.  To get it beyond the requirements for infinite calculation needed by such a machine, we must have it endowed with a method of reproduction.  Moreover, because prediction is of little value without communication back into the reality that ...
+
+
+Self-Organization
+Everything might proceed into one universal bin where it is subsequently sorted (currently email for me).  This sorting should leave as many components as possible to the disposal of the creator with a minimum of effort...
+
+
+A few important questions
+What is the minimum amount of space and energy required to make an observation about the universe and apply it to a Turing Machine that predicts the future (or outputs something that effects the universe)?
+What is the minimum physical Turing machine necessary to effect all of its own construction, so that it need only work with common materials in order to rearrange itself into any physical configuration? (this has an answer in the RNA world)

@@ -1,0 +1,73 @@
+Dog_Tissue_Archive
+	Online Janus dog data for grants
+
+To Do
+	can we find the mouse weights for statistical analysis
+	create email report that will give you traffic info into the future
+	make pdf of watson book and send to mladans
+	meet Fritz in February
+		are dogs irradiated at -60 days in utero dogs?
+		organ weight units
+	link to ustur.wsu (NRA-NHRTR-anthony james and charles watsons' archives) they should have us linked at: http://www.ustur.wsu.edu/NRA/TissueArchvies/index.html
+	also link to wikipedia of janus and add watson's site to that.
+	add berkley tissues
+
+
+New Tissues
+	"I just spoke with Patti Powers-Risius' husband Jack and he assures me that Patti would be happy to have you call their home at 510-525-9045 to discuss any questions you have about the charged particle irradiated fixed murine tissues currently stored in 16 cardboard Bank Boxes in my LBNL lab. This material was from the extensive studies completed by Ed Alpen, Patti and John Ainsworth and Michael Fry."
+
+Sample Survey 				(see http://localhost/Archives/Dog_Tissue_Survey.ods and http://localhost/Archives/ANL_Reports.ods)
+	A survey of five randomly selected dog tissue racks revealed that of 4709 dogs in the original study there are 900-1800 dogs unrepresented in the tissue set, especially from the begining and end of the survey (dogs <800 or >3800).  Of the dogs present, there are 10 +/-10 tissues per dog and about 30% of those dogs are represented by double digit tissue sample counts.  All told there are 35,000 tissues.  The NumFix values in Norg2a seem to represent with 90% accuracy the contents of the archive today.
+
+
+Questions
+
+british journal of radiology supplement 26 14th-17th of may 2001 Proceeding of the advanced research workshop on protracted intermittent or chronic irradiation: biological effects and mechanisms of tollerance
+Chronic irradiation: tollerance and failure in complex biological systems
+tm fleidner, le feinendegen, hopewell
+The influence of dose, dose rate and radiation quality on the effect of protracted whole body irradiation of beagles - te. Fritz 103-114
+hemonological responses to chronich irradiation: the past arrgonne experience and future AFRRI initiatives - Seed, Tolle, Fritz 94
+	check the bibliographies of these
+
+department of energy has put the annual reports online
+
+
+
+	Treatments	
+		Can you help us to determine the experimental treatment of the dog?  Can you define group codes?  Can you come to visit?
+		
+
+
+	Define Controls	 	(ask ruth kahns)
+				1. experimental		
+				2. intermediate 	dose at some Rontigen's per day
+				3. low level		dose at a few Rontigen's per day
+				4. myeloproliferative	leukimagenic effect of low dose radiation - biopsied regularly - tom seed
+				5. in utero		irradiated pregnant dogs
+	
+colony control - control for genetic drift of colonies
+love
+
+	Define other		1. Determinate		??
+				2. Custodial		dog we had but transferred to some other researcher to work on
+				3. Rontigens to Rads	renkin - air dose, rad - absorbed dose, midline dose in rads is about 75% of air dose 7 cm from the cell surface
+	
+
+
+
+
+
+
+Proposed layout			(see http://localhost/Archives/Dog_Tissue_Archive.ods)
+	There are two broad studies performed in the ANL dog data set.  1327 dogs recieved an external radiation dose from a CO60 reactor at varying doses.  284 dogs were involved in various radionucleotide injection studies.  All of these dogs will be searchable by gender, age, cause of death, dog ID, disease topography and morphology, and Drug treatments.  The CO60 dogs will also be searchable by dose rate and total dose.  The injection dogs will be searchable by the study they were involved in (there are no more than 50 dogs in any injection study).
+	The results will be displayed as... and include control canidates (see  http://localhost/Archives/ANL_Reports.ods).
+
+Dave's Advice
+	Make sure unique IDs are unique and that your delimiters are not in your datatables.  Organize all 1:1 or 0 info into one single table called the 'dog' table.  Organize all 1:many information in sepperate tables and use refernce tables to associate their values to the dog table.
+
+*Database info: http://localhost/Archives/Animal_Databases.txt
+
+Contact
+	Tom Fritz
+		Indianpolis: 317-535-1971; 
+		Montana: 406-995-2181

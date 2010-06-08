@@ -1,0 +1,9 @@
+nira_wiki.txt
+    pertinant details to the wiki we have set up to host the new international radiobiology archives
+
+location:   http://janus.northwestern.edu/nira/
+account info:
+    email: irchive@gmail.com
+	username: irchive
+	passwork: niranira
+	license: cc

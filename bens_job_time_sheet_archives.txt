@@ -1,0 +1,314 @@
+bens_job_time_sheet_archives
+	While the time use will be summarized on the page, this will serve as a full archive to my WoloTime
+
+*Aug - Sep 2008		70.5 hours	hnRNP submission, dave's introduction to the 'Beast', 
+					dog tissue database outline, wine stats tutorials: access, mysql. 
+					Surveyed database and tissues: cod, treatments. 
+					wololab: 4 new, 3 updates.
+
+*Sep - Nov 2008		84.5 hours	tutorials: access, mysql. 
+					Surveyed database and tissues: cod, treatments. 
+					wololab: 4 new, 3 updates.
+
+*Nov - Jan 2009		105.5 hours	tutorial: php. built mysql tables (9). 
+					Site: 	built form, wrote queries, displayed results. 
+					wololab: 1 new, 1 CV.
+					Other: 	gayle's computer x5, x-lated drugs, fritz, 
+						basia submit, mladev met.  Attended x2
+
+*Jan - Mar 2009		163 website:demo, tables (fractionated and translations), angela x-lations, 
+						collapsed boxes, favicon, drug route translation, form validation security, 
+                        icons, css classes, links, logos, janus pics, table layout, fixed
+						database feilds, sort features, cross browser optimization, email request, 
+						help and faq documentation, crowd sourced touchups (8 people for beer), 
+						form cookie, aknowledgements, christine translations,
+						search engine optimization (#1 for 'dog tissue') - wikipedia upload, 
+						site map, doaj submission, ANL link, navigation bar
+					hnRNRP:	corrected, resubmitted added 3 figures (p53, hnRNP K, C1/C2)
+					Other:	backup, winestats, lab meetings, proctered exam, met amit
+
+*Mar - 	July   2009	466	website: add links (2), christine x-late, layout, totals/more results (2), fritz,
+						low dose (abstr + attend + notes), css, mailed database, 
+						aligned groups/named exp to era (4), js, tranlations, buzzed hardarian
+						snomed/snodog (5), soilee meet, grey book, error page, analytics,
+						mouse cookie, tables for tom, SQL/RDMB study, dog # lookup
+						analytics, victor, moved boxes, SOAP (4), 
+					stats:	stata tutorial, amit brainstorm/data intro (4), stats study, prostate dataset
+						regressions (5), chi2, rademaker, dave's Paper, formated data, AIC/BIC
+						link test, boxtid, planned, summaries, proceedure
+					hnRNP:	quick resubmit
+					students: nathalie tutorial (3), haldarian attempt
+					other: 	summarized (2), lab meetings (3), defenses (eric), wine stats (3), grant help
+						drove T, update email list, move (1), backup (1), AFM learn, 
+						reimbursement (3). T talks (3), rehire, tom webber
+
+*Aug - 			44.5		website  (9.5)	gruenberg_paper (1), library science study, SOAP (1)
+					WoloLIMS (35)  	wololab for beginers, listserve, drop box, windows admin
+							printer instructions, AFM, carbonite, 
+
+
+*11:30 AM 3/5/2009 - 10:00	10.5 hours	linked mouse page, lynsee suggestions, chat with T/amit, stata tutorial, x-late w/Chrisine, summarized
+*11:30 AM 3/6/2009 - 6:00 pm	6.5 hours	talked to D, brainstormed with Amit, read some stata tutorial, read some statistics glossary, composed prostate dataset
+*10:00 AM 3/10/2009- 12:00 pm	13 hours	updated lab meeting list, fixed ie layout, hashed control issue, showed amit access, studied stata 							tutorial, studied statistical tests, fixed dog result order by, made totals and more results
+*1:30 PM 3/12/2009 - 10:30       9 hours		studied regressions, worked w/Amit to port access to stata and run chi2, studied regressions
+*10:00 AM 3/17/2009- 7:00	9 hours		beck meeting, called fritz, read Dave's paper, strategy with Amit, regression study
+*11:00 AM 3/18/2009- 10:00	11 hours	lab meeting, error fix, dave notes, regression study, website mit christine, submit abstract
+*12:00 PM 3/23/2009- 12:00	12 hours	chat w/Amit, logistic regression, booked flight, fed dog, retouched website (majorly)
+*2:00 PM 3/24/2009 - 6:00	4 hours		ran fist logistic regression!
+*11:00 AM 4/1/2009 - 10:30 	11 hours	summarized and sent out simple_database, aligned dog study and groups and mouse studies with the 
+era, tended to Ln2
+*2:00 PM 4/2/2009 - 12:14	10 hours	trouble filled effort to make javascript work, presented poster to lab
+*8:00 AM 4/6/2009 - 5:00 pm	9 hours		bethsada
+*8:00 AM 4/7/2009 - 5:00 pm	9 hours		bethsada
+*8:00 AM 4/8/2009 - 10:00 am	2 hours		bethsada
+*11:00 AM 4/7/2009 - 2:00 pm	3 hours		eric's defense, bethsada notes, talk to amit
+*1:30 PM 4/14/2009 - 12:13	11 hours	forms to tiffany, wine stats, hnRNP abstract tweak, table add, acronym check, t&g submit, began regression
+*1:06 PM 4/15/2009 - 10:00pm	9 hours		created era translations, brainstormed fritz q's with amit, tried performing regression diagnositcs
+*12:00 PM 4/16/2009- 6:00 pm	6 hours		submitted paper, deal w/ dulaney, wrote colabs, wrote Soile, passed linktest and with interactions and boxtid
+*8:00 AM 4/20/2009- 4:30 pm	8.5 hours	Met with Tom, Met with Rademaker
+*10:10 AM 4/21/2009-10:50	12.5 hours	email, grant (how to diseminate and human tissues), tom notes (update database, summarized amit, made tables for Tom)
+*12:13 PM 4/27/2009- 11:30	11:00 hours	wine stats, harderian estimation, reciepts, copyright xfer, fritz mail,  mega-database for dog tissue
+*1:30 PM 4/28/2009 - 10:30	9 hours		composed my plan, mega-database: housing, controls, started reading the snomed licesense
+*9:46 AM 4/29/2009 - 4:20pm	7 hours		applied for snomed liscence, met with soile tapio and went to lecture, got hyatt reciept
+*12:16 PM 5/4/2009 - 11:09 pm	11 hours	drove tanja, decifering SNOMED CT
+*11:00 AM 5/6/2009 - 8:00 pm	9 hours		AFM move, backup, summarized worktime, slogged through snomed - found corresponding morphologies
+*12:30 PM 5/11/2009 - 11:30	11 hours	posted abridged grey book documentation, linked to jpa and era, fixed error page, 
+						removed links to index, tried to add analytics, fixed lookup by dog number, added totals to mouse site, 
+						added form cookie to mice, added names to janus experiments
+*10:30 AM 5/12/2009 - 9:46	11 hours	learning AFM, studies SQL and relational databases
+*10:30 AM 5/19/2009 - 9:30	11 hours	AFM training, finished aligning snomed codes to pat and nec reports
+*12:40 PM 5/20/2009 - 7:40	7 hours		Snomed technical implementation and Watson's SNODOG paper
+*11:38 AM 5/27/2009 - 11:30	12 hours	lab meeting, work with caroline, password doc, email soile, reimbursement, janus analytics, quotes to wine, teds picture added, snodog added to the tissue archive, in vain to establish phplist, drafted wololab for beginers
+*12:36 PM 5/28/2009 - 7:00	7 hours		new analysis, wololab for beginers, made email list, talked to T, added morphologies by location and system
+*3:00 PM 5/29/2009 - 11:00 pm	8 hours		talked to T, malignancies by dog, talked to amit, split prostate goals, ran more stats to be written up tomorrow.
+*11:00 AM 6/2/2009 - 7:19 pm	8 hours		caroline setup word, printer, ftp; created the wololab group; mri session, wololab post, stats summary
+*9:27 AM 6/3/2009 - 11:04	13.5 hours	met victor, went to victor talk, walked through full logistic regression process, drafted stats algorithm
+*1:00 PM 6/4/2009 - 7:30	6.5 hours	finished walk through, added terms to logistic regression, wrote to amit
+*12:00 AM 6/16/2009 - 6:30	6.5 hours	1/2 way through integrating studies search and link into the dog tissue archive
+*12:00 PM 6/17/2009 - 3:00	3 hours		moved the boxes at olson, spilled some formeldehyde
+*3:00 PM 6/18/2009 10:00	7 hours		set up syncBack, trouble shoot dogs, added group and study data to dogs, started up the soap train
+*11:00 AM 6/22/2009 10:15	11 hours	met natalie, wrote students.txt, couldn't quite get SOAP to deliver a complex data object
+*10:34 AM 6/24/2009 - 10:30	12 hours	got natalie on halderain dev, finished getDetailsByID SOAP, wrote gruenberg and Amit		
+*11:30 AM 6/25/2009 - 5:00	5:30 		lab meeting, most of soap
+*2:20 PM 7/1/2009 - 6:13	4:00		key delegation, talked to kelly, drop box exploration, get animals by id for soap, woloweb
+*12:24 PM 7/2/2009 5:00		4:30		gruenberg integration, little chitty-chat, looked into windows admin
+*12:08 PM 7/6/2009 - 1:30	13:30		Nathalie basic tutorial, Matt research, work justification, position description.doc, woloLIMS.txt
+*1:00 PM 7/8/2009 - 12:04	11		Nathalie talk, Jinju Talk, rewrote printer instructions, WoloLIMS, emailed wololab
+*7:00 PM 7/16/2009 - 1:30	6.5		WoloLIMS.txt, Gayle IGB CV (0.5 hours), 
+*2:30 PM 7/17/2009 - 8:00	5.5		WoloLIMS.txt, bought coffee
+*2:30 PM 7/21/2009 - 12:30	10		students.txt, WololLIMS.txt, Gruenberg_Integration.txt
+*12:35 PM 7/22/2009 - 9:30	9.5		WololLIMS.txt, Gruenberg_Integration.txt, wrote Tom Webber, Labeled keys
+*2:33 PM 7/30/2009 - 6:30	4.0 		fixed AFM machine
+*11:31 AM 7/31/2009 - 10:00	10.5		talked to amit, library science background, 
+2:09 PM 8/3/2009 - 4:09		2.0		talked to nathalie, got stats, computer ship
+12:00 PM 8/4/2009 - 7:00	7.0		bryan intro, move boxes, carbonite, toshiba, writing
+12:00 PM 8/5/2009 - 12		12		webroot call, nathalie talk (2 hours - due to hardship), laptop ship (1.4 hours)
+12:10 PM 8/7/2009 - 3:00	3		ordered webroot (.5 hrs), read about wsdl, failed to implement (2.5 hours)
+12:30 PM 8/10/2009- 11:00	10.5		talked to Nathalie (1 hrs), chatted (0.5 hrs), woloLIMS.txt - added gayles office (0.25)
+						email (0.5 hrs), Toshiba Call (0.2 hours), lunch (0.6 hours), SOAP implementation (7 hrs)
+12:40 PM 8/11/2009- 6pm		6.0		wine stats (2 hours), lunch (0.5), webroot/network fail (3.5 hours)
+10:00 AM 8/12/2009- 10		12		proctering (1 hour), caroline meeting (2), lunch (0.5), help jinju (1.5)
+						gruenberg_integration (7), procrastination (1)
+*2:09 PM 8/3/2009 - 4:09	2.0		talked to nathalie, got stats, computer ship
+*12:00 PM 8/4/2009 - 7:00	7.0		bryan intro, move boxes, carbonite, toshiba, writing
+*12:00 PM 8/5/2009 - 12		12		webroot call, nathalie talk (2 hours - due to hardship), laptop ship (1.4 hours)
+*12:10 PM 8/7/2009 - 3:00	3		ordered webroot (.5 hrs), read about wsdl, failed to implement (2.5 hours)
+*12:30 PM 8/10/2009- 11:00	10.5	talked to Nathalie (1 hrs), chatted (0.5 hrs), woloLIMS.txt - added gayles office (0.25) email (0.5 hrs), Toshiba Call (0.2 hours), lunch (0.6 hours), SOAP implementation (7 hrs)
+*12:40 PM 8/11/2009- 6pm	6.0		wine stats (2 hours), lunch (0.5), webroot/network fail (3.5 hours)
+*10:00 AM 8/12/2009- 10		12		proctering (1 hour), caroline meeting (2), lunch (0.5), help jinju (1.5) gruenberg_integration (7), procrastination (1)
+*1:00 PM 8/18/2009 - 12:30	11.5	eating (1.5 hours), woloLIMS - nanodrop (3), update website (1.5), tom ship (1.5) janus troubleshoot (1), greuberg_integration - filling out background (1.5)
+*12:26 PM 8/20/2009 -9:00	8:30	gruenberg_integration - meet with T (1.5), stupid registry search (3.0) good dils saerch (4.0)
+*12:00 PM 8/25/2009 - 7:30	5:30	t time (0.5), laptop fix (1), Allyson (2), fixed word (0.5), update website (1) woloLIMS nanodrop (2)
+*12:22 PM 8/26/2009 - 5:00	4.5		lab meeting (1.5), qiong search (1), bs (2)
+*12:00 PM 8/27/2009 - 5:00	5		met with stefan (1), website updates (1.5), bs (2.5)
+*1:14 PM 9/3/2009 - 9:15	8		(1) woloLIM nanodrop, (1) aps tests, (1) hardware, (1) eating, (2) wololims.txt - webroot (2) gruenberg_integration.txt - background notes
+*1:00 PM 9/4/2009 - 8:00	7		(5) stefan.txt - spec machine, (1) woloLIMS.txt - nanodrop, backups, (1) dog_tissue_archives.txt - archive landing page
+*1:30 PM 9/9/2009 - 10:30	9		(1) misc - nanodrop check, call HR, del old backup, reply to gruenberg
+						            (1) misc - nanodrop check, ye post, stefan pricing
+                                    (1) dinner
+                                    (1) computer administration - backups and nanodrop
+                                    (4.5) gruenberg_intergration.txt - background sources (10), some integration into soapy
+*2:30 PM 9/10/2009 - 10:00	7.5		(1) misc - dinner/news
+                                    (.5) misc - help jinju
+                                    (.5) computer_administration nanodrop updates/webroot, typhoon image
+                                    (5.5) gruenberg_integration.txt added remaining citations and mendeley formatting to outline
+*10:30 AM 9/14/2009 - 7:30 	9 		(9) stefan.txt - learning MAPS at Argonne 
+*1:29 PM 9/16/2009 - 5:41	4		(1) woloLIMS.txt - speeding up the nanodrop
+                                    (.5) backup images
+                                    (1) stefan.txt - MAPS manual improvment
+                                    (.5) stefan.txt - respec computer
+                                    (1) gruenberger.txt - linked data reading
+*11:30 PM 9/17/2009 - 9:48	10		(.5) wololims.txt nanodrop
+                                    (.5) wololims.txt - order carbonite
+                                    (2) eating
+                                    (1) news
+                                    (6) gruenberg.txt - porting and translating
+*12:27 PM 9/23/2009  - 11:30	11  (2) eating, reading news, boggle, etc.
+                                    (7) implementing mpath ontologies at gruenberg_integration.txt
+                                    (2) woloLIMS.txt carbonite for lab, calling steve, health care benefits
+*1:26 PM 9/24/2009  - 10:44	9		(1.5) WoloLIMS.txt contact steve, reinstall carbonite, help katrina
+                                    (1) Fun boggle time
+                                    (2.5) radiobiology_tissues.txt organizing the tissue project
+                                    (1) dinner/news
+                                    (2) gruenberg_integration.txt porting janus data to mysql
+                                    (1) wrote gruenberg, summarized remaining ontology needs
+*1:00 PM 9/30/2009 - 12:00 11       (1) tried to build wake on lan but learned I would need router access
+                                    (4) gruenberger_integration.txt initiated nira wiki with pictures, logos, and description
+                                    http://janus.northwestern.edu/nira/
+                                    (1) dinner
+                                    (.5) help jinju
+                                    (.5) news
+						            (4) gruenberger_integration.txt ontology search
+*12:30 PM 10/1/2009  12:07   12     (1) Stats seminar
+                                    (3) lunch/dinner/news/boggle needs
+                                    (1) help jinju
+                                    (7) gruenberger_integration.txt translate ontologies, write Michael
+*1:57 PM 10/7/2009  1:00 AM  11     (2) stefan.txt (order new dell)
+                                    (2) wololab_upadates.txt (adding the last updated value to pages)
+                                    (1) stefan.txt (tried to get the IDL ordered)
+                                    (1) dinner
+                                    (1) talking on phone with Mary then Roder
+                                    (4) gruenberger_integration.txt (translate into SNOMED, explore bioportal, and research ontology groups)
+*4:03 PM 10/8/2009 1:00 AM 7        (1) Email, and orgalizing drawer
+                                    (6) dog_tissues_archive.txt specific organ search
+*11:00 AM 10/12/2009 - 7:30  8.5    (1.5) Han's lecture
+                                    (2) tissue_stats.txt talking to angela about bladder data
+                                    (.5) talking to gayle about the dog tissue database paper
+                                    (.5) stefan.txt talking to IDL about licensing
+                                    (4) tissue_stats.txt angelas_bladder.txt
+*2:00 PM 10/14/2009  11:00  9       (1) tissue_stats.txt checking angelas_bladder.txt, finding gayles ppt, and getting the contact
+                                    (4) dog_tissue_archives.txt built a submission form for the dog database, still need
+                                    (1.5) dinner, news
+                                    (3) gruenberger_integration.txt taverna workflow
+*1:00 PM 10/15/2009 6:00 5          (1) dog_tissue_archives.txt finished integrating request form.             
+                                    (1.5) lunch and email
+                                    (2.5) gruenberger_integration.txt janus_wsdl.txt pretty laborious read through.  Hopefully it will prove valuable to slop through it.
+*1:30 PM 10/19/2009  5:30 4          (1.0) gruneberger_integrations.txt griffin.txt lunch with griffin over semantic web
+                                    (2.0) health_physics_paper.txt estimated Gayle's tissue review paper project
+                                    (1.0) added a new element to the tissue request form
+*1:29 PM 10/21/2009 - 6:00   4:30    (1.0) webroot_invoice.txt external hard drive backup
+                                    (1.0) added a tissue request form to the janus webpage
+                                    (2.0) open access letters and notes
+*2:30 PM 10/22/2009 - 2:00 AM 11.5   (0.5) computer_administration.txt working with hans through his partition issues
+                                    (0.5) stefan.txt setting up the new computer
+                                    (1.5) open_access_lectures.txt with stephanie kern and creative commons licensing
+                                    (1.0) misc.txt dinner and news
+                                    (8.0) janus_wsdl.txt building the full wsdl file and the python script that generates it
+*1:30 PM 10/22/2009- 1:30    12      (1.0) misc. talkted to t, caroline, anna, fixed my voice mail and checked for a php static checker
+                                    (1.5) tissue_stats.txt worked with Angela to decipher new stats, still she needs to talk to T about a new hypothesis
+                                    (0.5) worked on the water filter
+                                    (1.5) misc.txt goofed off with boggle and freinds
+                                    (1.0) news
+                                    (1.0) dinner
+                                    (1.0) phone skyler and anna
+                                    (5.5) janus_wsld.txt putting on the code
+*3:00 PM 10/23/2009 - 6:30   3       (3.5) janus_wsld.txt finished adding on all of the fundementals of wsdl, next it will be on to the stage of testing and finally I will have to write out the SQL code and ensure that the returns are as expected.  Ouch.
+*9:15 AM 10/24/2009 - 5:00   8       (2.0) misc. talk to T, endnote extension, write angela, disctractions
+                                    (1.0) lunch
+                                    (4.0) janus_wsld.txt learned how to use eclipse web tools to validate wsdl and then fixed the found errors (mostly namespace and naming related)
+*12:00 PM 11/03/2009 - 6:00  6       (1.0) wololims.txt - add xfm machine
+                                    (1.0) misc. cleaning my desk
+                                    (0.5) misc. helping to fix the water
+                                    (0.5) computer_administration.txt backup
+                                    (1.0) misc. boggle anon
+                                    (1.0) ANL_tissues.txt emailing dulaney
+                                    (0.5) R25_website.txt (started doc, contacted daniel and benette)
+                                    (0.5) misc. peronal email chat and the sort.
+*10:00 AM 11/03/2009 - 8  10         (1.0) kristen_clifford.txt talk to kristen and T
+                                    (1.0) lab meeting
+                                    (1.0) kristen_clifford.txt more talking, boggle, and lunch
+                                    (1.0) misc. catching up old emails and such
+                                    (6.0) woloLIMS.txt - troubleshooting driver, installing, reinstalling, being frustrated.
+
+*10:00 AM 11/09/2009 - 8:00 PM, 12 hours
+	(1.0) kristen_clifford.txt - meet with she and T
+	(1.0) lab meeting
+	(2.0) kristen_clifford.txt - scanning and talking
+	(1.0) misc. boggle/eating
+	(5.0) computer_adminstration.txt working on that damn computer
+
+*11:00 AM 11/10/2009 - 2:00, 3 hours
+	(1.0)	kristen_clifford.txt - more scanning biz
+	(1.0)	grad school app forms
+	(1.0)	computer_administration.txt - kriten clifford project
+
+*1:00 PM 11/11/2009 - 7:00 PM, 6 hours		    
+	(2.0) kristen_clifford.txt - talk, mentioned endnote, voicemail, grant, and service contract drawers
+    (2.0) computer_administration.txt - more taking care of kristen's machine
+    (2.0) misc. planning the future
+    
+*11:00 AM 11/12/2009 - 6:00 PM, 7 hours
+    (1.0) kristen_clifford.txt - talking etc.
+    (1.0) lunch and so on
+    (4.0) R25_website.txt - built the first attempt, contacted Daniel
+    
+*10:00 AM 11/16/2009 - 12:30 PM, 14.5 hours
+    (4.0) kristen_clifford.txt reinstalling windows
+    (3.0) kristen_clifford.txt more windows, also drivers, dropbox, chrome, etc. (the latter ones make a small impact)
+    (1.5) misc. lunch and boggle
+    (6.0) R25.txt - program requirements, 1/2 of mentors, upping the debugger status.
+    
+*2:00 PM 11/17/2009 - 7:30 PM, 5.5 hours
+    (1.0) misc. boggle and such
+    (1.0) computer_administration.txt - ordering ethernet, scoping macs
+    (1.0) tissues.txt - writing manjari for user agreements, responding to email
+    (2.5) R25_website.txt
+    
+*2:00 PM 11/19/2009 - 7:00 PM, 5.0 hours
+    (2.0) kristen_clifford.txt - showing her how to submit manuscripts
+    (2.5) R25_website.txt - finished adding content and so on
+    (0.5) misc. backups, email, and trying to correct the hnRNP
+
+*10:00 AM 11/20/2009 - 3:00 PM, 5 hours
+    (1.5) misc.txt lecture with Tanja's cousin, the nanokisses people
+    (1.5) kristen_clifford.txt working on submitting teds paper, esp endnote
+    (2.0) R25.txt - finished contact info content and then started on the css
+
+*1:00 PM 11/21/2009 - 3:00 PM, 2 hours
+    (2.0) R25.txt - did much of the css, still need to finish the lists and check across browsers.
+    
+*11:00 AM 11/23/2009 - 7:00 PM 8 hours
+    (4.0) misc.txt - cleaning the lab with caroline
+    (1.0) kristen_clifford.txt - submitting ted's paper
+    (1.0) misc.txt - lunch
+    (2.0) R25.txt - finished css biz, sent to Gayle Benette and Daniel for review
+
+*10:00 AM 11/30/2009 - 2:00 pm 4 hours
+    (1.0) kristen_clifford.txt - helping her to get the printer working
+    (2.0) preparing a set of mouse search results for Tanja
+    (1.0) misc.txt
+    
+*12:30 PM 12/02/2009 - 6:30 pm 6 hours
+    (1.0) kristen_clifford.txt - helping her and tanja with their grant submission issues
+    (1.0) misc.txt helping kat change the printer, playing boggle, and eating some soup mmmmm
+    (4.0) R25.txt - wrapping up most of the remainder of the website, I sent out the second proof to Benette, Daniel and so on.
+    
+*11:00 AM 12/07/2009 - 3:00 pm 4 hours
+	(4.0) R25.txt - wrapped up website, need only to send the scripts off to daniel
+
+*12:30 PM 12/09/2009 - 5:00 4.5 hours
+    (1.0) misc.txt - helping Tanja with the grant by producing a powerpoint slide
+    (1.0) R25.txt - Calling and sending it off to Daniel
+    (1.0) misc.txt - wine stat
+    (1.0) misc.txt - Tanja Grant, endnote stuff
+    
+*9:30 PM 12/10/2009 - 7:00 9.5 hours
+    (1.5) misc.txt - helping tanja find endnote ciations on the grant
+    (1.0) misc.txt - lunch and boggle
+    (1.0) wines.txt - wine stats
+    (2.0) angela.txt - looking up cancer incidences and cross checking against the red book, qiongs paper, and the grey book for what work has been done
+    (1.0) ANL_tissues.txt - translating the macro codes further in anticipation of posting them to the website
+    (1.0) misc.txt - helping with grant issues, pagination in 2007, getting coffee, dealing with acrobat
+    (2.0) misc.txt - tossing ideas about PERTS around with Dave
+    
+*10:00 PM 12/17/2009 - 11:00 13 hours
+    (1.0) Janus_MTA.txt
+    (1.0) misc.txt lunch
+    (0.25) wine_stats.txt
+    (0.5) misc.txt talking to Christen
+    (0.5) creative commons approval
+    (1.0) help sumita install a printer and dropbox
+    (2.0) return the macrocode results (return_macro_codes.txt)
+    (1.0) misc.txt dinner
+    (1.0) misc.txt phone - anna, roder
+    (4.75) janus_macro_codes.txt - made them searchable and displayed

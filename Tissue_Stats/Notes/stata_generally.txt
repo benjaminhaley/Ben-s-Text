@@ -1,0 +1,43 @@
+Stata Cheat Sheet:
+
+navigation:	cd, save, clear, memory, set memory, dir, pwd (working directory),
+loading data:	insheet (spreadsheet), infile (txt), infix (fixed format), input (by hand), use(stata dataset)
+data summaries:	describe, count, list, codebook, summarize, tabstat, table, tabulate (frequency tables), correlate, pwcorr
+data graphs:	stem (stem and leaf), graph ( histogram or box plots)
+data changes:	sort, label data, order (variables in a set), label variable, label values, rename (a variable), recode (variable values), 
+		notes(addendum to the data file), generate (new variable), replace (values), egen (special functions for variable generation), 
+		keep if, keep, drop, append, merge
+
+log		Create a Log file
+
+Analyses:	
+	ttest		confidence interval for normal distributions with small n ( makes up for errors in estimating standard deviation )
+	anova		particians variance into explanatory variables
+	xi		produces a dummy variable which can be used in regression analysis to act as a 0,1 switch for parameters?
+	regress		a regression which uses best fit to model a dependent variable as a function of independent variables and random error
+			predict( instance of the model ), kdensity (kernal density - distribution of the random variable)
+			pnorm (standard curve), qnorm (quantile real curve), rvfplot (residual v fitted plots?)
+			test (tests linear hypothoses)
+	logit		logistical regression fits a random binary outcome to a series of independent variables
+	tabulate	cross tabs (comparison of values % for multiple inputs) with chi-squared tests (related to variance of a normal curve)
+	signtest	used to show there is no difference between the underlying distributions of two variables
+	signrank	tests for the relationships between subjects that are abnormal (non-parametric test)
+	ranksum		non-parametric test to determine if two samples come from the same distribution
+	kwallis		a non-parametric anova test (extension of ranksum) that does assume the variables have the same unknown distribution
+	
+	
+	
+		what analysis to choose?  http://statistics.ats.ucla.edu/stat/stata/whatstat/default.htm
+
+
+
+*note: 
+	"regress test" and "log" seem important and overlookable.   
+	"update all" updates stata from online.  
+	Help http://www.stata.com/help.cgi?ttest
+			
+	
+	
+
+
+

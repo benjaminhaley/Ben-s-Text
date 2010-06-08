@@ -1,0 +1,54 @@
+Linear Regression
+	To make a dependent variable a function of independent variables and an error term.
+
+
+Assumptions
+	Sample represents the population ( we can discuss this in relation to dogs, like do controls live 'normal' lives )
+	Independent variable are error free (there are methods to use when this assumption is not met)
+	Predictors must be linearlly independent (how do we test this)
+	the error is random, has a constant variance, and are uncorrelated
+	that variables are related geometrically (ie. pathogorean theorem applies)
+	when confidence intervals are calculated it is based on an assumption of a normal distribution of the error term
+
+
+	These assumptions garuntee that the treatment will be unbiased, consistent, and efficient though some may be relaxed
+
+
+Proceedure
+	
+	A formula that relates the dependent variable, f(n), to the p independent variables, X1i - xpi, and a random error term, e.
+
+		f(n) = B0 + B1x1i + ... + B2xpi + ei		i = 1,...,N
+
+	The formula is usually minimized through minimization of the sum of squares of the error term.
+
+
+
+
+Terms:
+	categorical variables		aka nominal scales, a set of variables with unrelated discrete values
+	ordinal variable		those with ordered discrete values
+	censored regression		used when the dependent variable is only sometimes observed
+	Heckman correction		A two step correction with a normality assumption that can be made when their is bias in sampling
+	Non linear regression		
+	logit				the log of the odds ratio used extensively in logistic regression
+	probit				a function that converts the normal distribution to a straight line
+	probit model			specification of the generalized linear model for a bernoulli trial that supposes the response to be a binomial distribution
+	ordered probit			regression model for ordinal dependent variables
+	multivariate probit		estimates correlated binary outcomes jointly
+	multinominal logits		are used when the result variable of a logistic regression takes on three or more unrelated values
+	ordered logit			regression model for ordinal dependent variables
+	cumulative distribution func.	or just distribution function is the probability that the random variable is less than the obsered variable
+	count data			that which can only take interger values that results from counts, not rank
+	contingency table		just a matrix comparing the values of two or more varialbes
+	poisson regression		a regression function for count/rate that assumes the response to be a possion distr.  log( E(Y) ) = a + bx
+	non-linear regression		deals with any regression analysis where the contribution of the variables is assumed to be non linear	
+	baysean linear regression	another method of minimizing the error in a regression by borrowing some terms from similar known measures
+	Generalized linear model	provides a genearlization of all least squared regressions varying in distribution and link functions
+	link function			transforms between the distribution and predicted value
+	
+	
+	
+
+
+			

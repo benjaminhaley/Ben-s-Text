@@ -1,0 +1,594 @@
+bens_job.txt
+	To post the dog database, maintain the wololab website, and run statistics on the janus dataset to help produce papers.
+
+I owe wololab 57.75 hours
+
+To Do:
+    Active
+        wine_stats.txt
+        Give sumita office 2007 https://mail.google.com/mail/?shva=1#inbox/128daf7df8f1d2c7
+        ask liz how to attatch our fax machine as a printer
+        submit health_physics_paper.txt https://mail.google.com/mail/?shva=1#inbox/128ef8452838ebb2
+        prepare an xmf analysis by the weekend ( talk to Holsner about his new density based data analysis )
+        try to fix tanja's machine
+
+    Check on
+        Tanja
+            What do you want me to do with Ye and XFM
+            janus_description_for_Julie.txt (text her) https://mail.google.com/mail/?shva=1#search/from%3Agayle/12807d69b7357c17
+            lets get some more scanners for mike
+            submit health_physics_paper.txt
+        Mike
+            albuquerque_tissues.txt
+            get him to do his I-9 https://mail.google.com/mail/?shva=1#inbox/127ab7d6fb88a944 and https://mail.google.com/mail/?shva=1#inbox/128167bb5b32b420 and https://mail.google.com/mail/?shva=1#inbox/128e1923be7bd9be
+            make sure he follows up with gayle on the xray scanner https://mail.google.com/mail/?shva=1#inbox/127e4527eea87239
+    
+        Sumita
+            to add her techniques to the google docs
+
+        Kristen
+            check on expense reports
+            Be sure she takes over cryopreservation - https://mail.google.com/mail/?shva=1#inbox/128b237776f1b644
+            
+            
+        Haider
+            How are those stats going haider_stats.txt
+            
+        Daniel
+            did he update the R25 masters of clinical science link? https://mail.google.com/mail/?shva=1#inbox/128f4b817c208031
+        
+        Jonas
+            did he link to our website https://mail.google.com/mail/?shva=1#inbox/1288869954c62eb7
+            
+        Emily
+            Give her gdoc access
+            
+        Hans 
+            Add some of his papers to gdocs
+            
+        Beau
+            Put Chemistry list on gdocs
+
+
+    Wait on
+        alex_herskovic.txt 
+            ask tanja about helping him find a hypothesis
+            https://mail.google.com/mail/?hl=en&shva=1#inbox/126583d5161fa722
+        stefan.txt
+        website for gayle DOE Project  (wololab_lowdose_website.txt)
+        Updates for Gayle
+            update Gayle's IGP profile - https://mail.google.com/mail/?shva=1#sent/127923aa578aa058 (which paper should I really pick)
+        albuquerque move
+            tissue_storage.txt
+        lab meeting
+            ask if anyone knows someone to replace me come fall
+        jarah_request.txt
+        
+
+    Later
+
+        tissues.txt
+            
+            web improvements
+                add text search (google?)
+                merge websites ( using www/tissues )
+                make a site map for all of our websites
+                branding advice http://www.feinberg.northwestern.edu/communications/brand/downloads/guidelines/FSM_Guidelines_R12.pdf
+                add munin to the woloserver https://mail.google.com/mail/?shva=1#inbox/1286239e78850f1d
+                make a generic request page common between both archives (use the dog tissue request page as the template)
+                move the server to a linux machine
+                Use SMARTY for our php template design
+                save files in UTF-8
+                add opcode caching to php
+                xdebug 
+                    xdebug_start_profiling
+                    xdebug_dump_function_trace
+                    add to php.ini to have it run always
+                analog.cx for analyzing our log files -> port into report_magic to make them most readable
+                rotate our log files ousing rotate d
+                squid - for full page caching
+                set up new computer
+				use .htaccess to allow files without an extension to be pre-parsed by php
+
+                
+            documentation
+                make the IRA document into a wiki (ira_wiki.txt)
+                put the experimental group and the treatment notes from that group (from the ERA) onto the janus website
+                cacher to be sure that we don't loose Gruenberger data (use http://memcached.org/)
+                add a dictionary of terminology to the website
+                I need to have a page for each of the studies - linked on the website
+                put my # on janus
+                move to phpdoc
+
+                
+            security
+                check input security - especially cookie
+                make our queries prepared statements
+            
+            stat support
+                add tables as csv
+                build a csv report for any single animal
+            
+            organization
+                Go through a massive document organization
+                refactor code
+                put the code under version control
+                build a regression test using the mysql log
+                turn on mysql log
+
+            
+            
+        tissue recruitment
+            hire successor: ask lab, write to rademaker, gruenberger, scouten, stephan and talk to mike about getting more involved https://mail.google.com/mail/?shva=1#inbox/126c3745ec233669
+        woloLIMS.txt
+            make a presentation on gdocs to the lab
+
+
+Projects:
+	students		        (summer)		(see students.txt)
+	animal databases	    (posted)		(see tissues.txt)
+	computer administration (continual)		(see Northwestern_Computer_Administration.txt)
+	stastics		        (current)		(see tissue_stats.txt)
+	hnRNP			        (submitted)		(see hnRNP.txt)
+	wines			        (continual)		(see Wine_Stats.txt)
+	Shipping Instructions	(continual)		(see shipping_instructions.txt)
+    Ordering                (continual)     (see ordering_intstructions.txt)
+    Kristen                 (continual)     (see kristen_clifford.txt)
+
+Retired Projects:
+    paramount_lawsuit.txt - the time I was busted for P2P that I wasn't doing
+    R25_website.txt - I got it up for the cancer center, hopefully they don't send me more work
+    gruenberger_integration.txt - we have some data from him, but he's gone and so are we
+    wololab_order_form.txt - never got started - we have no email
+
+6/7/2010 10:00 - 11:30 13.5 hours
+    11.0 working on xfm data analysis for stefan.txt
+    1.0 eating
+    1.0 news
+    0.5 sumita's computer
+
+6/2/2010 1:30 - 6:00  4.5 hours
+    1.0 lab meeting
+    0.5 xrm_2010_workshop.txt - working on Stephan's suggestions
+    3.0 health_physics_paper.txt - formatting for submission
+
+6/1/2010 12 pm - 1 am 13 hours
+    1.0 email
+    2.0 fixing the breakroom computer ( ccleaning, defragging )
+    2.0 finishing up the xrm_2010 website
+    1.0 eating
+    7.0 formatting the health_physics_paper.txt for submission 
+    0.0 done - set the email reminder to a regular (weekly) interval
+    
+
+5/27/2010 5.5 hours
+    0.0 Finally got the word license!
+    0.5 helping Tanja move her computer
+    0.0 gave Tanja the now complete wololab_backup.txt
+    5.0 the xrm website xrm_2010_workshop.txt
+
+5/26/2010 9:30 - 5:30 ( -3 for hanging with the sis ) 
+    3.0 health_physics_paper.txt - working to revise old copies
+    0.5 boggle and such
+    0.5 wololab_backup.txt - imaged the spectroscopy drive
+    1.0 worked on making PERTS deliverable
+
+5/25/2010 10:30-2:30 4 hours
+    1.0 worked with Kristen on submitting ted's paper https://mail.google.com/mail/?shva=1#all/128cff91ec02596b
+    2.0 xrm_2010_workshop.txt
+    1.0 lunch with mikey
+
+5/24/2010 10:30 - 5:30 7 hours
+    2 hours - saying hello to Christina
+    1 hour lunch
+    4 hours working on the email issue for xrm_2010_workshop.txt
+
+5/13/2010 10 - 10 12 hours
+    12.0 xrm_2010_workshop.txt - mostly trying to get email automated
+
+5/12/2010 9:30 am - 6:00 pm 8.5 hours
+    7.0 hours - xrm_2010_workshop.txt - hammered out the website lickety split
+    0.5 hours - a little gnosh
+    1.0 hours - haider_stats.txt - generated a little more data for him.
+
+5/10/2010 12:00 pm - 8:30 pm 8.5 hours
+    7.0 tissues.txt - quick fixes and wiki
+    1.5 talking lunch and so on
+
+5/6/2010 10:00 am - 7:30 9.5 hours
+    1.0 fixed excel sheet for qiong and processed emails
+    2.0 jarah_request.txt tried to find some healthy mammary tissues from mice (impossible)
+    0.5 hours lunch
+	1.0 wrote up our low dose DOE description for Julie https://mail.google.com/mail/?hl=en&shva=1#inbox/1285f74a89bed9d8
+    1.0 described and sumarized our DOE description for Tanja
+    2.0 emergency erased janus (and restored it using this image)
+    1.0 reinstalling Sumita's Office
+    1.0 fixing up the janus species and so on
+
+
+5/5/2010 10:00 am - 4:30 pm 6.5 hours
+    2.0 started reworking our data presentation at the janus site
+    2.0 worked with Haider on building him some useful datasets.
+    0.5 a little gnosh
+    1.0 produced new graphs for tanja https://mail.google.com/mail/?shva=1#sent/1286a2885cca8d7f
+    1.0 figure and table edits for Qiong's paper https://mail.google.com/mail/?shva=1#sent/1286a4483fe61ad4
+    
+
+5/3/2010 10:00 am - 12 am ( 14 hours )
+	1.0 Health_physics.txt
+	2.0 going over Qiong's paper
+	1.0 lunch
+	1.0 talk databases to Dave
+	7.0 fixing sumita's computer and the xfm machine
+	3.0 more qiongs paper work https://mail.google.com/mail/?hl=en&shva=1#all/1284ab78672dfad3
+
+*4/26/2010 9:00 - 1:00 4 hours
+	4.0 excel sheets for tanja https://mail.google.com/mail/?shva=1#sent/1284a8ab54f2d85e
+		and https://mail.google.com/mail/?shva=1#sent/1284aa470ef5511f
+
+*4/25/2010 10:00 am - 5:00 pm 7 hours
+    1.0 Met with Haider talked over his potential stat projects
+    2.0 talked stats and tried analysis with Tanja
+    1.0 ate
+    1.0 email
+    1.0 coded some rearrager in python
+
+*4/24/2010 12:00 pm - 11:00 pm 11 hours
+    2 hours setting up Sumita's computer
+    1.0 hours paling around with co-workers
+    0.5 hours email
+    1.0 showed Mikey the basic ropes of programming
+    0.5 cleaned up the wololab site map
+    1.0 responded to Gayle's concerns https://mail.google.com/mail/?tab=cm#inbox/12807d69b7357c17
+    2.0 paper work
+
+*4/21/2010 10:00 am - 11 pm 13 hours
+    0.5 qiong_stats.txt - responded to tanja's questions https://mail.google.com/mail/?hl=en&shva=1#all/12820cb1d9dbb571
+    2.0 health_physics.doc - sent it off to g and t for review https://mail.google.com/mail/?shva=1#sent/12821569f0a9b56a
+    1.0 lunch
+    0.5 showed beau the wolodocs folder.  He likes it.
+    2.0 cleaned off the error logs on the tissue archives
+    1.5 helped tanja move gayle office
+    1.0 put the dog tissue data tables online in csv form
+    0.5 turned off the display errors directive in favor of log errors
+    4.0 went over old php_error_log_check.txt
+
+*4/20/2010 11:00 am - 2:30 pm 4.5 hours
+    2.0 working on data with tanja
+    1.0 get response for Jarah https://mail.google.com/mail/?hl=en&shva=1#inbox/127e4788cbbdb51c
+    1.0 misc ordering and such
+    0.5 linked the progeny information between dogs
+
+
+*4/16/2010 10:00 am - 5:30 pm 7.5 hours
+    1.0 went over low-dose notes
+    1.0 misc. talked to kristen, showed Nihad the gdocs, responded to emails, etc.
+    0.5 lunch
+    0.5 found/sent archive papers to Julie https://mail.google.com/mail/?hl=en&shva=1#inbox/127f753aed7d8064
+    1.0 tissue storage
+    0.5 I put gayle's ppt bullet points on to the janus website https://mail.google.com/mail/?hl=en&shva=1#inbox/1280772f8fb661ba
+    1.0 put the dam, sire, and pup ids on the dog tissue website as links
+    1.0 sent Jarah a list of dogs with mammary tissues, those that were irradiated in utero, and those that were irradiated while pregnant https://mail.google.com/mail/?hl=en&shva=1#inbox/127e4788cbbdb51c
+
+*4/14/2010 4days - 24 hours 
+    rad_onc_meeting.txt
+
+*4/8/2010 10:00 am - 5:00 pm 7 hours
+    1.0 laptop ordering
+    4.0 qiong_stats.txt
+    2.0 fun time
+
+
+*4/7/2010 - 8 hours
+    1.0 helped fix Sumita's computer
+    3.0 stats with Qiong
+    1.0 trouble shooting janus error log
+    0.5 gayles laptop
+    0.5 moved Janus pdfs into the gdoc fodler
+    1.0 answered emails 
+    1.0 organized documentation
+
+*4/6/2010 - 2 hours
+	low_dose_poster_ben_2010.ppt
+
+*4/5/2010 - 2 hours
+	low_dose_poster_ben_2010.ppt
+
+*4/1/2010 - 6 hours
+    3 hours qiong_stats.txt
+    1 hour moving with beau
+    0.5 hours 
+
+*3/31/2010 - 9 hours 
+    1 hour ira_wiki.txt
+    0.5 hours put ITRI online
+    1.5 hours updating Gayle's CV
+    2.0 built the new soap requests and made them ajax
+    3.5 I gave up on getting an email server and opted instead to initiate an error log
+    
+
+*3/30/2010 (4 hours)
+    1 hour - fix the page so it doesn't look ugly when it breaks
+    0.25 hours - write to michael - why is the soap server down?
+    0.5 hours - rewrite email requester for the tissue archive (janus.request@gmail.com)
+    0.5 hours - make it an email address that forwards to many
+    1.0 look into other forms of email
+
+*3/25/2010 (6 hours)
+	qiong_stats.txt
+
+*3/24/2010 11:00 - 6:00 ( 7 hours)
+    4.0 laptop_fix.txt
+    1.0 updating Gayle's IGP profile
+    2.0 slacking
+
+*3/23/2010 10:00 - 6 (8 hours)
+    2.0 health_physics.txt
+    2.0 laptop_fix.txt
+    1.0 meet with tanja
+    3.0 PERTS/lunch
+
+*3/19/2010 10:00 - 7:00 (9 hours)
+    (0.25) abstract submission rad_onc_meeting.txt https://mail.google.com/mail/?shva=1#sent/127770a2cf7f9cd7
+    (0.5) pdf stuff
+    (1.0) lunch
+    (2.0) ira_wiki.txt
+    (3.0) wine_stats.txt
+
+*3/17/2010 - 4.0
+    (0.5) paramount_lawsuit.txt
+    (0.5) general organization
+    (1.0) drafted a low dose abstract
+    (1.0) lunch
+    (1.0) woloLIMS.txt
+
+*03/16/2010 - 2.5 hours
+    (1.0) lab_meeting.txt
+    (1.0) meetings and arranging travel
+    (0.5) talking to Michael
+
+*03/13/2010 - 3.0
+	(3.0) health_physics.txt
+
+*03/12/2010 - 4 hours
+	(4.0) health_physics.txt    
+	
+*03/11/2010 - 7 hours
+	(1.0) lab_meeting.txt 
+	(0.5) paramount_lawsuit.txt sent tanja nihad and my mac addresses https://mail.google.com/mail/?shva=1#sent/1274e8370d6109bc        
+	(0.5) full backups - image_computers.txt - sent them home with Tanja
+	(4.0) health_physics_paper.txt
+	(1.0) eating... email, ect.
+	
+*03/10/2010 - 3.5
+	(3.5) health_physics.txt
+	
+*03/05/2010 - 7 hours
+	(2.0) image_computers.txt
+	(1.0) lunch
+	(4.0) laptop_fix.txt
+	(0.0) finished I9 stuff https://mail.google.com/mail/?shva=1#inbox/1272579a85eb6d88
+
+*03/04/2010 - 3.0 hours
+	(1.0) lab_meeting.txt 
+	(1.0) meet with paul
+	(1.0) health_physics.txt
+
+*03/03/2010 - 5.0 hours
+	(5.0) health_physics.txt
+
+*03/02/2010 - 4.5 hours
+	(4.5) health_physics.txt
+
+*03/01/2010 10:00 am - 12:00 pm 3 hours
+	(0.5) talk to T
+	(0.5) Fishing for LN2 tubes
+	(1.0) email
+	(1.0) supplies with Kristen - all but vaccuum https://mail.google.com/mail/?hl=en&shva=1#sent/12666f57c7557fed
+
+*02/25/2010 10:00 am - 6.5 hours
+	(1.5) chatting, emailing, catching up
+	(0.2) wrote to Tanja about Qiong https://mail.google.com/mail/?shva=1#search/tanja/126fa3e895731405
+	(0.0) heard that the ping_request.txt is done! https://mail.google.com/mail/?shva=1#search/ping/126ecc8c147f726e
+	(4.8) health_physics_paper.txt
+
+*02/24/2010 9:00 am - 8:00 pm 11 hours
+	(1.0) lab_meeting.txt
+	(1.0) added nihad software, Printer, Rt-PCR software (could not do), Dropbox
+	(9.0) health_physics.txt
+	
+*02/23/2010 10:00 am - 12:00 pm 2 hours
+	(2.0) computer fixes and email
+	
+*02/19/2010 10:00 am - 1:00 pm 3 hours
+	(3.0) health_physics_paper.txt
+	
+*02/18/2010 10:00 am - 6:00 pm 8.0 hours
+	(1.0) lab_meeting.txt and meet with gayle
+	(1.5) working on the macro script with christine
+	(0.5) organizing my new grad school material
+	(0.5) fed exing to ping
+	(1.0) lunch
+	(1.0) health_physics.txt
+	(2.0) caroline's computer
+
+*02/17/2010 10:00 am - 8:15 pm 10.0 hours
+	(2.5) laptop_fix.txt - working with Carolines stupid laptop
+	(2.5) working to find local researchers
+	(0.5) email
+	(3.0) lunch with Mary
+	(1.0) prepping data for Will
+
+*02/16/2010 10:00 am - 2:30 pm 4.5 hours
+	(2.0) will_lui.txt - met with Mary and then got some data started for will
+	(0.5) laptop_fix.txt - repaired the wifi on Nihads
+	(1.5) had fun talking and playing boggle
+	(0.5) wrote to ping
+
+*02/12/2010 12:00 pm - 6:30 pm 6.5 hours
+	(0.5) will_lui.txt - coordinated to meet with Mary https://mail.google.com/mail/?shva=1#drafts/12521b5ff442111a
+	(1.5) laptop_fix.txt - still won't do it
+	(1.0) lunch
+	(0.5) backup gayles laptop
+	(3.0) health_physics_paper.txt
+
+*01/28/10 10:00 am - 9:15 	11.25 hours
+	(1.0) teds paper with christen
+	(1.0) lunch and bananagrams
+	(3.0) laptop_fix.txt
+	(2.0) dinner
+	(1.0) janus_description_for_Julie.txt
+	(2.0) health_physics_paper.txt
+	
+*01/29/2010 10:00 am - 2:00 pm   4 hours
+	(0.5) albuquerque_tissues.txt - talking to Mike
+	(0.5) kristen_clifford.txt - installing windows 7
+	(0.5) talking to will_lui.txt - just chatting
+	(1.0) health_physics_paper.txt - beagle dog background
+	(0.5) albuquerque_tissues.txt - talking to Mike
+	(1.0) lunch
+
+*02/03/2010 11:00 am - 3:30 pm   4.5 hours
+	(1.0) I just sent Laney some dog tissue data https://mail.google.com/mail/?shva=1#inbox/1268b571ce64b58d
+	(1.5) Lunch with Michael
+	(0.0) Kristen Ordered gloves https://mail.google.com/mail/?shva=1#inbox/12675edf8fbfa538
+	(2.0) will_lui.txt - updated the csv buidler for the database
+	
+*02/09/2010 12:30 pm - 4:30 4 hours
+	(4.0) will_lui.txt - finished the background coding and exported the new clinical table to will
+
+*02/10/2010 12:00 pm - 4:00 4 hours
+	(1.5) will_lui.txt - building the counts by study csv files
+	(2.0) lab_meeting.txt - and albuquerque meetup
+
+*02/11/2010 10:00 am - 2:00 pm 4 hours
+	(1.0) albuquerque_tissues.txt - ordered computer and external hard drives with Kristen
+	(1.0) kristen_clifford.txt - consoling her from the first round of Tanja angry moments.
+	(1.0) organized my to do list in a better order
+	(1.0) laptop_fix.txt - rolled back changes
+		
+*01/27/2010 - 3.0
+	(3.0) health_physics.txt
+
+*1:00 01/25/2010 - 4:00 3.0 hours
+	(1.0) will_lui.txt
+	(1.0) met with tanja
+	(1.0) kristen - email forwarding, calendar, and list of purchases
+	
+*10:30 01/22/2010 - 1:00 2.5 hours
+	(0.5) phone with mom
+	(0.5) getting Michael going
+	(1.5) health_physics_paper.txt
+	
+*1:30 01/21/2010 - 5:45 4.25 hours
+	(1.0) will_lui.txt talking over stats and such
+	(0.25) teds paper
+	(1.0) health_physics.txt
+	(1.0) talking
+	(1.0) email
+	
+*1:00 01/20/2010 - 1.5 hours
+	(1.0) janus_description_for_Julie.txt
+	(0.25) ??
+	
+*1:30pm 01/19/2010 - 1 hour
+	(1.0) health_physics_paper.txt
+	
+*1:00pm 01/18/2010 - 2 hours
+	(1.0) will_lui.txt - wrote the pathologies csv file
+	(1.0) health_physics_paper.txt
+	
+*9:00 01/15/2010 - 5:00 8 hours
+	(6.0) albuquerque_tissues.txt - moving all of the boxes up and orienting mike
+	(1.0) will_lui.txt - almost got the script written
+	(1.0) helping tanja sort out etes issues
+
+*2:00 01/14/2010 - 7:30 5.5 hours
+	(1.0) will_lui.txt - going over the pathology info
+	(0.5) albuquerque_tissues.txt - trying to get Micheal hired
+	(0.5) northwestern_computer_administration.txt - trying to get Nihad's ID to work
+	(2.0) pings_request.txt - sorting through tissues with beau
+	(1.5) will_lui.txt - making the pathology query
+	
+*11:00 01/13/2010 - 11pm 12 hours
+	(1.0) albuquerque_tissues.txt - prepared the document, talked to tanja, and took some basic measurements
+	(0.5) lab meeting preperation
+	(1.5) ping_request.txt - bringing the lovelace box from Olson, making a query to find dogs with all tissues
+	(1.0) lab_meeting.txt
+	(1.0) albuquerque_tissues.txt discussing the move with tanja and Gayle
+	(1.0) beer with co-workers
+	(1.0) boggle and fun
+	(1.0) email
+	(1.0) followup on lab meeting notes - meet with Christine
+	(2.0) will_lui.txt - made a new endpoint csv for him to play with
+
+01/13/10
+	I added the japanese students, will, and christine to the mailing list today.  I also managed to fix the heat in the cold room which is rather nice.  
+
+*10:00  01/12/2010 - 1:00 3 hours
+	(3.0) health_physics_paper.txt
+	
+*12:00 01/11/2010 - 2:00 2 hours
+	(2.0) health_physics_paper.txt
+	
+*10:00 AM 01/07/2010 - 12:30 PM 12.5 hours
+	(1.0) talked to kristen
+	(1.5) went over stats with will_lui.txt
+	(3.0) lunch.txt, banagrams
+	(6.0) will_lui.txt
+	(2.0) laptop_fix.txt
+	(1.0) email.txt
+	
+*10:00 AM 01/06/2010 - 5:00 PM 7 hours
+	(1.0) sorting emails
+	(2.0) meeting with Will Lui and lunch will_lui.txt
+	(1.0) image_computer.txt
+	(1.0) worked on Gayle's laptop laptop_fix.txt
+	(1.0) laptop_fix.txt
+	(1.0) edited McQue's paper
+
+*10:30 AM 12/30/2009 - 2:00 pm 3.5 hours
+	(3.5) databasing_ben.txt trying the example with Grad_Shool text file
+	
+*12:00 PM 12/23/2009 - 6:00 6 hours
+	(1.0) lunch at mcdonalds
+	(1.0) anna chatting and playing checkers
+	(4.0) writing the time sheet script and categories for bens_job_review.txt
+
+*2:00 PM 12/22/2009 - 8:00 6 hours
+	(0.5) email.txt
+	(0.25) misc.txt helping tanja write up my report
+	(5.25) bens_job_review.txt
+
+12/21/09
+	I've just finished up the halozyme work and I think that now would be a good time to do some review and planning for the next few months.
+
+12/17/09
+    I just filled out the era commons for Gayle, turns out it wasn't needed for some reason.  I did however write down the password and give to to Kristen for future reference.
+    I have finished up the wine stats, the final part was very easy, it probably only took 15 minutes
+    I have started drafting the MTA, I really wish I had worked on this earlier, because it really is quite easy considering that the office will do it for me.  Yet again the lesson is to call first and then do leg work.
+    Just finished returning the macrocodes on the janus website.  You can see the steps in this at return_macro_codes.txt
+    Performed the monthly backup of the external hardrive.  I must admit that it is a bit of a pain, but then again so is life.  I really wish we had a second set of cords for the drives.
+    Finished making the janus macro codes searchable.  It was a nice lesson in refactoring, pulling form inputs from the database, sanity proofing work, and scripting the process in advance.  The full notes are available at janus_macro_codes.txt
+
+12/10/09
+    I just spent the last hour and a half building an endnote citation library for Tanja.  This is a necessary task at this point, but it was made necessary by a lack of planning.  The citation were not well managed through the life of the document.  So the work I did repeated work done previously to organize a system of references.  It would have been better if that previous work had been maintained with its documents, if they had moved as pairs.  Storing them in the same folder together would be a good start in this effort, putting them in dropbox would be even better.  
+    I just cleared up the missing research totals on the janus tissue search, but I learned that lo-and-behold, the has_micro stipulation was responcible for the entire thing.  I don't understand why that stipulation is in place on the search to begin with.  I have taken it off in the hope that it will 
+    I also just started adding in the macro-codes to the search results which involved translating the topology and morphology codes into their more descriptive forms from the snomed codes.  Hopefully I can get these classified in the same way as the micro pathologies and thereby have them searchable, but we shall see... 
+
+10/29/09
+    Finished up the first pass of the wsdl document.  Now I need to proof that it is OK, and I will use eclipse to do that.  It is worth noting that eclipse has tools for developing wsdl communication tools which I might have used from the onset, still I think the way that I have developed things has given me a richer sense of the underlying protocol.  Perhaps I would have been best off to generate a very simple wsdl document entirely by hand and then gone off into a wsdl generating program, but either way no bother, its been very fun to work on.  The only thing is that I should be getting back to the paper and I'm still a ways away from that.  The process of tying this web service back into a known vocabulary is still a black box for me.  I suppose I will be with it soon.  Too bad its been so fun.  Next project I am on I must be sure to have a customer straight off the get go so that I can try to suit their interests.
+
+10/28/09
+    Worked on fixing the distillation pump and found it was so much faster to have many eyes (Caroline, Ye, and I) on the problem.  Ye noticed that the trigger was stuck making a false leak, I figured out how to remove the casing and which replacement part it was, caroline found the manual, cleared space, and identified the problem itself.  Perhaps the lesson here is that when exploring a new system, many eyes are a useful replacement for expertise.
+
+before 10/28/2010  see bens_job_time_sheet_archives.txt
+
+Summary of Experience
+
+	In the first month, I submitted the hnRNP paper after adding a paragraph on differentiation, addressing Tanja and Gayle's corrections, and proofing acronym use, comma usage, and sources.  Dave introduced me to computer administation (backups + permissions), the databases (locations and naming conventions), the FTP client, webserver, and stata.  Then, Tanja, Dave, and I drafted a plan for the dog tissue database which I will work on next.  Most importantly, I ran and wrote a report on the winestats.
+
+Overview: 
+    I started work at my current post during Aug of 2008.  I took over for Dave who trained me.  Since starting I have successfully submitted the hnRNP paper.  I put the dog tissue database online (janus.northwestern.edu/dog_tissues).  To do so I had to learn SQL, html, php, and javascript and become intamitely familiar with the archives themselves through their myriad documentation and talks with Dave, Tom Fritz, Angela, and the lab.  I've run many wine stats and other issues of routine maintenence at the lab, backups printer installations, program installations, computer troubleshooting.  These activities culminated in the woloLIMS project which added dropbox, desktop search, automated backup, and internet access to all of the lab's machines.  I failed to successfully oversee Nathalie for her summer work and have only performed preliminary statistical analysis on the tissues.  I've worked with Michael Gruenberger from the ERA to coordinate the data from our studies and have done the appropriate background research on data sharing, SOAP, WSDL, RDF, and so on.
+    These activities have taken a total of 934 hours or about 23 weeks of full time labor.  A more detailed breakdown of my time use is available from bens_job_time_sheet_archives.txt
+

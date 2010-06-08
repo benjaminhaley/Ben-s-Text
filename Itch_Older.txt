@@ -1,0 +1,7 @@
+Itch_Older
+	to make files that have been accessed longer ago itchier than those that have been accessed recently
+
+	done:
+		multiplying current itchiness by deltaAccessed
+
+Dave didn't seem terribly impressed with the sratch protocol.  Mainly it didn't work for him because so many of his documents had a scratch time of 1.0.  In these cases it would be best if the itch were to be more pressing for older documents and work its way up to the newest ones.  I will try to make that improvement shortly and give it back to Dave in this improved way.  Also there were some UI bugs that I thought I had corrected but came through in the copy I gave to dave.  This is unnacceptable and could easily be worked around by being careful to run the program once before handing it off to him.

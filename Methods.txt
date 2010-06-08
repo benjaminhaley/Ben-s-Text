@@ -1,0 +1,2 @@
+Methods:
+	A subroutine of a class or object, used to affect the variables associated with that class or object.

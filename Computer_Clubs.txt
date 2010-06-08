@@ -1,0 +1,33 @@
+Computer_Clubhouse	http://www.computerclubhouse.org/
+
+	Started at MIT Mediat labs, the Computer Clubhouse gives participants the opportunity to become designers and creators.  The Clubhouse provides the resources, materials, and tools for young people to develop projects in the following areas:
+
+    * computer simulations,     	* multimedia creations,    	* electronic music,    			* computer game design,    
+    * computer-controlled devices,    	* three-dimensional design,    	* developing World-Wide Web pages.	* electronic publishing
+
+	Rather than playing games with computers, young people learn how to use professional software for design, exploration, and experimentation. In the Clubhouse, young people can try for themselves what it is like to be an architect, engineer, composer, artist, journalist, scientific researcher, computer programmer, and a wide array of other professions in the modern workplace.
+
+          o Westside Youth Technical Entrepreneur Center - WYTEC
+            4213 W. Madison
+            Chicago, IL USA 60624
+            773-533-3500
+            Coordinator: Michael Strode
+
+          o ABJ Community Services
+            1507 E. 53rd Street
+            PMB 336
+            Chicago, IL USA 60615
+            773-667-2100
+
+          o The Zone
+            Howard Area Community Center
+            7648 N. Paulina
+            Chicago, IL USA
+            773-381-3652
+            Coordinator: Jeff Sweeton
+
+          o Austin YMCA
+            501 N Central Ave,
+            Chicago, IL USA 60644
+            (773) 287-9122
+            Coordinator: Isaac Baker 

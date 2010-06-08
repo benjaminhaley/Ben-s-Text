@@ -1,0 +1,5 @@
+coding_ideas.txt
+	some ideas that I might exploit on my next coding project
+
+code iterations		
+if you allow users to set a number of options that interact it becomes factorially more difficult to perform interaction bug testing

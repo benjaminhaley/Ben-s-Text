@@ -1,0 +1,11 @@
+Study
+	To Learn	
+
+News			(see http://localhost/Archives/In_The_News.txt)
+Books			(see http://localhost/Archives/Books.txt)
+Improving Memory 	(see http://localhost/Archives/Memory_Improvement_Techniques.txt)
+Hitting on Girls
+Speaking
+Programming		(see http://localhost/Archives/Programming.txt)
+
+Currently: working on IMAP4 and In_The_News

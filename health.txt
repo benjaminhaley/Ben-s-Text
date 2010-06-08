@@ -1,0 +1,9 @@
+health.txt
+	tracking and monitoring my health
+
+to do:
+	does my insurance cover deviated septum, wisdom teeth?
+	heart_rate.txt - notes on wearing a heart rate monitor
+	working%20out.txt
+	get a pedometer like fitbit or directlife
+

@@ -1,0 +1,12 @@
+wololab_order_form.txt
+	An order form for the wololab website for our people to use
+
+
+            should be able to add more than one of the whole thing and the items (they should repopulate with the same info)
+            vendor name, full address, phone number
+            catalog #, name of item, quantity, price, shipping price
+            grant (ccne or doe or 'dont know)
+            should email tanja and gayle upon submission
+
+2:35 PM 5/6/2010 
+I promised to do this at a lab meeting one ambitious day, but now that we do not have the power to send emails automatically I have given up the process.

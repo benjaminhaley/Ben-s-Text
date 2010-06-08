@@ -1,0 +1,15 @@
+Northwestern_Computer_Adminstration
+	Access, permissions, and maintence info for 'the beast' FTP, printer, webserver and desktop computer.
+
+WoloLIMS	a project to add search, backup, sharing and antivirus to the lab's machines(woloLIMS.txt)
+Server		janus and wololab: access, updates, permissions		(Northwestern_Web_Server.txt)
+FTP Client	remote access to 'the beasts' filesystem 		(Northwestern_FTP.txt)
+permissions	login and access info for 'the beast'			(The_Beast_Permissions.txt)
+maintenence	backup, cleanup and antivirus for 'the beast'		(The_Beast_Maintenence.txt)
+printer 	installing/troubleshooting the laser printer		(Northwestern_Printer)
+webpage     ensuring that the wololab webpage stays up-to-date  (wololab_updates.txt)
+lectures    uploading lectures to the wololab website (wololab_lecture_uploads.txt)
+
+Help		call Chris Fabri at NUIT
+		call Dave Paunesku at (312) 890-8914
+		call Ben Haley at (630) 401-0637

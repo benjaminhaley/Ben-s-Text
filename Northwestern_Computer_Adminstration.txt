@@ -1,0 +1,13 @@
+Northwestern_Computer_Adminstration
+	Access, permissions, and maintence info for 'the beast' FTP, printer, webserver and desktop computer.
+
+LIMS		security, sharing, backup				(see WoloLIMS.txt)
+Server		janus and wololab: access, updates, permissions		(see http://localhost/Archives/Northwestern_Web_Server.txt)
+FTP Client	remote access to 'the beasts' filesystem 		(see http://localhost/Archives/Northwestern_FTP.txt)
+permissions	login and access info for 'the beast'			(see http://localhost/Archives/The_Beast_Permissions.txt)
+maintenence	backup, cleanup and antivirus for 'the beast'		(see http://localhost/Archives/The_Beast_Maintenence.txt)
+printer 	installing/troubleshooting the laser printer		(see http://localhost/Archives/Northwestern_Printer)
+
+Help		call Chris Fabri at NUIT
+		call Dave Paunesku at (312) 890-8914
+		call Ben Haley at (630) 401-0637

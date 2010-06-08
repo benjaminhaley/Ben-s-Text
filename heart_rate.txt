@@ -1,0 +1,16 @@
+heart_rate.txt
+	My observations while measuring and controlling my heart rate
+
+60-70 	sept 2009 - resting  		
+110 		sept 2009 - yawning 		
+90 		sept 2009 - making breakfast	
+210 		feb 2010 - max
+
+
+wikipedia says:
+	max heart rate (hard to measure accurately) should be 189 +/- 6 ( 208 - .7*age ).  Moderate training will be between 60% and 80% of max heart rate, between 140 and 152.
+	
+
+
+1:24 PM 9/28/2009
+	I just got the heart rate monitor today and I have decided to wear it to measure my heart rate all day.  I hope to employ the tool later for exercise, but for the time being it is interesting to learn some of the things that control heart rate.

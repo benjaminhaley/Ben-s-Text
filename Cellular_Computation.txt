@@ -1,0 +1,26 @@
+Cellular_Computation
+
+Molecular Computation Thermodynamics (Bennett 1982)
+•	This brilliantly written review paper does not provide a argument for universiality in biology.  It does however, say that such systems are readily imaginiable and proceeds describe the energetics of molecular computing.  It describes hypothetical models of computation that require very little energy.  The first impractical model, is represented by billiard balls bouncing through a mirrored surface to calculate ballistic trajectories.  If the interactions are elastic this system uses no energy to calculate its output.   More realistically, Bennett reviews his own model of low-energy calculation using a Brownian computer whose energy use approaches zero as the operating speed slows.  The important caveat here is that the operations of this computer need to be simply reversible.  If there are too many system states that would lead to the current system state, the machine will be perpetually mired in these multiple previous states.
+
+
+
+memory of DNA, memory of RNA, speed of turnover, methylation, structural modifications (like copy number) various histone modifications, rates of annealing, recombination, viral x-fer, metabolism, protein-DNA, protein-RNA, protein-protein interactions,  and so on can be used to offer a lowball estimate the computational specs of a cell.  By understanding these process, we might compare to modern computers. We might determine the total information processing capacity for an organism or a ecosystem.  We will also get one rung closer to interacting with this system.
+
+biology can create arbitrary 3-D shapes	(22:00)	http://video.google.com/videoplay?docid=-6950604815683841321&ei=yIU9Sff1KYi4-QHgjanoCg&q=biological+computation
+
+The human genome has 3 billion basepairs or 0.7 gigabytes (http://en.wikipedia.org/wiki/Genome).  It fits in a volume of 8.143*10^-18 m^3 (http://en.wikipedia.org/wiki/Genome).  It weighs 3.3 picograms (http://en.wikipedia.org/wiki/Genome_size).  The RNA content of a cell might weigh 5 picograms (http://www.ambion.com/techlib/tn/93/9315.html).
+
+What is the composition of the RNA (a bunch of rRNA and tRNA?)
+What is the compresability of the RNA population of a cell?
+What is the total engery comsumption of a cell?
+
+understanding the time/space complexity of various complexity classes is the approach for gauging the utility of a particular universal model (http://en.wikipedia.org/wiki/Complexity_class)
+
+
+Genomes are largely redundant, so they may be compressed to about 10% of their original size (http://hc.ims.u-tokyo.ac.jp/JSBi/journal/GIW01/GIW01P130/index.html).
+
+
+fuzzy CRM		logic operators in biology will likely be fuzzy and probabalistic affecting algorithm design
+genomic power		we need to figure out the rate of CRM regulation in order to compare it to a real computer
+	binding probability	I bet the biomoleculse binding is faster than brute force, in fact I think optimizing binding pathways is a foundational probablem for cells

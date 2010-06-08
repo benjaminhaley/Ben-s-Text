@@ -1,0 +1,12 @@
+Version_Control
+
+I want all of my peronal files to have version control so I am more at liberty to modify them without fear of losing their content.
+
+So I have setup an SVN server using the tortise client at C:/SVN or file:///C:/Users/Benjamin.Haley/Desktop/SVN 
+
+Controls: (all right click)
+	Add files : right click select add
+	Commit changes : Right click and choose commit
+	Revert to a previous version: I right click and choose Update... select previous version and click update
+
+I need to automate the addition and committing of changes (perhaps when the scratch starts?)

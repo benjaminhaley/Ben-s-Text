@@ -1,0 +1,85 @@
+stefan.txt
+	To get a wololab machine running stefan's data analysis softare so that Tanja can do her own
+
+Related Docs: 	
+        Northwestern_Computer_Administration.txt
+		bens_job.txt
+		IDL_notes.txt
+        maps_server.txt
+        ITT_contact.txt             to get in contact with the people who license the IDL software that MAPS runs on 
+
+Time Sheet:
+	12:54 PM 8/17?/2009 - 2:00 	(1) Talk to T
+	12:00 PM 8/27/2009 - 1:00 	(1) Meet with Stephan
+	3:04 PM 9/3/2009 - 5:00		(1) passing tests, (1) hardware
+					            (9) learning MAPS at argonne
+
+Questions for Stefan
+
+Important:
+	Where can I get the real code for MAPS?
+	What's the deal with this error
+
+On fitting:
+	Why do we need to export the spectrum before we start the scan
+	Can we add an section on 
+
+
+To Do:
+    Install IDL 230080 
+	Get Programs (IDL and MAPS (source or runtime) - http://www.stefan.vogt.net/downloads.html)
+	SVN access (ask stefan how to set the file preferences and MAPS routines)
+	read xfm background
+    Try fitting Hans's data
+        ftp://ftp.xor.aps.anl.gov/pub/user2ide/2ide/
+        woloschak.zip
+    order IDL  
+        
+Software
+	MAPS - see MAPS_notes.txt
+	IDL liscence $300 +$150/yr
+	
+Documentation:
+	MAPS - see MAPS_documentation.txt
+
+
+Server (see maps_server.txt for details)
+	$4,538.25 - Dell Precision T3500 with 64Bit Intel Xeon W3570 quad core processor, 12GB DDR3 SDRAM, 256MB NVIDIA® Quadro® NVS 295 w/ 2 DP to DVI Adapters RAID5 3 250GB SATA, 2 24" monitors, ethernet controller, Microsoft Office, and 3 year service and accident warentees.
+
+
+
+6/7/2010 - A sample analysis at last
+    So I spent the day pouring through a sample ananlysis that I am still really right in the middle of documenting and setting up questions for Stefans.  I was very happy to have avoided a slew of petty bullshit and found that things worked (mostly) from the get go.  Most importantly I dug through my old notes and Stefan's manuals.  I recovered some old data that had been analyzed and then worked my way through recreating that analaysis.  The most intamate part of the process, the spectral curve analysis seemed to go very well indeed.  I forgot about some of the spikes that I should have included, like the L-band, but its all nice so it seems.  I have started producing an account of that analysis as a wololab gdoc which I will walk through with Ye and Hans at their conveincence (https://docs.google.com/Doc?docid=0AWNgIkZ1w2sCZGZmcmtkcnNfMjE4bWdyZ3hidng&hl=en)
+    There were two major challenges today that will cause me greif into the future.  1. Stephans IDL libraries were not where he said they were so I have not yet installed and run the real deal.  2. The maps copy on Tanja's machine is raising an error when I try to perform an analysis that works on the Beast computer.  This could be because of the higher version of IDL or the different OS, and perhaps it will dissapear when I use the adult version of MAPS, but only time will tell.
+
+9/9/2009 <-?? just a guess
+
+Ye's Problem
+        start process with gold_l edge
+
+        mda file is missing gold_l edge
+
+        so we open image.dat, and it does have a gold_l edge and then it won't overlay,  The overlay will dropped
+
+        Gold_L, Titanium, Zinc doesn't overlay
+        titanium, zinc, phosphorus does colocolize
+
+        send T a copy of the gruenberger paper
+
+
+
+2:54 PM 8/27/2009
+	Today I had a chance to chat with Stephan about getting the machine up and running.  He gave me a basic overview of the hardware and software needs and we set up a chance to meet in Septembe so he could train me and Ping on the software. 
+
+5:51 PM 9/3/2009
+	I spent some time today going through the online tests which are very easy (note earlier I registered as a beamtime user).  I've found that the best approach is to open the study guide simulataneously to taking the test and then any questions that seem slightly questionable should be referenced using ctrl+f.  Finishing the 4 tests for the APS took 1 hour. 
+	I also spent some time looking into the hardware purchase we might make for lab.  I was helped in this effort by Ye, who composed the above recommendation based on his expertise.  However, I think my approach was wrong from the get-go, I should have asked Stefan what the important operations in MAPS were from the get go and set up in advance how much time I was willing to spend thinking about the subject.  I suppose given that it is a $5000 purchase with maybe $1000 bonus for good investigation and my time use probably costs the lab about $50/hour I should be wary of investing more than 10 hours in the project lest I cut into the potential profits of my time.
+
+5:21 PM 9/4/2009
+	OK, after recieving feedback from ITT and Stefan I spent a good amount of time today picking out exactly the right machine based especially on the best rated DELL hardware from the floating point SPEC2006 thoroughput results.  The solution we have picked out is surprissingly the lowest tier of DELL's latest release of Precision PCs, but beefed up enough to make it a truly impressive insturment.  Most of the advice came from ITT, stefan, and the SPEC, I was not able to include much of Ye's advice because I did not have a solid set of stats from him (I should have asked him for a link to his pick).  The only audiable I called was downgrading the memory from 4*6 24 G to a 12 G, there is no doubt that this will reduce performance, but it certainly falls withing the acceptiable specifications, so I think that overall this machine will blaze (fingers crossed).
+
+
+8:39 PM 9/14/2009
+I have to say that direct access to experienced tutalage is amazing for efficiently learning a system.  Not since I grilled dave on the meanings of his Northwestern work or Fritz on his dog tissue archive have I felt like I learned so much so quickly.  Naturally the biggest advantage is that people can answer questions, adjust to your pace, and keep your learning focused.  I should strive, in the future, to recieve one on one tutalage in any subject that I can get away with.
+
+Also, Stefan alluded to a project here at Argonne related to getting an algorithm onto some of the APS data so that certain basic facts could be put online.  He quized me about my plans, presumably with the anticipation that he might be able to capture me in some labor.  I will followup on that and feel out the program.  It sounds cool, but perhaps too much of a chore to be done.

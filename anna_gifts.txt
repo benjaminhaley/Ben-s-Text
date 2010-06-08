@@ -1,0 +1,12 @@
+anna_gifts.txt
+	A list of gift ideas for Anna
+
+	check out her to-read on good books
+	Flowers
+	Comic Books (see http://www.boingboing.net/2009/11/30/boing-boing-gift-gui-5.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+boingboing/iBag+(Boing+Boing)&utm_content=Google+Reader)
+	R. Crumb's genesis book
+	The Art of Tony Millionaire
+	the big book of urband legends
+	sauces by julia childs
+	
+	

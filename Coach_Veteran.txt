@@ -1,0 +1,10 @@
+Coach_Veteran
+	To help dave develop a tool for the veterans that might bring $20,000 grand of outside development money to produce an open source web implementation of the Coaching interface (joy).
+
+Dave has an data architecture that he could build on to a google spreadsheet (we would migrate later when we hire some developers), I have a goal of producing the text/email side of the implementation that would deliever content to my mom using a google spreadsheet as the database.  All we have to do is come up with a few test case goals and see if they can be fitted to the data architecture and start testing the system ourselves and then with outsiders.
+
+So the goals I am going to bring, I want to:
+	Stop eating fried food
+	Start doing daily cardio
+	Get the txt gateway opperational
+	Study programming languages 20 hours a week

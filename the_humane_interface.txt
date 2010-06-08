@@ -1,0 +1,25 @@
+the_humane_interface.txt
+	Notes on the book the Humane Interface by Jef Raskin
+
+Summary:
+	The humane interface was great.  Jef's leadership on the Macintosh project and the Cannon Cat design gave him the kind of credibility and clarity that only experience bring.  Decisive and unapologetic without being arrogant, Jef paints a vision of a grand interaction between humans and computers founded on the principals of human cognition and the possibility of design.
+	His central focus is our ability to manipulate and search through text, which is the most efficient mode of human computer interface.  He shows how habit formation demands a modeless interface, how text search can and must be instant, and how the file structure of documents is an unnatural tyranny in the organization of computer documents.
+	Following are the main points that Raskin made:
+
+Users will forget sensory details in < 1 second after being exposed to them if they do not commit them to memory.
+Multiple options to do the same task inhibit habit formation.
+People are only conscience of one things at a time, all our other behavior is automatic and habitual.
+Avoid states and modes, these conflict with habits by responding differently to the same behavior.
+If you insist on modes, they should be actively maintained, like in the case of holding down the shift key.
+Avoid user customization of interfaces.  Users are generally bad designers.
+We are all blind to information outside our locus of attention.  You can ask 'would a blind user be able to use our interface' to determine if you are asking for split attention or relying on hidden modes.
+Do not allow commands to affect areas outside the user's locus of attention.  They will not not notice these side-effects.
+The distinction between expert and beginners is a false dichotomy.  Rather any particular operation is known or not.  Experts are no better at performing unknown operations than beginners.
+A program should interact with its user on the smallest meaningful unit of input.  For example a text search should respond letter by letter.
+Return all settings to their original state after a program or operation has been performed, except those that were explicitly designed to be changed.
+Do not deliver messages that the user cannot act on.  If you tell a user they must click "I agree" before proceeding it will do nothing but annoy them.
+Design commands rather than applications.  Applications are too frequently redundant.  Paint applications support text inputs while text application support drawing.  Instead one could design good paint and text commands and make them available all of the time.
+'Intuitive' is more often familiar.  An untrained mouse user often picks it up rather than rolls it on a table.
+Icons are typically harder to decipher than text.  If you will use icons, combine them with text.
+Use < 7 colors to distinguish color coded items.  Less than 4 is best for distant objects.
+Text is a sufficient input.  It is fast and available, users seldom need to fill out elaborate forms or make complex mouse motions.  Pure text is often the most efficient.

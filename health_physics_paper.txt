@@ -1,0 +1,144 @@
+health_physics_paper.txt
+	To publish a review of the dog tissue archives for the health physics journal
+
+Overview
+    Gayle has asked me to write a paper for the health physics journal which follows up on her presentation at some conference detailing the history of the archives.  I think this will take about 100 hours of work.  I think that 1000 pages of refernce material can be gone over in about 50 hours (20 pages/hour) and that the process of finding all the references, looking through pictures, following leads, organizing the paper, submission, and end noting will take about as long.  I want to give Gayle and T a full reference list as soon as I have it collected and annotated to be sure that I am not missing anything too important.  A big goal for me will be avoiding getting too involved in anything as this paper could be enormous if I allowed it to be.
+
+To Do:
+	Get Authors's signatures
+
+Abbreviations:
+relative biological effectiveness | RBE
+International Radiobiology Archive | IRA
+European Radiobiology Archive | ERA
+Japanese Radiobiology Archive | JRA
+National Radiobiology Archives | NRA
+Department Of Energy | DOE
+X-ray fluorescence microscopy  | XFM
+
+    
+The Health Physics Journal
+    The HPJ is the official journal of the Health physics society and primarily publishes on radiation safety issues.  It published 12 issues a year and has an impact factor of 0.869.  Articles average 6.5 +/- 3 pages.  One Review Article, Nuclear Plant Emergency Preparedness in Russia, is 11 pages long.  It follows an Abstract, Introduction, (catagories), Conclusion, Aknowledgements, References order and there are only 4 references!
+
+Paper
+    health_physics_paper.doc
+
+My Sources:
+	Most are currently in Mendeley folder (Health Physics Paper)
+    Pictures (see Beau/website)
+        
+Email's From Gayle
+	PPT presentaion: http://mail.google.com/mail/?hl=en&shva=1#search/from%3Agayle/12454d1710f70e47
+	http://mail.google.com/mail/?hl=en&shva=1#search/from%3Agayle/12436ea96453e4ea
+    
+6/2/2010 3.0 hours
+    I met with frustration today when Mendely refused to give me any sort of citation output that resembled what I wanted.  Though I managed to define a csl file that was close to what I needed, when I tried to update the bibliography it dumped a number of my citations (about 1/2) rather than try to troubleshoot that issue and whatever subsequent issues will come to light I simplified my approach and will just do it by hand now.
+	submitted!
+	done - fix the citations below grahn D for book, website, and report formatting.  Specifically look at the citations
+	done - also fix the in text citations with more than two authors to be et. al
+	done - replace & with and
+
+	done - should I write a comment about how this work was solicited?
+	done - who are the sources of funding that we should aknowledge? (right now I am using the DOE grants we cited on the lowdose conference poster)
+	done - are my keywords appropriate? ( I list them both in the paper and online, though they are not necessarily the same)
+	done - Fix the citations that have the same author(s) listed twice so that they look like (Smith 1988, 2010)
+	    done - read and send back to tanja one more time
+    done - abbreviated all of the journal titles
+    done - got rid of the periods after journal titles
+	format for submission to the journal
+    
+
+6/1/2010 7.0 hours
+    Prepping for publication
+
+5/27/2010 - 6.5 hours
+    re-read the paper,  added edits, send to Tanja https://mail.google.com/mail/?shva=1#search/tanja/128d0d89d202c25d
+    Then I spent a great deal of time going over Tanja's edits.  There was a growing frustration between her and I over the state of the paper which finally hit a head today and I realized the problems she had with its current form.  Basically, many of the conclusions which I had presented were poorly stated so that they seemed to imply relationships between radiation and lowering rates of various diseases that should not be implied.  It was cathartic that Tanja and I finally sat down together and hashed those things through.  We also came to understand that we had been messed with by our three way communication system with Gayle.  Essentially Tanja believed Gayle would make some of the modification that Tanja ended up making herself.  The answer, in the end, is that I should be dealing with only one master at a time and that doing a three way like that is likely to require me to push harder at getting an appropraite level of feedback because each person will assume the other one will give it.  That said I am really happy with the current state of the paper and I think it will soon be ready for prime time.
+
+5/26/2010 - 3 hours
+    Had a Snafu where I had gotten various versions mixed up somehow, my citations were missing a bunch and Tanja suspected that she was redoing a number of changes that she had already made.  In the end I don't think it was all that bad, but for safeties sake I went through the previous few revisions (starting from the last one that had all the citations) and used google docs (after xlating the files to txt files using notepad) to do a revision comparison.  I meticulously (but thougthlessly) worked my way through the revisions and re-added the corrections that I had made before.  The lesson for the future is to save only one working copy (I had two because of doc and docx) that way you can be sure that all of the changes are being made to the same source.  Of course email confounds that logic which is a good reason to be writing these document on gdocs or on the new facebook word application.  Anyways here's the changes.
+    So I am going to start from Tanja's corrections on April 23rd and work forward... (rev 27)
+    compared the changes that I sent out to Tanja and Gayle on May 3rd (rev 29)
+    compared it to the changes I sent to Gayle on May 5th (rev 31)
+    comparing it to the paper Tanja Just sent to me on May 25th (rev 35) 
+    Checked for Comments in Tanja's latest doc
+    Checked my revised copy against the most recent gdoc (rev 37)
+    Erased the stupid copies
+    Printed
+
+
+5/3/2010 - 3 hours
+	Finished adding Tanja's corrections and improvements and sent it back to them to see how they like it.  https://mail.google.com/mail/?hl=en&shva=1#inbox/1285c0fa0af736b7
+
+04/21/2010 - adding figures - 2 hours
+    add Gayle's additions https://mail.google.com/mail/?hl=en&shva=1#inbox/1276291e392c7bb8
+	add beagle dog picture as figure
+	add mouse figures (perhaps with excel?)
+
+03/23/2010 - addressing Gayle's reactions
+	(1.0) Added the table summarizing the Janus results
+	(1.0) found a reference for the relation of rodentia
+
+03/13/2010
+	done - Look up the % of animals our study makes up
+	done - what is the N value of dogs given between 1.9 and 26 cGy in Carnes/Fritz 1993
+	done - check if I am right that neoplastic deaths increased even as the lowest total dose in carnes/fritz 1991
+	done *could not find any after 1993* - Look up Tom Seeds Leukimia studies for modern dog tissue results (maybe some after 1992)
+	done - I need to add the weeks of treatment and the reduction in lifespan for (Ainsworth et al., 1973)(Thomson, Williamson, Grahn, & Ainsworth, 1981a)
+	done - Actually the above quoted results are truly f-d up
+	done - add lifespan differences and more detail to the Peromyscus story
+	done - add detail to the linearity section
+	done - look through for "[" representing other issues
+	done - proof the current version for flow, intro, and conclusions (use text reading application)
+	done - look for hyphens after JM, ie JM-4.
+	done - look for spaces between dashes (-)
+	done - look for periods before/after references (seach for "(")
+	done - fix the radioprotector section
+	done - perform a spell check
+
+03/10/2010
+	(3.0) added many of Tanja's easier changes (saved the ones that will require sources).
+	(0.25) finished Checking Abbreviations	(RBE, IRA, NRA, ERA, JM)
+	(0.25) fixed up the references
+
+03/03/2010
+    (1.0) finished up the Janus followup organization
+    (3.0) checked for more references, edited the intro, added a conclusion, printed for Tanja
+
+03/02/2010 - 4.5
+	(2) I added/corrected the mutagenesis studies.  I added a list of all of the remaining external studies from the NRA.
+	(0.5) counted studies in IRA and JRA
+	(2.0) worked on the Janus followup studies
+
+02/25/2010
+	I pulled most things into the body and sent it off to Gayle and Tanja https://mail.google.com/mail/?shva=1#drafts/1270731b3bf171cb
+	
+02/24/2010
+    Finished a whole slew of results from the JM studies.  Also I had dream of the wiki which I will be sure to make my next major project. 
+
+02/19/2010
+	Finished up the sections describing Argonne's beagle dogs and wrote the introductory section on the Janus experiments.
+	
+02/12/2010
+	Finished up the background info from the ANL studies.  Can't wait to do the rest of them.  
+
+01/28/2010
+	I made steady progress finishing the draft of the abstract.  Tomorrow I will have to move on to giving the background details for the various studies.  So exciting.  So interferring with PERTS.
+
+01/27/2010
+	To note, I have gotten the pictures from beau (thanks beau!) and written to laney to see if he had any papers to add.
+	Today I worked on the introduction, adding the background material to the archives, citing the major reviews, and beginning the introduction to the various current archival efforts.
+
+01/21/2010
+	Another couple of sources added to the paper in 1 hour.  I left off at page 27 of Gayle's ppt.  Its intriguing to see how these new results fit in with the old ones, I think the paper will be a solid one even with just Gayle's ppt, but I think it will be way more solid with some extra sources.  Hopefully I can have Gayle suggest some of those rather than finding them for myself completely.  Also, I have been going into a week level of depth on the actual numbers from many of the experiments, I might have to go back and make those more precise.  I will know a lot more after I send Gayle and T a copy.  So I am itching to do that.S
+
+01/18/2010
+	I just spent the last hour working on the paper, and it took about that long to integrate the one new source that I found.  That means that if my 8 source estimate is correct, I have about 7 more hours to go before I have all the sources in the paper.
+	
+01/12/10
+	So digging farther into Gayle's ppt, I realized better how this paper should be structured.  First off, I am not ashamed that I am moving through it slowly any longer, because each page contains a new reference which I can integrate a paragraph about into the paper.  By grabbing the citation and summarizing the paper abstract, I gain more info than the original power point had and buff up the peice.  Also, by primarily restricting myself to abstracts and figures, I prevent the dreary-eyed madness of reading a zillion papers.  I think if I keep up this form through gayles ppt and the grey book listings, I will have a nearly complete text.  Adding the relevant portions of the red and JANUS texts will just be gravy.
+	So I made it though 10 more pages of the ppt, and brought in two new sources along with the opening and closing information for the janus studies.  Not bad for a days work.  I think I'll pick this up again tomorrow and say good job for now.
+
+01/11/10
+	I just finished collecting the 7 or so initial resources that I proposed into mendeley.  The chore took 1 hour, because I was somewhat discrated throughout it, but having done that I think it would be a good time to prioritize my sources, start a word doc, and read one or two of them to jump off with.
+	I created a word doc for presentation, prioritized the sources that I have so far, and went through the first 12 pages of Gayle's ppt.  I am hopeful that I will have something useful, but still incomplete by the end of this week if I just keep plugging away at things.  I will be useful to pick up the red book for more reading.

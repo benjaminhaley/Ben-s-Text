@@ -1,0 +1,33 @@
+Databases
+	So that I can better organize queries on the dog and mouse tissue archives
+
+History of Databases:
+	The need for RDBMS's was established in the 1950's with the creation of huge magenetic datasets for corporations, governments, and scientists that were the compilation of many programs, types of hardware, types of software, and adminstrators.  Typically data was thrown into open files with little thought to the overlapping structure between them.  The confusion of so many inputs, users, and platforms created a need for the order which relational databases would help provide. http://www.mountainman.com.au/software/history/it1.html
+	In the 1960's navagational databases emerge.  Charles Bachman founded the Database Task Group in CODASYL and presented a networked standard in 1971.  Meanwhile IBM developed a hiearchical model, IMS which was used on Appolo program.  Both of these standards failed to support search and required querys to follow a chain of pointers to retrieve a full dataset.
+	In 1970 Edgar Codd at IBM proposed the relational database model to fill the search need and provided a set oriented calculus to demonstrate that the system could support insertions and updates.  Eugene Wong and Michael Stonebraker at Berkeley were inspired by Codd's work to start INGRES.
+	Codd's paper eventually inspired IBM to prototype a relational database which proved useful in 1974 and went into full production of SQL/DS later renamed DB2.  However, Larry Ellison's Oracle beat IBM into production by launching in 1978.  The remaining projects including Microsoft's were all developed based on the work on INGRES.
+	
+
+Theoretical Concerns
+	computational and expressive power of queries, finite model theory, dependency theory, concurrency control, deductive, spatial and temporal databases, real time databases, and probabalistic databases.
+	
+
+
+Translating Between Universal Qualifiers and SQL
+
+	Example 
+		U:Every company which is destroying one forest is savage and every person living in Canada is concerned for it
+		w/o: there is not a company that is destroying a forest and is not savage, or there is a person who is in canada and unconcerned
+	
+
+
+
+
+
+
+
+
+
+
+Universal Qualifiers - are terms like every, and at least one.
+Column Oreinteted databases	Seek to reduce hard disks seeks by organizing all column values near eachother on the hard-drive

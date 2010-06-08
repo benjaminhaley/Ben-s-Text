@@ -1,0 +1,5 @@
+frequency = 1 is new?
+
+frequency < 1 is reviewed
+
+frequency > 1 is modified

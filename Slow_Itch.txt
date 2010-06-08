@@ -1,0 +1,3 @@
+Slow_Itch
+
+the Itch protocol is begining to be innefficient I will need to speed up the code... perhaps it would be good to investigate a profiling Tool (see http://localhost/Archives/Profiling_Tool.txt.  Though now that I eliminated stupid code it is faster.

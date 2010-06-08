@@ -1,0 +1,6 @@
+Are_You_Racist_Application
+	simple idea for a product that might get user contribs, create useful data, be fun and raise awareness of implicit racism
+
+Dave's idea was to make an implicit association test game that would test a wide variety of primers and thier effect on object catagorization speed.
+
+I think a good implimentation of this broad idea would be to make an "Are you a racist?" facebook app that would give people the implicit association test show them thier score, provide an explanation of it's meaning, allow them to share with their freinds, and prompt them to contribute further data or get involved in more studies.

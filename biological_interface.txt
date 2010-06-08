@@ -1,0 +1,4 @@
+biological_interface.txt
+	how to interact with biologies information processing networks
+
+Benenson describes improvements in the interface with adelman's biological computers.  Bi (delaware) shows a method for screening mutually inert oligos.  Nitta (Japan) describes retroviral inputs.  Ibrahim (Malaysia) shows a taqman output using RT-PCR.  Johnson (NYU) describes the EDNAC bio-computer designed to automate Braich and Adelman's process in 2007.  (see http://localhost/Archives/Natural_Computing_Review.txt)

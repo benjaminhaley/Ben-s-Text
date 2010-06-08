@@ -1,0 +1,11 @@
+janus_linked_data.txt
+	intending to put the janus databases into linked data formats
+
+Going through the w3c's linked data tutorial (http://www4.wiwiss.fu-berlin.de/bizer/pub/LinkedDataTutorial/)
+	non-information resources are "real-world object" like a protein, people, or concept
+	a representation is a particular encoding of a information resource, like a JPEG stream that encodes a multimedia information resource
+	dereferencing - looking up a URI to get information about a resource (so the reference is replaced by the info)
+	content negotiation allows a client to request a particular encoding of a resource from a server (usually html or rdf) - usually handled in teh uri, by making the immediate parent reference the encoding http://www4.wiwiss.fu-berlin.de/factbook/data/Russia
+	aliasing is common between different projects (ie berlin is referenced in many different ways) you can use (owl:sameAs) to reference known aliases
+	triples - of the form subject predicate object
+	literal triples - an actual value for the object

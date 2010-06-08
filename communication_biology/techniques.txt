@@ -1,0 +1,18 @@
+communication_biology_techniques.txt
+	A list of potential techniques to use and citations to papers, a child of communication_biology.txt
+
+	Patch clamps		Cheap, but kills cells after a few hours
+	Sequencing		Yet to be realized, information flow may be low
+	Microscope 		One way
+	Magenetic feild		??
+	Electrical feild	??
+	Stiffness		??
+	Temperature		??
+	Neurotransmitters	??
+	Lentivirus vectors	??
+	Micromanipulation	??
+	Microinjection		??
+	Optical trapping	??
+	Biosensors		??
+
+As of Aug 2009 I am tagging techniques on delicious with the tag communicationbiology and techniques

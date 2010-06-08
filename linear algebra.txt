@@ -1,0 +1,329 @@
+linear algebra.txt
+	To understand matrix based mathematics in preperation for machine learning work
+
+Class
+	Textbook: Introduction to Linear Algebra, Strang, MIT
+	Calendar: (homework is due every 3rd lecture or so) http://tinyurl.com/qtqact
+	Video Lectures: 40 http://tinyurl.com/aeo2v
+	Assignments: 10 http://tinyurl.com/qf5vpu
+	Previous Tests: http://tinyurl.com/pd2vgd
+
+Quiz 1 90/100
+
+
+Lecture I 5/23/2009
+	Basic intro with these elegant thougthts
+
+	Linear Combination		A combination of lines
+	ALL linear combinations		a linear combination of two lines can reach all points in a place
+					just add enough of the first line to aim at the point and enough
+					then enough of the second to get there... but not if they are parrellel
+	matrix times vector		can be thought of as the addition of columns
+					{ 1 2 } { 3 } = 3*{ 1 } + 2 * { 2 }
+					{ 3 3 } { 2 }     { 3 }       { 3 }	
+
+
+Lecture II 5/23/2009
+	How to change columns/rows and solve systems of linear equations by elimination
+
+	elimination		successive subtraction of equations to eliminate variables until only one remains
+	Pivot			the current variable which is meant to be eliminated from the next equation
+	zero pivot		when the next pivot value is zero, elimination cannot be applied
+	exchange		compenstates for a zero pivot by switching its row with another further down
+	back substitution	calculating the vector solution given the elimination matrix
+	vector X matrix		affects the rows of the matrix
+	matrix X vector		affects the columns of the matrix
+	matrix X matrix		just says give me this many of this row + this many of this row anon
+	permutation matrix	exchanges a column with a row
+	associativity		the parenthesis can be moved in matrix multiplication???
+	inverse			the matrix which undoes the actions of another
+
+
+Lecture III 5/26/2009
+
+	matrix multiply (4)	as the sum of A(row)(i) * B(col)(i) across all i for every row in A and col in B
+				as the concatenation of A times the vector cols of B
+				as the concatenation of the vector rows of A times B
+				as the sum of well chosen blocks, still following the row and column rule
+
+	Inverses 		A * A^-1 = A^-1 * A
+	Finding the inverse	Augmented A with the identity and perform elimination to the reduced form, R
+
+
+Lecture IV 5/26/2009
+	Elimination
+	
+	LU decomposition	A = LU is the decomposition of A by elimination
+	Lower matrix		the lower matrix is called L
+	Upper matrix		the upper matrix is called U
+	Dividing by matrix	A * B = C, so A = B^-1 * C	( notice B is behind A then in front of C )
+	Transpose of Inverse	A^-1 * A = I, A^T^-1 * A^T = I
+	O( elimination )	n^3, because we are are doing ( n - r(i) )^2 opperations for each row of the matrix
+	O( linear equations )	n^3, if there aren't too many zeros or row exchange steps
+	permutation count	n! (is the number of ways that we can permutate a matrix)
+	L is prettier than E	E is the elimination matrix, but it is actually much prettier as L which is the inverse
+	Permutation group 	Permutation matrices form a group wherein you can multiply and invert and remain within the group				
+
+Lecture V 5/26/2009
+	
+	permutations and transpositions
+		row exchanges		A = LU breaks down during row exchanges
+		matlab zero		matlab cares even if the pivot is near zero
+		permutation transpose	the transpose is the inverse (think about it...)
+		A * A^T symmetry	a matrix times its transpose is symetrical
+		( A * B^T )^T		B * A^T (note the order is switched)
+	
+	
+	vector space	
+		vector space rules (2)	vectors can be added, vectors can be multiplied by a scalar
+		R^2 (pronounce, def)	read "R two", is a two valued vector 
+		subspace		a vector space within a vector space which retains the vector space rules
+		R^2 subspaces (3)	R^2, any line through the origon, the origon
+		subspace v space	while they are the same shape, a subspace may have more coordinate values than a space
+		column subspace		the subspaces defined by the columns of a matrix
+
+
+Lecture VI 5/30/2009
+	Subspaces, columns and nullspaces
+		  	
+	Subspace intersect	the intersections of two subspaces is a subspace
+	Subspace Union		the union is not in the subspace unless one is contained in the other
+	C( A )			the column subspace of A
+	pivot columns		those columns which add dimension (R) to the column space
+	finding p-columns	if elimination cancels out a column, the column is not a pivot column
+	Nullspace		the solutions of x in Ax = 0
+	Nullspace R		the R of the nullspace is proportion to the number of trivial columns in the column space
+	nullspace		the nullspace is invariably a subspace
+
+
+
+Lecture VII 6/01/2009
+	Solving for Ax = 0
+
+	solve Ax = 0			In reduced row echelon add the solutions to each free variable
+	L x = 0				IS equivilant to Ax = 0, bc A x = LU x = L * (Ux) = L*0 = 0
+	row echelon 			(U) zeros below all the pivots, a staircase of zeros
+	reduced row echelon		(R) zeros above and below the pivots, with 1's in the pivot points 
+	pivot v free columns		pivot columns make a new row in the row echelon form, U
+	rank(A)				# of pivot columns
+	pivot identity			the reduced row echelon form of the pivots form an identity matrix
+	[ I F ] * [ -F ]  		=  -F*I + F*I = -F + F = 0
+	[ 0 0 ]   [ I  ]
+
+
+
+
+Lecture VIII 6/16/2009
+	Solving for Ax = b
+
+	Xp			x particular one of many solutions to Ax = b
+	Xn			x null is the set of all solutions if x is null
+	Xp + Xn 		All of the solutions to Ax = b
+	full column rank	r = n, each column has a pivot
+	full row rank		r = m, each row has a pivot
+
+	r = m = n (sol., R=)	R = I		one solution
+	r = m < n (sol., R=)	R = I F		infinite solutions
+	r = n < m (sol., R=)	R = I		zero or one solutions
+			    	    0
+	r < n, r < m	R = I F		0,  many, or infinite solutions
+			    0 0 
+
+
+Lecture IX 6/16/2009
+	Dimension and Independence
+
+	independence		that the nullspace is only the zero vector
+	dependence		that the vectors can be added in such a way as to arrive at 0
+	dimension		simply the dimension of the column space C(A), equal to the rank
+	Basis			a sequence of vectors that is independent and defines a vector space
+	dimension of N(A)	the dimension of the nullspace is the number of free variables or n - r
+
+
+Lecture X 6/17/2009
+	The spaces of a matrix
+
+	Null space (dim?)	N( A ), the columns which are free following elimination.  Dimension = n - r
+	column space (dim?)	C( A ), all of the column vectors.  Dimension r
+	Row Space (dim?)	C( A^T ), the column space of A transpose.  Dimension r (rank)
+	Left Null Space (dim?)	N( A^T ), the null space of A transpose.  Dimension = m - r (rows - rank)
+	3X3 vector (possible?)	vectors can be added and multiplied by scalars, both of which can happen for 3x3s
+	3x3 subspaces (3)	upper trianuglar, symmetric matricies, diagonal.  Can be added and multiplied by scalars
+
+
+Lecture XI PM 6/17/2009
+	dimensions, spaces and rank generally
+	
+	Basis of 3x3	`	the nine matricies with ones in only one of their positions
+	dimension of 3x3	nine
+	dim of 3x3 symmetric	six (the diagonal and one of the triangles
+	dim of (S intersect U) 	3
+	dim of ( S union U )	6
+	dim v1 + dim v2 	dim v1 union v2 + v1 intersect v2
+	basis of y" + y = 0	sin(x), cos(x).  A special case of Ax = 0
+	dim of y" + y = 0	2 (because there are two factors in the basis)
+	rank 1 factoring	rox * column, that is the whole matrix can be produced from one column and one row
+	rank of A + B		max rank( A, B ) <= rank( A + B ) <= rank( A ) + rank( B )
+	dim v1 + v2 + v3 = 0	is the dimension of the nullspace, two, because two of the variables are free
+	rank matrix basis	A rank 4 matrix will find as its basis 4 rank 1 matrices
+
+
+Lecture XII 6/18/2009
+	Applications of Linear Algebra in graph theory
+	
+	loops dependence	In an incidence graph, loops are not linearally independent
+	incidence matrix	where the rows are edges and the columns are nodes
+	N( dir graph )		the null space of a directed graph is where the potential is 0 between each node 
+	potential( A )		A * x = 0, in the case of no potential, where x is current
+	current( A )		A^T * y = 0, in the case of no current, A^T * y = f if there is current, where y is potential
+	current potential (A)	A^T * C * A * x = f, x is the net current, c is current/potential relation, f is out current
+	Loops, edges, nodes	1 = Edges - Nodes - loops, where the loops are independent
+
+Lecture XIII 6/19/2009
+	Review
+	
+	Can B^2 be 0 if B is 0?								Yes
+	Can n equations with n unknowns with independent columns be solved?		Yes
+	Does multiplying by an invertable matrix change the nullspace of a matrix?	No
+
+
+
+Lecture XIV 6/20/2009
+	Orthoganality
+
+	x * y^T	= 0		this implies orthogonality between vectors
+	x * x^T			is the length squared of the vector
+	(x + y)^T * (x + y)	
+	blackboard floor	are not orthogonal to eachother because the intersection line is in both
+	orthogonality?		All vectors in a space are orthoganal to eachother
+	row v null space	these are orthoganal because Ax = 0 multiplies each row vector by x to produce 0
+	orthogonal complements	contains all of the vectors that are orthoganal, the row space and null space are complements
+	A^T * T x = A^t b	the solvable form of an overdetermined matrix
+	N( A^T * A )		= N(A)
+	rank A^T * A		= rank A
+	inversion of A^T * A	if N(A) = 0
+
+
+Lecture XV 6/20/2009
+	Projections, Least squared
+
+	p(a, b)			a^T * ( b - xa ) = 0  ->  p = a * ( a^T * b ) / ( a^T * a ), because the vector to the projection is perpidicular to a
+	projection matrix	P the matrix that b needs to be multiplied by to find its projection in a
+	( a*a^T ) / ( a^T*a )	the projection matrix used to multiply a vector to find its projection in a
+	C( P ) 			the vector a
+	rank of P		rank 1, because it only includes a
+	P^T = P			the projection matrix is symmetrical
+	P^n = 			P, because if we are already on the line we will stay on the line
+	P Ax = P b		->
+	error space		in the null space of A^T, which is perpendicular to the column space, C( A )
+	A( A^T * A )^-1 * A^T	the projection matrix when projecting onto matricies (note you cant inverse A, only ATA)
+	P^2			A( A^T * A )^-1 * {A^T * A}( A^T * A )^-1 * A^T = A( A^T * A )^-1 * A^T
+
+
+Lecture XVI 6/20/2009
+	orthaganal subspaces
+	
+	P * perpendicular	a projection matrix times a matrix who's column space is in the null space = 0
+	P * column space	a projection matrix times a matrix who's in the column space returns the column space
+	I - P			the projection onto the nullspace of A^T
+	(A * A^T)^-1		is true provided that Ax = 0 is only solvable when x = 0
+	orthanormal vectors	those that are perpendicular to one another
+	x hat			is the projection of x
+
+
+Lecture XVII 6/23/2009
+	Orthonormal basis and matrix
+
+	orthanormal		orthaganol and length 1
+	orthonormal columns	q, qi*qj^T = 1 if qi=qj and = 0 if qi != qj
+	Q^T * Q			orthornormal matricies times eachother = I
+	Q * Q^T			equals I if Q if Q is square
+	orthaganol matrix	this term is reserved for when the matrix is square
+	orthanormal matrix	is a collection of orthanormal columns
+	Adahmar matrix		ones which are all 1's and -1's, its unknown whether this is possible for all sizes
+	Q^-1			= Q transpose if Q is square
+	*orthonormal projectoin	Q^T*Q*x = Q^T * b -> x = Q^T * b, because the Q^T * Q cancels to I 
+	gram-schmidt		a method for turning a matrix into orthonormal w/o affecting its column space
+	v1 -> ? in gram		V1 = v1 / ||v1||, simply divide it by its length
+	v2 -> ? in gram		V2 = v1 - V1 * ( V1^T*v2 / V1^T*V1 ), or v2 minus v1 times its length in the V1 direction
+	Q = A * R		the matrix representation of graham schmidt where R is upper rectangular
+
+Lecture XVIII 6/23/2009
+	Determinants and Eigen Values
+	
+	determinant (3 prop)	det( I ) = 1, row exchange changes sign
+				add v1 to a row and the det( A + v1 ) = det( A ) + det( A sub(v1) )
+	det ( Permutation )	either 1 or -1 depending on the number of row exchanges
+	A^-1 | det( A ) ->	if A is invertible then its determinate is non-zero
+	det( row = row)		is 0, because if we flip the rows the sign is negative and the determinate is still 0
+	det( row1 - c*row2)	the determinate is unchanged after an elimnation step
+	det( row of zeros)	if there is a row of zeros, the determinate is zero
+	det( U )		following elimination the determinate is the product of the pivots
+	proof of invertibility	follows from the det(U)
+	formula of det		follows from the det(U)
+	det( AB )		det( A ) * det( B )
+	det( A^-1 )		equals 1/det( A ) which follows from the det( AB ) property
+	det( 2A )		equals 2^n * det( A )
+	determinate volume	if you double the lengths of a box the volume goes up by 2^3 which is like matrices
+	det( A^T )		= det( A^T ) which means all of our row rules work with columns
+				det
+
+Lecture XIX - 7/23/09 determinates
+
+	properties
+		1. det I == 1
+		2. det sign switches on row exchange
+		3. det is linear in each row 
+
+	finding the determinate
+		1. Across all n! permutations
+		2. Take one component from each row and column
+		3. Multiply their components and add or subtract them based on their row responses
+
+	recursive determinates
+		0. total = 0
+		1. sign = +
+		2. iterate over the top row
+			a. find the sub matrix elimnating current column and row
+			b. total += (sign)*det(submatrix)
+			c. switch sign
+
+Lecture XX - 7/24/2009 deterimnates for closed form inverses
+	
+	A * C^T = det(A) * I 	where C is the cofactor matrix
+	A^-1 = ( 1/ det(A) ) * C^T
+	Cramers Rule		the closed form solution of Ax = b goes to ( 1 / det(A) ) * C^T * x = b
+				not very nice algorithmically
+	row box area		volume of the parrellelepiped (box) determined by the row vectors of A = det(A)
+				this is very obvoius in the case of the identity matrix and its multiples
+
+Lecture XXI - 7/24/2009 eigenvalue introduction
+
+	Eigen vectors 		fit the form Ax = lambda*x
+	Eigen for projection	any x in the plane or perpendicular will be eigen vectors
+				their lambda multipliers will be lambda = 1 and = 0 respectively
+	sum of lambdas		equals the sum down the diaganol of A!
+	product of lambdas	is the determinate
+	eigen parrellality	eigen vectors times their matrix remain parrellel (implicit in the defenition)
+	rotation eigen		form complex solutions (because only they can remain parrallel following rotation)
+	symmetry and eigen	the closer a matrix is to symmetry the more likely their eigen value is to be real (not i)
+	eigen of A + c*I	same eigen vectors as A, lambda equal A's lambda's plus c
+	dependent eigen vectors	screw everything up
+	det(A - lambda)		used to discover lambda in anticipation of finding the vectors x
+	eigen of A*B		nothing to tell
+	eigen of A + B		nothing to tell
+
+
+Lecture XXII - 7/25/2009 
+	eigen( A^2 )	lambda^2
+	A^k -> 0	if all of the eigen values are less than one
+	A^k * 	 	lambda^k * S * x
+	S		the matrix of eigen vectors from A
+
+
+questions
+	why does a triangular matrix have a determinate of the multiple of its diagonal (what does this mean in area)
+	what does A^2 do to an independent vector space
+	how do I calculate the eigen values and eigen vectors from a diagonal matrix
+	can U represent fibonacci as a matrix system (first order)
+	can you find the eigen values?

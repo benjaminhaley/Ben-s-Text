@@ -1,0 +1,8 @@
+sqlite.txt
+	Learning to use sqlite as an alternative to mysql
+
+SQL lite database study enough to 
+	search for study tutorial
+	install
+	create database and login credentials
+	update database structure and contents

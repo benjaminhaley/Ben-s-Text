@@ -1,0 +1,266 @@
+
+
+Objects
+
+
+User
+	userId (int)
+	AsscGroupAr (array of Group) 
+	authenticated (bol)
+	
+	User()
+		effects		this->annonymouseSignin()
+				
+	
+	annonymousSigin()
+		effects		this->userId = 0
+				this->authenticated = false
+				User is inserted in SESSION on success
+		
+		returns		true (bol) on success
+				false (bol) on failure
+	
+	signin(username (str), password (str))
+		effects 	this->authenticated = true
+				User is inserted in SESSION on success
+	
+		returns		true (bol) on success
+				false (bol) on failure
+	
+	changePassword(newPassword (str))
+		effects		update of password in User table
+		
+		returns		true (bol) on success
+				false (bol) on failure
+
+	changeEmail(newEmail (str))
+		effects		update of email in User table
+		
+		returns		true (bol) on success
+				false (bol) on failure
+	
+	createNewUser(username (str), password (str), email (str))
+		effects		user information is added to the User table
+				userId is associated with group 1 in Assoc table
+				User object is created and inserted in SESSION 
+	
+		returns		true (bol) on success
+				false (bol) if username already exists
+	
+Group
+	groupId (int)
+	groupName (str)
+	userGroupRole (str)				// user's relationship to the group from Association table, e.g. "user_is_group_admin"
+
+Srcrec
+	srcrecId (int)					// is set to 0 for non-data Srcrec object
+	SourceAr (array of Source)			// index 0 is the active source
+	AsscNoteAr (array of Note)
+	AsscTagAr (array of Tag)
+	
+	createSrcrec(CreatingUser (User), assocSourceId (int), [groupIdAr (int array)])
+		effects		add row to Srcrec table
+				add row to Assoc table linking CreatingUser & assocSourceId
+	
+		returns		srcrecId (int) on success
+				false (bol) on failure
+
+	retrieveSrcrec(srcrecId (int) [, sourceId (int)])	// if sourceId is passed in, that should be set as the active source in the Srcrec
+		returns		Srcrec (Srcrec) on success
+				false (bol) on failure
+	
+	
+SrcrecSummary
+	srcrecId (int)
+	titleText (str)
+	AsscTagAr (Tag array)
+	
+Note
+	noteId (int)
+	AsscTagAr (array of Tag)
+	noteType (str)					// "note", "question", "citation", "title"
+	noteHtml (str)					
+	noteHtmlSummary (str)				
+	[SrcrecSummary (SrcrecSummary)]			// present if called from Search.php
+
+	createNote(CreatingUser (User), assocSrcrecId (int), inputtedNoteType (str), inputtedNoteHtml (str), [groupIdAr (int array)])
+		effects		add row to Note table
+				add row to Assoc table linking CreatingUser, Note, & SrcrecId
+		
+		returns 	noteId (int) on success
+				false (bol) on failure
+
+	renderNoteHtml(noteId (int), noteXml (str), noteType (str))
+		process		if noteType == 'question'
+					parse as question
+		
+		effects		this->noteHtml = noteHtml
+				this->noteHtmlSummary = noteHtml truncated to 200 chars
+		
+		returns		true on success
+				false (bol) on failure
+
+	populateNote(noteId (int), AsscTagAr (Tag array), noteType (str), noteXml (str) [ , SrcrecSummary (SrcrecSummary) = NULL])
+		process		this->noteId = noteId
+				this->AsscTagAr = AsscTagAr
+				this->noteType = noteType
+				if SrcrecSummary != NULL
+					this->SrcrecSummary = SrcrecSummary
+				renderNoteHtml(noteId, noteXml, noteType)
+	
+		returns		Note (Note) on success
+				false (bol) on failure
+
+Tag
+	tagId (int)
+	tagType (str)					// "srcrec_tag", "number_correct", "number_incorrect"
+	tagHtml (str)					// html which includes link to deactivate the tag if it was created by user or increment
+	tagInstanceAsscId (int)				// assocId corresponding to specific tag instance
+	tagParentNoteId (int)
+	
+	populateTag(TagCreator (User), tagId (int), tagType(str), tagText (str), tagInstanceAsscId (int), tagParentNoteId (int))
+		effects		if tagType == 'srcrec_tag'
+					this->tagHtml = renderNoteTagHtml(TagCreator (User), tagText (str), tagInstanceAsscId (int))
+				else
+					// question tags do not get rendered
+				sets all tag values
+		
+		returns		true on success
+	
+	renderNoteTagHtml(TagCreator (User), tagText (str), tagInstanceAsscId (int))
+		process		If TagCreator->userId == SessionUser->userId
+					return tagHtml(str) with class=userTag and link to deactivate the tagInstanceAsscId 
+				Else
+					return tagHtml(str) with class=publicTag
+
+	createTag(CreatingUser (User), assocSrcrecId (int), assocNoteId (int), inputtedTagType (str), inputtedTagText (str), [groupIdAr (int array)]) 
+		effects		tagId = this->insertOrLookupTag(inputtedTagText)
+				this->associateTag(CreatingUser, assocSrcrecId, assocNoteId, inputtedTagType, tagId, groupIdAr)
+	
+		returns 	tagId (int) on success
+				false (bol) on failure
+	
+	associateTag(CreatingUser (User), assocSrcrecId (int), assocNoteId (int), inputtedTagType (str), inputtedTagId (str), [groupIdAr (int array)])
+		effects		adds tag-note-group-user association to the association table
+
+	incrementTag(noteIdOfActiveTags (int), tagNoteRelationship (str))
+		effects		add or update Association and Tag tables as needed so that incrementTagValue is associated with the user's question instance
+		
+		returns		true (bol) on success
+				false (bol) on failure
+	
+	deactivate(CreatingUser (User), assocSrcrecId (int))
+		effects		deactivate row on assocSrcrecId row on Assoc table
+		
+		returns		true on success
+				false on failure
+
+	insertOrLookupTag(tagText (str))
+		returns 	tagId if tag exists
+				false if tag does not exist
+	
+
+Source
+	sourceId (int)
+	sourceType (str)				// "embedded", "url", "file"
+	sourceFormat (str)				// "wma", "swa", "pdf" etc
+	sourceContent (str)				// the embedding code or url for the iframe
+
+	createSource(CreatingUser (User), sourceType (str), sourceUrl (str), sourceEmbedding (str), sourceFile (str))
+		effects		add row to Source table
+				add row to Assoc table linking CreatingUser & Source
+				
+		returns 	sourceId (int) on success
+				false (bol) on failure
+	
+	lookupSourceByHash(hash (str))
+		returns		matchingSourceId (int) of matching source 
+				false (bol) if there are no matches
+	
+	getNextSourceId()
+		returns		nextAvailableSourceId (int)
+				error on failure
+	
+
+Data
+	srcrecId (int)
+	sourceId (int)
+	
+	search(User (User) [, searchQuery (str) = NULL , searchRecordStart (int) = 0, searchGroupAr (int array) = NULL])
+		// for private notes only, leave searchGroupAr NULL
+		// for public notes as well, searchGroupAr = array(1)
+		process		Uses Note->Note to create an array of the notes
+		
+		returns		SearchResultNoteAr (Note array) on success
+				False (bol) on failure
+	
+	
+
+PageElement.php
+	signinBox (str)
+	profileLink (str)
+	signoutLink (str)
+	signinLink (str)
+		displays	link to Signin.php
+	
+	searchBox (str)					// allows searching, should have private search option
+		displays	form action=Search.php method=GET
+				input type=text name=searchQuery
+				input type=hidden name=searchRecordStart value=0
+	
+	publicSearchLink (str)				
+		displays	link to Search.php?groupId=0  	// public 'home' page showing most recent notes
+
+	privateSearchLink (str)				
+		displays	link to Search.php  		// private 'home' page showing most recent notes
+		
+	noteBox (str)						// enables note, tag, question, and citation input
+	bannerLogo (str)
+		displays	img of logo
+		
+	bannerBackground (str)
+		displays	img of background
+		
+	registerLink (str)
+		displays	link to Register.php
+	
+	registerBox (str)
+		displays	form action=Register.php method=POST
+				input type=text name=newUserUsername
+				input type=password name=newUserPassword
+				input type=password name=passwordConfirmation
+				input type=text name = newUserEmail
+				
+		process		validate all fields filled
+				validate email as email
+				validate passwords are same
+		
+	
+	uploadSourceBox (str)				// source type, file or url, sourceTitle; POSTS to Srcrec.php
+	
+	renderGroupList(profiledUser (User))
+		returns 	userGroupList (str) from profiledUser->AsscGroupAr on success
+				false (bol) on error
+	
+	renderSource(SourceToRender (Source))
+		returns 	sourceRendering (str) 	// this is the embedding code or url properly enclosed in an iframe
+				false (bol) on error
+	
+	renderNoteList(NoteList (Note array))
+		process		calls
+		returns		noteListHtml (str)	// the HTML of the printed notes
+				false (bol) on error
+
+	renderSearchResults(ResultList (Note array))
+		displays	srcrec title from Note->srcrecSummary
+				link to srcrec
+				noteHtmlSummary
+				tags associated with the note
+	
+		returns		SearchResultHtml (str)	// the HTML of the printed notes
+				false (bol) on error
+	
+	
+	
+	
+	

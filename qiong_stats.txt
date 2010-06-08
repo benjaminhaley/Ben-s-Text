@@ -1,0 +1,134 @@
+qiong_stats.txt
+	analysis of qiongs real time pcr data
+
+tags: bens_job.txt
+
+To Do
+    run analysis sans outliers
+    make a wordfile for T in the dropbox - send her an email about where it is
+
+data: 
+    working directory: dropbox/tanja/qiong data analysis
+    my copy: qiongs_data.xls
+    t's copy: qiong data conversion into variables_final v4b (1).xls
+    q's copy: qiong_data_2.xls
+    analysis for tanja is in the dropbox under My Dropbox\Tanja\Qiong Data Analysis\R18 v many control genes analysis by ben.doc
+
+
+4/8/2010 - With Tanja 4 hours
+
+Tanja really likes the data that we have going so far.  She asked me to remove some outliers and see how the results turn out, also to send her a word document with the results thus far.
+
+4/20/2010 - work with Tanja - 3 hours
+
+spleen no nuetron - regress spleen nd ageatdeath m f  g1 g60 g300 n1 n24 n60 minc_kidney tkvs_kidney tkca_kidney tkac_kidney mcrd_kidney tevo_spleen tevs_spleen traa_lung_cancer trac_lung_cancer mpnc_lung mpni_lung mpnu_lung mrmp_lung trac_lung tlhs_lymphoreticular tlll_lymphoreticular tlls_lymphoreticular tlml_lymphoreticular tlus_lymphoreticular tlvo_lymphoreticul if n1==0 & n24 == 0 & n60 == 0
+spleen neutron - traa_lung_cancer trac_lung_cancer mpnc_lung mpni_lung mpnu_lung mrmp_lung trac_lung tlhs_lymphoreticular tlll_lymphoreticular tlls_lymphoreticular tlml_lymphoreticular tlus_lymphoreticular tlvo_lymphoreticul if g1==0 & g60 == 0 & g300 == 0 & cox==0
+heart nd - 
+kidney both genes - regress kidney nd ageatdeath m f  g1 g60 g300 n1 n24 n60 minc_kidney tkvs_kidney tkca_kidney tkac_kidney mcrd_kidney tevo_spleen tevs_spleen traa_lung_cancer trac_lung_cancer mpnc_lung mpni_lung mpnu_lung mrmp_lung trac_lung tlhs_lymphoreticular tlll_lymphoreticular tlls_lymphoreticular tlml_lymphoreticular tlus_lymphoreticular tlvo_lymphoreticul if  n1==0 & n24 == 0 & n60 == 0
+kidney nd - regress kidney nd ageatdeath m f  g1 g60 g300 n1 n24 n60 minc_kidney tkvs_kidney tkca_kidney tkac_kidney mcrd_kidney tevo_spleen tevs_spleen traa_lung_cancer trac_lung_cancer mpnc_lung mpni_lung mpnu_lung mrmp_lung trac_lung tlhs_lymphoreticular tlll_lymphoreticular tlls_lymphoreticular tlml_lymphoreticular tlus_lymphoreticular tlvo_lymphoreticul if  n1==0 & n24 == 0 & n60 == 0 & nd==1
+
+
+4/7/2010 - 2 hours - work with Qiong
+
+dataset: n
+
+    wildtype and hetero by organ
+
+        thymus:
+            fivegy is signifant ( gene ratio goes up )
+            regress generatio wildtype fivegy  nd cox mtatp6 mtcyb  if (wildtype | hetero ) & thymus
+        spleen
+            fivegy is significant
+            regress generatio wildtype fivegy  nd cox mtatp6 mtcyb  if (wildtype == 1 | hetero == 1) & spleen  == 1
+
+    wildtype
+
+        thymus
+            fivegy is signifant ( gene ratio goes up )
+            regress generatio fivegy  nd cox mtatp6 mtcyb  if (wildtype == 1) & thymus == 1
+        spleen
+            fivegy is almost signifant (0.064)
+            regress generatio fivegy  nd cox mtatp6 mtcyb  if (wildtype == 1) & spleen  == 1
+        hetero
+            thymus, brain were significant (like queries above)
+        wasted 
+            thymus almost significant (like queries above)
+
+
+dataset: r18
+
+    wildtype and hetero by organ
+
+        heart:
+            fivegy is signifant ( gene ratio goes down )
+            regress generatio wildtype fivegy zerogy  nd cox mtatp6 mtcyb  if (wildtype == 1 | hetero == 1) & heart == 1
+        kidney
+            fivegy is significant ( gene ratio goes down )
+            regress generatio wildtype fivegy  nd cox mtatp6 mtcyb  if (wildtype == 1 | hetero == 1) & kidney  == 1
+
+
+
+
+4/6/2010 -
+ I worked to find all the significant toxicities while keeping the radiation treatment in the model.  The results are:
+ 
+    Speen: 
+        g1, nd, tlls_lymphoreticular mthr_muscleconnective mcig_septicemia
+        the g1 was also significant before
+    Kidney:
+    Heart:
+ 
+Queries: 
+    Spleen: 
+        regress spleen nd g1 g60 g300 n1 n24 n60 tlls_lymphoreticular mthr_muscleconnective mcig_septicemia
+    Kidney:
+        
+    Heart:
+        
+
+    
+    
+    
+
+
+3/31/2010 - 3 hours
+    Worked with Tanja on the process came up with the following:
+
+with genes combined and measuring toxicities in the kidneys, spleen, lung cancer, lung, lymph
+
+    Spleen
+        no irradiation is significant
+        regress spleen nd ageatdeath m f  g1 g60 g300 n1 n24 n60 minc_kidney tkvs_kidney tkca_kidney tkac_kidney mcrd_kidney tevo_spleen tevs_spleen traa_lung_cancer trac_lung_cancer mpnc_lung mpni_lung mpnu_lung mrmp_lung trac_lung tlhs_lymphoreticular tlll_lymphoreticular tlls_lymphoreticular tlml_lymphoreticular tlus_lymphoreticular tlvo_lymphoreticul
+        
+    Kidney
+        g1 is significant
+        regress kidney nd ageatdeath m f  g1 g60 g300 n1 n24 n60 minc_kidney tkvs_kidney tkca_kidney tkac_kidney mcrd_kidney tevo_spleen tevs_spleen traa_lung_cancer trac_lung_cancer mpnc_lung mpni_lung mpnu_lung mrmp_lung trac_lung tlhs_lymphoreticular tlll_lymphoreticular tlls_lymphoreticular tlml_lymphoreticular tlus_lymphoreticular tlvo_lymphoreticul
+
+
+3/25/2010 - 6 hours
+
+After parsing qiongs_data.xls and loading it into stata I was able to run some simple logistic regressions which are detailed below.  In the end I treated each organ independently, but put both of the genes into the same model.  We were able to explain about 30% of the variance in the results for each organ and found a few specific contributers which seemed to effect the results.  Cool.  The queries are listed below for reference.
+
+
+            Good:
+
+            Kidney Query 
+                accounted for: 40-5% - not significant
+                signifanct factors- tkvs observation in the kidney
+
+            regress generatio nd cox ageatdeath m f g_one g_60 g_300 n_1 n_24 n_60 minc_kidney tkvs_kidney tkca_kidney tkac_kidney mcrd_kidney tevo_spleen tevs_spleen traa_lung_cancer trac_lung_cancer mpnc_lung mpni_lung mpnu_lung mrmp_lung trac_lung tlhs_lymphoreticular tlll_lymphoreticular tlls_lymphoreticular tlml_lymphoreticular tlus_lymphoreticular tlvo_lymphoreticul if kidney==1
+
+
+
+            Heart Query 
+                accounted for: 33-58% 
+                significant: gene choice, fractions, age of irradiation
+
+            regress generatio nd cox ageatdeath m f g_one g_60 g_300 n_1 n_24 n_60 minc_kidney tkvs_kidney tkca_kidney tkac_kidney mcrd_kidney tevo_spleen tevs_spleen traa_lung_cancer trac_lung_cancer mpnc_lung mpni_lung mpnu_lung mrmp_lung trac_lung tlhs_lymphoreticular tlll_lymphoreticular tlls_lymphoreticular tlml_lymphoreticular tlus_lymphoreticular tlvo_lymphoreticul if heart==1
+            
+            Spleen Query - 22-40% accounted for - mcrd in the kidney, mpnu in lung, choice of genes, age at death, 
+regress generatio nd cox ageatdeath m f g_one g_60 g_300 n_1 n_24 n_60 minc_kidney tkvs_kidney tkca_kidney tkac_kidney mcrd_kidney tevo_spleen tevs_spleen traa_lung_cancer trac_lung_cancer mpnc_lung mpni_lung mpnu_lung mrmp_lung trac_lung tlhs_lymphoreticular tlll_lymphoreticular tlls_lymphoreticular tlml_lymphoreticular tlus_lymphoreticular tlvo_lymphoreticul if spleen==1
+
+
+
+

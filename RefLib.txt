@@ -1,0 +1,68 @@
+RefLib
+	To take and share notes on web and offline materials
+
+Objects:
+Note	 		==  	type, tag(s), permissions(group# or null), note content object (xml or json), SourceRecordTitle, SourceRecordID
+note content object 	==	like a question or note (see http://localhost/Archives/Serialization.txt)
+SourceRecord		==	SourceArray(active or inactive Source Objects), SourceRecordTitle, SourceRecordID, associated notes and permissions
+Source			== 	EmbeddingCode or SourceURL, SourceID, SourceFormat
+User			== 	groupsID Array, userID, Source Records, Associated Notes?, Tags
+
+Pages:
+	import session and common php
+LoginPage
+	loginbox(username and password) submits to sign in method, [takes refferer]
+		if fail then reload page
+		elif userobject then redirects to profile page [redirect to refferer]
+Profile
+	seaches user for tags and notes displays a list of these
+Search
+	text box and groupIDArray sends to search method
+	displays SourceRecordSummaries, tags, and note summaries
+Upload
+Notes
+Source Record
+
+Method:
+FileConverter
+	input 	filepath docs, powerpoints, etc
+	output	ipaper embeding code
+Styling
+	input 	windows size, user, media(pdf, ipapers, embeded videos, or web address)
+	output	window height, window width, ratio media:sidebar
+Note Writer
+	input 	note object from the web
+	output	delivers note object to the database
+Note Displayer
+	input 	request source (from search or sidebar), note object from database
+	output	html
+Search
+	input	userID, groupIDarray, text
+	output 	list of note objects who's content or tags include the text
+Source Record Writer
+	input 	source, user, permissions, associated notes
+	output 	source record to database
+Source Record Displayer
+	input 	requestion, source record from database
+	output	html
+SignIn
+	input 	username password
+	output	userobject in session. Else fail.
+
+
+Behavior:
+		search
+		profile
+		upload
+
+sidebar mode 	load previous notes
+		add notes
+		alter a note object (tags, permissions)
+		resize
+		alter source record (sources or permissions)
+
+Search Results	display a list of results
+		change by type
+
+
+Profile	Page	

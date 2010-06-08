@@ -1,0 +1,3 @@
+Scratch_Propiatary
+
+The only parts of the scratch that need to be propriatary are the user log and the algorithm used to find itchiness... all other elements ought to be completely open.

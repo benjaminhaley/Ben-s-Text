@@ -1,0 +1,48 @@
+Prostate Logistic Analysis
+	to apply logistic regression to the dog prostate data in order to test for an effect of radiation on 'event' incidence
+
+
+Analysis
+	limits			only males, only those in CO-60-long or control, no duplicates, none w/o pathologies reported
+	dep var			occurance of hyperplasia or tumors (doens't matter if more than one obs was made for a single dog)
+	ind var			lifespan, radsTotal, radsPerDay, death mode, first exposure age, radsTotal, radsPerDay, pathology count
+
+
+
+Changes to dataset		"Controls and Co60-Long Total Package Condensed Morphology"
+	null ages		Were made to be 0, because these dogs are listed as stillborn or <7days in their death codes
+	null morphology		relabled 0 to enable 
+	additions		added the first exposure age, death mode, pathology count
+	death mode		grouped into 	natural  (<7, Age, Radiation, Sac Mor, Stillborn, Euth Disease)
+					    and unnatural (Accident, Con. Sac., Exp Sac, Lost, Serial Sac, Trans, Euth Non Con)
+
+
+
+Assumptions:
+	n value is good 501 events with 132 occurances
+
+
+
+
+Open ?s
+	I should go over the stata manuals post analysis tools (http://www.stata.com/help.cgi?regress_postestimation)
+	possible interactions??
+	extraneous variables?
+	independent variables?
+	There is a clear line of dogs that is killed right at its first exposure, how can we analyze this kind of data?
+		More generally there is a strong correlation between first exposure age and lifespan, but only for some doses
+	Is a psuedo R squared of 0.25 worth anything?
+	do the drugs cause cancer
+	what are the effects of radioinjections
+	are there inheretince effects of cancer
+	proc?
+	sire?
+	birthno>?
+	the exposure of dogs in utero?
+	is there an effect of year on the pathologies
+
+
+Analysis
+	Log = prostate_analysis.smcl
+	pathologycount, lifespan, and exposure time positively correlate, while dose rate negatively correlates
+	

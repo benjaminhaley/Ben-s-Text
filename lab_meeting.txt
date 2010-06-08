@@ -1,0 +1,17 @@
+lab_meeting.txt
+	A record of my reporting list for lab meetings.
+
+03/11/10
+    health physics - 4.5
+        Recieved Tanja's health physics corrections - added most
+        Still need to add a couple sources, figures, and send to Gayle (tonight)
+    laptop_fix.txt - 4
+        I think I can crack the code
+    Backups - 2
+
+03/04/10
+	added nihads software
+	20 hours on health physics
+		sent to Tanja
+		ready to submit shortly following some feedback
+	

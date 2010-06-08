@@ -1,0 +1,42 @@
+wololab_backup.txt
+	backing up wololab data
+
+Restore Points
+    Gayle's Sony Vaio - 03/31/10
+
+Recent Images
+    Gayle's Toshiba Portege - 02/12/10  - Stored at Gayles
+    Janus Server - May 2010  - Stored at Gayles
+    Typhoon machine - May 2010 - Stored at Gayles
+    Spectroscopy Drive - May 2010 - Stored at Gayles
+
+General Backups are handled through Carbonite.  Ask Ben for password.
+
+Instructions
+
+    Image computer
+        more detail from lifehacker  http://lifehacker.com/software/feature/hot-image-your-pcs-hard-drive-with-driveimage-xml-326086.php
+        1. Plug in Hard Drive
+        2. Start DriveImage XML
+        3. click on the "Backup" button on the lower left of the screen
+        
+    Format a Hard drive 
+        from http://www.ehow.com/how_6026_format-hard-drive.html
+        1. Right click my computer click manage
+        2. Click Storage>disk management local
+        3. Right click on the unformatted drive click new partician
+        4. Accept the default settings then wait a while
+
+
+5/26/2010
+    Janus is finished imaging now I am starting on the spectroscopy drive and soon I will do the typhoon
+
+4/7/2010
+	Finished backing up Gayle's machine
+
+
+03/31/2010
+    Reformatting a drive... dumb.  Added a restore point to Gayle's system.
+
+03/05/2010
+    I had to reformat the external hard drives that we recieved.  This is pretty straightforward once you know how.  I wrote the instructions above.

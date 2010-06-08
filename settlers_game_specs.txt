@@ -1,0 +1,42 @@
+settlers_game_specs.txt
+
+Generally
+    In addition to user interface abstractions, settlers has an underlying
+    game abstraction which fits nicely into object oriented design and is
+    detailed below.
+    
+Game Objects
+    Player
+        trade fucntion
+        port access
+        resource cards
+        development cards
+        victory point cards
+        color
+        used and unused roads, cities, settlements
+        points
+        road length
+        army size
+        has longest/largest
+        
+    Board
+        tile order
+        banks of cards
+        ports
+        roads, cities settlements, robber
+        move robber()
+        rearrange tiles()
+        rearrange #s()
+    
+    Turns
+        trades
+        play development card
+        play victory point card
+        has non victory point development card been played (bool)
+        roll
+        buy
+        build
+    
+    Status
+        winning player
+        finished/active/aborted

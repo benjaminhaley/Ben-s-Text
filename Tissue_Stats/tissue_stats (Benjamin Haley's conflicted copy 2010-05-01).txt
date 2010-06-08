@@ -1,0 +1,45 @@
+tissue_stats.txt
+	to work with Amit to produce paper bound statistics on the argonne irradiated tissue sets
+
+
+To Do:	
+	Organize Project - read data_organization.txt
+	union Dog Details U Maligancy by Location (pivot veiw) U Malignancies by System (pivot view)
+	if parents had prostate trouble
+	Multilevel Linear Modeling, Power Analysis
+	snomed, heredity, parisites, study groups, estrus problems
+
+
+Prostate Analysis
+	Good Source says that BPH and Prostate cancer are not related http://www.springerlink.com/content/w127756387122244/
+	Does dose or dose rate increase the chances of prostate cancer
+	So far they are insignificant and do not improve the model (see superprostate_june4.smcl, radio_prostate, and prostate)
+
+Algorithm:
+	1. Produce all cross variables (including self*self)
+	2. Run all possible regressions on unirradiated dogs
+		a. optimize for aic and bic goodness of fit 
+		b. enusure that the models pass the lr test
+	3. Check for outliers and update parameters if necessary
+	4. Apply the model to irradiated dogs, see if dose and dose rate improve the model and how
+	5. Before drawing non-dose conclusions from the model be sure to check for co-linearity problems
+
+
+
+Other Studies:
+	Systems Analysis	Prove that The effects of Radiation are wholebody/systemic
+	Age Effects		The age of first exposure vs its potency per dose
+	Radiation Cancers	Which cancers are more common in irradiated animals ( choose the top cancers )
+
+
+Data	SuperDog.dta, SuperMouse.dta
+
+
+People
+	Amit Mittal		amit.mittal23@gmail.com
+	Ben Haley		benjamin.haley@gmail.com
+	Dave Paunesku		paunesku@gmail.com
+	Fred Rademaker 		talk to this guy when you have your shit together
+
+
+

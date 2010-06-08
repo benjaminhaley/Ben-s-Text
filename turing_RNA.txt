@@ -1,0 +1,18 @@
+
+
+
+All states can be represented by a string and a physical turing machine which might interpret that string.  What is the physical turing machine.  I think that kids paper is right.  If you can build a physical turing machine (within the bounds of certain molecular bonds and elements but choose between those bonds and elements) one can tie it in to any old molecular polymere and wala you total universal machine (life).  The improvements in this machine come in bursts due to improvements in communications and energy production.  We are about as 'smart' as any of them are, but they are far more numerous, diverse in interest, and wise.  Wisdom does not come from crowds, wisdom comes from well goverened crowds.
+
+You need to build a physical turing machine.  Any of a certain set of chemical bonds, any direction, and all you do is keep feeding in the string.
+
+
+Ribosome.  Physical Turing Machine! 
+
+	This machine can map a 1 d string into a 3 d space (4d?, nd?).  Like a turing machine it must operate recursively if it is to be universal.  
+
+Why am I trying to publish in journals.  The internet is a better place to publish.  Where, everywhere, post it all over the internet.
+
+
+Claims that >50% of the cellular RNA output is non-coding Mol. Cell 33, 10.1016/j.molcel.2009.01.026 (2009).
+
+Note that the binding-unbinding representation used by  (Sakthi Balan and Jürgensen 2008) for immunocomputing should also apply to the binding unbinding principals of RNA computing.  This prinicipal probably applies more generally to the concepot of immunocomputing and DNA computing paradigms.

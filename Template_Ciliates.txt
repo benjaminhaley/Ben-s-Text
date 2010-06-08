@@ -1,0 +1,38 @@
+Template_Ciliates
+
+General		see(http://localhost/Archives/Prescott_Cilliate_Computing.pdf)
+	!!template cilliate	"Template-guided recombination for IES elimination and unscrambling of genes in stichotrichous ciliates"
+	!!P, E and R authors	Prescott, Ehrenfeucht, and Rozenberg - Boulder, CO - J Theor Biol (2003) *cited:24*
+
+Summary
+	The micronucli of exmated ciliates is converted to a polytene macronucli by cutting, splicing, MDS rearangement and IES excision from 25,000 genes.  Because MDS pointers contain insufficient information to define the new macronucleus and evidence suggests that the vestigal macronucleus affects the production of the next macronucleus (Douharcourt et al 1998), the authors suggest that the micronuclus uses the vestigal macronucleus as a template.
+
+Mechanism
+	!!IES's density			4/gene
+	!!gene count			25,000
+	!!mate timing			when resources are scarce
+	!!micronucli # in mate		4
+	!!micronucli exchange		1 is passed through a cytoplasmic bridge
+	!!diploid fusion			the exchanged micronucli fuses with another
+	!!extra micronucli		are removed from the systme
+	!!pointers			3-20 bp shared between MDS's to be joined, not long enough to reliably guide fusion
+
+Interesting points:
+	!!template operands		3 molecules irreversiably produce 4 molecules
+	!!recombination operands		2 molecules reversibly produce 1 molecules?
+
+Questions:
+	!!transcriptome template		perhaps there is room for a template-guided model between the transcriptome(n) and transcriptome(n-1) or the virome?
+	!!physical evidence		has there been any further research to support or refute this claim with physical models?
+	!!mechanism necessary		is macronulecues formation through excision and reordering computationally rich regardless of its mechanism?
+
+Glossary
+	!!exmated				proceeding from mating
+	!!polytene chromosome			multiple copys of a chromosome often found in specialized large volume cells
+	!!micronucleus				Germ line nucleus with inactive genes, exchanged during mating.
+	!!macronucleus				Nucleus active in protein production.
+	!!recombination				the breaking and recombining of genetic material
+	!!template-guided recombination		Boulder proposal for the mechanism of Cilliate recombination - the production of new macronucleous from micronulci and templates
+	!!stichotrichous ciliates			single celled parasites
+	!!MDSs					macronuclear destined segments		
+	!!IESs					internal eliminated sections AT-rich nc segments that interrupt genes in cilliates

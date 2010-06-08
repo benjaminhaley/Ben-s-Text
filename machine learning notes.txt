@@ -1,0 +1,105 @@
+Machine Learning Notes.txt
+	To learn this technique in order to apply it to signalling biology
+
+Problem Sets 	http://www.stanford.edu/class/cs229/materials.html
+
+Books	
+
+
+$50 Pattern Recognition and Machine Learning (Information Science and Statistics) (Hardcover)
+$40 Pattern Classification (2nd Edition) (Hardcover)
+$38 Machine Learning (Mcgraw-Hill International Edit) (Paperback)
+$30 Reinforcement Learning: An Introduction (Adaptive Computation and Machine Learning) (Hardcover)	
+
+
+
+Lecture 1	http://academicearth.org/lectures/applications-of-machine-learning
+
+Applications (6)
+	handwriting-us mail, speech recognition, navigation-auto piolets, genes-gene prediction, predictive models - like in medicine, and suggestions - like amazon and google
+
+History (2)
+	1959 Arthur Samuel first applies it to a checkers program which learns to play it better than him
+	1998 Tom Mitchel defines machine learning as "any program which improves at a task with experience"
+
+Varieties (3)
+	Supervised Learning - where the input and output are known (like a regression)
+				support vector machines have been successfully used for this
+	unsupervised learning - only input is known, and you are to find structure in it 
+				Applied to differentiating voices, or gene ontologies
+	Reinforcement Learning - a sequence of decision over time (navigation, language learning)
+
+
+Vocabulary (2)
+	Learning Theory - theoretical exploration of how accurate a model can ever be expected to become
+	Support Vector Machines - constructs a hyperplane between datapoints that provides maximum sepperation
+
+
+
+Lecture II 	http://academicearth.org/lectures/supervised-learning-autonomous-deriving
+
+Applictions
+	Alvin	1983 learned to drive a one lane road after two minutes of training and switch networks for new conditions
+
+Standard Notation
+	m 	the number of training examples
+	x  	"input" variables or features
+	y 	output variable or target
+	(x,y) 	a tuple or row that represents a single training examples
+	(xi,yi) ith training example 
+	h 	output of the learning algorithm, used for future estimations
+	n 	is the number of features
+	^T  	the transpose of a matrix
+
+Algorithms for Linear Regression
+	Gradient Descent	
+		Applications	finding a minimum in a multivector space, good for OLS where there are no local mins
+		Algorithm (4)	0.) starts at some arbitary point 
+				1.) computes the partial derivative with respect to each feature
+				2.) Moves the step distance (alpha) * the partial derivative for each feature
+				3.) Repeats until the return matches the input to some degree of accuracy
+	Stochastic Gradient Descent
+		Application	very large datasets in OLS
+		Algorithm	just like Gradient Descent, but
+				computes the partial derivative on a random subset of the training examples
+
+
+
+Matrix Algebra Notation
+
+Defines a new nomenclature that I will have to go the lecture notes to work through
+J(theta) the sum of squares of the difference between prediction and actual
+(stopped at 51:53)
+
+
+
+I need to learn matrix algebra to understand this part
+
+
+
+
+cool machine learning comment.  I should study the Netflix solution
+
+Here is my take on the most important scientific contributions
+produced by this contest:
+1. Matrix factorization methods are very powerful. By assigning a
+vector to each user and movie, a simple gradient descent is very
+accurate. In addition, this method can be extended to include other
+information. I believe matrix factorization methods will spread to
+almost all other fields of machine learning.
+2. ASVD is probably the best neighborhood method published to date in
+any field of machine learning. Before the contest, collaborative
+filtering relied heavily Pearson correlation. Now, Pearson correlation
+is used as a small component in the overall blend.
+3. The best way to blend, when possible, is to simultenously train
+multiple algorithms in parallel. In other words, use a gradient
+descent on all algorithms at once and repeat multiple times.
+
+I don’t know of any more significant advance than these, other than
+the restricted boltzmann machine, to come out of the machine learning
+community in the past few years.
+
+Each method is can be implemented in ten’s of lines of code, can
+process 100M entries in under an hour on a standard PC, and
+significantly advanced the state of the art performance.
+Reply

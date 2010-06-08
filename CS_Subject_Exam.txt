@@ -1,0 +1,22 @@
+CS_Subject_Exam.txt
+	To ace this test
+
+Midterm test		http://localhost/Archives/CompSci.pdf
+	I just went through the first half of the CS subject exam (5/1/2009). It looks like I am half way there so to speak.
+
+Skipped
+	I skipped a number of questions because they belong to engineering or cs principals that I haven't studied yet.  These are them:
+	1, 2, 4, 9, 11, 16-18, 20-22, 24, 25, 27, 31, 33, 40, 46, 49, 52-56, 63, 65
+
+Missed
+	The list I missed comes mostly from graph, lanuguage, and solvability thoeory.  I missed:
+	6, 12, 23, 32, 35, 44, 45, 50, 51, 58, 59, 60, 62, 66, 68, 69
+
+Results
+	Right: 28
+	Wrong: 16
+	Answered: 44/70
+	Evaluation: 700 (top 41%)
+	Adj. Eval: 800 (top 78%) 
+		*this is adjusted to reflect the results if I maintained the same percentage for the skipped questions
+	

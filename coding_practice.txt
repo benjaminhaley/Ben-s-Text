@@ -1,0 +1,4 @@
+coding_practice.txt
+	So that I might understand the coding element of biology
+
+1:00 - 4:00 PM 1/26/2009 - 	worked on parentheticals.py, hanoi.py, recurance.py,  from chap 5 of discrete text

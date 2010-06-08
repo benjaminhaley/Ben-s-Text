@@ -1,0 +1,377 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+       log:  {res}C:\Documents and Settings\Tatjana Paunesku\Desktop\Ben's Work\Tissue_Stats\prostate_analysis.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}15 Apr 2009, 21:29:07
+
+{com}. logit morphology pathologycount yr_lifespan cGyPerHour
+
+{txt}Iteration 0:   log likelihood = {res}-288.90584
+{txt}Iteration 1:   log likelihood = {res}-230.02977
+{txt}Iteration 2:   log likelihood = {res} -225.1348
+{txt}Iteration 3:   log likelihood = {res}-224.92724
+{txt}Iteration 4:   log likelihood = {res}-224.92653
+
+{txt}Logistic regression                               Number of obs   = {res}       501
+                                                  {txt}LR chi2({res}3{txt})      = {res}    127.96
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-224.92653                       {txt}Pseudo R2       = {res}    0.2215
+
+{txt}{hline 13}{c TT}{hline 64}
+  morphology {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+pathologyc~t {c |}  {res} .0947274   .0203966     4.64   0.000     .0547508     .134704
+ {txt}yr_lifespan {c |}  {res} .1672455   .0336277     4.97   0.000     .1013363    .2331546
+  {txt}cGyPerHour {c |}  {res}-.8388566   .3729025    -2.25   0.024    -1.569732   -.1079811
+       {txt}_cons {c |}  {res}-3.485575   .3959957    -8.80   0.000    -4.261712   -2.709438
+{txt}{hline 13}{c BT}{hline 64}
+
+{com}. log off
+       {txt}log:  {res}C:\Documents and Settings\Tatjana Paunesku\Desktop\Ben's Work\Tissue_Stats\prostate_analysis.smcl
+  {txt}log type:  {res}smcl
+ {txt}paused on:  {res}15 Apr 2009, 21:32:49
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}{smcl}
+{com}{sf}{ul off}{txt}{.-}
+       log:  {res}C:\Documents and Settings\Tatjana Paunesku\Desktop\Ben's Work\Tissue_Stats\prostate_analysis.smcl
+  {txt}log type:  {res}smcl
+{txt}resumed on:  {res}15 Apr 2009, 21:34:01
+
+{com}. logit morphology pathologycount yr_lifespan GyTotal
+
+{txt}Iteration 0:   log likelihood = {res}-288.90584
+{txt}Iteration 1:   log likelihood = {res}-231.17635
+{txt}Iteration 2:   log likelihood = {res}-226.07017
+{txt}Iteration 3:   log likelihood = {res}-225.82788
+{txt}Iteration 4:   log likelihood = {res}-225.82683
+
+{txt}Logistic regression                               Number of obs   = {res}       501
+                                                  {txt}LR chi2({res}3{txt})      = {res}    126.16
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-225.82683                       {txt}Pseudo R2       = {res}    0.2183
+
+{txt}{hline 13}{c TT}{hline 64}
+  morphology {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+pathologyc~t {c |}  {res} .0856027   .0199541     4.29   0.000     .0464935     .124712
+ {txt}yr_lifespan {c |}  {res} .2124626   .0341217     6.23   0.000     .1455853    .2793399
+     {txt}GyTotal {c |}  {res} .0107834   .0053943     2.00   0.046     .0002108     .021356
+       {txt}_cons {c |}  {res}-4.248991   .4264501    -9.96   0.000    -5.084818   -3.413164
+{txt}{hline 13}{c BT}{hline 64}
+
+{com}. log off
+       {txt}log:  {res}C:\Documents and Settings\Tatjana Paunesku\Desktop\Ben's Work\Tissue_Stats\prostate_analysis.smcl
+  {txt}log type:  {res}smcl
+ {txt}paused on:  {res}15 Apr 2009, 21:34:13
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}{smcl}
+{com}{sf}{ul off}{txt}{.-}
+       log:  {res}C:\Documents and Settings\Tatjana Paunesku\Desktop\Ben's Work\Tissue_Stats\prostate_analysis.smcl
+  {txt}log type:  {res}smcl
+{txt}resumed on:  {res}15 Apr 2009, 21:38:37
+
+{com}. logit morphology pathologycount yr_lifespan cGyPerHour exposure_yrs
+
+{txt}Iteration 0:   log likelihood = {res}-239.12215
+{txt}Iteration 1:   log likelihood = {res}-184.90886
+{txt}Iteration 2:   log likelihood = {res}-180.02639
+{txt}Iteration 3:   log likelihood = {res}-179.77454
+{txt}Iteration 4:   log likelihood = {res}-179.77311
+{txt}Iteration 5:   log likelihood = {res}-179.77311
+
+{txt}Logistic regression                               Number of obs   = {res}       419
+                                                  {txt}LR chi2({res}4{txt})      = {res}    118.70
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-179.77311                       {txt}Pseudo R2       = {res}    0.2482
+
+{txt}{hline 13}{c TT}{hline 64}
+  morphology {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+pathologyc~t {c |}  {res} .0985424   .0223079     4.42   0.000     .0548197    .1422652
+ {txt}yr_lifespan {c |}  {res} .1691721   .0368309     4.59   0.000      .096985    .2413592
+  {txt}cGyPerHour {c |}  {res}-1.016003   .5214219    -1.95   0.051    -2.037971    .0059655
+{txt}exposure_yrs {c |}  {res} .0440813   .0381478     1.16   0.248    -.0306869    .1188496
+       {txt}_cons {c |}  {res}-3.472286   .4815638    -7.21   0.000    -4.416134   -2.528438
+{txt}{hline 13}{c BT}{hline 64}
+
+{com}. log off
+       {txt}log:  {res}C:\Documents and Settings\Tatjana Paunesku\Desktop\Ben's Work\Tissue_Stats\prostate_analysis.smcl
+  {txt}log type:  {res}smcl
+ {txt}paused on:  {res}15 Apr 2009, 21:38:48
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}{smcl}
+{com}{sf}{ul off}{txt}{.-}
+       log:  {res}C:\Documents and Settings\Tatjana Paunesku\Desktop\Ben's Work\Tissue_Stats\prostate_analysis.smcl
+  {txt}log type:  {res}smcl
+{txt}resumed on:  {res}15 Apr 2009, 21:52:47
+
+{com}. linktest
+
+{txt}Iteration 0:   log likelihood = {res}-288.90584
+{txt}Iteration 1:   log likelihood = {res} -230.4758
+{txt}Iteration 2:   log likelihood = {res}-220.61819
+{txt}Iteration 3:   log likelihood = {res}-218.57848
+{txt}Iteration 4:   log likelihood = {res}-218.41062
+{txt}Iteration 5:   log likelihood = {res}-218.40907
+{txt}Iteration 6:   log likelihood = {res}-218.40907
+
+{txt}Logistic regression                               Number of obs   = {res}       501
+                                                  {txt}LR chi2({res}2{txt})      = {res}    140.99
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-218.40907                       {txt}Pseudo R2       = {res}    0.2440
+
+{txt}{hline 13}{c TT}{hline 64}
+  morphology {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+        _hat {c |}  {res} .4951327   .1713576     2.89   0.004      .159278    .8309874
+      {txt}_hatsq {c |}  {res}-.3037215   .0908692    -3.34   0.001    -.4818219   -.1256211
+       {txt}_cons {c |}  {res} .1148268    .140324     0.82   0.413    -.1602032    .3898569
+{txt}{hline 13}{c BT}{hline 64}
+
+{com}. log off
+       {txt}log:  {res}C:\Documents and Settings\Tatjana Paunesku\Desktop\Ben's Work\Tissue_Stats\prostate_analysis.smcl
+  {txt}log type:  {res}smcl
+ {txt}paused on:  {res}15 Apr 2009, 21:52:56
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}{smcl}
+{com}{sf}{ul off}{txt}{.-}
+       log:  {res}C:\Documents and Settings\Tatjana Paunesku\Desktop\Ben's Work\Tissue_Stats\prostate_analysis.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}16 Apr 2009, 16:59:27
+
+{com}. log off
+       {txt}log:  {res}C:\Documents and Settings\Tatjana Paunesku\Desktop\Ben's Work\Tissue_Stats\prostate_analysis.smcl
+  {txt}log type:  {res}smcl
+ {txt}paused on:  {res}16 Apr 2009, 16:59:33
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}{smcl}
+{com}{sf}{ul off}{txt}{.-}
+       log:  {res}C:\Documents and Settings\Tatjana Paunesku\Desktop\Ben's Work\Tissue_Stats\prostate_analysis.smcl
+  {txt}log type:  {res}smcl
+{txt}resumed on:  {res}16 Apr 2009, 17:15:30
+
+{com}. *The following will show how a variable interacts with itself and causes the linktest to fail ( _hatsq correlates ).  Using boxtid will find the proper power to raise a variable and using that variable in the regression will cause the linktest to pass.
+
+. logit morphology lifespan_yrs
+
+{txt}Iteration 0:   log likelihood = {res}-288.90584
+{txt}Iteration 1:   log likelihood = {res}-241.65183
+{txt}Iteration 2:   log likelihood = {res}-237.99691
+{txt}Iteration 3:   log likelihood = {res}-237.88607
+{txt}Iteration 4:   log likelihood = {res}-237.88588
+
+{txt}Logistic regression                               Number of obs   = {res}       501
+                                                  {txt}LR chi2({res}1{txt})      = {res}    102.04
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-237.88588                       {txt}Pseudo R2       = {res}    0.1766
+
+{txt}{hline 13}{c TT}{hline 64}
+  morphology {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+lifespan_yrs {c |}  {res} .2495721   .0293519     8.50   0.000     .1920435    .3071008
+       {txt}_cons {c |}  {res}-3.369298   .3306931   -10.19   0.000    -4.017445   -2.721152
+{txt}{hline 13}{c BT}{hline 64}
+
+{com}. linktest
+
+{txt}Iteration 0:   log likelihood = {res}-288.90584
+{txt}Iteration 1:   log likelihood = {res} -239.0339
+{txt}Iteration 2:   log likelihood = {res} -230.5007
+{txt}Iteration 3:   log likelihood = {res}-228.86536
+{txt}Iteration 4:   log likelihood = {res}-228.73699
+{txt}Iteration 5:   log likelihood = {res} -228.7358
+{txt}Iteration 6:   log likelihood = {res} -228.7358
+
+{txt}Logistic regression                               Number of obs   = {res}       501
+                                                  {txt}LR chi2({res}2{txt})      = {res}    120.34
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res} -228.7358                       {txt}Pseudo R2       = {res}    0.2083
+
+{txt}{hline 13}{c TT}{hline 64}
+  morphology {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+        _hat {c |}  {res}-.1630449   .3006659    -0.54   0.588    -.7523392    .4262495
+      {txt}_hatsq {c |}  {res}-.5422417   .1408752    -3.85   0.000     -.818352   -.2661315
+       {txt}_cons {c |}  {res}-.1272078   .1442585    -0.88   0.378    -.4099493    .1555336
+{txt}{hline 13}{c BT}{hline 64}
+
+{com}. *note that _hatsq is significant
+
+. boxtid logit morphology lifespan_yrs
+
+{txt}Iteration 0:  Deviance = {res} 460.0512
+{txt}Iteration 1:  Deviance = {res}   460.05{txt} (change = {res}-.0012338{txt})
+Iteration 2:  Deviance = {res} 460.0499{txt} (change = {res}-.0000548{txt})
+-> gen double Ilife__1 = X^-0.4403-1.102086494 if e(sample) 
+-> gen double Ilife__2 = X^-0.4403*ln(X)+.2432975503 if e(sample) 
+   (where: X = (lifespan_yrs+.0027389526367188)/10)
+
+[Total iterations: 2]
+
+Box-Tidwell regression model
+
+Logistic regression                               Number of obs   = {res}       501
+                                                  {txt}LR chi2({res}2{txt})      = {res}    117.76
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-230.02496                       {txt}Pseudo R2       = {res}    0.2038
+
+{txt}{hline 13}{c TT}{hline 64}
+  morphology {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+    Ilife__1 {c |}  {res}-3.543151   3.990444    -0.89   0.375    -11.36428    4.277976
+    {txt}Ilife_p1 {c |}  {res}-.0025043   1.402069    -0.00   0.999    -2.750508      2.7455
+       {txt}_cons {c |}  {res}-.9250283   .1758289    -5.26   0.000    -1.269647   -.5804099
+{txt}{hline 13}{c BT}{hline 64}
+Note: 12 failures and 0 successes completely determined.
+lifespan_yrs|{res} .2495721   .0293519      8.503  {txt}Nonlin. dev. {res}15.722  {txt}(P = {res}0.000{txt})
+      p1 |  {res}-.4403188   .4026563     -1.094
+{txt}------------------------------------------------------------------------------
+Deviance:{res}  460.050{txt}.
+
+{com}. *now we will use Ilife__1 ( X^-0.43  - 1 ) to rerun the previously failed regression
+
+. logit morphology Ilife__1
+
+{txt}Iteration 0:   log likelihood = {res}-288.90584
+{txt}Iteration 1:   log likelihood = {res}-283.04441
+{txt}Iteration 2:   log likelihood = {res}-276.45142
+{txt}Iteration 3:   log likelihood = {res}-247.48669
+{txt}Iteration 4:   log likelihood = {res}-233.73539
+{txt}Iteration 5:   log likelihood = {res}-230.43822
+{txt}Iteration 6:   log likelihood = {res} -230.0337
+{txt}Iteration 7:   log likelihood = {res}-230.02497
+{txt}Iteration 8:   log likelihood = {res}-230.02496
+
+{txt}Logistic regression                               Number of obs   = {res}       501
+                                                  {txt}LR chi2({res}1{txt})      = {res}    117.76
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-230.02496                       {txt}Pseudo R2       = {res}    0.2038
+
+{txt}{hline 13}{c TT}{hline 64}
+  morphology {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+    Ilife__1 {c |}  {res}-3.536091   .5456685    -6.48   0.000    -4.605582     -2.4666
+       {txt}_cons {c |}  {res}-.9248095    .126142    -7.33   0.000    -1.172043   -.6775757
+{txt}{hline 13}{c BT}{hline 64}
+Note: 12 failures and 0 successes completely determined.
+
+{com}. linktest
+
+{txt}Iteration 0:   log likelihood = {res}-288.90584
+{txt}Iteration 1:   log likelihood = {res}-260.03148
+{txt}Iteration 2:   log likelihood = {res}-237.04246
+{txt}Iteration 3:   log likelihood = {res}-231.15754
+{txt}Iteration 4:   log likelihood = {res}-230.11711
+{txt}Iteration 5:   log likelihood = {res}-230.04002
+{txt}Iteration 6:   log likelihood = {res}-230.02689
+{txt}Iteration 7:   log likelihood = {res}-230.02213
+{txt}Iteration 8:   log likelihood = {res}-230.02039
+{txt}Iteration 9:   log likelihood = {res}-230.01976
+{txt}Iteration 10:  log likelihood = {res}-230.01954
+{txt}Iteration 11:  log likelihood = {res}-230.01947
+{txt}Iteration 12:  log likelihood = {res}-230.01946
+{txt}Iteration 13:  log likelihood = {res}-230.01945
+{txt}Iteration 14:  log likelihood = {res}-230.01945
+
+{txt}Logistic regression                               Number of obs   = {res}       501
+                                                  {txt}LR chi2({res}2{txt})      = {res}    117.77
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-230.01945                       {txt}Pseudo R2       = {res}    0.2038
+
+{txt}{hline 13}{c TT}{hline 64}
+  morphology {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+        _hat {c |}  {res} 1.024464   .1632936     6.27   0.000     .7044141    1.344513
+      {txt}_hatsq {c |}  {res} .0072298   .0133669     0.54   0.589    -.0189689    .0334284
+       {txt}_cons {c |}  {res} .0074829    .142492     0.05   0.958    -.2717962    .2867621
+{txt}{hline 13}{c BT}{hline 64}
+Note: 4 failures and 0 successes completely determined.
+
+{com}. *see _hatsq is no longer significant!
+
+. log off
+       {txt}log:  {res}C:\Documents and Settings\Tatjana Paunesku\Desktop\Ben's Work\Tissue_Stats\prostate_analysis.smcl
+  {txt}log type:  {res}smcl
+ {txt}paused on:  {res}16 Apr 2009, 17:20:49
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}{smcl}
+{com}{sf}{ul off}{txt}{.-}
+       log:  {res}C:\Documents and Settings\Tatjana Paunesku\Desktop\Ben's Work\Tissue_Stats\prostate_analysis.smcl
+  {txt}log type:  {res}smcl
+{txt}resumed on:  {res}16 Apr 2009, 17:48:27
+
+{com}. *Here's an interesting example where we've checked for two-way intereactions between all variables then ran the boxtid resulting in the most powerful model thus far (still not too powerful).
+
+. logit morphology  Ipath__1 Ilife__1 IcGyP__1 Iexpo__1 Ilifea_1 Ilifeb_1 Idose__1
+
+{txt}Iteration 0:   log likelihood = {res}-239.12215
+{txt}Iteration 1:   log likelihood = {res}-200.66748
+{txt}Iteration 2:   log likelihood = {res}-186.75719
+{txt}Iteration 3:   log likelihood = {res}-166.11307
+{txt}Iteration 4:   log likelihood = {res}-156.91407
+{txt}Iteration 5:   log likelihood = {res}-154.93258
+{txt}Iteration 6:   log likelihood = {res}-154.73423
+{txt}Iteration 7:   log likelihood = {res}-154.73124
+{txt}Iteration 8:   log likelihood = {res}-154.73124
+
+{txt}Logistic regression                               Number of obs   = {res}       419
+                                                  {txt}LR chi2({res}7{txt})      = {res}    168.78
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-154.73124                       {txt}Pseudo R2       = {res}    0.3529
+
+{txt}{hline 13}{c TT}{hline 64}
+  morphology {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+    Ipath__1 {c |}  {res}-1.478139   .4445681    -3.32   0.001    -2.349476   -.6068016
+    {txt}Ilife__1 {c |}  {res}-10.02667   1.824909    -5.49   0.000    -13.60342   -6.449914
+    {txt}IcGyP__1 {c |}  {res}-2.89e-45   1.48e-45    -1.95   0.051    -5.80e-45    1.58e-47
+    {txt}Iexpo__1 {c |}  {res}  55.2116   23.41047     2.36   0.018     9.327925    101.0953
+    {txt}Ilifea_1 {c |}  {res}-3.869419   .8488783    -4.56   0.000     -5.53319   -2.205648
+    {txt}Ilifeb_1 {c |}  {res}-46.03923   19.27019    -2.39   0.017    -83.80811   -8.270349
+    {txt}Idose__1 {c |}  {res} 2.972105   .9267881     3.21   0.001     1.155634    4.788576
+       {txt}_cons {c |}  {res}-3.436799   1.305935    -2.63   0.008    -5.996386   -.8772133
+{txt}{hline 13}{c BT}{hline 64}
+Note: 11 failures and 0 successes completely determined.
+
+{com}. linktest
+
+{txt}Iteration 0:   log likelihood = {res}-239.12215
+{txt}Iteration 1:   log likelihood = {res}-184.29062
+{txt}Iteration 2:   log likelihood = {res}-163.29794
+{txt}Iteration 3:   log likelihood = {res}-156.15894
+{txt}Iteration 4:   log likelihood = {res}-154.80226
+{txt}Iteration 5:   log likelihood = {res}-154.70646
+{txt}Iteration 6:   log likelihood = {res}-154.69071
+{txt}Iteration 7:   log likelihood = {res}-154.68527
+{txt}Iteration 8:   log likelihood = {res}-154.68351
+{txt}Iteration 9:   log likelihood = {res}-154.68304
+{txt}Iteration 10:  log likelihood = {res}-154.68297
+{txt}Iteration 11:  log likelihood = {res}-154.68297
+
+{txt}Logistic regression                               Number of obs   = {res}       419
+                                                  {txt}LR chi2({res}2{txt})      = {res}    168.88
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-154.68297                       {txt}Pseudo R2       = {res}    0.3531
+
+{txt}{hline 13}{c TT}{hline 64}
+  morphology {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+        _hat {c |}  {res} 1.024434   .1353331     7.57   0.000     .7591859    1.289682
+      {txt}_hatsq {c |}  {res} .0104727   .0064925     1.61   0.107    -.0022523    .0231977
+       {txt}_cons {c |}  {res}-.0048762    .144688    -0.03   0.973    -.2884594    .2787071
+{txt}{hline 13}{c BT}{hline 64}
+Note: 5 failures and 0 successes completely determined.
+
+{com}. log off
+       {txt}log:  {res}C:\Documents and Settings\Tatjana Paunesku\Desktop\Ben's Work\Tissue_Stats\prostate_analysis.smcl
+  {txt}log type:  {res}smcl
+ {txt}paused on:  {res}16 Apr 2009, 17:49:37
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

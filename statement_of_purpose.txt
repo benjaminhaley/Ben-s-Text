@@ -1,0 +1,4 @@
+statement_of_purpose:
+	for graduate school admissions
+
+see personal_statement.doc

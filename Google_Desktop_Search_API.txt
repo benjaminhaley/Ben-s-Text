@@ -1,0 +1,7 @@
+Google_Desktop_Search_API
+	Used to return the results of a desktop search particularly useful for feeding itches to the scratch esp emails and web histories
+	(see http://localhost/Archives/Itch)
+
+To run the query API you first need to register your plugin:
+	
+

@@ -1,0 +1,1 @@
+scratch log should send its data back to a central repository... at least intermitently

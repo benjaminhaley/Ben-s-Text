@@ -1,0 +1,5 @@
+Itch_Success_Measures:
+
+	To determine if the algorithm used to calculate the itch is effective
+
+It would be useful to have a training dataset for the itch.  It might be nice to look at 100 files and rank them in terms of how much I would like them to come up right now and then compare this ranking I have developed with the results of the current algorithm (or new algorithms I derive).  In producing the training set I imagine that it would be best to draw randomly from the archives folder to reduce the chance of biased based complications.

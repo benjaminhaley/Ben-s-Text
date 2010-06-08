@@ -1,0 +1,20 @@
+griffin.txt
+	A description of my relation with the leader of the Chicago Semantic Web Group
+
+Related Docs
+	bens_job.txt
+	janus_linked_data.txt
+	gruenberger_intergration.txt
+
+To Do:
+	Awardable Anyone?
+	Sports Stats (as of Dec 2009)
+
+Resume:
+    http://www.linkedin.com/in/griffincaprio
+
+10/19/2009
+	I met Griffin for lunch today to talk about the semantic web.  I was a little naive about terminology, lumping together linked and semantic data.  I might have improved that by brushing up on the topic for an hour before meeting with.  We did however get to the root of things.  He described how rdf data is just a series of interconnected uris and how those uris can extend to alternative vocabularies.  He also got at the very important point that RDF will do little to make our data usuable by Taverna users.
+	Later we talked about his projects related to creating a semantic web for sports trivia.  It sound like a cool project, I hope that he can find enough RDF encoded data and contributers to make a useful enterprise out of it.
+	
+	

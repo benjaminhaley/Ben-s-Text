@@ -1,0 +1,17 @@
+Northwestern_Web_Server
+
+To serve the website:
+The WampServer must start before login, this is done through scheduled tasks.  We have a static IP that is server from 165.124.50.30 .
+
+To access the Server:
+Shut down Wampmanager in the task manager and then start the WampServer using its desktop icon.  C:\Wamp has the server binary files and server applications.  C:\www contains the web-served files.  The wololab website is at C:\www\wololab, the Janus tissue archive is at C:\www\Janus2 and C:\www\index.php redirects http://janus.northwestern.edu to http://janus.northwestern.edu/janus2/index.php.
+
+To update the website:  
+Use Firebug to trace the source of any particular page element.  Then change that element at it's source.  To inspect Forms and discover how they generate SQL server code, use firefox's Developer tools and the 'Forms' shortcut. 
+
+For permissions:
+sign in at http://janus.northwestern.edu/phpmyadmin username:Ben, password: [ultra secure].  To change labzone passwords select the database wololabc_labmemebers.  To access the mouse tissue database follow the sidebar janus>janus.  This will redirect you to the datatables.  In C:\www\janus2
+
+\database_prep.sql there is the script that was used to setup the janus datatables from the original data in 'C:\JANUS\Mouse DB\ActiveMouseDB.mdb' which dave has modified.
+
+

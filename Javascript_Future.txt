@@ -1,0 +1,12 @@
+Javascript_Future
+	why javascript will be the dominant scripting language for user apps
+
+When trying to develop an architecture for making and reviewing quizes I wanted a way to associate an environment with a question so that they might be retrieved together.  This is simple if the environment is online, because I can use a url (uri) to identify the environment.  Unfortunately, many times my environment is offline because it is some sort of text editor connected to an interpreter for a programming language.  So the environment is only accessiable on one machine.
+
+Firefox is happy to open any URI, it does not however support the variety of languages and encodings that a desktop supports.  It can only access web protocols and javascript.  So, if you want a program to be accessiable through a uri, that program must be coded in javascript.
+
+My intention with this question architecture aligns with dave's scidex ideas.  However, dave's implementation can not support all of the architectural demands that I require.  He could not associate questions to answers or facillitate the calculation of present or presentation of data by what I need.  I think that different people will have different demands for a note taking architecture.  So, I would like to extend the scidex protocol arbitrarily.  I would like to add answer and results feilds and keep them associated to eachother.  To find them in the future I would like to be able to search through any tag and sort by the value in the feild.  Doing this would make this program truly useful to me for my online studies.
+
+To bring this up to dave I want to have the right environment.  I want to sit down over a bite to eat, chat about our day, and get ourselves real calm and comformtable to prevent any anger from bubbling.  I want introduce my question taker dillema and discuss possible solutions with him.  I have to be very careful in working on things esp in places where Dave has already done work or planning that he will be strongly in favor of keeping.  I need to approach it slowly and see if we can't go over the architecture to enable my question machine.  I will not state my plan directly, but see if it is possible to work our way there.
+
+I also need to talk to dave about navigating to a website normally and having my notes already be there for me.

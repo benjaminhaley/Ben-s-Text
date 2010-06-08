@@ -1,0 +1,5 @@
+Nearby_Itches
+	to improve the itch protocol
+
+When you scratch an itch nearby places itch more and you proceed to scratch them.  The itch protocol should mimic this phenomenon.  Perhaps we could use google's similar pages results and create a function that describes itchiness as a combination of three factors, time of last access, time of last modification and degree of similarity to previous itch.  We might also include a collaboration factor of how are other people treating this itch.. though conceptually this is not really different from scratching of nearby areas.
+

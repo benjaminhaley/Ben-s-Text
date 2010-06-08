@@ -1,0 +1,295 @@
+communication_biology.txt
+	Develop the fastest, cheapest, and most information rich way to communicate with cells.
+
+	Cellular biology has memory and processing power far in excess of either human or computer systems (see ../computational_biology.txt).  From this fact, we might suppose cells, like humans and computer systems, contain self models that can be accessed and manipulated.  In an effort to access these self models the author proposes the development of rapid communication technologies that interface with naturally occuring cell signaling channels and are optimized for low data aquisition costs.  From the collected data we might hope to employ machine learning algorithms to find recurrent patterns in call/response and correlations with external measures like turmonogenicity and cell connectivity.
+
+	In the modern world some of the most important work being done involves mapping and applying search algorithms to meaningful graphs in the world.  The most notable of these efforts have been the graphs produced by google of the internet and facebook of the network of friends.  The creation of each of these maps has relied upon the fact that nodes involved are willing and capable of defining their own connections to the central service.  This ability to communicate connectivity is of paramount importance in the study of biology.  If cells are capable of defining their communication paths to researchers then we will have a powerful method of researching multi-cellular entities.
+
+	Cell signaling is broken into Juxtacrine, endocrine, paracrine, and DNA/RNA forms of communication.  Endocrine signaling involves hormones, diffusion, and neurotransmitters.  Neurotransmitters are interesting for my study and are 90% glutamate receptors and 9% Gaba receptors (clearly the top two targets).  DNA/RNA signaling is capable of super long distances and astounding amounts of information transfer.  A study of viral communication channels might be a natural tie in.  A fringe area of cell communication is in biophotons which one should keep there ear to the ground for.
+	The juxtracrine signaling pathways consist of receptors, ion channels, and electrical conductance.  In neurology elitrocorticography is the process of wiring the brain to interface it to human electronics, and perhaps the closest thing to my interests.  Receptors bind peptides, hormones, and drugs and fall into classes of G-coupled, Tyrosine Kinase, Guanylyl cyclase, and ionotorpic.  The immune system has its own special set of receptors which include pattern recognition receptors, which identify pathogens (endocytic PRRs) or other cells (toll-like receptors).  This is an intriguing class of molecules because of its range of binding.
+	Of course, the feild is also interested in signaling pathways which proceed through to the genome.  These start at sonic the hedgehog which binds to patch-1, MAPK/ERG which binds to Growth Factors, TGF-beta which binds Type-1 receptors, JAK-STAT which binds cytokines/growth factors, and most importantly integrins which bind other cells and can pass materials as large as viruses.  Lipid Signaling differs from other forms in that the protiens are membrane bound and generally required to x-fer information across the nucleus (the exceptions being ion channels, integrins, etc.)
+	While my studies in cell signaling have been fruitful to a point, the focus of the feild is on mechanism, and pathways.  Without a systems approach, finding information flow data ( counts, rates, etc. ) is like finding a needle in a  pile of threads.  For this reason, I have switched the thrust of my efforts over to systems and bioinformatics journals.
+
+
+Time Sheet
+	1.5 hours  03 July 2009
+	3.0 hours  10 July 2009
+	3.5 hours  18 July 2009
+	5.0 hours  24 July 2009		c. elegans, rnai
+	10.0 hour  08 Aug  2009		bioinfor reading ( AUTM, Zhou USC), found leiber's work
+	3.0 hour   19 Aug  2009		investigated 3 more nanowire dudes
+	2.0 hours  22 Aug  2009		organize (1 hour), nanowire (1 hour)
+	
+
+To Do
+	Find technique
+	Find Lab
+	Find labs doing Si-NW's build list
+	Organize this document
+	Start building my argument document
+
+Notes
+	Techniques	Currently focused on siNW FET arrays, more listed at techniques.txt
+	Models		c. Elagans perhaps, more at models.txt
+	Signaling	Cells use a myriad of communication channels see signaling.txt for some examples
+
+
+
+
+
+
+
+Systems Biology
+	Wholesale RNAi K/O's pertubations 
+	The institute for Systems Biology is a 170 member group in Seattle focused integrating across disciplines to develop statistical models for the effects of large scale perturbances on gene regulatory networks.
+
+
+WTEC's assesment of SYstems Biology in the US as of 2005 (good background) http://www.wtec.org/sysbio/report/SystemsBiology.pdf
+
+
+
+
+
+
+Online courses:
+	Microfluidic flow, sorting, and optical detection (no lectures or solutions) http://tinyurl.com/ppwqz6
+	Feilds, forces, and flows in biological systems (no lectures or solutions)  http://tinyurl.com/ple45v
+	Electrical flow and potential in cells (no lectures or solutions) http://tinyurl.com/qm6c4u
+		Which molecules are transported across membranes, and what are the mechanisms of transport?
+
+
+print a copy of this http://en.wikipedia.org/wiki/File:Signal_transduction_pathways.png
+Check Protein Importance by K/O deadlyness and expression rate
+run through the signaling news and technology assesments
+
+http://en.wikipedia.org/wiki/Technology_assessment
+http://en.wikipedia.org/wiki/ETC_Group
+http://www.europarl.europa.eu/stoa/default_en.htm
+
+
+biophysics
+transport
+bioinformatics
+
+
+
+bioinformatics
+	important datasets: 	nucleic acids, protiens, x-ray crystalography, protein nmr
+	important problems: 	transcriptome to proteome to cacerousness to 
+				protein sequence to protein structure
+
+RNAi
+	Discovered in C elegans in 1998 by ?? 
+
+C elegans are transparent, have a 3-day lifecycle, and well characterized development.  While other animals have a strong anti-viral response to RNAi, C elegans need only to have 150 bp or more of dsRNA inserted into them.  RNAi delivery in c elegans is accomplished by switching the e coli they eat with another strain that expresses the dsRNA of interest http://www.bioscirep.org/bsr/025/0299/0250299.pdf!
+
+C elegans development is characterized to the cell (Hope, 1999)Hope, I. A. (1999) Background on Caenorhabditis elegans. In: C. elegans. A pratical approach (I. A. Hope,
+ed.), Oxford University Press, Oxford.
+
+RNAi perturbances are what I need to work with right now... maybe I could get cells to stop or start dividing... that seems rather useful, doesn't it?  Maybe I could get them to move from one point to another
+
+make sure that RNAi does not have off target affects - would require RNAi and microRNA along with some good theory
+
+Seems to take 9 days for feeding c. elegans from a library and analyzing through light microscopy.  Time is taken in the growth of c. elegans from a library and in the selection of RNAi KO strains http://www.natureprotocols.com/2008/02/12/rnai_vector_feeding_protocol_f.php
+
+
+
+RNAi is particularly effective for knockdown experiments in polyplodial plants which are difficult to manipulate by traditional KO means. http://www.plantphysiol.org/cgi/content/abstract/142/1/6
+
+RNAi in hertiable in c. elegans
+
+Note, perhaps by combining these processes with mass spec we can begin an era of biological chemistry where we order custom molecules directly from biology itself fitting whatever spectrophotometric properties we desire.
+
+C elegans will have the added benefit of cell-to-cell contact requiring gap junctions and the like
+
+
+I need to look at the application of patch clamp in c elegans 
+
+
+
+LSDCAS	The large scale digital cell analysis system
+	A machine at the university of iowa dedicated to multi-day automated microscopy.  Built in 2007? it can generate 50 gigs of data/week as it scans across thousands (millions?) of cells.  The machine has two microscope system, one of which routinely scans a T-25 and the other of which scans a 96-well plate that includes CO2 and humidity control.  The machine runs an autofocus algorithm to ensure quality images.  The university of Iowa is not unique in having an automated microscope, nikon has a very nice article detailing the technical side of automated microscopy and commercial solutions avaliable.  http://www.microscopyu.com/articles/livecellimaging/automaticmicroscope.html
+
+
+Metagenomes Availability
+	EMBL Nucleotide Sequence Database Collaboration is a collaboration between genbank, ddbj, and embl to keep all of these sequence databases synchronized.  IGM/m maintains a database focused on metagenomes specifically http://img.jgi.doe.gov/cgi-bin/m/main.cgi.  
+
+
+September 14-18, 2009 ($250) - I really need to find a way to go to this
+   Microbial Genomics & Metagenomics Workshop 
+
+If a something where hooked up to the signaling pathways of a cell and also given a microscopic veiw of what the cell was doing, could that something learn to direct the motion/gene production or the like of the cell?  
+
+Maybe the problem that I really want to deal with has to do with providing high speed datalinks between computers, people, and the biological organisms around them.  We have the network infastructure to make gaia communicate better, it is our obligation to make this happen.  But to make it so we will have to take a selfish course of development.  The most important goal from our perspective is linking our computing machines (which are linked to us) to biology in order to facillitate our interaction with it.  This is important at a mass scale, but mass animals might be too dumb to be useful.  We may need to lean down into the world of microbes in order to get our shit done.
+
+
+One problem that we might solve is how the cell can communicate to us spatial or temporal information about the various moleclues within it.  This data could be nicely correlated with florescent data.  It would involve training and help to solve an important biological problem, how to identify the locality of difficult to tag molecules after their introduction to a cell.  Moreover, if the cells are capable of transmitting an objects locality, we might be able to convince them to keep it in one place or another.  This would have great utility to researchers.  
+
+
+An important question that venters group will be getting at is whether genes fold differently in various different cellular environments.  Actually this question can be asked more generally if we ask what is the structural output of a variety of species for a particular gene sequence.  If all of the species produce the same protein structural output we might assume that this output can be derived from its underlying sequence.  If they produce different outputs then we have to consider the background as a powerful contributer to the final protein.  A simple answer to this question can be supposed when we consider alternative splicing.  Obviously the final state of the protein output cannot be completely determined from sequence if alternative splicing exists.  The question is how common is alternative splicing?  Moreover can we predict all the possible alternative splices, which is actually the most important question.  The broader question of why the cell favors one splice over another may not be contained within the genes, but instead be a factor of the cellular environment.  The even broader question of what a protein's function is based on sequence is rather absurd considering that our data on functionality is so limited.  I would have to assume that a guess and check strategy is a good approach to the production of functional proteins at a biolgical level.  More specifically, I have to suppose that some degree of guess and check is necessary to solve the problem, while a fair amount of prediction is possible as well.  To really solve the problem we need to tighten the turnaround time between predicting a novel protein's functionality and testing it.  W/O this turn around it becomes exceedingly difficult to test our models.  Another score for venter I suppose.
+
+
+
+I think I would like an option when I choose to open a new tab to write out a sentence of text detailing what I hope to veiw from that source so that when I get around to it I can answer the question that I was getting at.  Probably best to make this a tag on a bookmarking utility I can make the answer to the question another tag...
+
+mechanosensors:
+	Cells generate their adhesion forces in the nanonewton range and these forces can be measured by a variety of techniques.  
+	PDMS aka polydimethylsiloxane plating, developed in the 1980s, offers a qualitative visualization of these forces due to deformation of the matrix  (Harris 1984).  More quantitatively, cells can be plated on a polyacrylamide matrix with indicator beads, the movement of which can be used to measure the tension forces (Lee, Leonard, Oliver, Ishihara and Jacobson 1994).  Still other methods employ Cantalivers to directly measure forces but limited by the use of a single canteliver can only measure one force at a time (Galbraith and Sheetz 1997).  mPAD (microfabricated post array detectors) involve an array of posts and optical analysis of deflection that can be combined with spring constants to measure the forces applied at the points of contact (extremely useful).  The authors of this link claim to have developed a system that provides data within reasonable computational bounds http://www.pubmedcentral.nih.gov/picrender.fcgi?artid=1480360&blobtype=pdf.  Fabricating these posts seems to be a relatively cheap process and the microscope involved was a Nikon Eclipse TE2000-E microscope in a LIVECELL chamber.  Definately the most expensive parts of this process are the microscope and expertise involved.  However, I would say that a setup could be made for Cell Culture ($100) + Microscope Time ($1000) + Fabrication ($1000) and Expertise ($1000) for under $5000 a run for a 2 day run (turn your bs factor on high).  
+
+
+
+Biomodels (http://www.ebi.ac.uk/biomodels-main/) - is the currated repository of biological models relevant 
+
+
+chemical organization theory - wtf is that
+Systems Biology Markup Language - wtf is that
+
+Adir-Klotz description of allosteric binding measures the association constants of each binding site independently under the assumption that occupied binding sites change the reactivity of other binding sites on the same protein
+
+Metabolomic flux is defined in the measurable change of biologically relavent materials!  Stephanapolis goes on to describe metabolic engineering as the directed optimization of measurable metabolomes outputs through genetic engineering (a rather dull definition) (according to http://www.brc.dcs.gla.ac.uk/~yde/Papers/stephanopoulos1999.pdf)
+
+To note if we can provide a cell with control over its cellular environment through signalling it will be able to better optimize its production of metabolites of interst to us!  I really need to start exploring methedologie in metabolomics.
+
+http://delicious.com/save?url=http://www.biomedcentral.com/1471-2105/10/226&title=Abstract%20|%20Information%20management%20for%20high%20content%20live%20cell%20imaging&v=5&jump=yes
+
+http://delicious.com/save?url=http://www.biomedcentral.com/1471-2105/10/227&title=Abstract%20|%20Metabolite%20signal%20identification%20in%20accurate%20mass%20metabolomics%20data%20with%20MZedDB,%20an%20interactive%20m/z%20annotation%20tool%20utilising%20predicted%20ionisation%20behaviour%20'rules'&v=5&jump=yes
+
+http://delicious.com/save?url=http://www.biomedcentral.com/1471-2105/10/232&title=Abstract%20|%20BSMAP:%20whole%20genome%20Bisulfite%20Sequence%20MAPping%20program&v=5&jump=yes
+
+http://delicious.com/save?url=http://en.wikipedia.org/wiki/Gas_chromatography-mass_spectrometry&title=Gas%20chromatography-mass%20spectrometry%20-%20Wikipedia,%20the%20free%20encyclopedia&v=5&jump=yes
+
+research the industry of biological production, what are the top biologically produced substances and what is the scale/nature of their production
+
+http://www.geobacter.org/ geobacter is a carbondioxide reducing energy receptor that has made waves recently as selective pressure has been used to make it more productive
+
+THe Association of University Technology Mangagers (AUTM) is a collaboration that (amongh other things) tracks the rate of spin-offs from universities.  http://www.autm.net/Surveys.htm
+
+
+	2007 results for Acedemic Not For Profits and Technology Investment Firms
+	$48.8 billion in research expenditures in 2007
+	$3.4 billion in industry research performed at U.S. institutions, a 15% increase over 2006 and 5% more than the increase in federal expenditures over the same period.
+	686 new products introduced into the market in 2007
+	555 new startup companies launched in 2006
+	19,827 disclosures received by organizations
+	5,109 licenses and options signed
+	3,622 patents issued
+	3,388 startup companies still operational
+	Bigest startup school - MIT (30/yr)
+	Avg startup school 3/yr
+
+
+I really want to be working on datasets that involve continual measurements so that we can test our hypothesis as they are derived.
+
+
+Zhou et. al out of USC does a pretty cool analysis matching microarray datasets to phenotipic observations as noted in the Universal Medical Research Set under the pubmed descriptions.  It might be a cool lab to check out.  Here is there paper http://www.liebertonline.com.ezproxy.galter.northwestern.edu/doi/pdf/10.1089/cmb.2009.0037?cookieSet=1 and here is zhou's website (http://www.cmb.usc.edu/people/xjzhou/zhou.htm).  Another Zhou, At USC, Chongwu, comes up first in the search results and has interests in nanotechnoloy, nanoelectrics, and nanowires.  I wonder if the two are related.
+
+I should be looking for nanowires... duh.
+
+
+In science 2006, Harvard professor Lieber describes a nanowire-array to connect to neurons.  They note that micropipettes are difficult to multiplex, while field-effect transistors have too large a resolution to allow the detection of individual axons or dendrites.  Silicon Nanowire FET's arrays (SiNW FETs) offer better resolution.  Polylysine patterining can be used to direct neuronal growth onto the array.  These arrays can then detect the spatial patterns of signals and determine contributions resolved by dendrites.  The junction area of these probes is 1-2 um.  P or N type SiNWs are interconnected to FET device array structures.  The devices must be passivated using an undercut multilayer resis and equential line of sight metal and isotropic silicon nitride layer depositions.  The resulting devices survived 10 days with >90% yeilds (needs improvement).  Action potentials could be elicited by either traditional micropipettes or the SiNW FET arrays over a period of 24 hours.  
+http://www.sciencemag.org.ezproxy.galter.northwestern.edu/cgi/content/full/313/5790/1100
+
+
+
+In another paper, Lieber's group shows that SiNWs can be used to create biosensors.  Amine- and Oxide- functionalization allow for pH meters that sense protanation and deprotanation.  Biotin modification was used to detect streptavidin to picomolar concentrations.  Antigen binding allowed reversiable antibody binding and detection which Ca2+ could also be detected and bound.  We must ask how well he can detect Ca 2+ and over how long a time frame.
+http://www.sciencemag.org.ezproxy.galter.northwestern.edu/cgi/content/full/293/5533/1289
+
+
+
+Still another paper, Lieber detects cancer makers using nanowire-suraface receptor complexes.  This time they detected PSA, Cacinoembryonic anitgen, and mucin-1 at a level of 0.9 pg/ml.  Also nucleic acid receptors allowed real-time assays of binding, activity, and small-molecule inhibition of telemorase using the extracts of just 10 cells. The questions remain how powerful and long lasting are these sensors, how expensive to produce, and who's working on them.  I might read the paper for some more answers.
+http://www.nature.com.ezproxy.galter.northwestern.edu/nbt/journal/v23/n10/full/nbt1138.html
+
+
+
+In a coup de grais, Lieber shows that he can detect individual virus particles using SiNW FET arrays modified with antibodies for influenza A.  
+http://www.pnas.org.ezproxy.galter.northwestern.edu/content/101/39/14017.abstract?ijkey=1ba89edd1fe57b329c7288a7def39bd939744752&keytype2=tf_ipsecsha
+
+
+In the following paper, Lieber describes his work in a more general sense and then applies it to photoelectronics.
+http://www.iupac.org/publications/pac/76/12/2051/
+
+
+Here Lieber binds the SiNW to cardiomyocytes to participate in cell communication
+http://www.pnas.org.ezproxy.galter.northwestern.edu/content/106/18/7309.abstract
+
+
+Here is the most recent paper that I could find from Lieber.  This time he is communicating with embryonic chicken cardiomyocytes.  He says that these tools and carbon nanotube (CNT) arrays have higher sensitivity than planar FETS because they have protruding wires that create a superior contact with the cell.  In order to make strong physical contact to the cells, Lieber used polydimethylsiloxane (PDMS) sheets to culture cells and an x-y-z manipulator under an optical microscope to make optically registered contact with the beating cells.  They can even change the points of contact during experiment, and so move to points of interest as guided by a microscope!  Using the recordings from each of the nodes, the authors were able to determine the propogation speed of electric current (0.07-0.21 m/s) and suggest that such studies might bear more fruit in the future.  PS. the chick species was leghorn - hilarious
+http://cmliris.harvard.edu/publications/2000s/2009/PNAS_106-7809_Cohen-Karni.pdf
+
+
+Peng Cheng in 2008 Singapore has done similar work to Lieber, pulling recordings from cardiomycotes, smooth muscle cells, and neurons.
+http://www3.interscience.wiley.com.ezproxy.galter.northwestern.edu/cgi-bin/fulltext/121581746/HTMLSTART
+
+Here's one from Hierlemann, Zurich, 2006 doing the same song and dance.
+https://www.dur.ac.uk/c.i.paterson/Bio-Seminar-Feb08/HEER07%20Single-chip%20microelectronic%20system%20to%20interface%20with%20living%20cells.pdf
+
+In 2008 Woo-Kyeong Seong of Gyeonggi Korea presented a paper on silicon nanowire arrays used to detect pH changes and streptavidin-biotin binding and salt concentrations (though no mention of its 'array' properties).
+http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2526356
+
+
+In this somewhat novel paper from 2008, Ballerini et al grew neurons on a carbon nanotube coated slide which increased the rate of soma depolarization in rat hippocampal cells as measured by patch-clamp recordings presumably resulting from increased backpropagation enabled by better electrical contact with the dendrites.
+http://www.nature.com.ezproxy.galter.northwestern.edu/nnano/journal/v4/n2/full/nnano.2008.374.html
+
+
+
+Definitions
+	FET		A feild effect transistor uses voltage gradients to affect the shape of a conductance channel
+	n-type		a doping substance which donates electrons to the semi-conducter.
+	p-type		a doped substance which accepts (takes away) electrons from a semi-conducter leaving electropositive holes
+	passivation	to pre-treat a substance in preperation for contatct with another substance
+
+
+People doing SiNW work
+	Lieber		Harvard		Mostly focus on building nanotech, heads of feild, have a biosensor branch.
+	http://scholar.google.com/scholar?cites=18074493013485351357&hl=en	(search through this list of papers for more)
+	Peng Chen	Singapore	Working on the right area... maybe too slowly.  Their hormone work is cool.
+	Hierlemann	ETH Zurich	A little heavy on the engineering end
+	Martin		Florida		Bryan has reccommended this guy.
+	Seong		Korea		no webpage, seems kinda flat
+	Ballerini	Italy		off the tradition here, but cool for her work short-circuiting neurons with NWs
+
+
+
+
+
+
+
+
+The nanoelectronics market is projected to reach $409 BY by 2015 according to a $4000 report, "Nanoelectronics - Global Strategic Business", issued by Electronic Industry Market Research and Knowledge Network http://www.nanotech-now.com/news.cgi?story_id=33716
+
+Moore's law across disciplines (http://en.wikipedia.org/wiki/Moore's_law)
+
+   1. transistors/cpu, 2 yrs, 2 B in 2008
+   2. hard disk storage, 2 yrs, ? 
+   3. bandwidth, 1.5 yrs,
+
+Moore's Law Does not describe (http://en.wikipedia.org/wiki/Moore's_law)
+
+   1. RAM access speed, a few % anually
+   2. Hard Disk Seek times, few % anually 
+
+
+the ITRS is a valuable resource for tracking trends in the microprocessor industry, especially how fast future technology will operate
+Here is a link to their 2008 summary report.  http://www.itrs.net/Links/2008ITRS/Update/2008_Update.pdf
+
+
+An example of publishing conventions
+Authors should follow the conventions of the CSE Style Manual (Council of Science Editors, Reston, VA, 2006). Chemical Abstracts and its indices should be followed for chemical names. For biochemical terminology the recommendations issued by the IUPAC-IUB Commission on Biochemical Nomenclature, as given in Biochemical Nomenclature and Related Documents, published in 1992 by the Biochemical Society, UK should be followed. For enzymes, the recommended name assigned by the IUPAC-IUB Committee on Biochemical Nomenclature, 1978, as given in Enzyme Nomenclature, published by Academic Press, New York, 1992 should be used. Wherever possible, the recommended SI units should be used. Genotypes should be italicised. Phenotypes should not be italicised. For bacterial agents nomenclature Demerec. 
+
+
+I think I may needs be looking up nanowire in a general sense
+
+
+DYNAMIK is a general purpose tool made to track mobile cells from video images, it would be useful for my purposes of directing the targets of a movable interface and detecting meaningful changes.  http://bioinformatics.oxfordjournals.org.ezproxy.galter.northwestern.edu/cgi/content/full/25/18/2383
+
+
+At the college of optics and photomics at the univeristy of central florida, some researchers have promoted cell mobility using (very soft) polarized laser light which exererts a slight torque on the actin fibers within the neuroblastoma cells and causes them to align along the direction of polarization following several hours of stimulation.  Wierd.  http://www.opticsinfobase.org/DirectPDFAccess/7EB05C72-BDB9-137E-CA87E7DC50DC258E_180113.pdf?da=1&id=180113&seq=0
+
+George Church has done it again by pioneering a way (MAGE) to manipulate many genes simultaneously in a variety of combinations in order to try and optimize artificial selection (biological programming).  They managed to produce yeast with a five-fold improvement in lypocene production after just 3 days (they say that's fast). http://www.nature.com.ezproxy.galter.northwestern.edu/nature/journal/v460/n7257/full/nature08187.html
+
+In nature this groups attempts to answer the question of whether actional potentials affect the dendrite stratifications of neighboring cells in the mouse retina.  They find that after tuning down the synaptic release they do not see a significant drop in dendrite formation promoting the idea that there are forces outside of action potentials affecting neuronal development. 
+http://www.nature.com.ezproxy.galter.northwestern.edu/nature/journal/v460/n7258/full/460961a.html
+
+
+How to monetize cells:
+	So in an effort to monetize the cell biology studies we could provide a simple model.  Data we produce is open and usuable, input data is closed and costly.  Or maybe by giving the input author immediate credit for subsequent behavior of the system we can encourage scientists to not have to worry about the difficulties of publishing.  If they produce amazing results the community will note and site them (we will too) and they will be given there just deserts, making future money off of speaking gigs.

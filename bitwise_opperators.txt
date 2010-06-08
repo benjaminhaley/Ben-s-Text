@@ -1,0 +1,5 @@
+why would I ever need to use bitwise_opperators?
+
+They are stupid... but technically a faster way of performing *2 and /2 opperations (though they also round so they are not accurate, perhaps that is what google is using to estimate the total search results...).
+
+They have use in encryption, interrupt & stack processing, character set encoding, memory allocation and bitwise arithmetic.

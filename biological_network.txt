@@ -1,0 +1,25 @@
+biological_network.txt
+	The exchange of information in biological systems (especially nucleic acids through viruses)
+
+goal: 	1. to understand the rates and pathways at which exchange occurs
+	2. to interact with these pathways to access the potential of biological computation
+
+
+		ocean virus pass photosynthetic protein (5 min) http://video.google.com/videoplay?docid=-6950604815683841321&ei=yIU9Sff1KYi4-QHgjanoCg&q=biological+computation
+		5 MY old vestigal virus in human genome (17:30) http://video.google.com/videoplay?docid=-6950604815683841321&ei=yIU9Sff1KYi4-QHgjanoCg&q=biological+computation
+		search for virome, virus extraction
+
+
+Viral Abundance and Variety:
+Nature 4, Sept 2008.  The Virophage as a unique parasite of the giant mimivirus.
+50 nm Sputnik virus associates to a strain of the giant APMV, mimivirus (the mama virus) and commenders its replication factory following APMV's invasion of an amoeba.
+*also the summary notes that metagenomic sequencing efforts have found sequences related to large virus in abundance in the oceans.
+
+
+I would suppose that biology has certain API's so that it might interact with other cells.  Viruses, protein receptors, and electrical synapses likely serve as channels for these api's as they enable intercellular communication.
+
+because we see occasional xfer viruses between species, I imagine the real rate of this cross over is intense and responsible for the lateral transfer of information across species.
+
+The fact that the HIV virus eliminates the human immune system, turns carriers into high-thoroughput network nodes spreading a number of non-human messages across the world
+
+circulating DNA | One company is now going after this as a diagnostics platform, I bet they would have good papers characterizing circulating DNA http://www.genomeweb.com/sequencing/cell-free-dna-rna-may-hold-key-new-diagnostics-chronix-biomedical-says

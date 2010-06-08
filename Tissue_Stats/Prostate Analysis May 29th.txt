@@ -1,0 +1,231 @@
+Prostate Analysis May 29th
+	to determine if dose and dose rate affect the rate of prostate incidences (tumors and hyperplasia)
+
+Data
+	C:\Documents and Settings\Tatjana Paunesku\Desktop\Ben's Work\Tissues\Tissue_Stats
+		dataset: 	superdog.dta
+		session log:	superprostate_may29.smcl
+
+
+Analysis
+	All anlysis will include:
+		1. the number of necroscopy/pathology observations
+		2. Lifespan
+		3. gender
+
+
+	Experimental analysis will play with these factors:
+		1. Dose and dose rate
+		2. power functions and cross products
+
+
+Clarifications
+	Powerfunctions		the boxtid command raises each variable to some power (x)^? in order to maximize goodness of fit
+	Cross Products		just the multiple of two variables
+	Psuedo R2		the measure of the goodness of the logistic regression model
+	significance		all of the models are highly significant
+				we generally only included variables which were significant, but this was not adheared to strictly
+	
+
+
+Summary
+	(the full analysis is below)
+
+	The following table summarizes the psuedo R2 for the whole model
+
+
+				with radiation			without radiation
+	
+	basic variables			0.56				0.57
+	with cross products		0.56				0.58
+	with power functions		0.63				0.64
+
+	From this analysis it seems that we can say that dose and dose rate are very mildly correlated to prostate incidences and improve the predictive force of the model by about 1%. In the future we should try adding more factors to the model, proofing the analysis, and applying power analysis.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* here we see prostate incidence against lifespan, observation count, and gender
+
+Logistic regression                               Number of obs   =       4715
+                                                  LR chi2(3)      =     989.19
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -388.41759                       Pseudo R2       =     0.5601
+
+------------------------------------------------------------------------------
+prostate_inc |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+lifespan_yrs |   .3123497   .0209216    14.93   0.000     .2713441    .3533552
+genderzero~e |  -6.129642   1.010793    -6.06   0.000     -8.11076   -4.148524
+observe_co~t |   .0681158   .0065631    10.38   0.000     .0552523    .0809793
+       _cons |  -5.490056   .2481779   -22.12   0.000    -5.976475   -5.003636
+
+
+
+
+* next we will add dose and dose rate to see if they can improve the model
+
+
+Logistic regression                               Number of obs   =       4715
+                                                  LR chi2(5)      =    1007.80
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -379.11404                       Pseudo R2       =     0.5707
+
+------------------------------------------------------------------------------
+prostate_inc |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+lifespan_yrs |   .3004746   .0220261    13.64   0.000     .2573042     .343645
+genderzero~e |  -6.182012   1.011368    -6.11   0.000    -8.164257   -4.199768
+observe_co~t |   .0739345   .0074286     9.95   0.000     .0593747    .0884944
+   dosetotal |   .0000992   .0000343     2.89   0.004      .000032    .0001664
+    doserate |  -33.95543   14.17584    -2.40   0.017    -61.73956   -6.171302
+       _cons |  -5.465766   .2587823   -21.12   0.000     -5.97297   -4.958562
+------------------------------------------------------------------------------
+
+
+*adding in cross products does not improve the radiation free model
+
+
+Logistic regression                               Number of obs   =       4715
+                                                  LR chi2(4)      =     989.20
+                                                  Prob > chi2     =     0.0000
+Log likelihood =  -388.4173                       Pseudo R2       =     0.5601
+
+------------------------------------------------------------------------------
+prostate_inc |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+lifespan_yrs |   .3129943   .0341978     9.15   0.000     .2459678    .3800208
+genderzero~e |  -6.128182   1.012612    -6.05   0.000    -8.112865   -4.143498
+observe_co~t |    .068321   .0108235     6.31   0.000     .0471074    .0895347
+   age_X_obs |  -.0000297   .0012458    -0.02   0.981    -.0024714     .002412
+       _cons |   -5.49434   .3066416   -17.92   0.000    -6.095346   -4.893333
+
+
+
+
+*adding in cross products does improve the case of irradiation
+
+Logistic regression                               Number of obs   =       4715
+                                                  LR chi2(9)      =    1020.14
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -372.94519                       Pseudo R2       =     0.5776
+
+------------------------------------------------------------------------------
+prostate_inc |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+lifespan_yrs |   .3192192   .0361137     8.84   0.000     .2484377    .3900007
+genderzero~e |  -6.310086   1.040868    -6.06   0.000    -8.350151   -4.270022
+observe_co~t |   .0957607   .0153722     6.23   0.000     .0656318    .1258897
+   age_X_obs |  -.0023027   .0013957    -1.65   0.099    -.0050383    .0004329
+  age_X_dose |   .0000122   9.67e-06     1.26   0.207    -6.76e-06    .0000311
+  age_X_rate |   .4935338   .3782917     1.30   0.192    -.2479043    1.234972
+  obs_X_dose |   3.37e-06   3.50e-06     0.96   0.336    -3.49e-06    .0000102
+  obs_X_rate |  -1.132928   .5754348    -1.97   0.049    -2.260759   -.0050963
+ dose_X_rate |  -.0152803   .0103134    -1.48   0.138    -.0354942    .0049335
+       _cons |  -5.640077   .3365308   -16.76   0.000    -6.299666   -4.980489
+
+
+* next we will try taking the radiation free variables to their appropriate powers, which definately improves on the original model's predictions
+
+
+Logistic regression                               Number of obs   =       4715
+                                                  LR chi2(6)      =    1113.57
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -326.23014                       Pseudo R2       =     0.6305
+
+------------------------------------------------------------------------------
+prostate_inc |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+    Ilife__1 |  -1.243254   .1580818    -7.86   0.000    -1.553089   -.9334195
+    Ilife_p1 |  -.1514532   .0193355    -7.83   0.000      -.18935   -.1135564
+    Iobse__1 |   5.325376   2.315633     2.30   0.021     .7868196    9.863933
+    Iobse_p1 |  -1.023849   .7552411    -1.36   0.175    -2.504095     .456396
+    Iage__p1 |   4.68e-16   1.41e-15     0.33   0.740    -2.29e-15    3.23e-15
+genderzero~e |  -6.037857   1.007489    -5.99   0.000      -8.0125   -4.063215
+       _cons |  -3.149502   .2646417   -11.90   0.000     -3.66819   -2.630813
+------------------------------------------------------------------------------
+Note: 1976 failures and 0 successes completely determined.
+lifespan_yrs| .2312971   .0266787      8.670  Nonlin. dev. 39.721  (P = 0.000)
+      p1 |  -1.021064   .0205094    -49.785
+------------------------------------------------------------------------------
+observe_count| .0451817   .0096134      4.700 Nonlin. dev. 1.319   (P = 0.251)
+      p1 |   .4069584   .3971522      1.025
+------------------------------------------------------------------------------
+age_X_obs|   -.003727   .0013685     -2.723   Nonlin. dev. 10.735  (P = 0.001)
+      p1 |   -1.34936          .          .
+------------------------------------------------------------------------------
+Deviance:  650.374.
+
+
+
+
+
+* next we will try taking all of the variables to their appropriate powers offering a small improvement over the radaition free data.  Please note that we had to drop some of the cross products from this analysis as the system could not calculate the full set.  The comparison analysis is below.
+
+
+
+Logistic regression                               Number of obs   =       4715
+                                                  LR chi2(8)      =    1127.98
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -319.02643                       Pseudo R2       =     0.6387
+
+------------------------------------------------------------------------------
+prostate_inc |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+    Iage_a_1 |   182.5419          .        .       .            .           .
+genderzero~e |  -6.104122   1.008919    -6.05   0.000    -8.081568   -4.126676
+    Iage___1 |  -.0177625   .0273791    -0.65   0.516    -.0714246    .0358996
+    Idose__1 |   -860.781   348.8631    -2.47   0.014     -1544.54   -177.0218
+    Ilife__1 |  -1.190769   .1781245    -6.69   0.000    -1.539887   -.8416517
+    Iobse__1 |  -2.703124    .798768    -3.38   0.001     -4.26868   -1.137567
+    Iobs___1 |   .7892861   .2845668     2.77   0.006     .2315455    1.347027
+    Iobs_a_1 |   .3613499   5.117072     0.07   0.944    -9.667927    10.39063
+       _cons |  -29.02776    10.1579    -2.86   0.004    -48.93687   -9.118643
+
+
+
+
+
+Logistic regression                               Number of obs   =       4715
+                                                  LR chi2(4)      =    1112.23
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -326.89914                       Pseudo R2       =     0.6298
+
+------------------------------------------------------------------------------
+prostate_inc |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+genderzero~e |  -6.011566   1.006821    -5.97   0.000    -7.984899   -4.038233
+    Iage___1 |  -1.28e-14   1.06e-13    -0.12   0.904    -2.21e-13    1.95e-13
+    Ilife__1 |  -1.303637    .166686    -7.82   0.000    -1.630335   -.9769382
+    Iobse__1 |  -3.494449   .5751573    -6.08   0.000    -4.621737   -2.367162
+       _cons |  -3.009757    .260601   -11.55   0.000    -3.520526   -2.498988
+------------------------------------------------------------------------------
+Note: 2513 failures and 0 successes completely determined.
+
+
+
+

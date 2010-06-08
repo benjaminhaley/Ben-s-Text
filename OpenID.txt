@@ -1,0 +1,3 @@
+OpenID-
+
+has been recently adopeted by myspace adding 80 million users to total 200 million... but login doesn't seem all that convienient?

@@ -1,0 +1,33 @@
+ira_wiki.txt
+	Making the radiobiology archive documentation into a wiki
+
+tags: bens_job.txt
+
+To Do:
+	Parse the IRA into it
+	Build pages that list the studies broken down by institution, type of radiation, country
+	Get more contributers
+	04/01/2010 Present at the Low Dose Conference
+	07/01/2010 Present at Richland
+
+
+
+Charter
+IRA wiki Charter
+
+The most comprehensive source detailing the world's radiobiology experiments throughout the 20th century is the "International Radiobiology Archives of Long-Term Animal Studies I. Descriptions of Participating Institutions and Studies" aka the 'Gray Book' prepared by GB Gerber, CR Watson, T Sugahara, and S Okada in 1996.  This document describes the purpose, major results, participating researchers and important references for over 200 major radiobiology studies conducted in America, Europe, and Japan.  However, the document's content is fixed and therefore its scope is inherently limited.  Ongoing work on the radiobiology archives continues to uncover and digitize original sources while producing new research results and publications.  In this sense, the archives are a dynamic system who's ongoing progress cannot be captured by a fixed document.
+
+For these reasons we propose to reformat the Grey Book as a wiki.  The wiki format has a number of advantages over a fixed document.  Newly written and found sources can be readily integrated into the IRA wiki.  Any of the disparate groups working on the archives can use and contribute to the wiki.  For example the Woloschak lab has a number of documents from Argonne and the Lovelace studies that would be more useful if they were available in the context of the comprehensive descriptions of the Gray Book.  Finally, many of the major data archives, like the Janus and ERA databases, can be referenced on the wiki providing a central registry of these projects.
+
+In building a wiki their are both technical and sociological challenges.  In this case the technical ones can be addressed in a straightforward way.  The Woloschak lab has already built an empty wiki to host the project (http://janus.northwestern.edu/nira).  The great work done to compile the Gray Book will make building the initial structure, based closely on that paper, very simple.  Each major study will receive its own page with a description of the institutions, scientists, purpose, treatments, endpoints, animals, results, and references.  A few central pages will be made that list studies by categories, like institutions, country, type of radiation, and so on.
+
+The larger problems are sociological.  Because the wiki will be reusing the IRA's work, it must give credit to the original authors.  Pains will be taken to credit them on each page where their materials is used.  This way they will continue to be acknowledged for their painstaking efforts.  The threat of vandalism is another threat to any wiki project.  As the project's host, the Woloschak lab will be responsible for checking contributions and ensuring that pages are not marred.  
+
+Still, the most important sociological hurdle to a wiki's success is the development of a strong base of active contributors.  It is important that we involve the institutions and people who spend time or have spent time working on these archives.  Without their interest the wiki will be as static as the document it is derived from.  To this end it is important that we accredit those institutions who affiliate with the IRA and contribute to the wiki.  It is also important that the Woloschak lab reach out to those potential contributors.  It is finally important that funding agencies encourage their members to contribute to the wiki's development and reward their contributions in much the same way as paper authorship is rewarded.  To facilitate that end the Woloschak laboratory will maintain a page summarizing the contributions to the wiki and report these results to the institutions which fund radiobiology research.
+
+
+3/31/2010 1.0 hours
+    I just added my citations from the health physics paper to a section on the Janus (http://janus.northwestern.edu/nira/index.php/Janus) and Beagle studies (http://janus.northwestern.edu/nira/index.php/Beagle_dog) at the wiki.
+
+3/19/2010 2.0 hours
+	Composed the charter proposal and sent it off to Gayle.  We'll see how it is recieved.  https://mail.google.com/mail/?shva=1#sent/12777bb8dee3e67d

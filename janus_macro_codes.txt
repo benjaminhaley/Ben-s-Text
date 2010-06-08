@@ -1,0 +1,27 @@
+janus_macro_codes.txt
+	To display and make searchable the janus macro codes
+
+
+
+
+done-add a table that associates each topography and morphology with a generic description based on the tables in the SNODOG pdf
+done-make a script that draws those descriptions from the database and uses them to populate an array
+done - make that array into a dropdown select box
+done-GET the result on mice.php
+done-Augment the SQL to select for only those mice which match the selected description
+done-check to see if the script is producing sane results
+	see that they produce the right number of hits on solos and a couple of synergies
+
+
+Making the table was done in only 15 minutes or so.  I made the smart choice of transcribing the terms to word before putting them into scite, so at to take advantage of spelling and grammer checking.  I drew out the first two letters in the topology and morphology codes of the macro association tables.  I'm not sure if that was a necessary step, because I do not understand how well the indexing technology can be used to pull out matches for the first two characters of an entry.  I would imagine this could be done really quickly, but I am not sure enough to act on it.  I am sure that my solution will be very fast even if it is less straightforward.  Also, the additional columns work to emphasize the relation between this and the tranlation table making the connections in the database more apparent.  Also, I've been making heavy use of commenting in the database which I think really adds a lot to its understandability.
+Right now I am distracted by the process of automating the selection boxes in the search_bar.php script.  I don't mind too much, it is a significantly more elegant solution and it doesn't seem to take too much time.
+Making the array into a dropdown select box took much longer than I expected.  I found a myriad of crazy code.  I had to fix the reset button to work again because the default values are held in a sepperate javascript file.  This, I might emphasize is terrible design.  It would be much better if the reset value mearly cleared the form cookie and then reloaded the page.  Then the default values could be put into php directly.  Best of all the default values should be auto populated rather than hard coded into some obscure javascript file.  Still I do not have the time to work through untangling this mess tonight as I believe that the reset button script has extra dependencies in the code.  I only want to do so much refactoring and leave the remainder.  Also, I had a special trouble pushing out ??
+I just finished the process of adding the sql into the mice script.  It worked out within an hour, but I am afraid that script is really heavy and nearly impossible to work on.  I will have to spend some serious time optimizing it to make it a usuable enterprise again.  I would have a lot of fun to scrap it and come back to the project again with a more enlightened veiwpoint, but it reminds me of the value of getting a book on databases so I can understand better how to query them.
+It took quite a while to do sanity checking on the new macrocode additions.  I am a bit dissapointed by the categories denoted in SNODOG as they tend to be either huge or tintsy, maybe that will round out when I combine them with the micro-pathological observations.  We will see.  In either case it was a very good idea to brush over the scripts.  I reversed some of the choices Dave had made (perhaps implicitly) only to include animals with autopsy pictures (minor) and only to include animals with micropathology codes (major).  My justification for the latter is that we are often looking for tissue blocks and the fact that slides are available doesn't really affect us.  I also discovered a bug that was masking 1000 mice who had a NULL dose rate and therefore were not showing up in the search results.  The long and short of it is that a sanity check is easy to run if you just run the big query and then run a very simple query that should produce the same number of results.
+
+
+SELECT DISTINCT mouse_data.animal_id from macro_assc 
+JOIN mouse_data ON mouse_data.animal_id = macro_assc.animal_id
+
+WHERE mouse_data.tissue_id IS NOT NULL
+AND morphology_prefix = 'M1'

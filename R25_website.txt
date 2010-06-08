@@ -1,0 +1,53 @@
+R25_website.txt
+	To build the R25 website for Gayle's student recruitment effort
+
+Related Docs
+	bens_job.txt
+	r25_logo.pdn (the logo created in Paint.NET)
+
+
+To Do:
+	Finish by Nov 20th.
+    fix the researchers images so they are large enough
+    reduce warning levels
+    send Daniel the source
+    add google analytics
+    add to ping
+    
+12/09/2009
+    I just sent off the website to Daniel, hopefully it will go swimmingly.
+
+12/7/2009
+	Finished snazzing up the pictures, R25 title and making the pictures rotate.  I learned a couple of lessons.  For one, I should be sure to play with pictures in a lossless compression like png as opposed to jpg, especially in this case where the bandwidth crunch is no concern.  As always, it is better to know the size of your pictures before you try to make finished versions of them.  Working with PAINT.net was a beautiful way to create the bakcground image, it runs like I wish photoshop did with clarity, speed and plenty of previews.  I made the logo mearly by creating a two-font title and putting a gradient fade behind it, I really like the final product.  As for making the researchers pictures scroll, I started to use java script only to realize what a huge hastle it was going to be.  In essense I would have to replicate database connective and the object representations that I had already made in php.  It would have been much easier if I had chose Javascript from the start.  Instead I just made it so that a random picture loads on each page load which I think is quite nice enough.
+
+12/2/2009
+    Finished up most of the final stages of coding from adding the program logo, to addressing the remainder of Benette's concerns.  I validated the html and cleaned up the remaining css issues.  The website looks nice, clean and simple.  The only significant parts of my job remaining are to make the mentors pictures change using some fancy javascript (I should borrow this from Chris' work), to deliver the product to Daniel, and to add the ping and analytics services so that we can track its use over time.
+
+11/23/2009
+    Pretty easy to make changes, I pretty much made all of the lists into tables which kept them in the same beauty and style as the rest.  In terms of the class structures, it has been very helpful for changing over the style to tables (because I only have to change one value), but some of them were rather poorly organized because they depended on the implementation of multiple classes.  There were a number of lines that I just replaced with simple paragraphs and such.  The CSS biz went remarkably smoothly and I think that the method of going through via firefox and eliminating everything that I didn't need from a template was fairly efficient.
+
+11/21/2009
+    Had to add another lighter shade of purple.  Found it very effective to go looking online for table styles that I liked.  I am sure I will feel the same about lists as well.
+
+11/19/2009
+    I have done the bright thing of going through my to-do list and sorting it by that which needs to get done before presentation and that which does not.  Hopefully, I can be speedy enough tomorrow to finish her off to a state of passing along.  I think the css challenge will be large, but hopefully I'll pull it off.
+    On the plus side, coding in objects has changed my ability to code drastically, now the entire process seems simple as pie.  I'm sure that it helps that I have coded it in an objectless way first.  I think that may be a lesson for the future.  First build the logic of the system as best you can.  Then build a prototype that is completely unclassed and as simple as you can get away with while covering the features, last build a fully class oriented method using the lessons learned.  I imagine that such a techinque will lend itself to quite accurate estimations, especially after the first two stages are complete.
+
+11/17/2009
+    Only had enough time on this occasion to fill in the database and complete the laboratory mentors table.  I didn't learn until I was done with the scripts that the clinical pages will require a different table becausel their mentors do not have interests listed.  Fortunately, the class based system that we have developed should make it relatively straightforward to make that modification by splitting the print table function into two table functions.
+    In other news, I don't think that we are too far off of schedule, but I will have to come in and do some serious work on this on Thursday in order to make it nice enough to present on time.  Most of this work will involve formatting and visual stuff.  I must be focused in the effort.
+
+11/16/2009
+    Just spent 1 hour chasing down the bug related to why php include wasn't working only to find that the problem was in my php definition.  I had written "<? php" rather than "<?php".  That was a really frustrating error.  If only I had a good php debugger, I dont think it would have been an issue.  Instead it was.  
+    Spent an additional 3 hours trying to get the zend framedwork/eclipse debugger working.  Apparently its a much bigger fish than I had anticipated.  I really hope to get someone's experienced help, maybe Matt's to help me work through it.  It might also be a good time to join a user group and ask some questions.
+    I found over the last hour that by opening the R25 folder in eclipse I and adding the set error reporting to e_all, I have much better error stats
+    I also noticed that searching stack overflow was a much better way of finding a php debugger and installation instructions.  Something to remember for the future.
+    I have stopped work now, having finished the program requirements and made it most of the way through the clinical resaerch parameters.  I am being slowed somewhat by my desire to make the script object oriented and maintainable.  We will see if that pays dividends in the long term on this project.  I am sure that it will at least pay for itself in my increased familiarity with the art of coding.
+
+11/12/2009
+    Spent a solid chunk of day working on the website.  I think I will easily have it done by the 20th, though I am not sure if the 15 hour estimate that I gave to Gayle will hold true.  It has really helped to have a template with CSS issues already handled.  I have a feeeling that the final page will come off looking a little sparse.  It has been somewhat slow managing some of the actual coding, that is making the links abstracted into a common table, creating a function for the creation of the side bar links, and parsing text using python.  Still I feel like the last of these tasks is very important.  In the case of the links, I could have been more efficient about pulling them out of the text in one fell swoop using an http search.  For that matter, I could have hard coded them first and then abstracted them.  But either way having the content, template, colors, and so on pre-packaged for me makes this website creation a relative breeze.
+
+11/5/2009
+	I wrote to Benette and Daniel and talked to Gayle about getting the site started.  I estimated to gayle that it will only take 15 hours, but that estimate was based on the idea that I was to do it on my own, given that I will have to integrate my efforts with Daniels, it could take longer or shorter depending on how organized he is (I expect longer).  I will need to make sure to revise my estimate based on that and let Gayle know.  
+	
+	

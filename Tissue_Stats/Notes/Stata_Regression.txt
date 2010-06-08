@@ -1,0 +1,89 @@
+Stata_Regression
+	Learn to run regressions in stata 
+	http://statistics.ats.ucla.edu/stat/stata/webbooks/reg/
+
+*I have completed chapters 1-4 and now I will go on to the logistic regression tutorial.  I should come back to this work if I need help on breaking down categorical analysis.
+
+
+
+Pre Analysis			identify outliers, 
+	codebook [var]			- shows ranges, numbers missing, and values (good to check)
+	summarize [var], detail		- shows the percentiles (good for continuous or lots of data)
+	tabulate [var]			- good for small or discrete data
+	historgram [var]		- density v value
+	graph box [var]			- show density v value and standard error
+	stem [var]			- a stem and leaf plot
+	scatter [dep var] [ind var], mlabel[label]	- will help to identify extreme outliers
+	recode [var] [val]=[val]	- just recodes a variable so that value equals a new value
+
+
+Assumption Fitting			checking for distributions
+	histogram [var], normal		will diplay the variable plotted against a normal curve in a histogram
+	ladder [var]			shows the chi^2 values for various x-formations (the lowest chi^2 is best)
+	gladder [var]			graphical verification of ladder
+	swilk [var]			tests if a var is normal ( use on residuals )
+	*following above steps produce a new variable which is a tranformation of the old variable.
+	
+
+	
+Categorical Variables
+	*adding a dummy variable (0/1 variable) (3.2)
+	tabulate [var], gen([var])	- produces var1, var2, ... varn - dummy variables n-1 of which can be regressed as with above (3.3)
+	xi : regress [var] i.[var]	- automatically inculdes the dummy variable breakdown in the regression 
+						use char [var]"[omit]" [val] to affect which value xi will drop
+	xi : regress [var] i[var]*[var]	- this will show the regression with an interaction between the multiplied variables
+					test for interaction between variables by noting if the slope of best fit lines changes when one of the 
+					interacting variables is fixed.
+	anova [var] [var]*[var]		- similar to above, but doesn't require us to run a test to find the significance
+	anova [var], cont([var])	- specifies that chosen variables are continous (anova assumes they are categorical by default) (3.6)
+	
+
+The Regression
+	regress [dep var] [indep var]	- relationship magnitude and sig for each var (coef, P>|t|), 
+					- model power and sig (R^2, Prov > F)
+	regress [vars], robust		- reports robust standard errors, not dependent on normalcy (Hubert-White sandwhich) (4.1.1)
+	regress [vars], cluster([vars])	- refinces standard errors for variables that are clustered by comparing their aggregations (4.1.2)
+	rreg [vars]			- a robust regression that gives more weight to 'well behaved' values than ouliers (4.1.3)
+	tobit [vars], ul([val])		- regression apporpriate when a variable is censored at a top [val]
+	truncreg [vars], ll([val])	- regression used when data beyond a certain [val] for the first [var] has been truncated (4.3.2)
+	anova				- the analysis of variance between groups provides and F statistic which is a 
+	sureg ([vars] = [vars]), corr	- a regression used to model seemingly unrelated regressions that have correlations in the residuals (4.5.1)
+	
+
+
+
+
+Post Analysis
+	predict fv			- 
+	corrolate			- see what data is correlated skipping observations that are missing varible values
+	pwcorr, sig			- see what data is correlated skipping missing data 
+	predict [new], rstudent		- will make [new] the residuals of a regression (note this distibution should be normal)
+	predict [new], leverage		- makes [new] a plot of the leverage for each observation  
+						if [new] > (2 * predictor count + 2) / n there is trouble
+	predict [new], cooksd		- [new] becomes a measure of total influence made of both residual and leverage info by Cook D's method
+						if [new] > 4/n then there is trouble
+	predict [new], dfits		- [new] becomes a measure of total influence made of both residual and leverage info by DFIT's method
+						if [new] > 2*sqrt(predictor count/n) then there is trouble
+	regress [vars] if [var] != [cond]	useful method to only run an anlysis on some factors (ie. removing outliers)
+	rvfplot, yline(0)		- plots the residuals of a regression against the fitted values (should be heteroscendastic)
+	estat imtest			- tests for heteroskedasticity (fine as long as p values are not too large)
+	estat hettest			- tests for heteroskedasticity (fine as long as p values are not too large)
+	vif				- variance inflation factor used to test multicolinearity (values of 5 or higher are suspect)
+	acprpolot [var], lowess		- runs a plot of the linear relation determined by a regression vs the best fit curve of the relation
+						this should be run for each var in a regression
+						the variable should be transformed (ie. log) to make it normal and the regression rerun (2.5)
+	linktest			- acts on a regression to determine if it is missing variables by creating a _hat and _hatsq
+						if the p value of _hatsq is too low there is a variable missing from the analysis (voodoo) (2.6)
+	ovtest				- similar to link test (2.6)
+	dwstat				- run on a regression and used to find auto-correlations (2.7)
+	mvtest				- (downloaded) gives you access to Wilk's Pillai's and Hotellings multivariate tests (4.5.2)
+	
+	
+
+
+	*the residuals need to be tested for normality (or identical and independent distribution)
+
+	
+
+
+	

@@ -1,0 +1,6 @@
+The_Beast_Permissions
+	login and access info for 'the beast'
+
+To find/set permissions: Login as Admin (username/passwords in envelope ask tanja). Right click on a folder and choose 'sharing and security'> security tab.
+
+Lab Members (no password) have access to C:\Documents and Settings\Lab Member\Desktop and  C:\Documents and Settings\Lab Member\[usernames] documents (which looks like "my documents" to them).

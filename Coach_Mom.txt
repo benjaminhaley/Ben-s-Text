@@ -1,0 +1,9 @@
+Coach_Mom
+	mom wants to lose 5lbs a month for 10 months
+	I could help by making a program to remind her of and review her progress on workouts
+	This would help mom, log user actions, and be an effective instance of e-coaching 
+
+Instance 	(see http://localhost/Archives/Coach_Mom_Instance.txt)
+TechSpecs	(see http://localhost/Archives/Coach_Mom_TechSpecs.txt)
+
+currently I am working on developing the core methods particularly the emailer.  I will save user data issues for the end.

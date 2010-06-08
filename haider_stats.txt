@@ -1,0 +1,18 @@
+haider_stats.txt
+
+Helping Haider to get a paper published during his time off.
+
+Description:
+    Haider is mostly interested in lung, brain, and liver.  He is particularly interested in > 0.1 Gy (clinically relevant) and single high v fractionated
+
+Files:
+	"haider - JM3 tables.xls"
+    
+Emails:
+    https://mail.google.com/mail/?tab=cm#inbox/12826e62fc0601c5
+
+5/13/2010
+    Its looking good, Haider has pulled together some interesting results and plots.  Today he needed me to help him generate a list of which animals had been Autopsied.  The results were pretty easy to generate.  I also retieved a list of primary causes of death for him.  In all I think it was a helpful and straightforward experience.  Its nice to work with Haider, its good to work with mathematically inclined doctors.  
+
+5/5/2010
+I got him a whole slew of statistics on the JM-3 experiment listed as "haider - JM3 tables.xls".  Like most people he wanted all of the stats in one table if it were possible, though we don't have the results in the wide format which I think will be irritating.

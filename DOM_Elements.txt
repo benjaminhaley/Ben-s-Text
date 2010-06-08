@@ -1,0 +1,26 @@
+DOM_Elements: (partially through - http://developer.mozilla.org/en/docs/DOM:element)
+	To understand JavaScript (see http://localhost/Archives/JavaScript.txt)
+	To implement the Google Desktop Search API (see http://localhost/Archives/Google_Desktop_Search_API.txt)
+	To scratch itches retrieved from Google Desktop (see http://localhost/Archives/Scratch.txt)
+
+HTML and XML are made of elements (nodes) denoted by <start> and stop </start> codons.  These elements are objects which support methods, properties and events.  Important W3C specifications apply to these elements (DOM Core, COM HTML, and DOM Events).  The following describes the shared interfaces between elements in the Gecko engine (which is under firefox's hood).  It must be noted that other engines might not support these elements while some elements in Gecko may support many more interfaces (for example the HTML Table Element and HTML Form Element). 
+
+Properties:
+	Family
+		childNodes		A node list containing all of the child nodes of an element
+		firstChild		node representing the first child of another node (see http://localhost/Archives/Node_DOM.txt)
+	Layout
+		clientHeight		Number representing the inner height of an element (like the height of a youTube window)
+		clientLeft		Number representing the Width of the left border of an element
+		clientTop		Number representing the top border width..
+		clientWidth		Number representing the Inner width..
+	attributes		A named node map representing the attributes associated with an element (see http://localhost/Archives/Named_Node_Map.txt)
+	baseURIObject		readonly nsIURI object representing the base URI for a node supporting nsIRI (intenationalized URI)
+	className		read/write string denoting the class of an html or XUL element (see http://localhost/Archives/DOM_className.txt)
+	dir			read/write string represeting the directionality of an http or xul element (see http://localhost/Archives/XUL.txt)
+	id			read/write string representing the ID of an HTML or XUL element (see http://localhost/Archives/DOM_id.txt)
+	innerHTML		read/write markup content of element
+	lang			read/write language of an element's attributes, text and contents
+	localName		local part of the qualified name (see http://localhost/Archives/Qualified_Name) of an element
+
+	

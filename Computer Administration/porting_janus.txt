@@ -1,0 +1,13 @@
+porting_janus.txt
+	to port data from the original janus database (in access) to our mysql server
+
+History:
+	The access database that the Woloschak lab inhereted represents was given to us courtesty of the NRA and Charles Watson.  Dave ported some of this data (see already ported) to our mySQl server for ease of integration into the janus website.  I want to extend this work to left out tables so that we can 
+
+
+
+Already Ported
+	These are tables that Dave has already moved to Janus.  Names have been changed
+
+	Access			MySQL
+	

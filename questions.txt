@@ -1,0 +1,56 @@
+questions.txt
+
+Q: what feilds can complete the scientific method fast (hypothesis -> conclusion -> hypothesis)
+A: computer science, electrode studies (combined with machine learning), and more?
+
+Q: 	How is stiffness measured (as in the stiffness of a tissue or tumor)
+
+Q: 	Would a p < 0.05 happen by chance if 20 independent variables were included in a regression
+
+Q: 	What is the simplest (physical?) self reproducing turing machine
+
+Q: 	What are the phenotypes of the internet?  Can they be determined from the network?
+
+Q: 	Why don't we have the knowledge of our cells? 
+A:	maybe the cost of xplanting that knowledge at our level is prohibitively expensive						
+
+
+Q: 	How can fear be used responsibly?
+
+Q: 	Where is the cells readme? Its help files?
+
+Q: 	how does evolution ensure the persistance of redundancy when non-redundant systems save energy?
+
+Q: 	is water turing complete?  Air?
+
+Q: 	How do you converse with a cell?
+A:	stiffness (say the surface its next to) - Eric	light - Eric		
+	Detergents - Triton	
+	AFM tips poking - Ai-Guo Probe-Pump Laser for heat - Ai-Guo Optical and magnetic traps - Ai-Guo		
+	Cell shape change - tanja's freind Cell mobility - tanja's freind Cell size - tanja's freind		
+	Patch Clamps - Hans	Mass Spec of Neighboring environment - Hans	
+	Electrodes - Beau						
+
+
+
+Q: 	Would a cell converse with a patch clamp?
+
+Q: 	What would happen if we gave a cell control over its nutrient supply?
+
+Q: 	What are the minimum requirements of a learning system?
+
+Q: 	What is the mininum amount of time matter and energy needed to observe light in a way that makes quantum or relative effects meaingful.
+
+Q: 	How would light be observed to behave in systems that are simpler than ones necessary to percieve quantum and relativistic effects.
+
+Q: 	What is the simplest physical turing machine than can affect light.
+
+Q: 	Why does math encode concepts in symbols where other field ecode concepts  in words
+A:	math is transnational	you can recognize more difficult arguments at a glance	math is less publishible for this reason	
+
+Q: 	What is the spatial/temporal distributions of photons and electrons at the nanoscale... how much computing power would it take to compute the result of 500 molecules
+
+Q: 	How much information Exchange does it take to solve the workings of a black box computer
+A:	given a certain memory space, an action table showing how memory states can transition between each other we should be able to show how much communique will be needed to fully determine the future states of the system.  Unlike the turing machine, let us avoid the limiting hypothesis that only two elements interact at a time and allow for parrellism (as this is more natural anyhow).  Parrellel behaviors must be committed by various agents who each have their own rule set, the memory space may expand and etc and we might have access to one or several nodes on that memory space.  Given a non-random history, then a long enough series of requests will perfectly determine subsequent behaviors.  The answer to this theoreitcal question provides insight into how many inputs we will need into a biological system to predict its future behaviors. 																			
+Q:	Why can't we communicate with our cells using our brain
+A:	Perhaps the answer is encapsulation.  If we were allowed to break into our cells routines we would quickly adapt to their way of behaving and when they chose to reprogram themselves they would break our code.  

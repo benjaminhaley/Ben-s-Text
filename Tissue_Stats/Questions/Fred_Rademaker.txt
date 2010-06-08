@@ -1,0 +1,17 @@
+To Do:
+	Try graphing the intercorrelations below
+	Try running an anlysis.
+
+
+Intercorrelations:
+	rads total v rads per day
+	
+	Age: Lifespan, First Exposure, Exposure Durations
+
+
+Misc:
+	10 point per event, but what of continuous events?
+	How do we adjust for dogs that were killed early?
+	we are worried that some pathological exams are more thorough than others, 
+		would adding the number of pathological observations help?
+		Any other ideas?

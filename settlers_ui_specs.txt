@@ -1,0 +1,42 @@
+settlers_ui_specs.txt
+
+Settlers Game User Interface
+    this document is aimed towards the development of only the game
+    page's UI, other aspects of the interface like the login, registration
+    and top bar are not included
+    
+    
+Gererally
+    The UI will be responsible for intelligently laying out game objects
+    on the page in a way that's customized for the player looking at it
+    and the game state.  It is not required to understand game logic or
+    operations.
+        Updates should be pushed from the game abstraction layer and we
+    should also maintain the ability to pull updates when we like (for
+    cases like reload).  So UI objects should generally have a last
+    updated function.
+    
+What will a UI need to know
+    Here's is an unordered list of things that the user interface will
+    need to be able to grab from the game abstraction in order to stay
+    current
+    
+    What's on the dice, are they being rolled?
+    What player am I presenting to?
+    Who's turn is it?
+    What actions can be taken immediately?
+    What's the chat history?
+    What's the order of the tiles and the numbers on them?
+    What cards do people have?
+    How many points to people have?
+    Who has largest army, longest road?
+    Where are the cities, villiages, roads, and barbarians?
+    What colors are the players?
+    What is the actual graphic associated with all of my elements?
+    How many points do people currently have?
+    Is there a card being played?
+    Is there a trade being proposed?
+    Has a trade been accepted?
+    Has a card been selected for play?
+    and so on
+    ...

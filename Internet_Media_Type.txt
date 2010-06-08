@@ -1,0 +1,13 @@
+Internet_Media_Type (aka MIME)
+	An internet standard used to extend the formats supported by e-mail, http and sip
+	To understand internet media type specifically in order to understand why javascript needs one.
+
+Internet Media Type is an Identifier that describes file formats on the internet.  Originally used in emails through SMTP is has been expanded to HTTP, which requires files to be sent in an email like format, and SIP (see http://localhost/Archives/Session_Initiation_Protocol.txt).
+
+Mime file types are noted by a header which denotes the content type/s.  Content Types are composed of at least two parts, a type and a subtype.  If the header conted-Type is set to multipart/mixed, then the document will support adding additional content types throughout its body (in a nested hierarchy).
+
+Example Header:
+	MIME-Version: 1.0
+	Content-Type: text/plain
+
+notable media types include application/javascript, application/zip, audio/mpeg, audio/x-wav, image/gif, image/jpeg, text/html, text/css, text/xml, video/mp4, video/quicktime, application/msword, application/x-httpd-php, and more listed at http://en.wikipedia.org/wiki/Internet_media_type.

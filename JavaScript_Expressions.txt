@@ -1,0 +1,83 @@
+JavaScript_Expressions
+	To learn javascript to work with google desktop search API
+
+Expressions assign a value to a variable, return a result or both.  Javascript supports aritmetic, string, logical and object expressions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q. +1 Assignment opperators: var x = 5; var y = 7
+	x += y	 	x -= y	 	x *= y	 	x /= y		y %= x
+	x == 12, 	x == -2 	x == 35 	x == .1428...	y == 2
+
+Q. +1 Bitwise assignment opperators: var x = 11 (1011), var y = 1 (0001)
+	x <<= y 	x >>= y 	x &= y		x ^= y	 	x |= y
+	x == 22		x == 5	 	x == 1		x == 10 	x == 11
+
+Q. +1 Bitwise Shift Operator
+	9<<2 (0...01001) 	9>>2 (0...01001) 	-9>>2 (1...10101) 	9>>>2 (0...01001) 	-9 >>> 2 (1...1010)
+ 	  36 (100100)	      	2 (10)	     		-3 (1...101)            2(10)         		1073741821 (0011...110)
+
+Q.+1 mystring = "dumb"; mystring += "bet"
+	"dumbbet"
+
+Q.+1 Comparison Operators: var var1 = 3, var2 = 4;
+	3 == 3 		"3" != 3 	"3" === 3 	"3" !== 3 	3 > 3 		"3" >= 3	3.00 === 3
+	true		false	  	false		true		false		true		true
+
+Q.+1 Arithmatic Operators: var x = 3
+	++x		x++   		--x 		x--  		-x
+	4, x==4	  	3, x == 4   	2, x == 2    	3, x == 2	-3, x == -3
+
+Q.+1 Bitwise Operators
+	15 & 9 (1111 & 1001)  	15 | 9 (1111 | 1001) 	15 ^ 9 (1111 ^ 1001) 
+		9 (1001)		15 (1111) 		6 (0110)
+
+Q.+1 logical opperators (and)
+	true && true 	false && true 	true && false 	"cat" && true 	true && "cat"
+   	true		false	     	false	     	true	  	cat
+
+Q.+1 logical opperators (or)  
+	true || true 	false || true 	true || false 	"cat" || true 	true || "cat"
+	true		true	     	true	    	"cat"	 	true
+
+Q.+1 logical opperators (not)
+	!true 		!false 		!"cat"
+    	false		true		false
+
+Q.+1 what is 'short circuit evaluation?'
+	false1 && anything are evaluated false1, true1 || true return true1.
+
+
+Order of opperation precedence.
+
+member 			.  []
+call / create instance 	()  new
+negation/increment 	!  ~  -  +  ++  --  typeof  void  delete
+multiply/divide 	*  /  %
+addition/subtraction 	+  -
+bitwise shift* 		<<  >>  >>>
+relational 		<  <=  >  >=  in  instanceof
+equality 		==  !=  ===  !==
+bitwise-and 		&
+bitwise-xor 		^
+bitwise-or 		|
+logical-and 		&&
+logical-or 		||
+conditional 		?:
+assignment 		=  +=  -=  *=  /=  %=  <<=  >>=  >>>=  &=  ^=  |=
+comma 			,

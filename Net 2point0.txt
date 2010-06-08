@@ -1,0 +1,7 @@
+Net 2.0 ideas to study
+
+XML 	extensiable markup language, tags.  Like HTML, but requires a css sheet to be writable on the web.
+RSS	A web feed that follows certain xml standards to make it publishable
+API	Advanced programming interface, used to access data from programs
+RDF	resource development framework breaks ideas into subject, predicate, and object
+OWL	an 'ontology' language or a formal way of describing the relationships between objects.

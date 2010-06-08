@@ -1,0 +1,348 @@
+networking_tutorial.txt
+	A tutorial I am going over to learn for the
+	CS subject exam http://www.comptechdoc.org/independent/networking/guide/netguide.pdf
+
+
+(3) Network Topology
+	deals with the physical structure of a network
+
+media
+	the hardware that supports a network
+
+Types of Networks
+	Networks are generally classed as server based
+	or peer to peer
+
+Network shapes
+	there are many network shapes, especially bus, 
+	star, ring and hybrid or mesh networks
+
+
+(5) Network Hardware Connections
+
+Ethernet Shape
+	Ethernet uses a star wiring each computers NIC
+	card listens for a break in traffic before
+	sending information onto the network.
+	collision detection is supported
+
+token-ring
+	in a ring or loop shape
+	One master interface card creates tokens and
+	then passes them around the ring.  If a card
+	recieves a token it sends data and then the 
+	master interface card regenerates a new token
+
+ARCnet
+	Has one master card/computer which keeps a
+	table of the other computers on the network
+	which are demanding network space by polling
+
+Network Interface Card
+	A card built into a computer that provides
+	the physical link between the computer and 
+	network
+
+Media Access Address
+	A unique 56 bit number assigned to each NIC
+	card
+
+
+(7) TCP/IP ports and Addresses
+
+IPv4 vs IPv6
+	each network interface card will get an IP
+	adress.  IPv4 is 4 bytes, 6 is 6 bytes
+
+DHCP
+	Dynamic Host Computer Protocol is a method
+	for assigning IP adresses to interface cards
+	(mac address to IP adress binding)
+
+IANA
+	The International Assigned Numbers Authority
+	designates how TCP adresses are allocated
+
+Ports
+	The TCP layer defines 65000 ports which are
+	used to route messages to applications within
+	a machine
+
+
+(10) Network Protocol Levels
+
+ISO OSI
+	The International Standards Organization
+	has defined the open systems interconnection
+	reference model which is a network protocol
+	model
+
+physical layer
+	ISO layer of actual hardware
+
+data link Layer
+	frametype, address, error control, timing
+	logical link control
+		maintains a link between computers
+		by service access points
+	media access control
+		coordinates the sending of data?
+network layer
+	IP, routes messages on the best path
+
+transport layer
+	TCP, or UDP uses port numbers and behaves
+	differenlty in terms of error handling and
+	such
+
+session layer
+	Determines if sessions are open for security 
+	reasons
+
+presentation layer
+	translates the type of data
+	
+application layer
+	Services for users
+
+DOD model
+	An older network models (department of defense)
+	corresponds to the physical wrapping of data
+
+link
+	Adds MAC addressing to info packets
+	supports ethernet, SLIP, PPP, token
+	ring, and ARCnet
+
+network
+	Adds IP address to packets
+	supports IP and ICMP
+
+transport
+	Adds TCP address to packets	
+
+application
+	the actual data itself
+
+daeomn
+	a program that runs in the background
+
+
+(15) IEEE 802
+	the 802 standards define a set of network
+	standards for sending variable sized packets
+
+contention
+	A mediation strategy that allows multiple
+	sources to use a network
+	CSMA/CD
+		carrier sense multiple access with
+		collision detection (ethernet)
+	CSMA/CA
+		carrier sense multiple access with
+		collision avoidance
+token passing
+	a mediation strategy where tokens note the 
+	ability to transmit
+demand priority
+	A hub tracks and designates who wants/gets
+	to use a network
+polling
+	A central huba asks who wants to use the
+	network
+
+RCF 894 message structure
+	6 bytes destination, 6 bytes source, 2 bytes
+	type, 46-1500 bytes data, 4 bytes cyclic
+	redundancy check	
+
+
+(19) Network Categories
+
+Address resolution protocol
+	the ARP finds the mac address from the IP address
+	or some other network layer address (7 bytes)
+
+Neighborhood Discovery Protocol
+	IPv6 mac to IP addressing protocol adds some like
+	neighborhood undreachability determination
+
+open shortest path first
+	OSPF protocol is an internal datalink protocol used
+	within an atononous system to route data through its
+	network
+
+Tunnling protocols
+	tunnling procotocols like SSH prtocol wrap one 
+	protocol within another so that the secondary
+	tunnled network runs within a master network
+	the secondary network behaves as if its in teh link
+	layer even though it isn't
+
+Point to point protocol		
+	delievers messages between network cards esp
+	ISPs to deliver broadband over the internet
+
+Internet Protocol		
+	IP we've looked at, it's proximity organization 
+	enables smart routing
+
+Internet control message protocol
+	ICMP is a close cousin of IP that relies on the
+	same protocol but is not used to deliver application
+	data, rather error messages about services or hosts
+	also used for ping and traceroute
+	
+Internet Group Managemenet Protocol
+	is a ip extenion to allow multicasting that has been
+	outmoded by ipv6.  Multicast prevents a sender from
+	having to send multiple copies of a large broadcast
+	message.
+
+IPsec
+	is an IP extension that provides encryption at the 
+	transport level, as opposed to ssh which provides
+	encryption through tunnling (app/link layer)
+
+Transmission Control Protocol
+	works on end to end systems to set the segment size
+	flow rate, and congestion
+
+User Datagram Protocol
+	is an alternative to TCP used when end point
+	delivery does not have to be garunteed
+
+Border Gateway Protocol
+	BGP is the routing protocol of the internet deter-
+	mining how to route packets based on IP addresses
+
+Dynamic Host Configuration Protocol
+	is the method by which a client can request an
+	configuration informatin for an IP address from 
+	a provider
+
+Domain Name Server
+	an application level networking model that trans-
+	lates IP to domain names
+
+File Transfer Protocol
+	moves files around without an http server but
+	with permissions
+
+Internet Relay Chat
+	is a form of real time chat services
+
+Extensible Messaging and Presence Protocol
+	a real time messaging platform that is the basis
+	of google wave
+
+NTP 
+	a protocol for synching time information across
+	a network
+
+IMAP, HTTP
+	you know
+
+
+(22) Network Devices
+
+Repeater
+	A repeater can amplify and resend a
+	message to increase the range of a signal
+
+Bridge
+	A bridge passes along data only reading
+	its outermost layer.  It can drop packets.
+
+router
+	A router decides where a signal should go
+	next on the basis of its address information
+	if the packet does not have address info it
+	will be dropped
+
+brouter
+	A bridge/router which opperates as a router
+	when the packet has an address otherwise a 
+	bridge
+
+gateway
+	A computer used to translate between the 
+	packet structure of two different networks
+
+(24) ARP and RARP adress translation
+
+adress resolution protocol
+	is accomplished by sending a request across
+	the network to see if anyone can resolve
+	the IP to MAC address or a router on the other
+	network.  The packet is then loaded into an 
+	ethernet envelop with a MAC address for either
+	the reciever or some router
+
+(26) Network Addressing
+	
+Network Mask
+	A network mask specifies the network address
+	by the most significant 1 and the host address
+	is turned to zeros
+
+Network/Netmask specification
+	a number of the form IP/# designates how many
+	of the netmask bits are set to 1.
+
+
+... at this point I decided to become much more spartan with my notes for the purposes of timely completion
+
+supernetting
+
+(62) so the subnet gateway is used to determine if the packet can be kept on your own network or shipped off to the default gateway based on whether it matches the string of your subnet
+
+masquerading - where someone speaks on behalf of a computer that has no IP address so that a computer w/o a realy os can still be communicated with
+
+Firewall
+	packet filtering
+	circuit level relay
+	application proxy gateway
+
+
+Domain Name Service
+	resolver, name server, database of recourse records (RR)
+
+key management protocols must be used to exchange the encryption keys to enable vpn, RADIUS and ISAKMP are two common options.
+	
+
+
+Unicast v broadcast b multicast
+only addressed to one nic card
+addressed to every nic card on a network
+addressed to a group of nic cards
+
+
+Tic count
+	a count of network time in 1/18 seconds (stupid)
+
+
+Border Gateway Protocol
+	unlike internal dynamic routing protocols, the border gateway protocol has to be agreed upon between networks who then share routing information based on distance optimization (nice because it can be verified externally unlike latency which might be manipulated)
+
+
+The mail servers are specified in the domain name servers which presumably get thier infromation from apache when you are setting up your own web server.  But then where is apache putting messages that are addressed to it?
+
+
+In terms of security, there is no reason for me not to be using gmail as my public front.  But then I should also setup an email account that is a purely secure account where only white listed emails can send to me there and I can use that for secure buisness.  This will prevent the spam issue which is the biggest impediment to having an unsupported email account.  The handshake can occur in the open, because it is on me to decide if I want to whitelist for delivery or not, so I don't mind if everyone knows the address.  The only flaw with this plan is if people on the other end are unsecure.  Also I need to be sure that the message is sent via an encrypted ssd tunnel or else it could be intercepted.
+
+
+A network Driver
+	A utility that allows multiple process stacks to access and use the same network interface card w/o conflict.
+
+Universal Naming convention
+	is used to reference the files or processes on other computers.  It must take the form \\servername\pathname
+
+AH, so php has to establish a connection with the mysql server, because mysql is a network utility that works on a client server model.  This means that if I get other people in my network I can give them direct acccess to mysql server.  So why aren't we setting up a network for a single mysql database when developing our own software instead of relying on mysql dumps and so on...
+
+
+WAN
+	A wide area network is used to connect distant users (its what we need to synchronize database access across Chris and I)
+
+
+starting at page 136, there is a list of terms that might be useful for review followed by a list of relavent rfc's and a guide book that is most certainly sorely out of date.

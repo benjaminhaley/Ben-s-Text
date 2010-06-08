@@ -1,0 +1,167 @@
+maps_server.txt
+	Picking out an appropriate machine to process APS data
+
+related docs: stefan.txt
+
+Summary:
+	I spent about 16 hours on this process all told.  My notes are listed below.  The most helpful thing that I did was contact stefan and ITT with my specific questions.  I would have done better if I had gotten a full set of reccomendations from Ye, tested the machine, or saved time.  In the end our first idea didn't work so we went with a cheaper one.  I should have gotten a price from T at the get go and short of that I should have priced out three options, super cheap, super pricey, and a middle of the road.
+
+
+ordering:
+    see ordering_instructions.txt
+	
+
+From Stefan:
+	64 bit, >6 G of ram, 4 or more processors, 30" monitor will require dual link DVI, the processes are floating point
+
+From Ye
+	Dell XPS 730S: Vista, quad core 17 975 extreme, 3.3 GHz, 64 bit, SSD, RAID, 3 yr warentee, 6 G DDR3 RAM ($5000)
+
+
+From Ben
+	SPEC2006 is a CPU-intensive benchmark suite, CFP2006 is its floating point component
+	From the CFP2006 (CFP2006.xls) the intel Xenon X processors perform the best at floating point
+	Dell Precision T3500 (Intel Xeon W3570, 3.20 GHz) has great numbers 95 at a base cost of $2159 (a cheaper model is 1/2 power)
+	
+From ITT
+	The company that liscences IDL has the following page giving minimum requirements and the supported packages for various hardware platforms http://www.ittvis.com/ProductServices/IDL/PlatformSupport.aspx
+	Josh (there tech support guy) says that we need x86, x86_64/AMD, or Sparc (not Itanium)
+
+From Tanja
+	Should be lower than $2500
+
+
+
+From SPEC
+http://www.spec.org/cpu2006/results/res2009q2/cpu2006-20090302-06617.html
+	Hardware
+1,069	CPU Name: 		Intel Xeon W3570					
+	CPU Characteristics: 	Intel Turbo Boost Technology up to 3.46 GHz		
+	CPU MHz: 		3200							
+	FPU: 			Integrated					
+	CPU(s) enabled: 	4 cores, 1 chip, 4 cores/chip, 2 threads/core
+	CPU(s) orderable: 	1 chip
+	Primary Cache: 		32 KB I + 32 KB D on chip per core
+	Secondary Cache: 	256 KB I+D on chip per core
+	L3 Cache: 		8 MB I+D on chip per chip	
+	Other Cache: 		None
+$2500	Memory: 		24 GB (6x4 GB DDR3-1333R, CL9)
+500* unreviewed amazon vendor		Alternative Memory 12GB, 1333MHz, DDR3 SDRAM, ECC
+	Disk Subsystem: 	1 x 250 GB SATA 7200 RPM
+	Other Hardware: 	None
+	Software
+	Operating System: 	Windows Vista Business SP1 (64-bit)
+	Compiler: 		Intel C++ Compiler for Intel 64, Version 11.0
+	Build 20090131 Package ID: w_cproc_p_11.0.072
+	Intel Visual Fortran Compiler for Intel 64,
+	Version 11.0
+	Build 20090131 Package ID: w_cprof_p_11.0.072
+	Microsoft Visual Studio 2008 SP1
+	Auto Parallel: 		No
+	File System: 		NTFS
+	System State: 		Default
+	Base Pointers: 		32/64-bit
+	Peak Pointers: 		32/64-bit
+	Other Software: 	MicroQuill SmartHeap Library 8.1 for x64
+
+
+
+
+
+
+Previous Choices
+	Platform: 	Dell Precision T3500 (spec/price best - base price $745)
+	Processor: 	64Bit Intel Xeon W3570 (spec best - $1112)
+	Memory:		12GB, 1333MHz, DDR3 SDRAM, ECC (One off from SPEC - $1725)
+	Graphics:	256MB NVIDIA® Quadro® NVS 295, 2MON, 2 DP w/ 2 DP to DVI Adapters (Stefan rec - $7.50)
+	Hard Drive con:	C9, All SATA, RAID 5 for 3 Hard Drives (redundant/fast - $0)
+	Hard Drive:	3x 50GB SATA 3.0Gb/s with NCQ and 8MB DataBurst Cache (spec/RAID enough - $240)
+	Monitors:	2 Dell 24 inch™ G2410 Widescreen Flat Panel, Green (stefan rec - $450)
+	Network Ada:	Broadcom NetXtreme 10/100/1000 Gigabit Ethernet controller-PCI Express card (only option - $37.50)
+	Software:	Microsoft Office ($111.75)
+	Services:	3 Year Basic Limited Warranty and 3 Year NBD Onsite Service (included)
+			3 Year CompleteCare Accidental Damage Protection (just in case $104)
+
+	Total: 4,538.25
+	
+
+
+ECC - Error correction codes correct errors from memory which can lead to system crashes, useful for servers, perhaps also useful for us as a mid run crash means a restart
+
+R - at the end of memory this denotes a register buffer which will increase speed
+
+DIMM - dual inline memory module
+
+SDRAM - synchronous dynamic random access memory has a clock which provides for better pipelining with the processor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OK, so a newer choice below
+
+Dell Precision T3500 64bit 
+Date & Time: September 16,2009 4:40 PM CST  
+   
+   SYSTEM COMPONENTS 
+    Dell Precision T3500 64bit   Qty       1     
+   Dell Precision T3500, CMT, Standard Power Supply, Genuine Windows Vista® Business Service Pack 1, with media, 64, ENG   Unit Price     $2,070.75     
+ 
+Catalog Number:   25 E1048_64BIT  
+ Module   Description  Product Code
+(hide) Sku 
+(hide) Id
+(hide) 
+Dell Precision T3500 Dell Precision T3500, CMT, Standard Power Supply T3500 [224-4422] 1 
+Operating System Genuine Windows Vista® Business Service Pack 1, with media, 64, ENG VB61E [310-8642][420-8954] 11 
+Processor Quad Core Intel® Xeon® E5520 2.26GHz, 8M L3, 5.86GT/s Turbo E5520 [317-0129] 2 
+Memory 6GB, 1066MHz, DDR3 SDRAM, NECC (6 DIMMS) 6G3N666 [317-0103] 3 
+Keyboard Dell QuietKey Keyboard QUSB [330-3203] 4 
+Monitor Dell 19 inch UltraSharp™ 1907FPV Flat Panel, adjustable stand, VGA/DVI 1907FPV [320-4976] 5 
+Graphics 256MB NVIDIA® Quadro® NVS 295, 2MON, 2 DP w/ 2 DP to DVI Adapters NVS2952 [320-7899][330-4086] 6 
+Boot Hard Drive 500GB SATA 3.0Gb/s with NCQ and 16MB DataBurst Cache™ 500GS [341-8663] 8 
+Hard Drive Configuration C1 All SATA drives, No RAID for 1 Hard Drive SATA1 [341-8562] 9 
+Floppy Drive and Media Card Reader Options No Floppy Drive and No Media Card Reader NFD [341-5255] 10 
+Mouse Dell USB 2 Button Optical Mouse USBO [330-3945] 12 
+Network Adapter Broadcom NetXtreme 10/100/1000 Gigabit Ethernet controller-PCI Express card BNET [430-3434] 13 
+Chassis Configuration and 1394 Mini-Tower Chassis Configuration MT [311-7463] 15 
+Optical Devices 16X DVD-ROM with Cyberlink Power DVD™ DVD16 [313-7458][421-0536] 16 
+Speakers No Speaker option NSPKR [313-2663] 18 
+Documentation Documentation, English, with 125V Power Cord DOCENG [330-3156][330-3157] 21 
+Productivity Software Microsoft® Office 2007 Basic and Adobe Acrobat 9.0 STD WS27BC [410-1862][420-6711] 22 
+Hard Drive Controller Integrated Intel chipset SATA 3.0Gb/s controller NSASCTL [341-9289] 24 
+Energy Efficiency Option No Energy Star NOESTAR [330-3201] 25 
+Resource DVD Resource DVD - contains Diagnostics and Drivers RDVD [330-4025] 27 
+Hardware Support Services 3 Year Basic Limited Warranty and 3 Year NBD Onsite Service U3OS [992-8982][993-3080][993-9018][993-9027] 29 
+Complete Care 3 Year CompleteCare Accidental Damage Protection CCADS3 [984-1792][988-7689] 33 
+Quick Reference Guide Quick Reference Guide, English REFE [330-4020] 39 
+Shipping Packaging Options Shipping Material for System SHIP [330-3209] 40 
+2nd Monitor Dell 19 inch UltraSharp™ 1907FPV Flat Panel, adjustable stand, VGA/DVI 1907FPV [320-4976] 138 
+ 
+TOTAL:   $2,070.75  
+
+--------------------------------------------------------------------------------
+ 
+ 
+   
+ 
+      
+Total Price  
+Sub-total   $2,070.75  
+ 
+Shipping & Handling1   --   
+ 
+Tax   --  
+ 
+Total Price2   -- 
+ 
+ 

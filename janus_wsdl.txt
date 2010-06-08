@@ -1,0 +1,82 @@
+janus_wsdl.txt
+	To Write out a wsdl document for the janus web services (at least in part)
+
+To Do:
+    Go through a wsdl example and add the parts I am confused by
+        X add xmlns:tns namespace prefix to definition header (same as target namespace)
+        X add xml schema delcaration namespace ( xmlns:xsd = "[same as target namespace].wsd" )
+            how do I build an xsd document?
+            check xsd schema for correctness
+        X add xml soap namespace declaration ( xmlns:soap = "http://schemas.xmlsoap.org/wsdl/soap/" )
+        X add web service namespace as default ( xmlns = "http://schemas.xmlsoap.org/wsdl/" )
+        X change the schemas Target Name space to the xml schema declaration name spcase ( targetNamespace="[same as target namespace].xsd" )
+        X change the namespace of the porttype input/output messages to the target namespace ( message="tns:[same function name] )
+        X add message declarations (below types declarations) for each portype operation with parts representing input/output parameters referencing thier type schemas
+            <message name="[input/output message]"> 
+                <part name="body" element="xsd:[relevant schema element name]"
+            </message>
+        X define retrieve mouse records portType
+            X add xsd
+            X add message
+            X add operations
+        
+        X Add bindings between porttypes and return URIs, declare soap methods
+            <binding name="[functionName]Binding" type="tns:[reference to portType Name]"> 
+                <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+                <operation name="GetLastTradePrice">
+                   <soap:operation soapAction="http://example.com/GetLastTradePrice"/>
+                   <input>
+                       <soap:body use="literal"/>
+                   </input>
+                   <output>
+                       <soap:body use="literal"/>
+                   </output>
+                </operation>
+            </binding>
+    X Validate the wsdl using eclipse wtp ( http://www.eclipse.org/webtools/community/new/new.php )            
+    the addRecordReturn function should take the record name rather than initiation (compare using the context menu)
+    add study parameters port and function
+    binding and ports should be classes which can add operations.  
+    Add URIS for new soap functions (fill with dummy outputs for testing - I'm using literals)
+    How can I reference external namespaces employed, in the documentation perhaps, how can I create my own namespace for the radiobiological studies
+    add wsdl and xsd documentation to target namespaces, ("http://janus.northwestern.edu/soap.xsd" and "http://janus.northwestern.edu/soap.wsdl") 
+    
+
+
+Resources
+    wsdl document soap.xml
+    wsdl_generator wsdl_generator.py
+
+
+WSDL notes
+    xml is a type system... hmmmm
+    operation - exchange pattern of messages
+    interface - groups of operations
+
+    element information item can be a wsdl 2.0 document if its
+        namespace is "http://www.w3.org/ns/wsdl"
+        local part is description
+
+    wsdl 2.0 conforms to the xml infoset standards and adds a Component Model (denoted by curly brackets) in which the web service is composed by a series of components with properties.  the component model types are based on a subset of those types from the xml schema datatypes there is a mechanism to extend these data types through an external infoset (probably obo)
+
+    wsd is building off of the xml schema type specification and a concept called IRI which is an international generalization of the URI made to support the Universal Character Set.
+     
+    WSDL supports various namespaces, wsdl, wsdli, wsdlx, wrpc, wsoap, whttp, xs, and xsi which each have their own specification pages
+
+    Actual value is pretty obvious.  In the case of a simple type boolean it might be 0 or 1.
+
+    Inlined Schema somehow this seems to mean that you can refer to a sepperate xml schema in a single line, but I thik I would have to understand XML schema better to get this.
+    
+Namespaces Notes:
+    qualified name: a shorthand name which can be interpreted into a formal namespace
+    xml namespaces are declared in xml using xmlns which can be optionall followed by a prefix
+
+
+10/24/2009
+    Spent another 4 hours today on the problem of wsdl generation.  This time it was all about debugging, which in turn was all about getting eclipse working.  It was a little painful at first until I realized that I hadn't installed the web tools properly and I was therefor missing the obvious.  When I did realize that I needed to download the SDK in addition to the library files, I was able to find web tools in the context menus.  When I changed by project folder over to janus the wsdl validator worked via context menu to (also it provided a very pretty interface).  I really want to learn to use eclipse a little better now as it adds a pictoral layer atop the code that will make keeping track of devlepment much easier.  Of course the ease of use of utilities like the validator is amazing.  The only trouble I have with eclipse is that it is so beasly immense and I have a feeling that it will prevent me from understanding exactly what's going on with the machine.  In light of that, my current development process of first hand coding and then using a library to develop a function may be the best way to develop my skills.   
+
+10/23/2009
+    Slogging through code today, the wsdl creation is talking longer than I would have hoped.  However, I did develop a useful new technique which involved going through the wsdl 1.1 examples in the documentation element by element, looking up those elements that I didn't understand and then composing a list of what sort of functionality I would need to add to my generator script to accomodate these changes.  The benefits were multifold.  First, by working from example, I avoided the mind numbing vocabulary of the documentation in exchange for a contextualized one.  Two, by first composing a list of changes I abstracted the change process a level and avoided the peculiar memory process involved with coding.  Three, now that I am finished for the night I can hope that when I get started tomorrow, I will have only to run through my list to change those elements of code which I need to to make the system nearly functional.  That will mean a faster start time which is oh so important.  The most important part of this endeavour was finding a good example, if I can do that for other problems then I can work them through peice by peice as well.
+
+10/22/2009
+    I had a really fun day constructing the wsdl services.  I got through the process of adding ports and declaring complex datatypes.  Midway through that process I realized how frustrating it was to be keeping track of everything, so I sat down and started programming.  I went from written notes to filling in the actual functions and I didn't do much mid programming testing (except for a few points of clarity).  Working through the program took a lot of stamina and I was worried that having no idea of how the whole thing would fit together it would all fall apart.  Instead it was the least buggy program I have ever written.  This is certainly a testimony to the lessons learned from code complete.

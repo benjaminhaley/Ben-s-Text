@@ -1,0 +1,40 @@
+grad_admission_essay.txt
+	for my application to graduate school
+
+try looking at Dave's PersonalStatement110608.pdf (gmail search it) for inspiration on essay writing
+
+
+Admissions Essay
+
+	Cell signalling is poised to revolutinize biology.  Cell's have been known to pass electrical signals, metabolites, proteins, siRNA, viral DNA, and even organelles across signalling channels.  These channels are ubiquitous and speedy.  Many plant cells have between 10^3 and 10^5 plasmodesmatta, electrical signals can be conduced at ??? rate.  These information packets and the speed of their exchange testify to an information rich process which provides rich characterization of a cell and offers the potential to mediate important phenotypes, most notably differentiation.
+	A myriad of technologies have emerged over the past 30 years to enable researchers to access and effect the communication channels of cells.  Patch clamp technology offers high resolution reporting and access to electrophysiological signalling.  Florescences acts a reporter for a number of biological substances.  Soon nucleic acid sequencing and synthesis technology will reach a point where the nucleic acid output of cells is measurable and affectable.  These technologies and emerging technologies offer a tantalizing bridge between researcher and the cellular communication.
+	Due to the rate and volume of information leaving a cell, processing power becomes a major limitation.  Like other bioinformatics problems, traditional researcher intensive interpretations are insufficient to fully capatalize on mounds of data that biology is producing.  The solution to this problem is to add machine learning techniques and specifically reinforcement learning techniques to the application of cell signalling methods.  This will alow faster hypothosis turnover and increase the rate of scientific production.
+	The end point for these kinds of studies should be biologically significant changes.  Cellular differentiation as validated by floerescent signals would be a useful endpoint and one with direct applicabilty to cancer.
+
+
+A few biomimicry examples that prove the genius of nature courtesy of Janine Benyus: http://www.ted.com/talks/janine_benyus_biomimicry_in_action.html
+	An engineer at JR West who made bullet trains dispelled the pressure of going into a tube based on the aereodynamics of king fishers (10% faster on 15% less electricity)
+	Galapagos shark has no bacteria on its surface due to based on an arcitecture of skin dentesols (like those used to speed olympic swimmers) capatalized on by sharklet design company.
+	An insect in the nambibian desert can pull water from fog.  Andrew Parker (oxford) has studied this and Grimshaw is considering employing it architecturally.
+	Cement manufacture company, Calera, is using C02 in cement building ala shelled organisms and coral changing it from 1 ton of emision per 1 ton of production to 1/2 ton of sequestering.
+	Solar cell from One Sun borrows the photosynthetic processes of leaves to make self assembled.
+	AQUAporin exploits the hourglass shaped pours of redblood cells to push water out while keeping solvents in to produce desalination.
+	Trees adjust to stress points with reinforcement, GM Opel used this optimize the construction of thier car
+	Beatle uses chiten for waterproofing, strength, resiliance, and color for its coating, if we could do this we could improve things as mundane as a chip bag.
+	Animals use 5 polymers we use 350?
+	Sulfer reducing bacteria emit nanoparticles, but also a protein for aggregation that forces them to fall out of solution. 
+	Regen energy takes ques from social insects ability to find energy to design algorithms for appliances so that they can talk to minimize peak energy use.
+	A group at Cornel is making a syntheic tree to capitalize on capillary action for a wallpaper that could function as a pump in buildings.
+	WhalePower is using a wind turbine inspired by the scalloped edges of whale's flippers to reduce drag by 32%.
+	MIT built a radiochip that uses less power based on the cochlear of the ear.
+	
+Qualifications:
+	I scored 1510 on the GRE and graduated in the biohonors program from U of I with an in major GPA of 3.64.  I have prepared for the cs gre subject exam (not yet taken) by independent study.  I have built interfaces for the lab's tissue archives (http://janus.northwestern.edu/dog_tissues/) and am currently updating their ontologies to open formats and providing web services to facillitate integration with the European Radiobiological Archives.  I've worked as a lab manager for 3 years, been first author on a review paper, middle author on two others, and am currently working on a third detailing our archive integration efforts. I have volunteered, doing river cleanup with Chicago Cares, teaching web design to 5th-6th graders at KIPP, and provinding after school homework help at perspectives.x	
+
+
+People:
+	Duncan Hull pretty cool fellow involved in web science at Cambridge.
+	berkely ontology group looks pretty cool http://www.berkeleybop.org/
+
+Add to application essay:
+	cells are more dynamic than their organisms counterpart.  A cell might transform from a stem cell to a meter long neuron over less than 50 cell generations, the equivalent behavior is not seen in macro scale organisms.  This is further evidence that in order to model and affect the phenotype of cells we will need precisely timed interactions and equally fast ways of measuring responses.

@@ -1,0 +1,12 @@
+return_macro_results.txt
+	
+
+Return Macro Results
+	done-Ensure that sufficient macrocode data is available in the database
+	done-Create a script that pulls that data from the website into php for a mouse number
+	done-Place these results into php arrays
+	done-print these arrays to table in the same form as the recorded micro pathologies table
+
+
+It took a going through a mock join query to realize that the data loaded into the macro table was actually micro data.  It then took a few more minutes to reload the data from access.  I was slowed down in this effort because the ids from the access table needed to be concatenated to match the id's from the new table.  I think that dave was right to change the id structure, though he might have done us both a favor and made the modifications in access and then uploaded those modifications into mySQL.
+I finished printing the table after an interruption necessary for the printer and dropbox install for shumita.  This was not quite straightforward because the script that Dave had written to print the table was not generalizable to any arbitary table.  So I refactored the code and made it work.  The only irritation was that the column-row array had to be remade into a row column array to make it usuable.  This means that the structure flipped back and forth before use.  This kind of winnying is irritating.  It would be better if the columnn had been delivered a mysql result directly as this would make the script easier to follow.  I also could have made things nicer by putting the headers as an input, but I will forget this fact for the time being and come back to it if it makes things ugly in the future.

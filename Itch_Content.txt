@@ -1,0 +1,5 @@
+Itch_Content
+	To make the itch value more useful to improve personal and enterprise productivity (see http://localhost/Archives/Itch.txt)
+
+Data being recalled by recent or current scratches is likely to have keywords which would useufully associate it to other data in the itch body.  Eventually we should be elaborating solutions to find these relationships and encourage itch's between them.
+

@@ -1,0 +1,48 @@
+Kari_Natural_Computing.txt
+
+"The Many Facets of Natural Computing" - Communications of the ACM (2008)
+	Lila Kari - Western Ontario  http://localhost/Archives/Kari_Natural_Computing_Review.pdf
+
+
+Genome v Silicon
+	!!computations		the genomic computer performs many times more (source?)
+	!!channels		as needed molecular transport and ion diffusion v fixed wires
+	!!synchrony		casual coordination v imposed temporal synchrony	
+	!!architecture		changeable	v	rigid
+	!!memory location		everywhere	v	dedicated locations
+	!!robustness		selection/feedback at many levels (molecule, pathway, cell, organism)	v	selection, but also rigirous design criteria
+	!!hardware		same as software... but I take exception on this point, I think there is a spectrum from DNA to RNA to protein and so on
+	!!turing			The entire genomic regulatory system can be thought of as a computational system, the “genomic computer.” 20... proof
+
+synthetic biology:
+	!!largest (viral)		5,386bp synthetic genome of a virus, by rapid (14-day) assembly of chemically synthesized short DNA strands. 37
+	!!largest (bacterial)	Recently an announcement was made of the near completion of the assembly of an entire “minimal genome” of a bacterium, Mycoplasma Genitalium.7
+	!!understood synthetic	proposal to create a functionally/structurally understood genome, (151 genes - 113,000bp) capable of protein synthesis and DNA replication. 17
+
+Misc
+	!!turing cilliates 14	it was proved that various models of gene assembly have full Turing machine capabilities. 23
+	!!template cilliates	“bioware” that implements the process of gene assembly, which is based on the new concept of templateguided recombination.4, 28
+	!!immune computation	the immune system performs complex, parallel, and distributed computations (a.k.a. immunological computation, immunocomputing) 11
+	!!Zuse and Fredkin	In the 1960s, proposed that information is more fundamental than matter or energy - the entire universe is some kind of computational device.
+	!!common language		there is no generally accepted common language to describe these biological phenomena 18
+	!!membrane computing	Computing models abstracted from the structure and the functioning of living cells, tissues, and higher order structures. 26
+	
+Glossary
+	!!passive memory		does not require energy to persist
+	!!communication channels	medium used to transmit a message across space/time
+	!!Kohn-maps		symbolic diagrams of protein pathways in cells (see http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&pubmedid=10436023)
+	!!bio-calculus		a mathematical language for biological interactions (see http://www.jsbi.org/journal/GIW99/GIW99F14.pdf)
+	!!Process calculus	a group of languages used to model concurrent systems
+	!!concurrent systems	computational process which are happening simultaneously
+
+Sources:
+	4. Angeleska, A., Jonoska, N., Saito, M., and Landweber, L. RNA-guided DNA assembly. J. Theoretical Biology 248 (2007), 706–720.
+	11. Dasgupta, D. editor. Artificial Immune Systems and  Their Applications. Springer, 1998.
+	14. Ehrenfeucht, A., Harju, T., Petre, I., Prescott, D., and Rozenberg, G. Computation in Living Cells: Gene Assembly in Ciliates. Springer, 2004.
+	18. Fox Keller, E. and Harel, D. Beyond the gene. PLoS ONE 2, 11 (2007), e1231.
+	19. Hirvensalo, M. Quantum Computing, 2nd Ed. Springer, 2004.
+	20. Istrail, S., De-Leon, B-T., and Davidson, E. The regulatory genome and the computer. Developmental Biology 310 (2007), 187–195.
+	23. Landweber, L. and Kari, L. The evolution of cellular computing: Nature’s solution to a computational problem. Biosystems 52, 1/3 (1999), 3–13.
+	26. Paun, G. Membrane Computing: An Introduction. Springer, 2002.
+	28. Prescott, D., Ehrenfeucht, A., and Rozenberg, G. "Template guided recombination for ... in stichotrichous ciliates. J. Theoretical Biology 222", 3 (2003), 323–330.
+	37. Smith, H., Hutchison III, C., Pfannkoch, C., and Venter, C. "Generating a synthetic genome ... from synthetic oligonucleotides. PNAS 100, 26 (2003), 15440–15445.

@@ -1,0 +1,2 @@
+SRAM-
+	static random access memomry - does not require a refresh (read/erase/rewrite) that RAM requires.

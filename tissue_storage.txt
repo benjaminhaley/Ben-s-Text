@@ -1,0 +1,28 @@
+tissue_storage.txt
+	How to store our dog tissue slides
+
+Overview:
+	The issue we have is that our dog tissues are currently stacked 6 high and it is very difficult to retrieve a drawer from the middle of the stack, it is even harder to put it back.  The result is that drawers are out of order, difficult to access and the tissues within them are disheveled.  This makes it very hard to find tissues, especially given that we nearly always need to check more than one animal.  The best way to solve this would be to develop a storage solution that allows the individual drawers to slide.  We can work with the cabinets we already have, but we run the risk that these bulky cabinets might not make it through a move.  We can also work with the modular chests used for the mouse tissue archives (which allow 6 drawers to slide), but this solution might be expensive.
+
+
+Logistics:
+	41 * 6 dog drawers are stacked
+	15 * 6 mouse drawers are stacked
+	there are 14 empty containers that we can use
+
+	a drawer is: 1 5/8" tall, 16" long, and 8 5/8" wide
+	a chest is: 15" tall, 17" long, and 9.5" wide
+
+Constraints
+	Price  < $2000 
+	Mobile (can survive a move)
+	Lasting ( will endure for decades )
+
+Options
+1. for $5400 we can order the Tissue-tek tissues drawers like the mouse tissue archives (http://www.emsdiasum.com/microscopy/products/histology/storage.aspx)
+
+2. We can look to build our own custom solution, but if we do we might want to wait until after the move to see what happens.
+
+
+4/16/2010 1 hour
+	Checking out our needs with Beau and writing to Gayle about it (https://mail.google.com/mail/?hl=en&shva=1#sent/128083903013a888).  I think we should wait until after the move to fully handle this.

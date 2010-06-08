@@ -1,0 +1,27 @@
+qiong_stats.txt
+	analysis of qiongs real time pcr data
+
+tags: bens_job.txt
+
+data: qiongs_data.xls
+
+3/25/2010 - 6 hours
+
+After parsing qiongs_data.xls and loading it into stata I was able to run some simple logistic regressions which are detailed below.  In the end I treated each organ independently, but put both of the genes into the same model.  We were able to explain about 30% of the variance in the results for each organ and found a few specific contributers which seemed to effect the results.  Cool.  The queries are listed below for reference.
+
+
+            Good:
+
+            Kidney Query 
+                accounted for: 40-5% - not significant
+                signifanct factors- tkvs observation in the kidney
+
+            regress generatio nd cox ageatdeath m f g_one g_60 g_300 n_1 n_24 n_60 minc_kidney tkvs_kidney tkca_kidney tkac_kidney mcrd_kidney tevo_spleen tevs_spleen traa_lung_cancer trac_lung_cancer mpnc_lung mpni_lung mpnu_lung mrmp_lung trac_lung tlhs_lymphoreticular tlll_lymphoreticular tlls_lymphoreticular tlml_lymphoreticular tlus_lymphoreticular tlvo_lymphoreticul if kidney==1
+
+
+
+            Heart Query 
+                accounted for: 33-58% 
+                significant: gene choice, fractions, age of irradiation
+
+            regress generatio nd cox ageatdeath m f g_one g_60 g_300 n_1 n_24 n_60 minc_kidney tkvs_kidney tkca_kidney tkac_kidney mcrd_kidney tevo_spleen tevs_spleen traa_lung_cancer trac_lung_cancer mpnc_lung mpni_lung mpnu_lung mrmp_lung trac_lung tlhs_lymphoreticular tlll_lymphoreticular tlls_lymphoreticular tlml_lymphoreticular tlus_lymphoreticular tlvo_lymphoreticul if heart==1

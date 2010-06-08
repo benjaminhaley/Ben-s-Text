@@ -1,0 +1,23 @@
+taverna.txt
+	exploring the taverna workbench to figure out what our output needs to be.
+
+
+
+How do I add our services
+	1. right click on available processors
+	2. add new wsdl scavenger
+	3. *but in my case I get an error "Type {http://www.w3.org/2001/XMLSchema}Array is refereced but not defined" In other words my wsdl is crap.
+
+
+wsdl examples
+	http://xml.nig.ac.jp/wsdl/Blast.wsdl
+
+
+taverna workflow examples
+	we could make one of these for the radiobiology archives and model it after the workflows you find in the examples.
+
+
+Annotate our sercvices so that they can be discoved by the Feta discovery tool (I think from the feta registry)
+
+
+To note Taverna crashed during my trial of the Feta discovery service.  Perhaps I was click happy. - oh fooey!

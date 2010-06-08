@@ -1,0 +1,11 @@
+Itch_Geography
+	to improve the itch protocol to improve personal and enterprise productivity (see http://localhost/Archives/Itch.txt)
+
+The itchiness of a piece of data should be based in part on its relationship to other data that the user is working on or has recently worked on.  Essentially if a person scratches a peice of data, the nearby data should become itchier.
+
+The geography of a peice of data is noted by:
+	its position in folder hiearchies, 
+	its relationship to data in the link structure
+
+related concepts to geography include a temporal association between itches (see http://localhost/Archives/Itch_Access_History.txt) and a content based association between itches (see http://localhost/Archives/Itch_Content.txt).
+

@@ -1,0 +1,67 @@
+Grad_School.txt
+	To find a program where I can connect cells and people
+
+Related Docs:
+
+    Research:
+        grad_school.ods
+		Biological_Computing.txt
+		communication_biology.txt
+
+	Study Materials
+		CS_Books.ods
+		CS_subject_Exam.txt
+		six_sigma.txt
+		machine_learning.txt
+		study.txt
+
+	Applications
+		CV.odt
+		grad_admissions_essay.txt
+		diversity_contribution.txt
+		mail_transcripts.txt
+		letters_of_reccomendation.txt
+		admissions_essay.txt
+		Grad_Program_Requirements.ods
+
+	
+To Do:
+    7/15/2010 Add interested researchers to grad_school.ods
+    7/15/2010 talk to interesting researchers
+    7/15/2010 talk to their current students and researchers to see if the lab is supportive
+	3/20/2010 talk to the financial aide office to see if I should be applying for anything http://www.tgs.northwestern.edu/abouttgs/tgsstaff/
+	7/15/2010 apply for scholarships and fellowships, from United States information Service or Fullbright office.  NSF, Ford Foundation, VEF
+
+03/15/2010 - I accepted 0.5 hours
+	I formally accepted NU's offer and read over the preliminary agreement with them.  Most importantly it requires that I maintain a "B" average and that I not work for profit while going to graduate school.  I also looked at some related materials, and I am excited by the prospect of applying for financial support and grants, I think that will be very worthwhile.
+
+03-05-2010 - NU acceptance - 0.0 hours
+    I got in.  Awesome! https://mail.google.com/mail/?shva=1#inbox/1272bc945659619f
+    I also sent out a letter of thanks to my peeps https://mail.google.com/mail/?shva=1#sent/1272f196b743740b
+
+02-27-2010 - orientation weekend - 36 hours
+    I just went through my orientation weekend with all of the other NU applicants.  It was terrible fun and I had a good time meeting my roommate Paul (a structural biologist), a million current IGP students that I knew or sorta knew, and a very fine set of faculty who I will list the details of on other pages.  It was a well run experience thanks to Steve and the staff, so I had a really fun time.  I also saw some of Ted's old freinds, Ryan, Jeff, and ??? nice.  
+
+02-15-2010
+    I just found out that I will be accepted for interveiws at NU.  So I will have to look into my interviewers and refresh myself on my own research experience.  Stanford and Berkeley were no goes, but I can take solice in the fact that I don't have to make the tough decision of whether to go to Cali or not.  
+
+12-08-2009
+	I am very close to finished with my applications and I am going to take this time to wrap up what I have done so far and make it easy to explore in case I need to come back to it in the future.
+
+11-30-2009
+    I spent a huge swath of today editing my personal statement.  I think that it is comming up very nice, especially under the watchful editorial Eyes of Anna, Dave, Elise, and Lynsee (Dave has done an amazing job).  Its astounded me the time that its taken to produce this two page document, now at perhaps more than 40 hours of collected work.  I suppose it makes sense, however.  Its very nice to have the helpful feedback of my friends in the process and I am learning a lot.  For one, this work has gone from being a narrative of the past 5 years of my life to being a document with a sense of rising purpose, many thanks to Dave for that feeling.  I think that it is giving me a clear motive and even the act of writing the work has given my past a coherence that I did not recognize before, a good lesson for the future and the meaning of purpose.  To note, some common issues that I am having when writing this peice are the use of passive voice which I think I can recognize now, a lack of coherence, and a pessimism that I must fight to avoid.  I think that a clear head will trump that pessimism any day, though I must remember to be a little skeptical of myself as a candidate, an all good report is not what we want, facts are what we want, clear and unavoidable.
+
+11-18-2009
+	I spent the whole day on grad school aps, but I am sure that I was less that totally efficient as I frequently distracted myself with downloads, food, news checking, and TV courtesy of Mike.  Despite it, I managed to get most of the admissions applied and the statement of purpose essay outlined.  If I have to drop any part of my effort, I am going to drop the Janelia farms application which is not all that wonderful and will require a fair degree of extra work to come up with researcher and a plan.
+
+11-17-2009
+	Just spent a couple of hours looking over the Berkeley finilaists in the area of the web/user interface side of a nano-scale interface design.  I found a couple that are promising (see Grad_School.ods), and I should contact them swiftly to see if they are interested in co-advising my project.
+
+11-11-2009
+	Talked to Michel Mahrowiz today.  First I emberassingly tried to call him at 6:30 PCT because I thought the two hour delay was reversed.  But I reached him later and found him in good spirits despite my lack of grace.  He was interested in the project I was talking about, very good that I read his work first because when he asked for an example I was able to contextualize it in his work on microfluidic platforms with florescent outputs, he seemed to really like the idea of a community getting around the platform.  I was also forced to formalize the line that this research is moving forward so fast and yet the only people with access to its equipment are the ones who develop it.  This seemed very compelling.  Last I was sure to mention some fun points that I had read in his research.  I asked him how hard it was to fly a beetle, he said pretty hard but getting easier (they were working on the algorithms).  Then I congratulated him on the south park ref in his review paper.  He was way happy to hear it.  In the end he agreed to co-advise the project, but admitted that he was insufficient to advise the web side of things.  I couldn't ask for anything more.
+
+10-27-2009
+	Wrote a few of the researchers from berkeley which I had already composed emails to and followed up with Ken when he wrote me back asking for more info.  Then I spent some time trying to find the project at Berkeley's COINS project which involved a sensor platform, but was unable to.  Also, I spent an hour or two looking into how the process of admissions essays seems to work.  It seems that they can either be submitted either online or via paper and generally you have to know exactly what departmnet you are applying to before they are written.  So I might be able to contact the people I have in mind, but I will have to determine the programs I want to apply to sometime in the next two weeks.  I spent a little time finding programs today.  Last, I could do better if I were to talk through the application process with Hans, Caroline, and Ye.
+
+10-13-2009
+	Composed 3 emails.  Not great, many of the selected researchers do not seem to apply.  I am also worried that I have missed researchers at MIT and Berkeley that I marked in my delicious file, still they did not show up in my research.  That speaks a little unnervingly to my selection method.  Still I might be able to cross reference the final teachers that I have found against more teachers somehow.

@@ -1,0 +1,11 @@
+Is biology Turing complete?
+
+Sometimes suspisions plauge me.  I might pace, sweat, and foam obsessed with an enduring and rouge thought.  Lately, I've been troubled by suspicions of biological computation.
+
+Allow me to elaborate.  In the 1930s a one Alan Turing set about to define exactly what it was to calculate.  He laid out mathematical principals describing his results and thereby formalized compuatation.  The rules he described were simple and powerful.  He proved that a pencil, long spool of paper, and a short table of commands could be used to perform any compuation.  Most computers ever constructed have followed Turing's mathematics.  Supercomputers, desktops, and calculators can all be drawn out as a limited series of pencil strokes on a long spool of paper.
+
+Now, consider cellular biology.  Cells have long spools of DNA, proteins to read and write DNA, and a set of rules that protein's follow.  Every animal, plant, and parasite is derived from those cellular processes.  Yet, there is little talk of biology as a computer.  Well, if you ask me biology is computing.  Moreover, it is computing more and more cheaply than all the supercomputers, desktops, and calculators of the world.
+
+So I'm hell bent now to prove it, to shake the thought, or put it away.  If anybody has any evidence pass it along, or wish me luck.
+
+...

@@ -1,0 +1,49 @@
+Biological_Computing
+	How can we measure, model, and interact with the information processing capacity of biology.
+
+Hypothosis:
+	The information processing capacity of the cell is more abundant and energy efficient than silicon computing is or could be.  The future of human computation and medicine will come through capitalization of innate biological computation.
+
+To Do:
+	Work on Turing Paper		see http://locahost/Archives/turing_biology.txt
+	Post results online		see http://localhost/Archives/Biological_Computation_Community.txt
+	Caroline recommends getting a fulbright scholarship for study abroad purposes
+
+
+Time Log		archived at http://localhost/Archives/Biological_Computing_Time_Log.txt
+
+	 8/Dec/2008 - 16/Feb/2009	100 hours	groups: 	1 q's, 50 keywords, 1 post, 4 groups (nature, linked in, facebook, ??)
+							searches: 	searched Nat Com., Searched all for 'turing complete' + biology, wikipedia keywords network
+							topics: 	cilliates, regulatory networks, kari's review, theory of computation, turing model, RAM model
+							news: 		email alerts, genome res, nature, science, natural computing, theoreitcal biololgy
+							writing: 	drafted turing section
+	17/Feb/2009 7:56 - 10:00 pm	2 hours		read the osbourne/?? paper and the Sharma paper
+	23/Feb/2009 15:00- 23:00 pm	8 hours		accepted/welcomed linkedin, wrote lila kari, checked email news, split turing_biology, wrote framing intro
+	2/Mar/2009 13:11 - 18:11	5 hours		did lit search
+	9/Mar/2009  1:00 - 6:00		5 hours		added citations to abstract, read/summarized the thermodynamics of cells and bhromolator, summarized Trautter, organized
+	11/Mar/2009 16:00 - 8:30	4 hours		submitted dna15, nature news, summarized Bouchard/Osbourne and Sharma
+	16/Mar/2009 14:37 - 9:30	5 hours		news, GNR papers from Busi and Ben-Hur, reviewed other relavent papers
+	31/Mar/2009 16:25 - 22:48	6 hours		news, summaries of Ben-Hur Seigelman, and Busi Zandron, 1/2 read Balan's immunocomputing paper
+	4/Apr/2009 12:52 - 5:00		4 hours		news, summarized/organized Adelman and the immunocomputing paper
+	10/Apr/2009 14:24 - 17:30	3 hours		news, feynman, organized CRM paper
+	11/Apr/2009 17:12 - 10:04	3 hours		immunocomputing and GRN papers
+
+	
+Resources
+	Papers to Write		Turing, Cell Specs, and Network				see http://localhost/Archives/Papers_to_Write.txt
+	Maybe Papers		RNA to DNA, Compression, and genomic Distributions	see http://localhost/Archives/Papers_to_Write.txt
+	Funding			reasons and sources					see http://localhost/Archives/biological_computation_funding.txt
+	Community		Journals, Social Networks, Seminars, and People		see http://localhost/Archives/Biological_Computation_Community.txt
+	My Story		why I am interested in biological computation		see http://localhost/Archives/My_Story.txt 	
+	DNA computing		adelman onward on who and what in DNA computing		see http://localhost/Archives/DNA_Computing.txt
+	Programs		computer libraries for biology				see http://localhost/Archives/biological_computing_programs.txt
+	Glossary & Keyterms	Important Terms in computational biology		see http://localhost/Archives/biological_computation_glossary.ods
+	
+
+submissions		DNA-15 conference 	see http://localhost/Archives/dna_15_abstract.pdf
+
+A nice device to interact with cells would be a series of needles permanantly embeded in a long lived cell that could pump nucleotides in an out from another similar cell or a computing platform.  A large array of such devices might offer some very interesting possibilities.
+
+"The process [of evolution] is without purpose, without forsight, without design" 
+	Dan Dennett - http://www.ted.com/index.php/talks/dan_dennett_s_response_to_rick_warren.html 10:32
+

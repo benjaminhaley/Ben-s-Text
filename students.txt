@@ -1,0 +1,56 @@
+students.txt
+	To organize the work of our summer students.
+
+Time Sheet
+	0.5 hours	Gave excel of Halderian data
+
+
+To Do:
+	Get Nathalie marissa's/ dave's paper for example
+	teach her some basic stats on monday
+
+
+
+Nathalie Danielson 	
+	ACS student, Senior in Highschool 2009, nathaliedanielsno@gmail.com
+
+	Goal:
+		1. To get exposure to lab work, 
+		2. learn skills for college and research, 
+		3. to get resume boosting experiences and citations.
+
+
+	Projects:
+		1. Paper Research
+			Goal: To find citations related to the following questions, so that they can be included in papers we produce.
+
+			Questions:
+				Is prostate cancer linked to hyperplasia?
+				Which Cancers are more common following radiation exposure?
+				How does the risk of radioactive exposure change with age?
+
+		2. Hardarian Gland posting
+			Goal: To post the hardarian gland data online for the world to see
+
+			See: 	
+				Hardarian Gland Project.txt for project detail
+				http://janus.northwestern.edu/dog_tissues/ for an example
+				http://janus.northwestern.edu/janus2/index.php for another example
+
+		3. Wet Bench Exposure
+			Goal: To see (and participate?) in the bench work that is going on in the lab
+		
+			Follow:
+				Hans, Jeff, Kat, Qiong, Jin-Ju, Beau, Caroline, and others	
+
+		4. Wololab Website Improvement ( see http://docs.google.com/Doc?id=dffrkdrs_106f9xkgj7v&pli=1 )
+
+		5. Example Research
+			Goal: To exemplify the utility of the hardarian mouse gland data we can run some statistics
+			
+			Questions: What effect does gender have in the response to radioactive assult for these mice.
+
+
+Kelly Rehr
+	Kelly needs to get a real project, she can take over some cells from Jin Ju and play with them, maybe even doing the experiment.  I should talk to Jin Ju about getting Kelly a project and maybe look around lab for alternatives.
+	

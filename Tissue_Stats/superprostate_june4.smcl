@@ -1,0 +1,103 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+       log:  {res}C:\Documents and Settings\Tatjana Paunesku\Desktop\Ben's Work\Tissues\Tissue_Stats\superprostate_june4.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res} 4 Jun 2009, 16:24:36
+
+{com}. logit p_incidences lifespan_yrs observe_count lifespan2 observations2 pat_tf pat_none doserate dosetotal if cod!="infant" & cod!="other"
+
+{txt}Iteration 0:   log likelihood = {res}-632.76162
+{txt}Iteration 1:   log likelihood = {res}-432.16151
+{txt}Iteration 2:   log likelihood = {res}-347.86937
+{txt}Iteration 3:   log likelihood = {res}-317.67332
+{txt}Iteration 4:   log likelihood = {res} -313.0246
+{txt}Iteration 5:   log likelihood = {res}-311.48394
+{txt}Iteration 6:   log likelihood = {res}-311.10232
+{txt}Iteration 7:   log likelihood = {res}-310.97394
+{txt}Iteration 8:   log likelihood = {res}-310.92335
+{txt}Iteration 9:   log likelihood = {res}-310.89893
+{txt}Iteration 10:  log likelihood = {res}-310.87905
+{txt}Iteration 11:  log likelihood = {res}-310.80224
+{txt}Iteration 12:  log likelihood = {res}-309.78981
+{txt}Iteration 13:  log likelihood = {res}-309.78563
+{txt}Iteration 14:  log likelihood = {res}-309.78563
+
+{txt}Logistic regression                               Number of obs   = {res}      1584
+                                                  {txt}LR chi2({res}8{txt})      = {res}    645.95
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-309.78563                       {txt}Pseudo R2       = {res}    0.5104
+
+{txt}{hline 13}{c TT}{hline 64}
+p_incidences {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+lifespan_yrs {c |}  {res} .8819149   .1387209     6.36   0.000     .6100269    1.153803
+{txt}observe_co~t {c |}  {res}  .151651   .0307291     4.94   0.000     .0914229     .211879
+   {txt}lifespan2 {c |}  {res}-.0381137   .0074064    -5.15   0.000    -.0526301   -.0235974
+{txt}observatio~2 {c |}  {res}-.0017791   .0005745    -3.10   0.002    -.0029051   -.0006531
+      {txt}pat_tf {c |}  {res} .5632117   .3173229     1.77   0.076    -.0587297    1.185153
+    {txt}pat_none {c |}  {res}-1.621414     .52688    -3.08   0.002    -2.654079   -.5887478
+    {txt}doserate {c |}  {res}-23.00843   15.38535    -1.50   0.135    -53.16316      7.1463
+   {txt}dosetotal {c |}  {res} 9.44e-06   .0000423     0.22   0.823    -.0000734    .0000923
+       {txt}_cons {c |}  {res}-7.239977   .7347525    -9.85   0.000    -8.680065   -5.799888
+{txt}{hline 13}{c BT}{hline 64}
+Note: 65 failures and 0 successes completely determined.
+
+{com}. est store radio_prostate
+
+. logit p_incidences lifespan_yrs observe_count lifespan2 observations2 pat_tf pat_none if cod!="infant" & cod!="other"
+
+{txt}Iteration 0:   log likelihood = {res}-632.76162
+{txt}Iteration 1:   log likelihood = {res}-432.21515
+{txt}Iteration 2:   log likelihood = {res}-347.96594
+{txt}Iteration 3:   log likelihood = {res}-317.99452
+{txt}Iteration 4:   log likelihood = {res}-313.99051
+{txt}Iteration 5:   log likelihood = {res}-313.59861
+{txt}Iteration 6:   log likelihood = {res}-313.59212
+{txt}Iteration 7:   log likelihood = {res}-313.59211
+
+{txt}Logistic regression                               Number of obs   = {res}      1584
+                                                  {txt}LR chi2({res}6{txt})      = {res}    638.34
+                                                  {txt}Prob > chi2     = {res}    0.0000
+{txt}Log likelihood = {res}-313.59211                       {txt}Pseudo R2       = {res}    0.5044
+
+{txt}{hline 13}{c TT}{hline 64}
+p_incidences {c |}      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+{hline 13}{c +}{hline 64}
+lifespan_yrs {c |}  {res} .9067918   .1362552     6.66   0.000     .6397366    1.173847
+{txt}observe_co~t {c |}  {res} .1523588   .0304431     5.00   0.000     .0926915    .2120262
+   {txt}lifespan2 {c |}  {res}-.0389301   .0072498    -5.37   0.000    -.0531395   -.0247206
+{txt}observatio~2 {c |}  {res}-.0018185   .0005673    -3.21   0.001    -.0029304   -.0007065
+      {txt}pat_tf {c |}  {res} .6256876   .2926581     2.14   0.033     .0520883    1.199287
+    {txt}pat_none {c |}  {res}-1.533323    .513101    -2.99   0.003    -2.538983   -.5276639
+       {txt}_cons {c |}  {res}-7.514811   .7068329   -10.63   0.000    -8.900178   -6.129444
+{txt}{hline 13}{c BT}{hline 64}
+
+{com}. est store prostate
+
+. lrtest prostate radio_prostate
+
+{txt}Likelihood-ratio test{col 56}LR chi2({res}2{txt}){col 68}={res}      7.61
+{txt}(Assumption: {res}{stata est replay prostate:prostate}{txt} nested in {res}{stata est replay radio_prostate:radio_prostate}{txt}){col 56}Prob > chi2 = {res}   0.0222
+
+{com}. lrtest prostate radio_prostate, stats
+
+{txt}Likelihood-ratio test{col 56}LR chi2({res}2{txt}){col 68}={res}      7.61
+{txt}(Assumption: {res}{stata est replay prostate:prostate}{txt} nested in {res}{stata est replay radio_prostate:radio_prostate}{txt}){col 56}Prob > chi2 = {res}   0.0222
+
+{txt}{hline 13}{c TT}{hline 63}
+       Model {c |}    Obs    ll(null)   ll(model)     df          AIC         BIC
+{hline 13}{c +}{hline 63}
+{ralign 12:{stata estimates replay prostate:prostate}}{col 14}{c |}{res}{col 17} 1584{col 25}-632.7616{col 37}-313.5921{col 48}    7{col 57} 641.1842{col 69} 678.7582
+{txt}{ralign 12:{stata estimates replay radio_prostate:radio_pros~e}}{col 14}{c |}{res}{col 17} 1584{col 25}-632.7616{col 37}-309.7856{col 48}    9{col 57} 637.5713{col 69} 685.8806
+{txt}{hline 13}{c BT}{hline 63}
+{p 15 22 2}
+Note:  N=Obs used in calculating BIC; see {helpb bic_note:[R] BIC note}
+{p_end}
+
+{com}. log close
+       {txt}log:  {res}C:\Documents and Settings\Tatjana Paunesku\Desktop\Ben's Work\Tissues\Tissue_Stats\superprostate_june4.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res} 4 Jun 2009, 16:26:48
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

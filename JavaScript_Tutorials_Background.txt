@@ -1,0 +1,6 @@
+JavaScript_Tutorials_Background
+	Writing, running, and editing JavaScript and tutorial written conventions
+
+JavaScripts are embedded in HTML documents and can be written in any ordinary text editor and opened with any ordinary web browser (see:http://localhost/Archives/My_First_JavaScript.txt or http://localhost/Archives/My_Second_JavaScript.txt).  For easier testing of JavaScript code open Firefox>Tools>Error Console.  Script written in the code box can be evaluated without the need to save a document and reload a page.  For more power, download and execute the Firebug JavaScript extension which contains a DOM inspector (see http://localhost/Archives/DOM_Inspector.txt), JavaScript debugger, profiling tool (see http://localhost/Archives/Profiling_Tool.txt), console and more.  The console in Firebug is useful for providing a kind of 'print' function for javascript, which has no native function to print to a standard output.  This function is known as console.log() which can be used in place of alert() to print running information.
+
+When reading this manual it is important to keep in mind that in thier url examples they use http://server.domain/path/file.html. For me the server is localhost the domain value is void, the path is Archives and the file.html is the file name.

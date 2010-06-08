@@ -1,0 +1,10 @@
+JavaScript_Core_Features
+	To learn javascript to itch the google desktop search API (see http://localhost/Archives/Google_Desktop_Search_API.txt)
+
+Test yourself on the quizes in each section.  If you can answer them you have a good cursory understanding of the lanugage.
+
+Editing 			(see http://localhost/Archives/JavaScript_Tutorials_Background.txt)
+Variables 	( quiz 12/12 ) 	(see http://localhost/Archives/JavaScript_Variables.txt)
+Constants 	( quiz 2/2 ) 	(see http://localhost/Archives/JavaScript_Constants.txt)
+Literals 	( quiz 11/13 ) 	(see http://localhost/Archives/JavaScript_Literals.txt)
+

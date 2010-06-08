@@ -1,0 +1,2 @@
+Encryption
+	so that I can save information without it being readable by others

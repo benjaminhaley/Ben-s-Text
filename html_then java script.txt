@@ -1,0 +1,6 @@
+17/Aug/2008 0:43
+
+I should have worked more thoroughly on html and the dom model before getting so wrapped up in javascript.
+
+JavaScript 	(see http://localhost/Archives/JavaScript_Tutorials.txt)
+HTTP		(see http://localhost/Archives/HTML.txt)

@@ -1,0 +1,3 @@
+I need to figure out how to link to the middle of a document... especially if I can then migrate that middle to a different document without breaking the link.
+
+in the javascript document I am working on it looks like they are doing this with the # sign... but I don't quite understand how they are noting it in the code.

@@ -1,0 +1,9 @@
+graduate_school_fees.txt
+
+Stanford BioMed Info
+
+Berkeley Bio Engineering
+	can pay online
+
+NU IGP
+U of C	Janelia Farm
